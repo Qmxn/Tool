@@ -1,0 +1,19 @@
+#!name=Jump去广告
+#!desc=移除Jump开屏广告
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rule]
+DOMAIN, zlsdk.1rtb.net, REJECT
+DOMAIN, jp.ad.gameley.com, REJECT
+DOMAIN, toblog.ctobsnssdk.com, REJECT
+DOMAIN, s3plus.meituan.net, REJECT
+DOMAIN, images.pinduoduo.com, REJECT
+DOMAIN, qh-material.taobao.com, REJECT
+DOMAIN-SUFFIX, admobile.top, REJECT
+
+[Rewrite]
+^https:?\/\/switch.jumpvg.com\/jump\/getlaunchad\/v2$ response-body-json-jq 'del(.data.adList)|.data.launchAd.showType=0'
+^https:?\/\/switch.jumpvg.com\/jump\/recommend\/ad_conf$ response-body-json-jq '.data=[]'
+
+[MitM]
+hostname=switch.jumpvg.com

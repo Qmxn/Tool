@@ -1,0 +1,9 @@
+#!name=小店掌柜去广告
+#!desc=移除开屏广告、活动推广和页面跳转。
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/mch\.juhesaas\.com\/api\/advertisement\/ reject-dict
+
+[MitM]
+hostname=mch.juhesaas.com

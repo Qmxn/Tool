@@ -1,0 +1,12 @@
+#!name=小宇宙去广告
+#!desc=移除开屏广告、搜索框推荐词和AI总结。
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/api\.xiaoyuzhoufm\.com\/v1\/flash-screen\/list$ reject-dict
+^https:\/\/api\.xiaoyuzhoufm\.com\/v1\/ai-summary reject-dict
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v1\/search reject-dict
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v1\/category\/list-daily-suggestion$ reject-dict
+
+[MitM]
+hostname=api.xiaoyuzhoufm.com

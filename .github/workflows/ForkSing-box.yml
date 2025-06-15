@@ -1,0 +1,124 @@
+
+name: Fork Sing-box
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 20 * * *"
+  
+jobs:
+  ForkSing-box:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+      SING_BOX_VERSION: 1.11.4  # 你可以根据需要修改版本号
+    
+    steps: 
+    - name: Checkout target repository
+      uses: actions/checkout@v4.2.2
+      with:
+        repository: Qmxn/Tool
+        path: Tool-repo
+        
+    # Run Forks Script
+    - name: Run Forks Script
+      run: |
+        curl https://raw.githubusercontent.com/Qmxn/Box/X/script/Sing-box.sh | sh
+
+###### Sing-box
+      # 适配 Sing-box 规则
+    - name: Edit Sing-box Rules
+      run: |
+       # 安装 Sing-box
+       curl -Lo sing-box.tar.gz https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz
+       tar -xzf sing-box.tar.gz
+       chmod +x sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box
+       sudo mv sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box /usr/local/bin/sing-box
+       sing-box version
+
+       # 开始处理 JSON
+       for file in Tool-repo/Sing-box/Rules/*.json; do
+         if [ -f "$file" ]; then
+           # 去除规则中的空格，尤其是 IP-CIDR 前面的空格
+           sed -i 's/"IP-CIDR": " \+/\"IP-CIDR\": \"/g' "$file"
+           temp_file=$(mktemp)     # 创建临时文件存储 JSON 内容
+           echo '{' > "$temp_file" # 初始化 JSON 结构
+           echo '  "version": 2,' >> "$temp_file"
+           echo '  "rules": [' >> "$temp_file"
+
+           # 定义规则映射
+           declare -A rules_map=( 
+             ["DOMAIN-SUFFIX"]="domain_suffix"
+             ["HOST-SUFFIX"]="domain_suffix"
+             ["DOMAIN"]="domain"
+             ["HOST"]="domain"
+             ["host"]="domain"
+             ["DOMAIN-KEYWORD"]="domain_keyword"
+             ["HOST-KEYWORD"]="domain_keyword"
+             ["host-keyword"]="domain_keyword"
+             ["IP-CIDR"]="ip_cidr"
+             ["ip-cidr"]="ip_cidr"
+             ["IP-CIDR6"]="ip_cidr"
+             ["IP6-CIDR"]="ip_cidr"
+             ["SRC-IP-CIDR"]="source_ip_cidr"
+             ["GEOIP"]="geoip"
+             ["DST-PORT"]="port"
+             ["SRC-PORT"]="source_port"
+             ["URL-REGEX"]="domain_regex"
+             ["DOMAIN-REGEX"]="domain_regex"
+           )
+
+           # 遍历规则类型
+           for rule_type in "${!rules_map[@]}"; do
+             rule_key="${rules_map[$rule_type]}"
+             values=$(grep -E "^${rule_type}," "$file" | cut -d, -f2)
+
+             if [ -n "$values" ]; then
+               value_array=$(echo "$values" | jq -R . | jq -s .)
+               echo '    {' >> "$temp_file"
+               echo "      \"$rule_key\": [" >> "$temp_file"
+               echo "$value_array" | jq -r '.[]' | sed 's/^/        "/;s/$/",/' >> "$temp_file"
+                sed -i '$ s/,$//' "$temp_file"  # 去除最后一个逗号
+               echo '      ]' >> "$temp_file"
+               echo '    },' >> "$temp_file"
+             fi
+           done
+
+           # 移除最后多余逗号并关闭 JSON 结构
+           sed -i '$ s/,$//' "$temp_file"
+           echo '  ]' >> "$temp_file"
+           echo '}' >> "$temp_file"
+
+           # 将临时文件内容覆盖到原始文件
+           mv "$temp_file" "Tool-repo/Sing-box/Rules/$(basename $file)"
+
+           # 编译 JSON 文件为 SRS 文件，输出到 Rule 目录
+           sing-box rule-set compile "Tool-repo/Sing-box/Rules/$(basename $file)" -o "Tool-repo/Sing-box/Rule/$(basename ${file%.json}.srs)"
+           
+           rm -rf sing-box sing-box-${SING_BOX_VERSION}-linux-amd64 sing-box.tar.gz
+         else
+           echo "$file not found."
+         fi
+       done
+
+    # 添加并提交更改
+    - name: Add and Commit Changes
+      run: |
+        cd Tool-repo
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin X || { echo "Git pull failed"; exit 1; }
+          git push origin X || { echo "Git push failed"; exit 1; }
+        else
+          echo "No changes to commit."
+        fi
+        
+    # 清理工作流
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

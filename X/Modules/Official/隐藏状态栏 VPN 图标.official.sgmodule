@@ -1,0 +1,6 @@
+#!name=Hide VPN Icon
+#!desc=隐藏VPN图标
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[General]
+hide-vpn-icon = true

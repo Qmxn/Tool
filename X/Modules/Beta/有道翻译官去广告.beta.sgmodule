@@ -1,0 +1,11 @@
+#!name=有道翻译官去广告
+#!desc=移除开屏广告、横幅推广。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/gorgon\.youdao\.com\/gorgon\/v2\/request\.s data-type=text data="{}" status-code=200
+^https:\/\/gorgon\.youdao\.com\/gorgon\/brand\/prefetch\.s data-type=text data="{}" status-code=200
+^https:\/\/gorgon\.youdao\.com\/gorgon\/request\.s data-type=text data="{}" status-code=200
+
+[MITM]
+hostname = %APPEND% gorgon.youdao.com

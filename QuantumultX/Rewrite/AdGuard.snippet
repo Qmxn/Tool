@@ -1,0 +1,9 @@
+#!name = AdGuard
+#!desc = AdGuard 解锁永久高级版
+#!author = Passer_by_yun
+
+#[rewrite_local]
+^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt url script-response-body https://raw.githubusercontent.com/Auniquesir/Box/refs/heads/X/script/AdGuardPro.js
+
+#[mitm] 
+hostname = *.adguard.org

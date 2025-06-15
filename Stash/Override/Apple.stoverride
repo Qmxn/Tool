@@ -1,0 +1,19 @@
+name: "Apple"
+desc: "Apple分流规则"
+icon: |-
+   https://raw.githubusercontent.com/Auniquesir/Box/X/icon/icon/Apple.png
+
+rule-providers:
+  Apple:
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Auniquesir/Tool/X/Stash/Rules/Apple/Apple.yaml"
+    interval: 86400
+
+  Apple_Domain:
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Auniquesir/Tool/X/Stash/Rules/Apple/Apple_Domain.yaml"
+    interval: 86400
+
+rules:
+  -  RULE-SET,Apple,DIRECT
+  -  RULE-SET,Apple_Domain,DIRECT

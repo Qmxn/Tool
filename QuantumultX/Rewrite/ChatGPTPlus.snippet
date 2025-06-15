@@ -1,0 +1,8 @@
+#!name = ChatGPT
+#!desc = ChatGPTPlus
+
+# [rewrite_local]
+^https?:\/\/ios\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models) url script-response-body https://raw.githubusercontent.com/Auniquesir/Box/refs/heads/X/script/ChatGPTPlus.js
+
+# [mitm] 
+hostname = ios.chat.openai.com

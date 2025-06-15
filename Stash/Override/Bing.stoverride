@@ -1,0 +1,13 @@
+name: "必应"
+desc: "必应规则"
+icon: |-
+   https://raw.githubusercontent.com/Auniquesir/Box/X/icon/icon/Bing.png
+
+rule-providers:
+  Bing:
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Auniquesir/Tool/X/Stash/Rules/Bing/Bing.list"
+    interval: 86400
+
+rules:
+  - RULE-SET,Bing,Proxy
