@@ -1,0 +1,18 @@
+name: "广告拦截"
+desc: "去广告规则"
+icon: |-
+   https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Adguard.png
+rule-providers:
+  AdBlock:
+    behavior: classical
+    url: "https://raw.githubusercontent.com/Qmxn/Tool/X/Stash/Rule/AdvertisingLite/AdvertisingLite.yaml"
+    interval: 86400
+
+  AdBlock_Domain:
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Qmxn/Tool/X/Stash/Rule/AdvertisingLite/AdvertisingLite_Domain.yaml"
+    interval: 86400
+
+rules:
+  - RULE-SET,AdBlock,REJECT
+  - RULE-SET,AdBlock_Domain,REJECT

@@ -1,0 +1,26 @@
+name: 京东比价
+description: 京东App历史价格（商品详情页面触发）
+scriptings:
+- http_request:
+    name: '{{{MMMCK_SCRIPT}}}'
+    match: ^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com/baoliao\/center\/menu
+    script_url: https://raw.githubusercontent.com/githubdulong/Script/master/MmmCK.js
+    body_required: true
+- http_response:
+    name: 京东比价
+    match: ^https:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html
+    script_url: https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js
+    timeout: 30
+    body_required: true
+mitm:
+  hostnames:
+    includes:
+    - in.m.jd.com
+    - apapia-sqk-weblogic.manmanbuy.com
+
+
+
+
+ 
+   
+

@@ -1,0 +1,14 @@
+#!name=驾校一点通去广告
+#!desc=移除开屏广告、各页面广告横幅、弹窗广告，移除社区广告。
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/richmanrules\.ksedt\.com\/serverConfig\/3\/adConfig\.json reject-dict
+^https:\/\/gouche\.ksedt\.com\/config\/popup\/info$ reject-dict
+^https:\/\/richmanrules\.ksedt\.com\/intellectWaterfallBidding\/find$ reject-dict
+^https:\/\/op\.ksedt\.com\/jxedtLive\/liveIntroduceResource reject-dict
+^https:\/\/richmanrules\.ksedt\.com\/intellectWaterfall\/find$ reject-dict
+http-response ^https:\/\/api\.ksedt\.com\/api\/config\/ response-body-json-del result.homead result.h5_promotion_page result.advert_interval result.abtest_h5url result.launchApp result.goucheConfig result.gouche result.mainLiveConfig result.discover result.adSdkSwitch4testPointVideo result.adSdkSwitch4simulationExam result.examPageLoadADSwitch
+
+[MitM]
+hostname=richmanrules.ksedt.com, gouche.ksedt.com, muses.ksedt.com, op.ksedt.com, api.ksedt.com

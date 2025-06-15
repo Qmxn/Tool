@@ -1,0 +1,16 @@
+#!name=瑞幸咖啡去广告
+#!desc=瑞幸咖啡app去广告 by @Sliverkiss
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/growUp\/calendarList - reject
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/promotion\/giftCard\/topPage - reject
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/base\/myLittleLuck - reject
+^https:\/\/capi\.lkcoffee\.com\/resource\/core\/v2\/menu\/ordinaryUserLayeredArea - reject
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/common\/modules - reject
+^https:\/\/capi\.lkcoffee\.com\/resource\/core\/v2\/homepage\/homePageCoffeeList - reject
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList - reject
+^https:\/\/capi\.lkcoffee\.com\/resource\/m\/sys\/app\/adposNew - reject
+
+[MITM]
+hostname = %APPEND% capi.lkcoffee.com

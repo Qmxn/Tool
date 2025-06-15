@@ -1,0 +1,9 @@
+#!name=123云盘去广告
+#!desc=移除开屏广告、应用内横幅广告。
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/www\.123pan\.com\/api\/config\/get reject-dict
+
+[MitM]
+hostname=www.123pan.com

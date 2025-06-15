@@ -1,0 +1,11 @@
+name: |-
+  DeepSeek
+desc: |-
+  DeepSeek 模块
+
+rules:
+# 以下为该软件的疑似上传地址
+  - DOMAIN-SUFFIX,apmplus.volces.com,REJECT
+  - DOMAIN-SUFFIX,gator.volces.com,REJECT
+  - DOMAIN-SUFFIX,guh50jw4-ios.mobile-messenger.intercom.com,REJECT
+

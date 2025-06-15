@@ -1,0 +1,19 @@
+#!name=快对去广告
+#!desc=移除开屏广告、横幅推广，精简我的页面。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,adx.zuoyebang.com,REJECT,extended-matching,pre-matching
+
+[Body Rewrite]
+http-response-jq ^https:\/\/www\.kuaiduizuoye\.com\/codesearch\/aid\/home$ 'delpaths([["data","homeBannerList"]])'
+
+[Map Local]
+^https:\/\/www\.kuaiduizuoye\.com\/init\/ad\/ data-type=text data="{}" status-code=200
+^https:\/\/www\.kuaiduizuoye\.com\/activity\/init\/checkappconfig$ data-type=text data="{}" status-code=200
+^https:\/\/www\.kuaiduizuoye\.com\/kdapi\/conf\/appbannersv3$ data-type=text data="{}" status-code=200
+^https:\/\/www\.kuaiduizuoye\.com\/kdapi\/conf\/initbanner$ data-type=text data="{}" status-code=200
+^https:\/\/apivip\.kuaiduizuoye\.com\/viponline\/scancode\/mycard$ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname = %APPEND% www.kuaiduizuoye.com, apivip.kuaiduizuoye.com

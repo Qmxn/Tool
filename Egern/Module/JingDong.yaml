@@ -1,0 +1,31 @@
+name: 京东去广告
+description: 移除京东开屏广告，精简我的页面产品推广。
+rules:
+- domain:
+    match: dns.jd.com
+    policy: REJECT
+- url_regex:
+    match: '"^http:\/\/\w{32}\.jddebug\.com\/diagnose\?"'
+    policy: REJECT
+- ip_cidr:
+    match: 101.124.19.122/32
+    policy: REJECT
+    no_resolve: true
+- ip_cidr6:
+    match: 2402:db40:5100:1011::5/128
+    policy: REJECT
+    no_resolve: true
+map_locals:
+- match: ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06])
+  status_code: 200
+  body: '{}'
+scriptings:
+- http_response:
+    name: 移除京东广告
+    match: ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome)
+    script_url: https://kelee.one/Resource/Script/JD/JD_remove_ads.js
+    body_required: true
+mitm:
+  hostnames:
+    includes:
+    - api.m.jd.com
