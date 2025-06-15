@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain.list
-# 规则统计: 6494
+# 规则统计: 6496
 
 .000webhost.com
 .030buy.com
@@ -164,6 +164,7 @@
 .about.me
 .aboutgfw.com
 .abpchina.org
+.abplive.com
 .abs.edu
 .acast.com
 .accim.org
@@ -361,12 +362,10 @@
 .apetube.com
 .api.ai
 .api.amplitude.com
-.api.linksalpha.com
 .api.mixpanel.com
 .api.proxlet.com
 .api.termius.com
 .apiary.io
-.apidocs.linksalpha.com
 .apigee.com
 .apk-dl.com
 .apk.support
@@ -1629,7 +1628,6 @@
 .entermap.com
 .entnt.com
 .entrust.net
-.epa.gov.tw
 .epac.to
 .episcopalchurch.org
 .epochhk.com
@@ -1848,6 +1846,7 @@
 .fillthesquare.org
 .filmingfortibet.org
 .filthdump.com
+.financialexpress.com
 .finchvpn.com
 .findbook.tw
 .findmespot.com
@@ -2388,7 +2387,6 @@
 .helloss.pw
 .hellotxt.com
 .hellouk.org
-.help.linksalpha.com
 .helpeachpeople.com
 .helplinfen.com
 .helpshift.com
@@ -2439,6 +2437,7 @@
 .himalayanglacier.com
 .himemix.com
 .himemix.net
+.hindustantimes.com
 .hinet.net
 .hitbtc.com
 .hitomi.la
@@ -2738,10 +2737,12 @@
 .incapdns.net
 .incredibox.fr
 .independent.co.uk
+.india.com
 .indiablooms.com
 .indianarrative.com
 .indiandefensenews.in
 .indiatimes.com
+.indiatoday.in
 .indiemerch.com
 .indsr.org.tw
 .inf.news
@@ -3744,12 +3745,14 @@
 .newchen.com
 .newgrounds.com
 .newhighlandvision.com
+.newindianexpress.com
 .newipnow.com
 .newlandmagazine.com.au
 .newmitbbs.com
 .newnews.ca
 .news1.kr
 .news100.com.tw
+.news18.com
 .newsancai.com
 .newsblur.com
 .newschinacomment.org
@@ -3884,7 +3887,6 @@
 .ntdtv.ru
 .ntdtvla.com
 .ntrfun.com
-.ntsna.gov.tw
 .ntu.edu.tw
 .nu.nl
 .nubiles.net
@@ -4975,6 +4977,7 @@
 .st.luluku.pw
 .stackoverflow.com
 .stage64.hk
+.standard.co.uk
 .standupfortibet.org
 .standwithhk.org
 .stanford.edu
@@ -5240,6 +5243,7 @@
 .thegioitinhoc.vn
 .thegly.com
 .theguardian.com
+.thehansindia.com
 .thehindu.com
 .thehots.info
 .thehousenews.com
@@ -5761,7 +5765,6 @@
 .use.fontawesome.com
 .usefreevpn.com
 .usembassy.gov
-.userapi.nytlog.com
 .usercontent.goog
 .usertrust.com
 .usfk.mil
@@ -6184,7 +6187,6 @@
 .wuyanblog.com
 .wwe.com
 .wwitv.com
-.www.linksalpha.com
 .www1.biz
 .wwwhost.biz
 .wzyboy.im
