@@ -1,0 +1,13 @@
+name: Google搜索重定向
+description: 将Google搜索重定向至.com域名，如遇频繁跳转请禁用本插件。
+url_rewrites:
+- match: ^https?:\/\/(www.)?(g|google)\.cn
+  location: https://www.google.com
+  status_code: 307
+- match: ^https?:\/\/(ditu|maps).google\.cn
+  location: https://maps.google.com
+  status_code: 307
+mitm:
+  hostnames:
+    includes:
+    - www.google.cn

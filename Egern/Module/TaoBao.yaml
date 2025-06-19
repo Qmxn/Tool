@@ -1,0 +1,73 @@
+name: 淘宝去广告
+description: 过滤淘宝开屏广告
+rules:
+- domain:
+    match: adashx.m.taobao.com
+    policy: REJECT
+- domain:
+    match: ossgw.alicdn.com
+    policy: REJECT
+- domain:
+    match: ems.youku.com
+    policy: REJECT
+- domain:
+    match: hudong.alicdn.com
+    policy: REJECT
+- domain:
+    match: h-adashx.ut.taobao.com
+    policy: REJECT
+- domain:
+    match: ut.taobao.com
+    policy: REJECT
+map_locals:
+- match: ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict)
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0
+  status_code: 200
+  body: '{}'
+- match: ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get)
+  status_code: 200
+  body: '{}'
+scriptings:
+- http_response:
+    name: 移除淘宝开屏广告
+    match: ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get)
+    script_url: https://kelee.one/Resource/Script/Taobao/Taobao_remove_ads.js
+    body_required: true
+- http_response:
+    name: 移除淘宝开屏广告
+    match: ^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json
+    script_url: https://kelee.one/Resource/Script/Taobao/Taobao_remove_ads.js
+    body_required: true
+mitm:
+  hostnames:
+    includes:
+    - acs.m.taobao.com
+    - heic.alicdn.com
+    - guide-acs.m.taobao.com
+    - poplayer.template.alibaba.com

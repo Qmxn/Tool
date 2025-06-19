@@ -1,0 +1,17 @@
+#!name=DeepSeek配置
+#!desc=DeepSeek配置代理
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+DOMAIN-SUFFIX,apmplus.volces.com,REJECT-DROP
+DOMAIN-SUFFIX,gator.volces.com,REJECT-DROP
+DOMAIN-SUFFIX,guh50jw4-ios.mobile-messenger.intercom.com,REJECT-DROP
+DOMAIN-KEYWORD,deepseek,PROXY
+DOMAIN-SUFFIX,deepseek.com,PROXY
+DOMAIN-SUFFIX,fengkongcloud.cn,PROXY
+DOMAIN-SUFFIX,fengkongcloud.com,PROXY
+DOMAIN-SUFFIX,portal101.cn,PROXY
+DOMAIN-SUFFIX,portal101.com,PROXY
+DOMAIN-SUFFIX,sentry.io,PROXY
+DOMAIN-SUFFIX,volces.com,PROXY
+DOMAIN-SUFFIX,intercom.io,PROXY
+DOMAIN-SUFFIX,intercom.com,PROXY
+DOMAIN-SUFFIX,intercomcdn.com,PROXY

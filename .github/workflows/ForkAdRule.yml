@@ -1,0 +1,118 @@
+name: Fork AdRule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 20,8 * * *"
+
+jobs:
+  ForkAdRule:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+
+    steps:
+    - name: Checkout target repository
+      uses: actions/checkout@v4.2.2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }} 
+
+    - name: Create directories
+      run: | 
+        mkdir -p temp
+        mkdir -p AdRule/Clash
+        mkdir -p AdRule/Egern
+        mkdir -p AdRule/Loon
+        mkdir -p AdRule/QuantumultX
+        mkdir -p AdRule/Shadowrocket
+        mkdir -p AdRule/Stash
+        mkdir -p AdRule/X
+
+    - name: Clone initial files
+      run: |
+        declare -A initial_urls=(
+          # ["adrules.list"]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
+          ["adblockloon.list"]="https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockloon.list"
+        )
+        for file in "${!initial_urls[@]}"; do
+          curl -sSL -o "temp/$file" "${initial_urls[$file]}"
+        done
+
+    - name: Process initial files
+      run: |
+        process_file() {
+          local input1=$1
+          local input2=$2
+          local output=$3
+          local transformations=$4
+          local rule_name=$5
+
+          creation_date=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M:%S")
+          cat "$input1" "$input2" | sort -u > tmpfile
+          sed -i -e '/^\s*[#;]/d' -e '/^$/d' tmpfile
+          eval "$transformations"
+          local rule_count=$(wc -l < tmpfile | tr -d ' ')
+
+          # 添加规则名称到文件
+          {
+            echo "# 规则名称: $rule_name"
+            echo "# 规则数量: $rule_count"
+            echo "# 更新时间: $creation_date"
+          } > "$output"
+           if [[ "$output" == AdRule/QuantumultX/AdBlock.list ]]; then
+            awk -v rule_name="$rule_name" '!/^#|^ *$/ {print $0","rule_name; next} {print}' tmpfile >> "$output"
+          else
+            cat tmpfile >> "$output"
+          fi
+
+          sed -i '3a\\' "$output"
+          rm tmpfile
+        }
+
+        # 调用处理函数
+        process_file "temp/adrules.list" "temp/adblockloon.list" "AdRule/X/AdBlock.list" "" "AdBlock"
+        process_file "temp/adrules.list" "temp/adblockloon.list" "AdRule/Loon/AdBlock.list" "" "AdBlock"
+        process_file "temp/adrules.list" "temp/adblockloon.list" "AdRule/Shadowrocket/AdBlock.list" "" "AdBlock"
+        process_file "temp/adrules.list" "temp/adblockloon.list" "AdRule/QuantumultX/AdBlock.list" "sed -i -e 's/DOMAIN-SUFFIX,/HOST-SUFFIX,/g' tmpfile" "AdBlock"
+        process_file "temp/adrules.list" "temp/adblockloon.list" "AdRule/Egern/AdBlock.yaml" "sed -i -e 's/DOMAIN-SUFFIX,/- /g' tmpfile && sed -i '1i\no_resolve: true' tmpfile && sed -i '2i\domain_suffix_set:' tmpfile" "AdBlock"
+        process_file "temp/adrules.list" "temp/adblockloon.list" "AdRule/Stash/AdBlock.txt" "sed -i -e 's/DOMAIN-SUFFIX,/+./g' tmpfile" "AdBlock"
+        process_file "temp/adrules.list" "temp/adblockloon.list" "AdRule/Stash/AdBlock.yaml" "sed -i 's/^DOMAIN-SUFFIX,/  - \x27+./g' tmpfile && sed -i 's/$/\x27/' tmpfile && sed -i '1i\payload:' tmpfile" "AdBlock"
+        process_file "temp/adrules.list" "temp/adblockloon.list" "AdRule/Clash/AdBlock.txt" "sed -i -e 's/DOMAIN-SUFFIX,/+./g' tmpfile" "AdBlock"
+        process_file "temp/adrules.list" "temp/adblockloon.list" "AdRule/Clash/AdBlock.yaml" "sed -i 's/^DOMAIN-SUFFIX,/  - \x27+./g' tmpfile && sed -i 's/$/\x27/' tmpfile && sed -i '1i\payload:' tmpfile" "AdBlock"
+
+    - name: Cleanup temp directory
+      run: rm -rf temp
+
+    - name: Clone CNIP
+      run: |
+        mkdir -p CNIP
+        curl -L -o CNIP/Country.mmdb https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
+        curl -L -o CNIP/Country.txt https://github.com/Masaiki/GeoIP2-CN/raw/release/CN-ip-cidr.txt
+      env:
+        TZ: Asia/Shanghai
+
+    - name: Clone ASN
+      run: |
+        mkdir -p ASN
+        curl -L -o ASN/ASN.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb
+      env:
+        TZ: Asia/Shanghai
+
+    - name: Add and Commit
+      run: |
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin X
+          git push origin X  
+        else
+          echo "No changes to commit."
+        fi
+        
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

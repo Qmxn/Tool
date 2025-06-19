@@ -1,0 +1,11 @@
+#!name=资源预览
+#!desc=预览资源
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/(.*\.)?kelee\.one(\/.*)? header-replace User-Agent Surge\x20iOS/9527 tag=Kelee_Debug enabled=true
+^https:\/\/(.*\.)?kelee\.one(\/.*)? response-header-replace Content-Disposition inline tag=Kelee_Debug enabled=true
+^https:\/\/(.*\.)?kelee\.one(\/.*)? response-header-replace Content-Type text/plain;\x20charset=utf-8 tag=Kelee_Debug enabled=true
+
+[MITM]
+hostname = *.kelee.one, kelee.one

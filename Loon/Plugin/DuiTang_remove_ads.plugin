@@ -1,0 +1,14 @@
+#!name=堆糖去广告
+#!desc=移除开屏广告、信息流广告、热搜排行榜广告、我的页面横幅广告，移除关注推荐。
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/(www|api)\.duitang\.com\/napi\/(ad|ads)\/ reject-dict
+^https:\/\/api\.duitang\.com\/napi\/infra\/settings\/ reject-dict
+^https:\/\/api\.duitang\.com\/napi\/vienna\/daren\/daren\/recommend\/ reject-dict
+
+[Rewrite]
+^https:\/\/(www|api)\.duitang\.com\/napi\/settings\/ response-body-json-del data.REWARD_AD_PLACES data.SPLASH_SWING_OPEN data.REWARD_AD_PHOTO_EDITOR data.REWARD_AD_PAG_EDITOR data.AD_PRICE_SHOW data.AD_SCREEN_WAKEUP_TIME data.REWARD_AD_CUTOUT_NUM data.AD_HOME_ENTER_POP_COUNT data.SHARE_BANNER data.AD_MENU_SELECTIONS data.ME_TAB.ANNOUNCEMENT data.ME_TAB.MEMBERSHIP data.ME_TAB.MEMBERSHIP2
+
+[MitM]
+hostname=api.duitang.com, www.duitang.com

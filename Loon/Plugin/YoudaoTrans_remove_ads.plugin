@@ -1,0 +1,11 @@
+#!name=有道翻译官去广告
+#!desc=移除开屏广告、横幅推广。
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/gorgon\.youdao\.com\/gorgon\/v2\/request\.s reject-dict
+^https:\/\/gorgon\.youdao\.com\/gorgon\/brand\/prefetch\.s reject-dict
+^https:\/\/gorgon\.youdao\.com\/gorgon\/request\.s reject-dict
+
+[MitM]
+hostname=gorgon.youdao.com

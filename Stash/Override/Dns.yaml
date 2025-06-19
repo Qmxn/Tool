@@ -1,0 +1,43 @@
+dns:
+  enable: true                 # 启用 DNS 功能
+  cache-algorithm: arc         # 使用 ARC 缓存算法，提高 DNS 查询效率
+  prefer-h3: false              # 不优先使用 HTTP/3 进行 DNS 查询
+  use-hosts: true              # 使用本地 hosts 文件进行 DNS 解析
+  use-system-hosts: true       # 使用系统 hosts 文件进行 DNS 解析
+  respect-rules: false          # DNS 查询不遵循代理规则
+  listen: 0.0.0.0:1053         # 监听所有网络接口的 1053 端口
+  ipv6: false                  # 禁用 IPv6 DNS 查询
+  default-nameserver:
+    - 223.5.5.5               # 设置默认 DNS 服务器为阿里云公共 DNS
+  enhanced-mode: fake-ip        # 启用 Fake IP 模式，用于绕过 DNS 污染
+  fake-ip-range: 198.18.0.1/16 # 设置 Fake IP 的地址范围
+  fake-ip-filter-mode: blacklist # 使用黑名单模式过滤 Fake IP
+  fake-ip-filter:
+    - '*.lan'                 # 过滤所有 .lan 结尾的域名，不对局域网域名使用 Fake IP
+  nameserver-policy:
+    '+.arpa': '10.0.0.1'       # 所有 .arpa 结尾的域名使用 10.0.0.1 作为 DNS 服务器
+    'rule-set:cn':             # 所有属于 rule-set:cn 规则集的域名
+      - https://223.5.5.5/dns-query # 使用阿里云提供的 DoH 服务器
+      - https://223.6.6.6/dns-query # 使用阿里云提供的 DoH 服务器
+  nameserver:
+    - https://223.5.5.5/dns-query # 通用 DNS 服务器，使用阿里云提供的 DoH 服务器
+    - https://223.6.6.6/dns-query # 通用 DNS 服务器，使用阿里云提供的 DoH 服务器
+  fallback:
+    - https://8.8.4.4/dns-query # 备用 DNS 服务器，使用 Google Public DNS 
+    - https://1.1.1.1/dns-query # 备用 DNS 服务器，使用 Cloudflare DNS
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query # 代理服务器使用的 DNS 服务器，使用 阿里云提供的 DoH 服务器
+  direct-nameserver:
+    - system                   # 直接连接使用的 DNS 服务器，使用系统默认 DNS
+  direct-nameserver-follow-policy: false # 直接连接的 DNS 查询不遵循 nameserver-policy 设置
+  fallback-filter:
+    geoip: true                # 启用 GeoIP 过滤
+    geoip-code: CN             # 仅对中国大陆的 IP 地址应用备用 DNS 服务器
+    geosite:
+      - gfw                   # 仅对属于 gfw geosite 的域名应用备用 DNS 服务器
+    ipcidr:
+      - 240.0.0.0/4           # 对 240.0.0.0/4 网段的IP应用备用dns服务器
+    domain:
+      - '+.google.com'        # 对 google.com 结尾的域名应用备用 DNS 服务器
+      - '+.facebook.com'      # 对 facebook.com 结尾的域名应用备用 DNS 服务器
+      - '+.youtube.com'       # 对 googleusercontent.com/youtube.com/0 结尾的域名应用备用 DNS 服务器

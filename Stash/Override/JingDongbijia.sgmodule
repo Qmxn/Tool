@@ -1,0 +1,32 @@
+name: |-
+  京东比价
+desc: |-
+  京东App历史价格（商品详情页面触发）
+icon: |-
+  https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1052.png
+
+http:
+
+  mitm:
+    - "in.m.jd.com"
+    - "apapia-sqk-weblogic.manmanbuy.com"
+
+  script:
+    - match: ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html
+      name: "jd_price_20"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+    - match: ^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$
+      name: "jd_price_20"
+      type: request
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+script-providers:
+  "jd_price_20":
+    url: https://raw.githubusercontent.com/wf021325/qx/master/js/jd_price.js
+    interval: 86400

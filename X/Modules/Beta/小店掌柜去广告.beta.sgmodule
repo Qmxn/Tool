@@ -1,0 +1,9 @@
+#!name=小店掌柜去广告
+#!desc=移除开屏广告、活动推广和页面跳转。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/mch\.juhesaas\.com\/api\/advertisement\/ data-type=text data="{}" status-code=200
+
+[MITM]
+hostname = %APPEND% mch.juhesaas.com

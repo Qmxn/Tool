@@ -1,0 +1,133 @@
+# 将proxy-providers里面链接中的“订阅链接”替换即可
+# ================
+
+# 通用设置
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: Rule
+log-level: info
+ipv6: true
+external-controller: :9090
+
+# DNS模块
+dns:
+  # 默认 DNS
+  default-nameserver: [223.5.5.5, system]
+  # 自定义 DNS 解析
+  nameserver: [https://223.5.5.5/dns-query]
+  # 假 IP 过滤
+  fake-ip-filter: ['+.lan', '*', '+.local', '+.cmpassport.com', 'id6.me', 'open.e.189.cn', 'mdn.open.wo.cn', 'opencloud.wostore.cn', 'auth.wosms.cn', '+.10099.com.cn']
+# > 订阅信息展示
+subscribe-url: 
+
+# > 远程服务器
+proxy-providers:
+  Subscribe:
+    interval: 86400
+    url:  订阅链接
+    benchmark-timeout: 5
+    benchmark-url: http://cp.cloudflare.com/
+
+proxy-groups:
+
+  # 分流分组
+
+  - {name: 手动切换, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Stash.png, type: select, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
+
+  - {name: 国外网站, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Global.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
+
+  - {name: 国际媒体, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/ForeignMedia.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
+
+  - {name: 微软服务, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Microsoft.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
+  
+  - {name: 苹果服务, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Apple.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
+
+  - {name: 谷歌服务, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Google.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
+
+  - {name: 电报消息, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Telegram.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
+
+  - {name: 推特消息, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Twitter.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
+
+  - {name: 智能应答, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Chatgpt.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
+
+  - {name: 国际抖音, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/TikTok.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
+
+  - {name: Spotify, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Spotify.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]}
+
+  - {name: 兜底分流, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Stash2.png, type: select, proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
+
+  # 节点地区
+
+  - {name: 香港节点, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Hong_Kong.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"}
+
+  - {name: 美国节点, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/United_States.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)"}
+
+  - {name: 狮城节点, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Singapore.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)"}
+
+  - {name: 日本节点, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Japan.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)"}
+
+  - {name: 台湾节点, icon: https://raw.githubusercontent.com/Qmxn/Box/X/icon/icon/Taiwan.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)"}
+
+rule-providers:
+
+  # 局域网   
+  Lan: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Lan/Lan.yaml}
+
+  #广告拦截
+  AdBlock: {behavior: domain, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/AdRule/Stash/AdBlock.yaml}
+
+  # 苹果服务
+  Apple: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Apple/Apple.yaml}
+  Apple_Domain: {behavior: domain, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Apple/Apple_Domain.yaml}
+  AppleProxy: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/AppleProxy/AppleProxy.yaml}
+  
+  # 微软服务 
+  Microsoft: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Microsoft/Microsoft.yaml}
+  Github: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Github/Github.yaml}
+
+  # 谷歌服务
+  Google: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Google/Google.yaml}
+
+  # 电报消息
+  Telegram: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Telegram/Telegram.yaml}
+
+  # 推特消息
+  Twitter: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Twitter/Twitter.yaml}
+
+  # 国际抖音
+  TikTok: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/TikTok/TikTok.yaml}
+
+  # AI平台
+  AI: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/OpenAI/OpenAI.yaml}
+
+  # Spotify
+  Spotify: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Spotify/Spotify.yaml}
+  
+  # 国际媒体
+  Youtube: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/YouTube/YouTube.yaml}
+
+  # 代理网站
+  ProxyGFW: {behavior: classical, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Proxy/Proxy.yaml}
+  ProxyGFW_Domain: {behavior: domain, format: yaml, interval: 86400, url: https://github.com/Qmxn/Tool/raw/X/Stash/Rule/Proxy/Proxy_Domain.yaml}
+
+rules:
+  - RULE-SET,AdBlock,REJECT
+  - RULE-SET,AI,智能应答
+  - RULE-SET,Microsoft,微软服务
+  - RULE-SET,Youtube,国际媒体
+  - RULE-SET,Google,谷歌服务
+  - RULE-SET,Twitter,推特消息
+  - RULE-SET,Telegram,电报消息
+  - RULE-SET,TikTok,国际抖音
+  - RULE-SET,TikTok,国际抖音
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,AppleProxy,国外网站
+  - RULE-SET,Github,国外网站
+  - RULE-SET,Apple,苹果服务
+  - RULE-SET,Apple_Domain,苹果服务
+  - RULE-SET,ProxyGFW,国外网站
+  - RULE-SET,ProxyGFW_Domain,国外网站
+  - RULE-SET,Lan,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,兜底分流

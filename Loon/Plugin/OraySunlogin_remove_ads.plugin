@@ -1,0 +1,9 @@
+#!name=向日葵去广告
+#!desc=移除开屏广告、广告横幅。
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_iOS_DEVICE_FREE\? reject-dict
+
+[MitM]
+hostname=client-api-v2.oray.com

@@ -1,0 +1,45 @@
+name: DeepSeek
+description: DeepSeek 代理模块
+rules:
+- domain_suffix:
+    match: apmplus.volces.com
+    policy: REJECT
+- domain_suffix:
+    match: gator.volces.com
+    policy: REJECT
+- domain_suffix:
+    match: guh50jw4-ios.mobile-messenger.intercom.com
+    policy: REJECT
+- domain_keyword:
+    match: deepseek
+    policy: PROXY
+- domain_suffix:
+    match: deepseek.com
+    policy: PROXY
+- domain_suffix:
+    match: fengkongcloud.cn
+    policy: PROXY
+- domain_suffix:
+    match: fengkongcloud.com
+    policy: PROXY
+- domain_suffix:
+    match: portal101.cn
+    policy: PROXY
+- domain_suffix:
+    match: portal101.com
+    policy: PROXY
+- domain_suffix:
+    match: sentry.io
+    policy: PROXY
+- domain_suffix:
+    match: volces.com
+    policy: PROXY
+- domain_suffix:
+    match: intercom.io
+    policy: PROXY
+- domain_suffix:
+    match: intercom.com
+    policy: PROXY
+- domain_suffix:
+    match: intercomcdn.com
+    policy: PROXY

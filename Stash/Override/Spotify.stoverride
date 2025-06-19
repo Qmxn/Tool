@@ -1,0 +1,83 @@
+name: |-
+  Spotify
+desc: |-
+  Spotify
+icon: |-
+  https://raw.githubusercontent.com/Auniquesir/Box/X/icon/Spotify.png
+
+http:
+
+  mitm:
+    - "api.spotify.com"
+    - "spclient.wg.spotify.com"
+
+  script:
+    - match: ^https?:\/\/api\.spotify\.com\/v1\/tracks\?
+      name: "跟踪响应·JSON_4"
+      type: response
+      require-body: true
+
+    - match: ^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/(.+)\?(.*)format=json
+      name: "歌词请求·JSON_5"
+      type: request
+      require-body: true
+
+    - match: ^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/\w+\?(.*)
+      name: "歌词请求·JSON_5"
+      type: request
+      require-body: true
+      binary-mode: true
+
+    - match: ^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/(.+)\?(.*)format=json(.*)subtype=Translate
+      name: "翻译歌词响应·JSON_7"
+      type: response
+      require-body: true
+
+    - match: ^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/\w+\?(.*)subtype=Translate
+      name: "翻译歌词响应·JSON_7"
+      type: response
+      require-body: true
+      binary-mode: true
+
+    - match: ^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/(.+)\?(.*)format=json(.*)subtype=External
+      name: "外部歌词响应·JSON_9"
+      type: response
+      require-body: true
+
+    - match: ^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/\w+\?(.*)subtype=External
+      name: "外部歌词响应·JSON_9"
+      type: response
+      require-body: true
+      binary-mode: true
+
+    - match: ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/
+      name: "JSON处理_11"
+      type: request
+      timeout: 10
+
+    - match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
+      name: "Proto处理_12"
+      type: response
+      require-body: true
+      binary-mode: true
+      timeout: 10
+
+script-providers:
+  "跟踪响应·JSON_4":
+    url: https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Test/Spotify_response.js
+    interval: 86400
+  "歌词请求·JSON_5":
+    url: https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Test/Spotify_request.js
+    interval: 86400
+  "翻译歌词响应·JSON_7":
+    url: https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Test/Translate_response.js
+    interval: 86400
+  "外部歌词响应·JSON_9":
+    url: https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Test/External_Lyrics_response.js
+    interval: 86400
+  "JSON处理_11":
+    url: https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Test/Spotify_remove_ads.js
+    interval: 86400
+  "Proto处理_12":
+    url: https://github.com/Moli-X/Resources/raw/main/Loon/Spotify/Test/Spotify_proto.js
+    interval: 86400

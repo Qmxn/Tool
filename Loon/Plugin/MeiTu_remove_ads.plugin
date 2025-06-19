@@ -1,0 +1,15 @@
+#!name=美图秀秀去广告
+#!desc=移除开屏广告、横幅推广，精简我的页面。
+#!icon = https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/api\.xiuxiu\.meitu\.com\/v\d\/common\/config\.json response-body-json-del data.home_top_live data.splashControl
+^https:\/\/(api|tool)\.xiuxiu\.meitu\.com\/v\d\/vip\/sub_popup\.json reject-dict
+^https:\/\/(api|tool)\.xiuxiu\.meitu\.com\/\/v\d\/vip\/popup_show\.json reject-dict
+^https:\/\/api\.posters\.meitu\.com\/homepage\/leaflets\.json\? reject-dict
+^https:\/\/(api|tool)\.xiuxiu\.meitu\.com\/v\d\/tool\/common\/operation_icon\.json response-body-json-del data.home_top_icon
+^https:\/\/api\.posters\.meitu\.com\/common\/init\.json response-body-json-del data.vip
+^https:\/\/(api|tool)\.xiuxiu\.meitu\.com\/v\d\/tool\/common\/home\.json response-body-json-del data[0].items[10] data[1].scheme data[1].wallet_title data[1].items[1] data[1].items[1] data[2].items[1]
+
+[MitM]
+hostname=api.xiuxiu.meitu.com, tool.xiuxiu.meitu.com, api.posters.meitu.com
