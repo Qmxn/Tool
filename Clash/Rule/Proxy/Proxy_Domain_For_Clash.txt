@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain_For_Clash
-# 规则统计: 6498
+# 规则统计: 6503
 
 api.waqi.info
 aqi.aqicn.org
@@ -1530,6 +1530,7 @@ voice.telephony.goog
 +.dw-world.de
 +.dw.com
 +.dw.de
++.dweb.link
 +.dwheeler.com
 +.dwnews.com
 +.dwnews.net
@@ -2792,6 +2793,7 @@ voice.telephony.goog
 +.ipalter.com
 +.ipdefenseforum.com
 +.ipfire.org
++.ipfs.4everland.io
 +.ipfs.io
 +.iphone4hongkong.com
 +.iphonehacks.com
@@ -3796,6 +3798,7 @@ voice.telephony.goog
 +.nflximg.net
 +.nflxso.net
 +.nflxvideo.net
++.nftstorage.link
 +.ng.mil
 +.nga.mil
 +.ngensis.com
@@ -5025,6 +5028,7 @@ voice.telephony.goog
 +.storj.io
 +.storm.mg
 +.stormmediagroup.com
++.storry.tv
 +.stoweboyd.com
 +.straitstimes.com
 +.stranabg.com
@@ -5971,6 +5975,7 @@ voice.telephony.goog
 +.w.org
 +.w.wiki
 +.w3.org
++.w3s.link
 +.w3schools.com
 +.waffle1999.com
 +.wahas.com

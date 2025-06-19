@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32356
+# 规则统计: 32358
 no_resolve: true
 domain_set:
 - 1password.drift.click
@@ -7515,7 +7515,6 @@ domain_suffix_set:
 - dvdstudiopro.us
 - dvdtrailertube.com
 - dvh30n.vip
-- dweb.link
 - dwg.com
 - dwgtrueconvert.com
 - dwgtrueview.com
@@ -16213,7 +16212,6 @@ domain_suffix_set:
 - nfscdict.com
 - nfscofficial.com
 - nfsworld.com
-- nftstorage.link
 - ngc.ac.uk
 - ngeo.com
 - ngfiles.com
@@ -26860,6 +26858,7 @@ domain_suffix_set:
 - dw-world.de
 - dw.com
 - dw.de
+- dweb.link
 - dwheeler.com
 - dwnews.com
 - dwnews.net
@@ -29420,6 +29419,7 @@ domain_suffix_set:
 - nflximg.net
 - nflxso.net
 - nflxvideo.net
+- nftstorage.link
 - ng.mil
 - nga.mil
 - ngensis.com
@@ -30690,6 +30690,7 @@ domain_suffix_set:
 - storj.io
 - storm.mg
 - stormmediagroup.com
+- storry.tv
 - stoweboyd.com
 - straitstimes.com
 - stranabg.com
@@ -31666,6 +31667,7 @@ domain_suffix_set:
 - w.org
 - w.wiki
 - w3.org
+- w3s.link
 - w3schools.com
 - waffle1999.com
 - wahas.com

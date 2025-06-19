@@ -1,5 +1,5 @@
 # 规则名称: Global.list
-# 规则统计: 32402
+# 规则统计: 32404
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -7513,7 +7513,6 @@ HOST-SUFFIX,dvdstudiopro.org,Global
 HOST-SUFFIX,dvdstudiopro.us,Global
 HOST-SUFFIX,dvdtrailertube.com,Global
 HOST-SUFFIX,dvh30n.vip,Global
-HOST-SUFFIX,dweb.link,Global
 HOST-SUFFIX,dwg.com,Global
 HOST-SUFFIX,dwgtrueconvert.com,Global
 HOST-SUFFIX,dwgtrueview.com,Global
@@ -16211,7 +16210,6 @@ HOST-SUFFIX,nfsc.global,Global
 HOST-SUFFIX,nfscdict.com,Global
 HOST-SUFFIX,nfscofficial.com,Global
 HOST-SUFFIX,nfsworld.com,Global
-HOST-SUFFIX,nftstorage.link,Global
 HOST-SUFFIX,ngc.ac.uk,Global
 HOST-SUFFIX,ngeo.com,Global
 HOST-SUFFIX,ngfiles.com,Global
@@ -26858,6 +26856,7 @@ HOST-SUFFIX,dw-world.com,Global
 HOST-SUFFIX,dw-world.de,Global
 HOST-SUFFIX,dw.com,Global
 HOST-SUFFIX,dw.de,Global
+HOST-SUFFIX,dweb.link,Global
 HOST-SUFFIX,dwheeler.com,Global
 HOST-SUFFIX,dwnews.com,Global
 HOST-SUFFIX,dwnews.net,Global
@@ -29418,6 +29417,7 @@ HOST-SUFFIX,nflximg.com,Global
 HOST-SUFFIX,nflximg.net,Global
 HOST-SUFFIX,nflxso.net,Global
 HOST-SUFFIX,nflxvideo.net,Global
+HOST-SUFFIX,nftstorage.link,Global
 HOST-SUFFIX,ng.mil,Global
 HOST-SUFFIX,nga.mil,Global
 HOST-SUFFIX,ngensis.com,Global
@@ -30688,6 +30688,7 @@ HOST-SUFFIX,storify.com,Global
 HOST-SUFFIX,storj.io,Global
 HOST-SUFFIX,storm.mg,Global
 HOST-SUFFIX,stormmediagroup.com,Global
+HOST-SUFFIX,storry.tv,Global
 HOST-SUFFIX,stoweboyd.com,Global
 HOST-SUFFIX,straitstimes.com,Global
 HOST-SUFFIX,stranabg.com,Global
@@ -31664,6 +31665,7 @@ HOST-SUFFIX,w-pool.com,Global
 HOST-SUFFIX,w.org,Global
 HOST-SUFFIX,w.wiki,Global
 HOST-SUFFIX,w3.org,Global
+HOST-SUFFIX,w3s.link,Global
 HOST-SUFFIX,w3schools.com,Global
 HOST-SUFFIX,waffle1999.com,Global
 HOST-SUFFIX,wahas.com,Global

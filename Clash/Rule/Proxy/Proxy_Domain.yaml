@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6499
+# 规则统计: 6504
 
 payload:
   - 'api.waqi.info'
@@ -1531,6 +1531,7 @@ payload:
   - '+.dw-world.de'
   - '+.dw.com'
   - '+.dw.de'
+  - '+.dweb.link'
   - '+.dwheeler.com'
   - '+.dwnews.com'
   - '+.dwnews.net'
@@ -2793,6 +2794,7 @@ payload:
   - '+.ipalter.com'
   - '+.ipdefenseforum.com'
   - '+.ipfire.org'
+  - '+.ipfs.4everland.io'
   - '+.ipfs.io'
   - '+.iphone4hongkong.com'
   - '+.iphonehacks.com'
@@ -3797,6 +3799,7 @@ payload:
   - '+.nflximg.net'
   - '+.nflxso.net'
   - '+.nflxvideo.net'
+  - '+.nftstorage.link'
   - '+.ng.mil'
   - '+.nga.mil'
   - '+.ngensis.com'
@@ -5026,6 +5029,7 @@ payload:
   - '+.storj.io'
   - '+.storm.mg'
   - '+.stormmediagroup.com'
+  - '+.storry.tv'
   - '+.stoweboyd.com'
   - '+.straitstimes.com'
   - '+.stranabg.com'
@@ -5972,6 +5976,7 @@ payload:
   - '+.w.org'
   - '+.w.wiki'
   - '+.w3.org'
+  - '+.w3s.link'
   - '+.w3schools.com'
   - '+.waffle1999.com'
   - '+.wahas.com'

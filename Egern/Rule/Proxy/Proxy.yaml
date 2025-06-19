@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7112
+# 规则统计: 7117
 no_resolve: true
 domain_set:
 - api.msn.com
@@ -1637,6 +1637,7 @@ domain_suffix_set:
 - dw-world.de
 - dw.com
 - dw.de
+- dweb.link
 - dwheeler.com
 - dwnews.com
 - dwnews.net
@@ -3191,6 +3192,7 @@ domain_suffix_set:
 - ipalter.com
 - ipdefenseforum.com
 - ipfire.org
+- ipfs.4everland.io
 - ipfs.io
 - iphone4hongkong.com
 - iphonehacks.com
@@ -4199,6 +4201,7 @@ domain_suffix_set:
 - nflximg.net
 - nflxso.net
 - nflxvideo.net
+- nftstorage.link
 - ng.mil
 - nga.mil
 - ngensis.com
@@ -5469,6 +5472,7 @@ domain_suffix_set:
 - storj.io
 - storm.mg
 - stormmediagroup.com
+- storry.tv
 - stoweboyd.com
 - straitstimes.com
 - stranabg.com
@@ -6448,6 +6452,7 @@ domain_suffix_set:
 - w.org
 - w.wiki
 - w3.org
+- w3s.link
 - w3schools.com
 - waffle1999.com
 - wahas.com
