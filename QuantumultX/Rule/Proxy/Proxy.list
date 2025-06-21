@@ -1,5 +1,5 @@
 # 规则名称: Proxy.list
-# 规则统计: 7125
+# 规则统计: 7127
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -332,6 +332,7 @@ HOST-SUFFIX,ampproject.com,Proxy
 HOST-SUFFIX,ampproject.net,Proxy
 HOST-SUFFIX,ampproject.org,Proxy
 HOST-SUFFIX,amtb-taipei.org,Proxy
+HOST-SUFFIX,amuletmc.com,Proxy
 HOST-SUFFIX,anaconda.com,Proxy
 HOST-SUFFIX,anchor.fm,Proxy
 HOST-SUFFIX,anchorfree.com,Proxy
@@ -2032,6 +2033,7 @@ HOST-SUFFIX,fontsource.org,Proxy
 HOST-SUFFIX,foolsmountain.com,Proxy
 HOST-SUFFIX,fooooo.com,Proxy
 HOST-SUFFIX,footwiball.com,Proxy
+HOST-SUFFIX,forbes.com,Proxy
 HOST-SUFFIX,foreignaffairs.com,Proxy
 HOST-SUFFIX,foreignpolicy.com,Proxy
 HOST-SUFFIX,form.new,Proxy

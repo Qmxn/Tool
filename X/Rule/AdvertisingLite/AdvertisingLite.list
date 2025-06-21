@@ -1,5 +1,5 @@
 # 规则名称: AdvertisingLite
-# 规则统计: 38052
+# 规则统计: 38053
 
 DOMAIN,00-gov.cn
 DOMAIN,0024aadd.com
@@ -8584,6 +8584,7 @@ DOMAIN,gfzluvsjsprkac.com
 DOMAIN,gg.1whour.com
 DOMAIN,gg.huolinhe.com
 DOMAIN,gg1.jc001.cn
+DOMAIN,ggadoffline.miguvideo.com
 DOMAIN,ggaji.com
 DOMAIN,ggc.cmvideo.cn
 DOMAIN,ggdata1.cnr.cn

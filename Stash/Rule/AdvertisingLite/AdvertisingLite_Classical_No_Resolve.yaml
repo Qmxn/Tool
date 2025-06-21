@@ -1,5 +1,5 @@
 # 规则名称: AdvertisingLite_Classical_No_Resolve
-# 规则统计: 38053
+# 规则统计: 38054
 
 payload:
   - DOMAIN,00-gov.cn
@@ -8585,6 +8585,7 @@ payload:
   - DOMAIN,gg.1whour.com
   - DOMAIN,gg.huolinhe.com
   - DOMAIN,gg1.jc001.cn
+  - DOMAIN,ggadoffline.miguvideo.com
   - DOMAIN,ggaji.com
   - DOMAIN,ggc.cmvideo.cn
   - DOMAIN,ggdata1.cnr.cn

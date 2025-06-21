@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6504
+# 规则统计: 6506
 
 payload:
   - 'api.waqi.info'
@@ -314,6 +314,7 @@ payload:
   - '+.ampproject.net'
   - '+.ampproject.org'
   - '+.amtb-taipei.org'
+  - '+.amuletmc.com'
   - '+.anaconda.com'
   - '+.anchor.fm'
   - '+.anchorfree.com'
@@ -1910,6 +1911,7 @@ payload:
   - '+.foolsmountain.com'
   - '+.fooooo.com'
   - '+.footwiball.com'
+  - '+.forbes.com'
   - '+.foreignaffairs.com'
   - '+.foreignpolicy.com'
   - '+.form.new'

@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical_No_Resolve
-# 规则统计: 6627
+# 规则统计: 6629
 
 payload:
   - DOMAIN,api.waqi.info
@@ -314,6 +314,7 @@ payload:
   - DOMAIN-SUFFIX,ampproject.net
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,amtb-taipei.org
+  - DOMAIN-SUFFIX,amuletmc.com
   - DOMAIN-SUFFIX,anaconda.com
   - DOMAIN-SUFFIX,anchor.fm
   - DOMAIN-SUFFIX,anchorfree.com
@@ -1910,6 +1911,7 @@ payload:
   - DOMAIN-SUFFIX,foolsmountain.com
   - DOMAIN-SUFFIX,fooooo.com
   - DOMAIN-SUFFIX,footwiball.com
+  - DOMAIN-SUFFIX,forbes.com
   - DOMAIN-SUFFIX,foreignaffairs.com
   - DOMAIN-SUFFIX,foreignpolicy.com
   - DOMAIN-SUFFIX,form.new

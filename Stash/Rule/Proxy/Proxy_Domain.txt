@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6503
+# 规则统计: 6505
 
 api.waqi.info
 aqi.aqicn.org
@@ -313,6 +313,7 @@ voice.telephony.goog
 .ampproject.net
 .ampproject.org
 .amtb-taipei.org
+.amuletmc.com
 .anaconda.com
 .anchor.fm
 .anchorfree.com
@@ -1909,6 +1910,7 @@ voice.telephony.goog
 .foolsmountain.com
 .fooooo.com
 .footwiball.com
+.forbes.com
 .foreignaffairs.com
 .foreignpolicy.com
 .form.new

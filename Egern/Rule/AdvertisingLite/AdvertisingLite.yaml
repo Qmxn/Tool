@@ -1,5 +1,5 @@
 # 规则名称: AdvertisingLite
-# 规则统计: 38052
+# 规则统计: 38053
 no_resolve: true
 domain_set:
 - 00-gov.cn
@@ -8585,6 +8585,7 @@ domain_set:
 - gg.1whour.com
 - gg.huolinhe.com
 - gg1.jc001.cn
+- ggadoffline.miguvideo.com
 - ggaji.com
 - ggc.cmvideo.cn
 - ggdata1.cnr.cn

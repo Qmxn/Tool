@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain.list
-# 规则统计: 6503
+# 规则统计: 6505
 
 .000webhost.com
 .030buy.com
@@ -304,6 +304,7 @@
 .ampproject.net
 .ampproject.org
 .amtb-taipei.org
+.amuletmc.com
 .anaconda.com
 .anchor.fm
 .anchorfree.com
@@ -1900,6 +1901,7 @@
 .foolsmountain.com
 .fooooo.com
 .footwiball.com
+.forbes.com
 .foreignaffairs.com
 .foreignpolicy.com
 .form.new

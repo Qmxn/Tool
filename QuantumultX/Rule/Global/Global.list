@@ -1,5 +1,5 @@
 # 规则名称: Global.list
-# 规则统计: 32404
+# 规则统计: 32406
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -9200,7 +9200,6 @@ HOST-SUFFIX,foofle.com,Global
 HOST-SUFFIX,footprintdns.com,Global
 HOST-SUFFIX,footstockings.com,Global
 HOST-SUFFIX,footwear-cadcam.com,Global
-HOST-SUFFIX,forbes.com,Global
 HOST-SUFFIX,forbesimg.com,Global
 HOST-SUFFIX,forbiddenasian.com,Global
 HOST-SUFFIX,forbiddenmomsarchive.com,Global
@@ -17719,6 +17718,7 @@ HOST-SUFFIX,pi-vr.com,Global
 HOST-SUFFIX,piapp.com.tw,Global
 HOST-SUFFIX,piapro.net,Global
 HOST-SUFFIX,picacg2022.com,Global
+HOST-SUFFIX,picacgy.com,Global
 HOST-SUFFIX,picacn.xyz,Global
 HOST-SUFFIX,picacomic.xyz,Global
 HOST-SUFFIX,picasa.com,Global
@@ -25564,6 +25564,7 @@ HOST-SUFFIX,ampproject.com,Global
 HOST-SUFFIX,ampproject.net,Global
 HOST-SUFFIX,ampproject.org,Global
 HOST-SUFFIX,amtb-taipei.org,Global
+HOST-SUFFIX,amuletmc.com,Global
 HOST-SUFFIX,anaconda.com,Global
 HOST-SUFFIX,anchor.fm,Global
 HOST-SUFFIX,anchorfree.com,Global
@@ -27252,6 +27253,7 @@ HOST-SUFFIX,fontsource.org,Global
 HOST-SUFFIX,foolsmountain.com,Global
 HOST-SUFFIX,fooooo.com,Global
 HOST-SUFFIX,footwiball.com,Global
+HOST-SUFFIX,forbes.com,Global
 HOST-SUFFIX,foreignaffairs.com,Global
 HOST-SUFFIX,foreignpolicy.com,Global
 HOST-SUFFIX,form.new,Global

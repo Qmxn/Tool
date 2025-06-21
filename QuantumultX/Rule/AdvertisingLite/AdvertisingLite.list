@@ -1,5 +1,5 @@
 # 规则名称: AdvertisingLite.list
-# 规则统计: 38052
+# 规则统计: 38053
 
 HOST,00-gov.cn,AdvertisingLite
 HOST,0024aadd.com,AdvertisingLite
@@ -8584,6 +8584,7 @@ HOST,gfzluvsjsprkac.com,AdvertisingLite
 HOST,gg.1whour.com,AdvertisingLite
 HOST,gg.huolinhe.com,AdvertisingLite
 HOST,gg1.jc001.cn,AdvertisingLite
+HOST,ggadoffline.miguvideo.com,AdvertisingLite
 HOST,ggaji.com,AdvertisingLite
 HOST,ggc.cmvideo.cn,AdvertisingLite
 HOST,ggdata1.cnr.cn,AdvertisingLite

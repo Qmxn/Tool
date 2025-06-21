@@ -1,5 +1,5 @@
 # 规则名称: AdvertisingLite_Domain
-# 规则统计: 37679
+# 规则统计: 37680
 
 payload:
   - '00-gov.cn'
@@ -8585,6 +8585,7 @@ payload:
   - 'gg.1whour.com'
   - 'gg.huolinhe.com'
   - 'gg1.jc001.cn'
+  - 'ggadoffline.miguvideo.com'
   - 'ggaji.com'
   - 'ggc.cmvideo.cn'
   - 'ggdata1.cnr.cn'
