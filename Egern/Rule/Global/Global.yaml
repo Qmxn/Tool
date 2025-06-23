@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32360
+# 规则统计: 32365
 no_resolve: true
 domain_set:
 - 1password.drift.click
@@ -25679,6 +25679,7 @@ domain_suffix_set:
 - artstation.com
 - artsy.net
 - arunachalforests.gov.in
+- arvanstorage.ir
 - asacp.org
 - asdfg.jp
 - asg.to
@@ -27888,6 +27889,7 @@ domain_suffix_set:
 - gotquestions.org
 - gotrusted.com
 - gotw.ca
+- gov.ir
 - gov.taipei
 - gov.tw
 - gr8domain.biz
@@ -28431,8 +28433,10 @@ domain_suffix_set:
 - iptv.com.tw
 - iptvbin.com
 - ipvanish.com
+- irangov.ir
 - iredmail.org
 - irib.ir
+- irna.ir
 - ironpython.net
 - ironsocket.com
 - is-a-hunter.com
@@ -29957,6 +29961,7 @@ domain_suffix_set:
 - premproxy.com
 - presentation.new
 - presentationzen.com
+- president.ir
 - presidentlee.tw
 - prestige-av.com
 - pride.google
