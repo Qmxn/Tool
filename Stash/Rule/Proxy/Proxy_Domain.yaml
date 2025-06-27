@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6511
+# 规则统计: 6512
 
 payload:
   - 'api.waqi.info'
@@ -4448,6 +4448,7 @@ payload:
   - '+.radiotime.com'
   - '+.radiovaticana.org'
   - '+.radiovncr.com'
+  - '+.radmin-vpn.com'
   - '+.rael.org'
   - '+.raggedbanner.com'
   - '+.raidcall.com.tw'

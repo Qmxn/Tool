@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32365
+# 规则统计: 32366
 no_resolve: true
 domain_set:
 - 1password.drift.click
@@ -30101,6 +30101,7 @@ domain_suffix_set:
 - radiotime.com
 - radiovaticana.org
 - radiovncr.com
+- radmin-vpn.com
 - rael.org
 - raggedbanner.com
 - raidcall.com.tw

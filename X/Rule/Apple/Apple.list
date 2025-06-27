@@ -1817,11 +1817,11 @@ DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,wwwapplemusic.com
 DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-WILDCARD,.*-content.icloud.com.cn
 DOMAIN-WILDCARD,apple.*
 DOMAIN-WILDCARD,apple.com.*

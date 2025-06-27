@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain_For_Clash
-# 规则统计: 31648
+# 规则统计: 31649
 
 1password.drift.click
 adobeereg.com
@@ -29590,6 +29590,7 @@ login.microsoftonline.com
 +.radiotime.com
 +.radiovaticana.org
 +.radiovncr.com
++.radmin-vpn.com
 +.rael.org
 +.raggedbanner.com
 +.raidcall.com.tw

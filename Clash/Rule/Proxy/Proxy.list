@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 6633
+# 规则统计: 6634
 
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
@@ -4447,6 +4447,7 @@ DOMAIN-SUFFIX,radioline.co
 DOMAIN-SUFFIX,radiotime.com
 DOMAIN-SUFFIX,radiovaticana.org
 DOMAIN-SUFFIX,radiovncr.com
+DOMAIN-SUFFIX,radmin-vpn.com
 DOMAIN-SUFFIX,rael.org
 DOMAIN-SUFFIX,raggedbanner.com
 DOMAIN-SUFFIX,raidcall.com.tw

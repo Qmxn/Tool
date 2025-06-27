@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical_No_Resolve
-# 规则统计: 6634
+# 规则统计: 6635
 
 payload:
   - DOMAIN,api.waqi.info
@@ -4448,6 +4448,7 @@ payload:
   - DOMAIN-SUFFIX,radiotime.com
   - DOMAIN-SUFFIX,radiovaticana.org
   - DOMAIN-SUFFIX,radiovncr.com
+  - DOMAIN-SUFFIX,radmin-vpn.com
   - DOMAIN-SUFFIX,rael.org
   - DOMAIN-SUFFIX,raggedbanner.com
   - DOMAIN-SUFFIX,raidcall.com.tw

@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain.list
-# 规则统计: 6510
+# 规则统计: 6511
 
 .000webhost.com
 .030buy.com
@@ -4438,6 +4438,7 @@
 .radiotime.com
 .radiovaticana.org
 .radiovncr.com
+.radmin-vpn.com
 .rael.org
 .raggedbanner.com
 .raidcall.com.tw

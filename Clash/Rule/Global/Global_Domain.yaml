@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 31649
+# 规则统计: 31650
 
 payload:
   - '1password.drift.click'
@@ -29591,6 +29591,7 @@ payload:
   - '+.radiotime.com'
   - '+.radiovaticana.org'
   - '+.radiovncr.com'
+  - '+.radmin-vpn.com'
   - '+.rael.org'
   - '+.raggedbanner.com'
   - '+.raidcall.com.tw'

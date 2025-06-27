@@ -1,5 +1,5 @@
 # 规则名称: ByteDance
-# 规则统计: 329
+# 规则统计: 332
 no_resolve: true
 domain_suffix_set:
 - 2333333333333.com
@@ -189,6 +189,7 @@ domain_suffix_set:
 - luckincalendar.com
 - luckycalendar.cn
 - maidouke.com
+- marscode.cn
 - mobilelegends.com
 - moonton.com
 - muyewx.com
@@ -271,6 +272,8 @@ domain_suffix_set:
 - toutiaowap.cn
 - toutiaowap.com
 - toutiaowap.net
+- trae.cn
+- trae.com.cn
 - ttbyte.cn
 - ttbyte.com
 - ttbyte.net

@@ -1,5 +1,5 @@
 # 规则名称: ByteDance_No_Resolve
-# 规则统计: 331
+# 规则统计: 334
 
 payload:
   - DOMAIN-SUFFIX,2333333333333.com
@@ -189,6 +189,7 @@ payload:
   - DOMAIN-SUFFIX,luckincalendar.com
   - DOMAIN-SUFFIX,luckycalendar.cn
   - DOMAIN-SUFFIX,maidouke.com
+  - DOMAIN-SUFFIX,marscode.cn
   - DOMAIN-SUFFIX,mobilelegends.com
   - DOMAIN-SUFFIX,moonton.com
   - DOMAIN-SUFFIX,muyewx.com
@@ -271,6 +272,8 @@ payload:
   - DOMAIN-SUFFIX,toutiaowap.cn
   - DOMAIN-SUFFIX,toutiaowap.com
   - DOMAIN-SUFFIX,toutiaowap.net
+  - DOMAIN-SUFFIX,trae.cn
+  - DOMAIN-SUFFIX,trae.com.cn
   - DOMAIN-SUFFIX,ttbyte.cn
   - DOMAIN-SUFFIX,ttbyte.com
   - DOMAIN-SUFFIX,ttbyte.net

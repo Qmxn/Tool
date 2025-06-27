@@ -1,5 +1,5 @@
 # 规则名称: Global.list
-# 规则统计: 32411
+# 规则统计: 32412
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -30099,6 +30099,7 @@ HOST-SUFFIX,radioline.co,Global
 HOST-SUFFIX,radiotime.com,Global
 HOST-SUFFIX,radiovaticana.org,Global
 HOST-SUFFIX,radiovncr.com,Global
+HOST-SUFFIX,radmin-vpn.com,Global
 HOST-SUFFIX,rael.org,Global
 HOST-SUFFIX,raggedbanner.com,Global
 HOST-SUFFIX,raidcall.com.tw,Global

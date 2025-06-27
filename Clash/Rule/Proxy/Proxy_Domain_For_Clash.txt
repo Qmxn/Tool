@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain_For_Clash
-# 规则统计: 6510
+# 规则统计: 6511
 
 api.waqi.info
 aqi.aqicn.org
@@ -4447,6 +4447,7 @@ voice.telephony.goog
 +.radiotime.com
 +.radiovaticana.org
 +.radiovncr.com
++.radmin-vpn.com
 +.rael.org
 +.raggedbanner.com
 +.raidcall.com.tw

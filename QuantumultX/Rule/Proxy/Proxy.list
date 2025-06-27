@@ -1,5 +1,5 @@
 # 规则名称: Proxy.list
-# 规则统计: 7132
+# 规则统计: 7133
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -4881,6 +4881,7 @@ HOST-SUFFIX,radioline.co,Proxy
 HOST-SUFFIX,radiotime.com,Proxy
 HOST-SUFFIX,radiovaticana.org,Proxy
 HOST-SUFFIX,radiovncr.com,Proxy
+HOST-SUFFIX,radmin-vpn.com,Proxy
 HOST-SUFFIX,rael.org,Proxy
 HOST-SUFFIX,raggedbanner.com,Proxy
 HOST-SUFFIX,raidcall.com.tw,Proxy
