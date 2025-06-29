@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain.list
-# 规则统计: 6511
+# 规则统计: 6512
 
 .000webhost.com
 .030buy.com
@@ -2723,6 +2723,7 @@
 .imb.org
 .imdb.com
 .img.ly
+.img.picgo.net
 .imgasd.com
 .imgchili.net
 .imgmega.com

@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6511
+# 规则统计: 6512
 
 api.waqi.info
 aqi.aqicn.org
@@ -2732,6 +2732,7 @@ voice.telephony.goog
 .imb.org
 .imdb.com
 .img.ly
+.img.picgo.net
 .imgasd.com
 .imgchili.net
 .imgmega.com

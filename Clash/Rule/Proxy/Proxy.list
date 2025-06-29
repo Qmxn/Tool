@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 6634
+# 规则统计: 6635
 
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
@@ -2732,6 +2732,7 @@ DOMAIN-SUFFIX,imago-images.com
 DOMAIN-SUFFIX,imb.org
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,img.ly
+DOMAIN-SUFFIX,img.picgo.net
 DOMAIN-SUFFIX,imgasd.com
 DOMAIN-SUFFIX,imgchili.net
 DOMAIN-SUFFIX,imgmega.com

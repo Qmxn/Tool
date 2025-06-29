@@ -1,5 +1,5 @@
 # 规则名称: Proxy.list
-# 规则统计: 7133
+# 规则统计: 7134
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -3128,6 +3128,7 @@ HOST-SUFFIX,imago-images.com,Proxy
 HOST-SUFFIX,imb.org,Proxy
 HOST-SUFFIX,imdb.com,Proxy
 HOST-SUFFIX,img.ly,Proxy
+HOST-SUFFIX,img.picgo.net,Proxy
 HOST-SUFFIX,imgasd.com,Proxy
 HOST-SUFFIX,imgchili.net,Proxy
 HOST-SUFFIX,imgmega.com,Proxy

@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7125
+# 规则统计: 7126
 no_resolve: true
 domain_set:
 - api.msn.com
@@ -3130,6 +3130,7 @@ domain_suffix_set:
 - imb.org
 - imdb.com
 - img.ly
+- img.picgo.net
 - imgasd.com
 - imgchili.net
 - imgmega.com

@@ -1,5 +1,5 @@
 # 规则名称: Global.list
-# 规则统计: 32412
+# 规则统计: 32432
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -206,9 +206,11 @@ HOST,heads4-ak-spotify-com.akamaized.net,Global
 HOST,himalaya-exchange.zendesk.com,Global
 HOST,hl2rcv.adobe.com,Global
 HOST,hlrcv.stage.adobe.com,Global
+HOST,holoxx.f5.si,Global
 HOST,homebrew.bintray.com,Global
 HOST,hpefonts.s3.amazonaws.com,Global
 HOST,hpstore.corpmerchandise.com,Global
+HOST,hub.slarker.me,Global
 HOST,hulu.playback.edge.bamgrid.com,Global
 HOST,i.jeded.com,Global
 HOST,img-prod-cms-rt-microsoft-com.akamaized.net,Global
@@ -305,6 +307,22 @@ HOST,push-apple.com.akadns.net,Global
 HOST,pvr-hamivideo.cdn.hinet.net,Global
 HOST,qualcomm.sc.omtrdc.net,Global
 HOST,rink.hockeyapp.net,Global
+HOST,rss.4040940.xyz,Global
+HOST,rss.datuan.dev,Global
+HOST,rss.littlebaby.life,Global
+HOST,rss.owo.nz,Global
+HOST,rss.wudifeixue.com,Global
+HOST,rsshub.asailor.org,Global
+HOST,rsshub.email-once.com,Global
+HOST,rsshub.henry.wang,Global
+HOST,rsshub.isrss.com,Global
+HOST,rsshub.ktachibana.party,Global
+HOST,rsshub.pseudoyu.com,Global
+HOST,rsshub.rss.tips,Global
+HOST,rsshub.rssforever.com,Global
+HOST,rsshub.umzzz.com,Global
+HOST,rsshub.woodland.cafe,Global
+HOST,rsshub2.asailor.org,Global
 HOST,rtm.tnt-ea.com,Global
 HOST,s3-ap-northeast-1.amazonaws.com,Global
 HOST,s3-ap-southeast-2.amazonaws.com,Global
@@ -578,6 +596,7 @@ HOST,wwis-dubc1-vip97.adobe.com,Global
 HOST,wwis-dubc1-vip98.adobe.com,Global
 HOST,wwis-dubc1-vip99.adobe.com,Global
 HOST,www-cdn.icloud.com.akadns.net,Global
+HOST,yangzhi.app,Global
 HOST,zeenews-fonts.s3.amazonaws.com,Global
 HOST,ztedevices.com,Global
 HOST,api.msn.com,Global
@@ -28348,6 +28367,7 @@ HOST-SUFFIX,imago-images.com,Global
 HOST-SUFFIX,imb.org,Global
 HOST-SUFFIX,imdb.com,Global
 HOST-SUFFIX,img.ly,Global
+HOST-SUFFIX,img.picgo.net,Global
 HOST-SUFFIX,imgasd.com,Global
 HOST-SUFFIX,imgchili.net,Global
 HOST-SUFFIX,imgmega.com,Global

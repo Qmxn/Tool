@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6512
+# 规则统计: 6513
 
 payload:
   - 'api.waqi.info'
@@ -2733,6 +2733,7 @@ payload:
   - '+.imb.org'
   - '+.imdb.com'
   - '+.img.ly'
+  - '+.img.picgo.net'
   - '+.imgasd.com'
   - '+.imgchili.net'
   - '+.imgmega.com'
