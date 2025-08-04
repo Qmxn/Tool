@@ -1,0 +1,109 @@
+name: Fork Module
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 20 * * *"
+
+jobs:
+  ForkModule:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+
+    steps:
+    - name: Checkout target repository
+      uses: actions/checkout@v4.2.2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    # 统一处理插件
+    - name: Process Plugins
+      run: |
+        # 定义处理参数：目标目录、图标URL、文件类型
+        process_files() {
+          local target_dir=$1
+          local icon_url=$2
+          local file_ext=$3
+
+          # 克隆仓库
+          git clone --depth=1 --branch X https://github.com/Qmxn/Tools.git tmpfile
+          
+          # 确保目标目录存在
+          mkdir -p "$target_dir"
+          
+          # 复制文件
+          find tmpfile/Plugin -type f -name "*.$file_ext" -exec cp {} "$target_dir/" \;
+          
+          # 清理临时目录
+          rm -rf tmpfile
+          
+          # 编辑文件
+          cd "$target_dir"
+          find . -name "*.$file_ext" | while read -r file; do
+            awk -v icon="$icon_url" '
+              /^\#!name\s*=\s*|^\#!desc\s*=\s*/ { print }
+              FNR == 3 { print "#!icon=" icon }
+              /^[[]/ { print ""; print; next }
+              /^[^#]/ { if(NF) print }
+            ' "$file" > "$file.tmp"
+            mv "$file.tmp" "$file"
+          done
+          cd - >/dev/null
+        }
+        
+        # 处理Loon插件
+        process_files "Loon/Plugin" "https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png" "lpx"
+        
+        # 处理X插件
+        process_files "X/Plugin" "https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png" "lpx"
+
+    # 统一处理模块
+    - name: Process Modules
+      run: |
+        # 确保目标目录存在
+        mkdir -p X/Modules
+        
+        # 处理Qmxn模块
+        git clone --depth=1 --branch X https://github.com/Qmxn/Tools.git tmpfile_Qmxn
+        find tmpfile_Qmxn/Modules -type f -name "*.sgmodule" -exec cp {} X/Modules/ \;
+        rm -rf tmpfile_Qmxn
+        
+        # 处理LoonKissSurge模块
+        git clone --depth=1 https://github.com/QingRex/LoonKissSurge.git tmpfile_surge
+        cp -r tmpfile_surge/Surge/Official X/Modules/
+        rm -rf tmpfile_surge
+        
+        # 统一编辑模块文件
+        cd X/Modules
+        icon_url="https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png"
+        find . -name "*.sgmodule" | while read -r file; do
+          awk -v icon="$icon_url" '
+            /^\#!name\s*=\s*|^\#!desc\s*=\s*/ { print }
+            FNR == 3 { print "#!icon=" icon }
+            /^[[]/ { print ""; print; next }
+            /^[^#]/ { if(NF) print }
+          ' "$file" > "$file.tmp"
+          mv "$file.tmp" "$file"
+        done
+
+    # 添加并提交更改
+    - name: Add and Commit
+      run: |
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin X
+          git push origin X
+        else
+          echo "No changes to commit."
+        fi
+
+    # 清理工作流
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

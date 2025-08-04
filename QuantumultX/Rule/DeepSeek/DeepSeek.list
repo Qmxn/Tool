@@ -1,0 +1,14 @@
+# 规则名称: DeepSeek.list
+# 规则统计: 11
+
+HOST-KEYWORD,deepseek,DeepSeek
+HOST-SUFFIX,deepseek.com,DeepSeek
+HOST-SUFFIX,fengkongcloud.cn,DeepSeek
+HOST-SUFFIX,fengkongcloud.com,DeepSeek
+HOST-SUFFIX,portal101.cn,DeepSeek
+HOST-SUFFIX,portal101.com,DeepSeek
+HOST-SUFFIX,sentry.io,DeepSeek
+HOST-SUFFIX,volces.com,DeepSeek
+HOST-SUFFIX,intercom.io,DeepSeek
+HOST-SUFFIX,intercom.com,DeepSeek
+HOST-SUFFIX,intercomcdn.com,DeepSeek

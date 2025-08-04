@@ -1,0 +1,13 @@
+#!name=资源预览
+#!desc=预览资源
+
+[Header Rewrite]
+http-request ^https:\/\/(.*\.)?kelee\.one(\/.*)? header-replace 'User-Agent' 'Surge iOS/9527'
+http-request ^https:\/\/(.*\.)?kelee\.one(\/.*)? header-replace 'tag=Kelee_Debug' 'enabled=true'
+http-response ^https:\/\/(.*\.)?kelee\.one(\/.*)? header-replace 'Content-Disposition' 'inline'
+http-response ^https:\/\/(.*\.)?kelee\.one(\/.*)? header-replace 'tag=Kelee_Debug' 'enabled=true'
+http-response ^https:\/\/(.*\.)?kelee\.one(\/.*)? header-replace 'Content-Type' 'text/plain; charset=utf-8'
+http-response ^https:\/\/(.*\.)?kelee\.one(\/.*)? header-replace 'tag=Kelee_Debug' 'enabled=true'
+
+[MITM]
+hostname = %APPEND% *.kelee.one, kelee.one

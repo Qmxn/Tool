@@ -1,0 +1,9 @@
+#!name=刺猬猫去广告
+#!desc=刺猬猫app去广告 by @奶思
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list - reject
+
+[MITM]
+hostname = %APPEND% app.hbooker.com

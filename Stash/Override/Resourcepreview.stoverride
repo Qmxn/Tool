@@ -1,0 +1,20 @@
+name: |-
+  功能｜资源预览
+desc: |-
+  预览资源
+icon: |-
+  https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+http:
+
+  mitm:
+    - "*.kelee.one"
+    - "kelee.one"
+
+  header-rewrite:
+    - >-
+      ^https:\/\/(.*\.)?kelee\.one(\/.*)? request-replace 'User-Agent' 'Surge iOS/9515'
+    - >-
+      ^https:\/\/(.*\.)?kelee\.one(\/.*)? response-add 'content-disposition' 'inline'
+    - >-
+      ^https:\/\/(.*\.)?kelee\.one(\/.*)? response-replace 'content-type' 'text/plain; charset=utf-8'
