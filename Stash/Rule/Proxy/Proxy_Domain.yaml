@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6519
+# 规则统计: 6521
 
 payload:
   - 'api.waqi.info'
@@ -6220,6 +6220,8 @@ payload:
   - '+.www.xicons.org'
   - '+.www1.biz'
   - '+.wwwhost.biz'
+  - '+.wxw.cat'
+  - '+.wxw.moe'
   - '+.wzyboy.im'
   - '+.x-art.com'
   - '+.x-berry.com'

@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 31676
+# 规则统计: 31678
 
 payload:
   - '1password.drift.click'
@@ -31378,6 +31378,8 @@ payload:
   - '+.www.xicons.org'
   - '+.www1.biz'
   - '+.wwwhost.biz'
+  - '+.wxw.cat'
+  - '+.wxw.moe'
   - '+.wzyboy.im'
   - '+.x-art.com'
   - '+.x-berry.com'

@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 6641
+# 规则统计: 6643
 
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
@@ -6219,6 +6219,8 @@ DOMAIN-SUFFIX,wwitv.com
 DOMAIN-SUFFIX,www.xicons.org
 DOMAIN-SUFFIX,www1.biz
 DOMAIN-SUFFIX,wwwhost.biz
+DOMAIN-SUFFIX,wxw.cat
+DOMAIN-SUFFIX,wxw.moe
 DOMAIN-SUFFIX,wzyboy.im
 DOMAIN-SUFFIX,x-art.com
 DOMAIN-SUFFIX,x-berry.com

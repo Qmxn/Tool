@@ -1,5 +1,5 @@
 # 规则名称: Global.list
-# 规则统计: 32438
+# 规则统计: 32440
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -31931,6 +31931,8 @@ HOST-SUFFIX,wwitv.com,Global
 HOST-SUFFIX,www.xicons.org,Global
 HOST-SUFFIX,www1.biz,Global
 HOST-SUFFIX,wwwhost.biz,Global
+HOST-SUFFIX,wxw.cat,Global
+HOST-SUFFIX,wxw.moe,Global
 HOST-SUFFIX,wzyboy.im,Global
 HOST-SUFFIX,x-art.com,Global
 HOST-SUFFIX,x-berry.com,Global

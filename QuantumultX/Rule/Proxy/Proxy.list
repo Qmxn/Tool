@@ -1,5 +1,5 @@
 # 规则名称: Proxy.list
-# 规则统计: 7140
+# 规则统计: 7142
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -6699,6 +6699,8 @@ HOST-SUFFIX,wwitv.com,Proxy
 HOST-SUFFIX,www.xicons.org,Proxy
 HOST-SUFFIX,www1.biz,Proxy
 HOST-SUFFIX,wwwhost.biz,Proxy
+HOST-SUFFIX,wxw.cat,Proxy
+HOST-SUFFIX,wxw.moe,Proxy
 HOST-SUFFIX,wzyboy.im,Proxy
 HOST-SUFFIX,x-art.com,Proxy
 HOST-SUFFIX,x-berry.com,Proxy

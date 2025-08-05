@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical
-# 规则统计: 6642
+# 规则统计: 6644
 
 payload:
   - DOMAIN,api.waqi.info
@@ -6220,6 +6220,8 @@ payload:
   - DOMAIN-SUFFIX,www.xicons.org
   - DOMAIN-SUFFIX,www1.biz
   - DOMAIN-SUFFIX,wwwhost.biz
+  - DOMAIN-SUFFIX,wxw.cat
+  - DOMAIN-SUFFIX,wxw.moe
   - DOMAIN-SUFFIX,wzyboy.im
   - DOMAIN-SUFFIX,x-art.com
   - DOMAIN-SUFFIX,x-berry.com

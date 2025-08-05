@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7132
+# 规则统计: 7134
 no_resolve: true
 domain_set:
 - api.msn.com
@@ -6701,6 +6701,8 @@ domain_suffix_set:
 - www.xicons.org
 - www1.biz
 - wwwhost.biz
+- wxw.cat
+- wxw.moe
 - wzyboy.im
 - x-art.com
 - x-berry.com
