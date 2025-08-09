@@ -245,6 +245,7 @@ domain_set:
 - devstreaming-cdn.apple.com
 - docs-assets.developer.apple.com
 - gspe1-ssl.ls.apple.com
+- hls-svod.itunes.apple.com
 - hls.itunes.apple.com
 - itunes.apple.com
 - js-cdn.music.apple.com
@@ -270,7 +271,6 @@ domain_set:
 - fmipmobile.icloud.com
 - statici.icloud.com
 - amp-api.fitness.apple.com
-- hls-svod.itunes.apple.com
 - guzzoni.apple.com
 - beta.apple.com
 - www-cdn.icloud.com.akadns.net
@@ -1458,7 +1458,6 @@ domain_suffix_set:
 - applepaysupplies.tv
 - applewallet.com
 - applewallet.tv
-- appsto.re
 - appstore.co.id
 - appstore.com
 - appstore.hk
@@ -1819,6 +1818,7 @@ domain_suffix_set:
 - applemusic.com
 - apple-dns.net
 - apple.news
+- appsto.re
 - cdn-apple.com
 - digicert.com
 - apple-cloudkit.com

@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain_For_Clash
-# 规则统计: 6520
+# 规则统计: 6523
 
 api.waqi.info
 aqi.aqicn.org
@@ -645,6 +645,7 @@ voice.telephony.goog
 +.bitcointalk.org
 +.bitcoinworld.com
 +.bitfinex.com
++.bitget.com
 +.bithumb.com
 +.bitinka.com.ar
 +.bitmex.com
@@ -1112,6 +1113,7 @@ voice.telephony.goog
 +.cloakpoint.com
 +.cloud.cupronickel.goog
 +.cloudcone.com
++.cloudflare-dns.com
 +.cloudflare-ipfs.com
 +.cloudflare.com
 +.cloudfront.net
@@ -5762,6 +5764,7 @@ voice.telephony.goog
 +.untraceable.us
 +.unwire.hk
 +.uocn.org
++.upbit.com
 +.updatestar.com
 +.upghsbc.com
 +.upholdjustice.org

@@ -1,5 +1,5 @@
 # 规则名称: Global.list
-# 规则统计: 32440
+# 规则统计: 32441
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -3956,7 +3956,6 @@ HOST-SUFFIX,bitcoin.org,Global
 HOST-SUFFIX,bite.ac.uk,Global
 HOST-SUFFIX,bitflyer.com,Global
 HOST-SUFFIX,bitflyer.jp,Global
-HOST-SUFFIX,bitget.com,Global
 HOST-SUFFIX,bitly.com,Global
 HOST-SUFFIX,bitly.is,Global
 HOST-SUFFIX,bitnami.com,Global
@@ -5924,7 +5923,6 @@ HOST-SUFFIX,cloudcone.net,Global
 HOST-SUFFIX,cloudconvert.com,Global
 HOST-SUFFIX,cloudcraze.com,Global
 HOST-SUFFIX,cloudcredibility.com,Global
-HOST-SUFFIX,cloudflare-dns.com,Global
 HOST-SUFFIX,cloudflare-ech.com,Global
 HOST-SUFFIX,cloudflare-esni.com,Global
 HOST-SUFFIX,cloudflare-gateway.com,Global
@@ -25918,6 +25916,7 @@ HOST-SUFFIX,bitchute.com,Global
 HOST-SUFFIX,bitcointalk.org,Global
 HOST-SUFFIX,bitcoinworld.com,Global
 HOST-SUFFIX,bitfinex.com,Global
+HOST-SUFFIX,bitget.com,Global
 HOST-SUFFIX,bithumb.com,Global
 HOST-SUFFIX,bitinka.com.ar,Global
 HOST-SUFFIX,bitmex.com,Global
@@ -26446,6 +26445,7 @@ HOST-SUFFIX,clips4sale.com,Global
 HOST-SUFFIX,cloakpoint.com,Global
 HOST-SUFFIX,cloud.cupronickel.goog,Global
 HOST-SUFFIX,cloudcone.com,Global
+HOST-SUFFIX,cloudflare-dns.com,Global
 HOST-SUFFIX,cloudflare-ipfs.com,Global
 HOST-SUFFIX,cloudflare.com,Global
 HOST-SUFFIX,cloudfront.net,Global
@@ -31468,6 +31468,7 @@ HOST-SUFFIX,unstable.icu,Global
 HOST-SUFFIX,untraceable.us,Global
 HOST-SUFFIX,unwire.hk,Global
 HOST-SUFFIX,uocn.org,Global
+HOST-SUFFIX,upbit.com,Global
 HOST-SUFFIX,updatestar.com,Global
 HOST-SUFFIX,upghsbc.com,Global
 HOST-SUFFIX,upholdjustice.org,Global

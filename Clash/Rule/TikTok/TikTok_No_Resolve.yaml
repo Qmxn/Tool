@@ -1,5 +1,5 @@
 # 规则名称: TikTok_No_Resolve
-# 规则统计: 32
+# 规则统计: 33
 
 payload:
   - DOMAIN,lf16-effectcdn.byteeffecttos-g.com
@@ -29,6 +29,7 @@ payload:
   - DOMAIN-SUFFIX,tiktokmusic.app
   - DOMAIN-SUFFIX,tiktokv.com
   - DOMAIN-SUFFIX,tiktokv.us
+  - DOMAIN-SUFFIX,trae.ai
   - DOMAIN-SUFFIX,ttwebview.com
   - DOMAIN-KEYWORD,musical.ly
   - DOMAIN-KEYWORD,tiktok

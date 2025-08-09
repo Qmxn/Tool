@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7134
+# 规则统计: 7137
 no_resolve: true
 domain_set:
 - api.msn.com
@@ -672,6 +672,7 @@ domain_suffix_set:
 - bitcointalk.org
 - bitcoinworld.com
 - bitfinex.com
+- bitget.com
 - bithumb.com
 - bitinka.com.ar
 - bitmex.com
@@ -1206,6 +1207,7 @@ domain_suffix_set:
 - cloakpoint.com
 - cloud.cupronickel.goog
 - cloudcone.com
+- cloudflare-dns.com
 - cloudflare-ipfs.com
 - cloudflare.com
 - cloudfront.net
@@ -6234,6 +6236,7 @@ domain_suffix_set:
 - untraceable.us
 - unwire.hk
 - uocn.org
+- upbit.com
 - updatestar.com
 - upghsbc.com
 - upholdjustice.org

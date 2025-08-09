@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6521
+# 规则统计: 6524
 
 payload:
   - 'api.waqi.info'
@@ -646,6 +646,7 @@ payload:
   - '+.bitcointalk.org'
   - '+.bitcoinworld.com'
   - '+.bitfinex.com'
+  - '+.bitget.com'
   - '+.bithumb.com'
   - '+.bitinka.com.ar'
   - '+.bitmex.com'
@@ -1113,6 +1114,7 @@ payload:
   - '+.cloakpoint.com'
   - '+.cloud.cupronickel.goog'
   - '+.cloudcone.com'
+  - '+.cloudflare-dns.com'
   - '+.cloudflare-ipfs.com'
   - '+.cloudflare.com'
   - '+.cloudfront.net'
@@ -5763,6 +5765,7 @@ payload:
   - '+.untraceable.us'
   - '+.unwire.hk'
   - '+.uocn.org'
+  - '+.upbit.com'
   - '+.updatestar.com'
   - '+.upghsbc.com'
   - '+.upholdjustice.org'

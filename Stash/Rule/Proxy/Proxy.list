@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 6643
+# 规则统计: 6646
 
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
@@ -645,6 +645,7 @@ DOMAIN-SUFFIX,bitchute.com
 DOMAIN-SUFFIX,bitcointalk.org
 DOMAIN-SUFFIX,bitcoinworld.com
 DOMAIN-SUFFIX,bitfinex.com
+DOMAIN-SUFFIX,bitget.com
 DOMAIN-SUFFIX,bithumb.com
 DOMAIN-SUFFIX,bitinka.com.ar
 DOMAIN-SUFFIX,bitmex.com
@@ -1112,6 +1113,7 @@ DOMAIN-SUFFIX,clips4sale.com
 DOMAIN-SUFFIX,cloakpoint.com
 DOMAIN-SUFFIX,cloud.cupronickel.goog
 DOMAIN-SUFFIX,cloudcone.com
+DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudfront.net
@@ -5762,6 +5764,7 @@ DOMAIN-SUFFIX,unstable.icu
 DOMAIN-SUFFIX,untraceable.us
 DOMAIN-SUFFIX,unwire.hk
 DOMAIN-SUFFIX,uocn.org
+DOMAIN-SUFFIX,upbit.com
 DOMAIN-SUFFIX,updatestar.com
 DOMAIN-SUFFIX,upghsbc.com
 DOMAIN-SUFFIX,upholdjustice.org

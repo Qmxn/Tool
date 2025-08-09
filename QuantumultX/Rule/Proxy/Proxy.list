@@ -1,5 +1,5 @@
 # 规则名称: Proxy.list
-# 规则统计: 7142
+# 规则统计: 7145
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -670,6 +670,7 @@ HOST-SUFFIX,bitchute.com,Proxy
 HOST-SUFFIX,bitcointalk.org,Proxy
 HOST-SUFFIX,bitcoinworld.com,Proxy
 HOST-SUFFIX,bitfinex.com,Proxy
+HOST-SUFFIX,bitget.com,Proxy
 HOST-SUFFIX,bithumb.com,Proxy
 HOST-SUFFIX,bitinka.com.ar,Proxy
 HOST-SUFFIX,bitmex.com,Proxy
@@ -1204,6 +1205,7 @@ HOST-SUFFIX,clips4sale.com,Proxy
 HOST-SUFFIX,cloakpoint.com,Proxy
 HOST-SUFFIX,cloud.cupronickel.goog,Proxy
 HOST-SUFFIX,cloudcone.com,Proxy
+HOST-SUFFIX,cloudflare-dns.com,Proxy
 HOST-SUFFIX,cloudflare-ipfs.com,Proxy
 HOST-SUFFIX,cloudflare.com,Proxy
 HOST-SUFFIX,cloudfront.net,Proxy
@@ -6232,6 +6234,7 @@ HOST-SUFFIX,unstable.icu,Proxy
 HOST-SUFFIX,untraceable.us,Proxy
 HOST-SUFFIX,unwire.hk,Proxy
 HOST-SUFFIX,uocn.org,Proxy
+HOST-SUFFIX,upbit.com,Proxy
 HOST-SUFFIX,updatestar.com,Proxy
 HOST-SUFFIX,upghsbc.com,Proxy
 HOST-SUFFIX,upholdjustice.org,Proxy
