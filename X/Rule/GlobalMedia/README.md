@@ -12,19 +12,19 @@ GlobalMedia规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2025-07-30 02:08:17
+最后更新时间：2025-08-12 02:08:07
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
-| DOMAIN | 35  | 
+| DOMAIN | 36  | 
 | DOMAIN-KEYWORD | 26  | 
-| DOMAIN-SUFFIX | 1270  | 
+| DOMAIN-SUFFIX | 1272  | 
 | DOMAIN-WILDCARD | 10  | 
 | IP-CIDR | 918  | 
 | IP-CIDR6 | 6  | 
 | USER-AGENT(X支持) | 69  | 
-| TOTAL(仅供参考) | 2334  | 
+| TOTAL(仅供参考) | 2337  | 
 
 
 ## X 

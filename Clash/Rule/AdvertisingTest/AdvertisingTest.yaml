@@ -1,5 +1,5 @@
 # 规则名称: AdvertisingTest
-# 规则统计: 790
+# 规则统计: 791
 
 payload:
   - DOMAIN-KEYWORD,-logging.nextmedia.com
@@ -666,6 +666,7 @@ payload:
   - IP-CIDR,23.109.121.254/32
   - IP-CIDR,23.109.150.208/32
   - IP-CIDR,23.109.150.253/32
+  - IP-CIDR,23.109.170.19/32
   - IP-CIDR,23.109.170.212/32
   - IP-CIDR,23.109.170.228/32
   - IP-CIDR,23.109.170.241/32

@@ -1,5 +1,5 @@
 # 规则名称: AdvertisingLite.list
-# 规则统计: 38063
+# 规则统计: 38069
 
 HOST,00-gov.cn,AdvertisingLite
 HOST,0024aadd.com,AdvertisingLite
@@ -25868,6 +25868,7 @@ HOST-SUFFIX,analytics3.starschina.com,AdvertisingLite
 HOST-SUFFIX,analyticsengine.s3.amazonaws.com,AdvertisingLite
 HOST-SUFFIX,analyticsv2.dol.gr,AdvertisingLite
 HOST-SUFFIX,analyze.full-marke.com,AdvertisingLite
+HOST-SUFFIX,analyzer51.fc2.com,AdvertisingLite
 HOST-SUFFIX,analyzer52.fc2.com,AdvertisingLite
 HOST-SUFFIX,anastasiaana.com,AdvertisingLite
 HOST-SUFFIX,anatomicele.site,AdvertisingLite
@@ -27298,6 +27299,7 @@ HOST-SUFFIX,clotfun.online,AdvertisingLite
 HOST-SUFFIX,cloud.zyiis.net,AdvertisingLite
 HOST-SUFFIX,cloudad.asia,AdvertisingLite
 HOST-SUFFIX,cloudcdn.dopa.com.cn,AdvertisingLite
+HOST-SUFFIX,cloudfront-labs.amazonaws.com,AdvertisingLite
 HOST-SUFFIX,cloudmobi.net,AdvertisingLite
 HOST-SUFFIX,cloudpush.iqiyi.com,AdvertisingLite
 HOST-SUFFIX,clubpenguinclub.com,AdvertisingLite
@@ -29456,6 +29458,7 @@ HOST-SUFFIX,gnativestreesaga.site,AdvertisingLite
 HOST-SUFFIX,gneusqa.cn,AdvertisingLite
 HOST-SUFFIX,gnmbd.top,AdvertisingLite
 HOST-SUFFIX,gnncc.cc,AdvertisingLite
+HOST-SUFFIX,go-mpulse.net,AdvertisingLite
 HOST-SUFFIX,go.10086.cn,AdvertisingLite
 HOST-SUFFIX,go.hangzhou.com.cn,AdvertisingLite
 HOST-SUFFIX,go.onclasrv.com,AdvertisingLite
@@ -29566,6 +29569,7 @@ HOST-SUFFIX,gtiou.com,AdvertisingLite
 HOST-SUFFIX,gtmsdd.alicdn.com,AdvertisingLite
 HOST-SUFFIX,gtmucs.cn,AdvertisingLite
 HOST-SUFFIX,gtnde.com,AdvertisingLite
+HOST-SUFFIX,gtrk.s3.amazonaws.com,AdvertisingLite
 HOST-SUFFIX,gu.qlogo.cn,AdvertisingLite
 HOST-SUFFIX,guaas.com,AdvertisingLite
 HOST-SUFFIX,guang.lesports.com,AdvertisingLite
@@ -34900,6 +34904,7 @@ HOST-SUFFIX,stats.twistage.com,AdvertisingLite
 HOST-SUFFIX,stats.uswitch.com,AdvertisingLite
 HOST-SUFFIX,stats.videodelivery.net,AdvertisingLite
 HOST-SUFFIX,stats.visistat.com,AdvertisingLite
+HOST-SUFFIX,stats.wp.com,AdvertisingLite
 HOST-SUFFIX,stats.wwd.com,AdvertisingLite
 HOST-SUFFIX,stats.yinyuetai.com,AdvertisingLite
 HOST-SUFFIX,stats.ynet.co.il,AdvertisingLite
@@ -35616,6 +35621,7 @@ HOST-SUFFIX,traffic.mogujie.com,AdvertisingLite
 HOST-SUFFIX,traffic.uusee.com,AdvertisingLite
 HOST-SUFFIX,trafficfactory.biz,AdvertisingLite
 HOST-SUFFIX,trafficforce.com,AdvertisingLite
+HOST-SUFFIX,trafficfuelpixel.s3-us-west-2.amazonaws.com,AdvertisingLite
 HOST-SUFFIX,trafficjam.cn,AdvertisingLite
 HOST-SUFFIX,trafficjunky.com,AdvertisingLite
 HOST-SUFFIX,trafficjunky.net,AdvertisingLite

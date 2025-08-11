@@ -1,5 +1,5 @@
 # 规则名称: Alibaba
-# 规则统计: 1319
+# 规则统计: 1320
 no_resolve: true
 domain_suffix_set:
 - 10029.com
@@ -976,6 +976,7 @@ domain_suffix_set:
 - quark.cn
 - qutao.com
 - qutianshanav.com
+- qwen.ai
 - qwqfzl.com
 - rdcnzz.com
 - rergdfh.com

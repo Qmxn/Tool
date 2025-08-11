@@ -1,5 +1,5 @@
 # 规则名称: AdvertisingLite_Domain_For_Clash
-# 规则统计: 37689
+# 规则统计: 37695
 
 00-gov.cn
 0024aadd.com
@@ -25868,6 +25868,7 @@ zzxosget.com
 +.analyticsengine.s3.amazonaws.com
 +.analyticsv2.dol.gr
 +.analyze.full-marke.com
++.analyzer51.fc2.com
 +.analyzer52.fc2.com
 +.anastasiaana.com
 +.anatomicele.site
@@ -27298,6 +27299,7 @@ zzxosget.com
 +.cloud.zyiis.net
 +.cloudad.asia
 +.cloudcdn.dopa.com.cn
++.cloudfront-labs.amazonaws.com
 +.cloudmobi.net
 +.cloudpush.iqiyi.com
 +.clubpenguinclub.com
@@ -29456,6 +29458,7 @@ zzxosget.com
 +.gneusqa.cn
 +.gnmbd.top
 +.gnncc.cc
++.go-mpulse.net
 +.go.10086.cn
 +.go.hangzhou.com.cn
 +.go.onclasrv.com
@@ -29566,6 +29569,7 @@ zzxosget.com
 +.gtmsdd.alicdn.com
 +.gtmucs.cn
 +.gtnde.com
++.gtrk.s3.amazonaws.com
 +.gu.qlogo.cn
 +.guaas.com
 +.guang.lesports.com
@@ -34900,6 +34904,7 @@ zzxosget.com
 +.stats.uswitch.com
 +.stats.videodelivery.net
 +.stats.visistat.com
++.stats.wp.com
 +.stats.wwd.com
 +.stats.yinyuetai.com
 +.stats.ynet.co.il
@@ -35616,6 +35621,7 @@ zzxosget.com
 +.traffic.uusee.com
 +.trafficfactory.biz
 +.trafficforce.com
++.trafficfuelpixel.s3-us-west-2.amazonaws.com
 +.trafficjam.cn
 +.trafficjunky.com
 +.trafficjunky.net

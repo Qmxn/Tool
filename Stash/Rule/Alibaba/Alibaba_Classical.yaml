@@ -1,5 +1,5 @@
 # 规则名称: Alibaba_Classical
-# 规则统计: 1321
+# 规则统计: 1322
 
 payload:
   - DOMAIN-SUFFIX,10029.com
@@ -976,6 +976,7 @@ payload:
   - DOMAIN-SUFFIX,quark.cn
   - DOMAIN-SUFFIX,qutao.com
   - DOMAIN-SUFFIX,qutianshanav.com
+  - DOMAIN-SUFFIX,qwen.ai
   - DOMAIN-SUFFIX,qwqfzl.com
   - DOMAIN-SUFFIX,rdcnzz.com
   - DOMAIN-SUFFIX,rergdfh.com

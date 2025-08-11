@@ -1,5 +1,5 @@
 # 规则名称: Direct
-# 规则统计: 218
+# 规则统计: 231
 domain_set:
 - ad.10010.com
 - ad.12306.cn
@@ -92,14 +92,24 @@ domain_suffix_set:
 - concertos.live
 - dicmusic.club
 - discfan.net
+- diskstation.me
 - dizhensubao.getui.com
 - doi.org
+- dscloud.biz
+- dscloud.me
+- dscloud.mobi
+- dsmynas.com
+- dsmynas.net
+- dsmynas.org
 - dxdhd.com
 - eastgame.org
 - empornium.me
 - et8.org
 - exoticaz.to
 - f.video.weibocdn.com
+- familyds.com
+- familyds.net
+- familyds.org
 - filelist.io
 - fus.cdn.krcom.cn
 - gazellegames.net
@@ -125,6 +135,7 @@ domain_suffix_set:
 - hdzone.me
 - hitpt.com
 - hudbt.hust.edu.cn
+- i234.me
 - icetorrent.org
 - ieee.org
 - j99.info
@@ -143,6 +154,7 @@ domain_suffix_set:
 - moecat.best
 - msg.vg
 - myanonamouse.net
+- myds.me
 - nanyangpt.com
 - nature.com
 - ncore.cc
@@ -173,6 +185,7 @@ domain_suffix_set:
 - springernature.com
 - springsunday.net
 - staticfile.org
+- synology.me
 - tjupt.org
 - totheglory.im
 - tracking-protection.cdn.mozilla.net

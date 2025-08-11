@@ -1,5 +1,5 @@
 # 规则名称: Alibaba.list
-# 规则统计: 1319
+# 规则统计: 1320
 
 HOST-SUFFIX,10029.com,Alibaba
 HOST-SUFFIX,1688.com,Alibaba
@@ -975,6 +975,7 @@ HOST-SUFFIX,qqwewew.com,Alibaba
 HOST-SUFFIX,quark.cn,Alibaba
 HOST-SUFFIX,qutao.com,Alibaba
 HOST-SUFFIX,qutianshanav.com,Alibaba
+HOST-SUFFIX,qwen.ai,Alibaba
 HOST-SUFFIX,qwqfzl.com,Alibaba
 HOST-SUFFIX,rdcnzz.com,Alibaba
 HOST-SUFFIX,rergdfh.com,Alibaba

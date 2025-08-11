@@ -1,5 +1,5 @@
 # 规则名称: AdvertisingLite
-# 规则统计: 38063
+# 规则统计: 38069
 no_resolve: true
 domain_set:
 - 00-gov.cn
@@ -25870,6 +25870,7 @@ domain_suffix_set:
 - analyticsengine.s3.amazonaws.com
 - analyticsv2.dol.gr
 - analyze.full-marke.com
+- analyzer51.fc2.com
 - analyzer52.fc2.com
 - anastasiaana.com
 - anatomicele.site
@@ -27300,6 +27301,7 @@ domain_suffix_set:
 - cloud.zyiis.net
 - cloudad.asia
 - cloudcdn.dopa.com.cn
+- cloudfront-labs.amazonaws.com
 - cloudmobi.net
 - cloudpush.iqiyi.com
 - clubpenguinclub.com
@@ -29458,6 +29460,7 @@ domain_suffix_set:
 - gneusqa.cn
 - gnmbd.top
 - gnncc.cc
+- go-mpulse.net
 - go.10086.cn
 - go.hangzhou.com.cn
 - go.onclasrv.com
@@ -29568,6 +29571,7 @@ domain_suffix_set:
 - gtmsdd.alicdn.com
 - gtmucs.cn
 - gtnde.com
+- gtrk.s3.amazonaws.com
 - gu.qlogo.cn
 - guaas.com
 - guang.lesports.com
@@ -34902,6 +34906,7 @@ domain_suffix_set:
 - stats.uswitch.com
 - stats.videodelivery.net
 - stats.visistat.com
+- stats.wp.com
 - stats.wwd.com
 - stats.yinyuetai.com
 - stats.ynet.co.il
@@ -35618,6 +35623,7 @@ domain_suffix_set:
 - traffic.uusee.com
 - trafficfactory.biz
 - trafficforce.com
+- trafficfuelpixel.s3-us-west-2.amazonaws.com
 - trafficjam.cn
 - trafficjunky.com
 - trafficjunky.net

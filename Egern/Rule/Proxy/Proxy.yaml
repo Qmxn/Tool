@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7137
+# 规则统计: 7094
 no_resolve: true
 domain_set:
 - api.msn.com
@@ -56,6 +56,7 @@ domain_suffix_set:
 - 1984.city
 - 1984bbs.com
 - 1984bbs.org
+- 1989report.hkja.org.hk
 - 1991way.com
 - 1998cdp.org
 - 1bao.org
@@ -108,6 +109,7 @@ domain_suffix_set:
 - 4bluestones.biz
 - 4chan.com
 - 4dq.com
+- 4everland.io
 - 4everproxy.com
 - 4gtv.tv
 - 4irc.com
@@ -158,8 +160,6 @@ domain_suffix_set:
 - 8news.com.tw
 - 8teenxxx.com
 - 8z1.net
-- 9001700.com
-- 908taiwan.org
 - 91dasai.com
 - 91porn.com
 - 91porny.com
@@ -179,16 +179,15 @@ domain_suffix_set:
 - aamacau.com
 - abc.com
 - abc.net.au
+- abc.pp.ru
 - abc.xyz
 - abchinese.com
-- abclite.net
 - abebooks.co.uk
 - abebooks.com
 - abematv.akamaized.net
 - ablwang.com
 - about.google
 - about.me
-- aboutgfw.com
 - abpchina.org
 - abplive.com
 - abs.edu
@@ -411,6 +410,8 @@ domain_suffix_set:
 - apkpure.net
 - aplusvpn.com
 - app-measurement.net
+- app.heywire.com
+- app.tutanota.com
 - appadvice.com
 - appdownloader.net
 - apple-dns.net
@@ -444,6 +445,7 @@ domain_suffix_set:
 - arlingtoncemetery.mil
 - armorgames.com
 - army.mil
+- arstechnica.net
 - art4tibet1998.org
 - arte.tv
 - artofpeacefoundation.org
@@ -458,7 +460,6 @@ domain_suffix_set:
 - asiaharvest.org
 - asianage.com
 - asianews.it
-- asianfreeforum.com
 - asiansexdiary.com
 - asianspiss.com
 - asianwomensfilm.de
@@ -512,7 +513,6 @@ domain_suffix_set:
 - azerbaycan.tv
 - azerimix.com
 - azirevpn.com
-- azubu.tv
 - azure.com
 - azureedge.net
 - azurewebsites.net
@@ -573,8 +573,10 @@ domain_suffix_set:
 - bbkz.com
 - bbnradio.org
 - bbs-tw.com
-- bbs.naixi.net
+- bbs.kimy.com.tw
+- bbs.qmzdd.com
 - bbs.sina.com
+- bbs.tuitui.info
 - bbsdigest.com
 - bbsfeed.com
 - bbsland.com
@@ -668,6 +670,7 @@ domain_suffix_set:
 - bit.no.com
 - bitbay.net
 - bitbucket.org
+- bitc.bme.emory.edu
 - bitchute.com
 - bitcointalk.org
 - bitcoinworld.com
@@ -702,10 +705,13 @@ domain_suffix_set:
 - blockedbyhk.com
 - blockless.com
 - blocktempo.com
+- blog.calibre-ebook.com
 - blog.com
 - blog.de
+- blog.exblog.co.jp
 - blog.google
 - blog.jp
+- blog.kangye.org
 - blog.qooza.hk
 - blogblog.com
 - blogcdn.com
@@ -716,6 +722,7 @@ domain_suffix_set:
 - blogjav.net
 - bloglovin.com
 - blogs.com
+- blogs.tampabay.com
 - blogsmithmedia.com
 - blogspot.ae
 - blogspot.al
@@ -799,7 +806,6 @@ domain_suffix_set:
 - bodog88.com
 - bolehvpn.net
 - bonbonme.com
-- bonbonsex.com
 - bonfoundation.org
 - boobstagram.com
 - book.com.tw
@@ -925,15 +931,12 @@ domain_suffix_set:
 - cactusvpn.com
 - cafepress.com
 - cahr.org.tw
-- caijinglengyan.com
 - calameo.com
 - calebelston.com
 - calendarz.com
 - calgarychinese.ca
 - calgarychinese.com
 - calgarychinese.net
-- calibre-ebook.com
-- caltech.edu
 - cam4.com
 - cam4.jp
 - cam4.sg
@@ -1007,7 +1010,6 @@ domain_suffix_set:
 - cdjp.org
 - cdn-telegram.org
 - cdn.angruo.com
-- cdn.arstechnica.net
 - cdn.segment.com
 - cdnews.com.tw
 - cdninstagram.com
@@ -1041,6 +1043,7 @@ domain_suffix_set:
 - cftfc.com
 - cgdepot.org
 - cgst.edu
+- ch.shvoong.com
 - change.org
 - changeip.name
 - changeip.net
@@ -1200,6 +1203,7 @@ domain_suffix_set:
 - clearwisdom.net
 - clementine-player.org
 - clien.net
+- cling.omy.sg
 - clinica-tibet.ru
 - clipconverter.cc
 - clipfish.de
@@ -1235,19 +1239,16 @@ domain_suffix_set:
 - cnd.org
 - cnet.com
 - cnineu.com
-- cnitter.com
 - cnn.com
 - cnpolitics.org
 - cnproxy.com
 - cnyes.com
-- co.tv
 - coat.co.jp
 - cobinhood.com
 - cochina.co
 - cochina.org
 - cocoapods.org
 - code1984.com
-- codeplex.com
 - codeshare.io
 - codeskulptor.org
 - cofacts.tw
@@ -1268,22 +1269,20 @@ domain_suffix_set:
 - collateralmurder.com
 - collateralmurder.org
 - com.google
-- com.uk
 - comedycentral.com
 - comefromchina.com
 - comic-mega.me
-- comico.tw
 - commandarms.com
 - comments.app
 - commentshk.com
 - communistcrimes.org
+- community.windy.com
 - communitychoicecu.com
 - comodoca.com
 - comparitech.com
 - compileheart.com
 - compose-spec.io
 - compress.to
-- compython.net
 - conoha.jp
 - constitutionalism.solutions
 - contactmagazine.net
@@ -1298,6 +1297,7 @@ domain_suffix_set:
 - coolstuffinc.com
 - corumcollege.com
 - cos-moe.com
+- cosmic.monar.ch
 - cosplayjav.pl
 - costco.com
 - cotweet.com
@@ -1460,6 +1460,7 @@ domain_suffix_set:
 - deja.com
 - delcamp.net
 - delicious.com
+- demo.opera-mini.net
 - democrats.org
 - demosisto.hk
 - depositphotos.com
@@ -1491,7 +1492,6 @@ domain_suffix_set:
 - digitaltrends.com
 - diigo.com
 - dilber.se
-- dingchin.com.tw
 - dipity.com
 - directcreative.com
 - discoins.com
@@ -1731,7 +1731,6 @@ domain_suffix_set:
 - emanna.com
 - embr.in
 - emilylau.org.hk
-- emory.edu
 - empfil.com
 - emule-ed2k.com
 - emulefans.com
@@ -1817,7 +1816,6 @@ domain_suffix_set:
 - evozi.com
 - evschool.net
 - exam.gov.tw
-- exblog.co.jp
 - exblog.jp
 - exchristian.hk
 - excite.co.jp
@@ -1983,6 +1981,7 @@ domain_suffix_set:
 - filesor.com
 - fillthesquare.org
 - filmingfortibet.org
+- filmy.olabloga.pl
 - filthdump.com
 - financetwitter.com
 - financialexpress.com
@@ -2045,10 +2044,12 @@ domain_suffix_set:
 - foreignpolicy.com
 - form.new
 - forms.new
+- forum.omy.sg
 - forum4hk.com
 - forums-free.com
 - fotile.me
 - fountmedia.io
+- fourface.nodesnoop.com
 - fourthinternational.org
 - foxbusiness.com
 - foxdie.us
@@ -2359,6 +2360,7 @@ domain_suffix_set:
 - go-to-zlibrary.se
 - go.com
 - go.jp
+- go.nesnode.com
 - go.sony.com
 - go141.com
 - go5.dev
@@ -2530,6 +2532,7 @@ domain_suffix_set:
 - google.com.tz
 - google.com.ua
 - google.com.ug
+- google.com.uk
 - google.com.uy
 - google.com.uz
 - google.com.vc
@@ -2794,6 +2797,7 @@ domain_suffix_set:
 - hechaji.com
 - heeact.edu.tw
 - hegre-art.com
+- heix.pp.ru
 - helixstudios.net
 - helloandroid.com
 - helloavgirls.com
@@ -2805,7 +2809,6 @@ domain_suffix_set:
 - helplinfen.com
 - helpshift.com
 - helpster.de
-- helpuyghursnow.org
 - helpzhuling.org
 - hentai.to
 - hentaitube.tv
@@ -2820,7 +2823,6 @@ domain_suffix_set:
 - hexieshe.xyz
 - hexxeh.net
 - heyuedi.com
-- heywire.com
 - heyzo.com
 - hgseav.com
 - hhdcb3office.org
@@ -2879,7 +2881,6 @@ domain_suffix_set:
 - hkcmi.edu
 - hkcnews.com
 - hkcoc.com
-- hkctu.org.hk
 - hkdailynews.com.hk
 - hkday.net
 - hkdc.us
@@ -2899,7 +2900,6 @@ domain_suffix_set:
 - hkhrc.org.hk
 - hkhrm.org.hk
 - hkip.org.uk
-- hkja.org.hk
 - hkjc.com
 - hkjp.org
 - hklft.com
@@ -2929,6 +2929,7 @@ domain_suffix_set:
 - holyspiritspeaks.org
 - home.saxo
 - home.sina.com
+- home.so-net.net.tw
 - homedepot.com
 - homeperversion.com
 - homeservershow.com
@@ -3059,7 +3060,6 @@ domain_suffix_set:
 - iav19.com
 - iavian.net
 - ibiblio.org
-- ibit.am
 - iblist.com
 - iblogserv-f.net
 - ibros.org
@@ -3074,7 +3074,6 @@ domain_suffix_set:
 - icl-fi.org
 - icntv.xyz
 - icoco.com
-- iconfactory.net
 - iconpaper.org
 - icons8.com
 - icu-project.org
@@ -3093,7 +3092,6 @@ domain_suffix_set:
 - ieasy5.com
 - ied2k.net
 - ienergy1.com
-- iepl.us
 - if.ttt
 - ifanqiang.com
 - ifcss.org
@@ -3134,7 +3132,6 @@ domain_suffix_set:
 - imb.org
 - imdb.com
 - img.ly
-- img.picgo.net
 - imgasd.com
 - imgchili.net
 - imgmega.com
@@ -3186,6 +3183,7 @@ domain_suffix_set:
 - institut-tibetain.org
 - instructables.com
 - interactivebrokers.com
+- international-news.newsmagazine.asia
 - internet.org
 - internetfreedom.org
 - internetpopculture.com
@@ -3201,7 +3199,6 @@ domain_suffix_set:
 - ipalter.com
 - ipdefenseforum.com
 - ipfire.org
-- ipfs.4everland.io
 - ipfs.io
 - iphone4hongkong.com
 - iphonehacks.com
@@ -3223,6 +3220,7 @@ domain_suffix_set:
 - iredmail.org
 - irib.ir
 - irna.ir
+- ironbigfools.compython.net
 - ironpython.net
 - ironsocket.com
 - is-a-hunter.com
@@ -3422,7 +3420,6 @@ domain_suffix_set:
 - kakaocdn.net
 - kalachakralugano.org
 - kanald.com.tr
-- kangye.org
 - kankan.today
 - kannewyork.com
 - kanshifang.com
@@ -3457,7 +3454,6 @@ domain_suffix_set:
 - kichiku-doujinko.com
 - kik.com
 - killwall.com
-- kimy.com.tw
 - kindle4rss.com
 - kindleren.com
 - kingdomsalvation.org
@@ -3507,7 +3503,6 @@ domain_suffix_set:
 - kurtmunger.com
 - kusocity.com
 - kwcg.ca
-- kwok7.com
 - kwongwah.com.my
 - kxsw.life
 - kyofun.com
@@ -3524,7 +3519,6 @@ domain_suffix_set:
 - lalulalu.com
 - lama.com.tw
 - lamayeshe.com
-- lamenhu.com
 - lamnia.co.uk
 - lamrim.com
 - landofhope.tv
@@ -3541,7 +3535,6 @@ domain_suffix_set:
 - latelinenews.com
 - latibet.org
 - lausan.hk
-- law.com
 - lbank.info
 - ld.hao123img.com
 - ldplayer.net
@@ -3555,6 +3548,7 @@ domain_suffix_set:
 - lefora.com
 - left21.hk
 - legalporno.com
+- legaltech.law.com
 - legra.ph
 - legsjapan.com
 - leirentv.ca
@@ -3563,16 +3557,13 @@ domain_suffix_set:
 - lematin.ch
 - lemonde.fr
 - lenwhite.com
-- leorockwell.com
 - lerosua.org
 - lers.google
 - lesoir.be
 - lester850.info
 - letou.com
 - letscorp.net
-- letsencrypt.org
 - level-plus.net
-- levyhsu.com
 - lflink.com
 - lflinkup.com
 - lflinkup.net
@@ -3657,7 +3648,6 @@ domain_suffix_set:
 - llnwd.net
 - llss.me
 - lmsys.org
-- lncn.org
 - load.to
 - lobsangwangyal.com
 - localbitcoins.com
@@ -3709,6 +3699,8 @@ domain_suffix_set:
 - m-sport.co.uk
 - m-team.cc
 - m.me
+- m.plixi.com
+- m.slandr.net
 - m8008.com
 - ma.hao123.com
 - macgamestore.com
@@ -3955,7 +3947,6 @@ domain_suffix_set:
 - mol.gov.tw
 - molihua.org
 - momoshop.com.tw
-- monar.ch
 - mondex.org
 - money-link.com.tw
 - moneydj.com
@@ -4057,6 +4048,7 @@ domain_suffix_set:
 - myeclipseide.com
 - myfontastic.com
 - myforum.com.hk
+- myforum.com.uk
 - myfreecams.com
 - myfreepaysite.com
 - myfreshnet.com
@@ -4094,8 +4086,8 @@ domain_suffix_set:
 - mywww.biz
 - myz.info
 - naacoalition.org
-- nabble.com
 - naitik.net
+- naixi.net
 - nakido.com
 - nakuz.com
 - nalandabodhi.org
@@ -4103,7 +4095,6 @@ domain_suffix_set:
 - name.com
 - namgyal.org
 - namgyalmonastery.org
-- namsisi.com
 - nanopool.org
 - nanyang.com
 - nanyangpost.com
@@ -4141,12 +4132,9 @@ domain_suffix_set:
 - ned.org
 - nekoslovakia.net
 - neo-miracle.com
+- neoforged.net
 - neowin.net
-- nepusoku.com
-- nesnode.com
-- net-fits.pro
 - netalert.me
-- netbig.com
 - netbirds.com
 - netcolony.com
 - netdna-cdn.com
@@ -4177,6 +4165,7 @@ domain_suffix_set:
 - newlandmagazine.com.au
 - newmitbbs.com
 - newnews.ca
+- news.omy.sg
 - news1.kr
 - news100.com.tw
 - news18.com
@@ -4186,7 +4175,6 @@ domain_suffix_set:
 - newscn.org
 - newsdetox.ca
 - newsdh.com
-- newsmagazine.asia
 - newsmax.com
 - newspeak.cc
 - newstamago.com
@@ -4217,7 +4205,6 @@ domain_suffix_set:
 - ng.mil
 - nga.mil
 - ngensis.com
-- ngodupdongchung.com
 - nhentai.net
 - nhi.gov.tw
 - nhk-ondemand.jp
@@ -4259,9 +4246,7 @@ domain_suffix_set:
 - nobel.se
 - nobelprize.org
 - nobodycanstop.us
-- nodeloc.com
 - nodeseek.com
-- nodesnoop.com
 - nofile.io
 - nokogiri.org
 - nokola.com
@@ -4273,7 +4258,6 @@ domain_suffix_set:
 - nordstromrack.com
 - nordvpn.com
 - nos.nl
-- notebooklm.google
 - notepad-plus-plus.org
 - notion.so
 - nottinghampost.com
@@ -4329,11 +4313,11 @@ domain_suffix_set:
 - nutsvpn.work
 - nuuvem.com
 - nuvid.com
-- nuzcom.com
 - nvdst.com
 - nvquan.org
 - nvtongzhisheng.org
 - nwtca.org
+- ny.stgloballink.com
 - nyaa.eu
 - nyaa.si
 - nybooks.com
@@ -4365,6 +4349,7 @@ domain_suffix_set:
 - ocnttv.com
 - ocreampies.com
 - ocry.com
+- ocsp.int-x3.letsencrypt.org
 - october-review.org
 - oculus.com
 - oculuscdn.com
@@ -4386,7 +4371,6 @@ domain_suffix_set:
 - okk.tw
 - okpool.me
 - okx.com
-- olabloga.pl
 - old-cat.net
 - olehdtv.com
 - olelive.com
@@ -4400,7 +4384,6 @@ domain_suffix_set:
 - omnitalk.com
 - omnitalk.org
 - omny.fm
-- omy.sg
 - on.cc
 - on2.com
 - onapp.com
@@ -4438,18 +4421,15 @@ domain_suffix_set:
 - openid.net
 - openleaks.org
 - opensea.io
-- opensource.google
 - openstreetmap.org
 - opentech.fund
 - openvpn.net
 - openvpn.org
 - openwebster.com
 - openwrt.org
-- opera-mini.net
 - opera.com
 - opus-gaming.com
 - oraclecloud.com
-- orchidbbs.com
 - organcare.org.tw
 - organharvestinvestigation.net
 - organiccrap.com
@@ -4460,7 +4440,6 @@ domain_suffix_set:
 - orientaldaily.com.my
 - orkut.com
 - orn.jp
-- orzdream.com
 - orzistic.org
 - osfoora.com
 - osha.gov
@@ -4533,7 +4512,6 @@ domain_suffix_set:
 - parsevideo.com
 - passion.com
 - passiontimes.hk
-- passwords.google
 - paste.ee
 - pastebin.com
 - pastie.org
@@ -4564,7 +4542,6 @@ domain_suffix_set:
 - peace.ca
 - peacefire.org
 - peacehall.com
-- pearlher.org
 - peeasian.com
 - peing.net
 - pekingduck.org
@@ -4609,6 +4586,7 @@ domain_suffix_set:
 - picacomic.com
 - picacomiccn.com
 - picasaweb.com
+- picgo.net
 - picidae.net
 - picjs.xyz
 - picturedip.com
@@ -4653,7 +4631,6 @@ domain_suffix_set:
 - pkuanvil.com
 - placemix.com
 - play-asia.com
-- play.google
 - playartifact.com
 - playboy.com
 - playboyplus.com
@@ -4665,7 +4642,6 @@ domain_suffix_set:
 - playstation.net
 - playstationnetwork.com
 - plexvpn.pro
-- plixi.com
 - plm.org.hk
 - plunder.com
 - plurk.com
@@ -4740,7 +4716,6 @@ domain_suffix_set:
 - powercx.com
 - powerphoto.org
 - powerpointninja.com
-- pp.ru
 - pp.ua
 - ppy.sh
 - prayforchina.net
@@ -4820,7 +4795,6 @@ domain_suffix_set:
 - pursuestar.com
 - pushbullet.com
 - pushchinawall.com
-- pussthecat.org
 - pussyspace.com
 - putihome.org
 - putlocker.com
@@ -4850,7 +4824,6 @@ domain_suffix_set:
 - qiwen.lu
 - qkshare.com
 - qmp4.com
-- qmzdd.com
 - qoos.com
 - qpoe.com
 - qq.co.za
@@ -4917,11 +4890,9 @@ domain_suffix_set:
 - rationalwiki.org
 - rawgit.com
 - rawgithub.com
-- raxcdn.com
 - razyboard.com
 - rcinet.ca
 - rd.com
-- rdio.com
 - rdtcdn.com
 - reabble.com
 - read01.com
@@ -4966,7 +4937,6 @@ domain_suffix_set:
 - religionnews.com
 - religioustolerance.org
 - renyurenquan.org
-- rerouted.org
 - research.google
 - resilio.com
 - resistchina.org
@@ -4986,7 +4956,6 @@ domain_suffix_set:
 - rfi.fr
 - rfi.my
 - rightbtc.com
-- rightster.com
 - rigpa.org
 - riku.me
 - rileyguide.com
@@ -5118,6 +5087,7 @@ domain_suffix_set:
 - secretchina.com
 - secretgarden.no
 - secretsline.biz
+- secure.raxcdn.com
 - secureservercdn.net
 - securetunnel.com
 - securityinabox.org
@@ -5144,7 +5114,6 @@ domain_suffix_set:
 - sethwklein.net
 - setn.com
 - settv.com.tw
-- setty.com.tw
 - sevenload.com
 - sex-11.com
 - sex.com
@@ -5157,7 +5126,6 @@ domain_suffix_set:
 - sexidude.com
 - sexinsex.net
 - sextvx.com
-- sexxxy.biz
 - sf.net
 - sfileydy.com
 - sfshibao.com
@@ -5218,11 +5186,11 @@ domain_suffix_set:
 - shop2000.com.tw
 - shopee.tw
 - shopping.com
+- showbiz.omy.sg
 - showhaotu.com
 - showtime.jp
 - showwe.tw
 - shutterstock.com
-- shvoong.com
 - shwchurch.org
 - shwchurch3.com
 - siddharthasintent.org
@@ -5243,7 +5211,6 @@ domain_suffix_set:
 - simpleswap.io
 - simplex.chat
 - sina.com.hk
-- sina.com.tw
 - sinchew.com.my
 - singaporepools.com.sg
 - singfortibet.com
@@ -5271,6 +5238,7 @@ domain_suffix_set:
 - site90.net
 - sitebro.tw
 - sitekreator.com
+- siteks.uk.to
 - sitemaps.org
 - sites.new
 - six-degrees.io
@@ -5292,7 +5260,6 @@ domain_suffix_set:
 - slack-msgs.com
 - slack.com
 - slacker.com
-- slandr.net
 - slashine.onl
 - slaytizle.com
 - sleazydream.com
@@ -5325,7 +5292,6 @@ domain_suffix_set:
 - sndcdn.com
 - sneakme.net
 - snowlionpub.com
-- so-net.net.tw
 - sobees.com
 - soc.mil
 - social.edu.ci
@@ -5341,7 +5307,6 @@ domain_suffix_set:
 - softether.org
 - softfamous.com
 - softlayer.net
-- softnology.biz
 - softsmirror.cf
 - softwarebychuck.com
 - sogclub.com
@@ -5389,7 +5354,6 @@ domain_suffix_set:
 - southmongolia.org
 - southnews.com.tw
 - sowers.org.hk
-- sowiki.net
 - soylent.com
 - soylentnews.org
 - spankbang.com
@@ -5428,6 +5392,7 @@ domain_suffix_set:
 - squirrelvpn.com
 - srocket.us
 - ss-link.com
+- ss.levyhsu.com
 - ssa.gov
 - ssglobal.co
 - ssglobal.me
@@ -5470,7 +5435,6 @@ domain_suffix_set:
 - steganos.net
 - stepchina.com
 - stephaniered.com
-- stgloballink.com
 - stheadline.com
 - sthoo.com
 - stickam.com
@@ -5504,6 +5468,7 @@ domain_suffix_set:
 - stumbleupon.com
 - stupidvideos.com
 - stweetly.com
+- subacme.rerouted.org
 - subhd.tv
 - substack.com
 - successfn.com
@@ -5528,7 +5493,6 @@ domain_suffix_set:
 - supchina.com
 - superfreevpn.com
 - supermariorun.com
-- superokayama.com
 - superpages.com
 - supervpn.net
 - superzooi.com
@@ -5565,6 +5529,7 @@ domain_suffix_set:
 - t-g.com
 - t.co
 - t.me
+- t.orzdream.com
 - t35.com
 - t66y.com
 - t91y.com
@@ -5608,7 +5573,6 @@ domain_suffix_set:
 - talkcc.com
 - talkonly.net
 - tamiaode.tk
-- tampabay.com
 - tanc.org
 - tangben.com
 - tangren.us
@@ -5625,7 +5589,6 @@ domain_suffix_set:
 - target.com
 - tascn.com.au
 - taup.net
-- taup.org.tw
 - taweet.com
 - tbcollege.org
 - tbi.org.hk
@@ -5982,6 +5945,7 @@ domain_suffix_set:
 - truesocial.media
 - trulyergonomic.com
 - trustasiassl.com
+- truth101.co.tv
 - truthontour.org
 - truthsocial.com
 - truveo.com
@@ -6008,10 +5972,10 @@ domain_suffix_set:
 - tubepornclassic.com
 - tubestack.com
 - tubewolf.com
+- tui.orzdream.com
 - tuibeitu.net
 - tuidang.net
 - tuidang.se
-- tuitui.info
 - tuitwit.com
 - tukaani.org
 - tumbex.com
@@ -6042,11 +6006,9 @@ domain_suffix_set:
 - turkistantimes.com
 - turntable.fm
 - tushycash.com
-- tutanota.com
 - tuvpn.com
 - tuzaijidi.com
 - tv.com
-- tv.google
 - tvants.com
 - tvb.com
 - tvboxnow.com
@@ -6193,7 +6155,6 @@ domain_suffix_set:
 - uhrp.org
 - uighur.nl
 - uighurbiz.net
-- uk.to
 - ukcdp.co.uk
 - ukliferadio.co.uk
 - uku.im
@@ -6292,7 +6253,6 @@ domain_suffix_set:
 - uyghuraa.org
 - uyghuramerican.org
 - uyghurbiz.org
-- uyghurcanadian.ca
 - uyghurcanadiansociety.org
 - uyghurcongress.org
 - uyghurensemble.co.uk
@@ -6311,7 +6271,6 @@ domain_suffix_set:
 - v2mm.tech
 - v2ray.com
 - v2raycn.com
-- v2raytech.com
 - valeursactuelles.com
 - valvesoftware.com
 - van001.com
@@ -6324,6 +6283,7 @@ domain_suffix_set:
 - vbstatic.co
 - vcf-online.org
 - vcfbuilder.org
+- vds.rightster.com
 - vegasred.com
 - velkaepocha.sk
 - venbbs.com
@@ -6368,7 +6328,6 @@ domain_suffix_set:
 - virginia.edu
 - virtualrealporn.com
 - visibletweets.com
-- visiontimes.com
 - vital247.org
 - viu.com
 - viu.tv
@@ -6455,7 +6414,6 @@ domain_suffix_set:
 - vrmtr.com
 - vrporn.com
 - vrsmash.com
-- vs.com
 - vsco.co
 - vtunnel.com
 - vuku.cc
@@ -6495,6 +6453,7 @@ domain_suffix_set:
 - want-daily.com
 - wanz-factory.com
 - wapedia.mobi
+- warbler.iconfactory.net
 - warehouse333.com
 - warroom.org
 - waselpro.com
@@ -6623,7 +6582,6 @@ domain_suffix_set:
 - wilsoncenter.org
 - windowsphoneme.com
 - windscribe.com
-- windy.com
 - wingamestore.com
 - wingy.site
 - winning11.com
@@ -6642,6 +6600,7 @@ domain_suffix_set:
 - witopia.net
 - wizcrafts.net
 - wjbk.org
+- wlx.sowiki.net
 - wmflabs.org
 - wmfusercontent.org
 - wn.com
@@ -6701,7 +6660,9 @@ domain_suffix_set:
 - wuyanblog.com
 - wwe.com
 - wwitv.com
-- www.xicons.org
+- www.lamenhu.com
+- www.orchidbbs.com
+- www.taup.org.tw
 - www1.biz
 - wwwhost.biz
 - wxw.cat
@@ -6731,6 +6692,7 @@ domain_suffix_set:
 - xerotica.com
 - xfiles.to
 - xfinity.com
+- xfm.pp.ru
 - xfxssr.me
 - xgmyd.com
 - xhamster.com
@@ -6747,6 +6709,7 @@ domain_suffix_set:
 - xiaoma.org
 - xiaomi.eu
 - xiaxiaoqiang.net
+- xicons.org
 - xiezhua.com
 - xihua.es
 - xinbao.de
@@ -6758,7 +6721,6 @@ domain_suffix_set:
 - xinyubbs.net
 - xiongpian.com
 - xiuren.org
-- xixicui.icu
 - xizang-zhiye.org
 - xjp.cc
 - xjtravelguide.com
@@ -6893,7 +6855,6 @@ domain_suffix_set:
 - yourtrap.com
 - yousendit.com
 - youshun12.com
-- youthforfreechina.org
 - youthnetradio.org
 - youthwant.com.tw
 - youtu.be
@@ -6966,11 +6927,9 @@ domain_suffix_set:
 - zhongguo.ca
 - zhongguorenquan.org
 - zhongguotese.net
-- zhongmeng.org
 - zhongzidi.com
 - zhoushuguang.com
 - zhreader.com
-- zhuangbi.me
 - zhuatieba.com
 - zhujiget.com
 - zi.media
@@ -7009,11 +6968,9 @@ domain_suffix_set:
 - zuobiao.me
 - zuola.com
 - zvereff.com
-- zynaima.com
 - zynamics.com
 - zyns.com
 - zyxel.com
-- zyzc9.com
 - zzcartoon.com
 - zzcloud.me
 - zzux.com

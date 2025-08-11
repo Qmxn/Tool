@@ -1,5 +1,5 @@
 # 规则名称: Alibaba_Domain
-# 规则统计: 1266
+# 规则统计: 1267
 
 payload:
   - '+.10029.com'
@@ -976,6 +976,7 @@ payload:
   - '+.quark.cn'
   - '+.qutao.com'
   - '+.qutianshanav.com'
+  - '+.qwen.ai'
   - '+.qwqfzl.com'
   - '+.rdcnzz.com'
   - '+.rergdfh.com'

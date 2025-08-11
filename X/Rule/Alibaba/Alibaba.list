@@ -1,5 +1,5 @@
 # 规则名称: Alibaba
-# 规则统计: 1319
+# 规则统计: 1320
 
 DOMAIN-SUFFIX,10029.com
 DOMAIN-SUFFIX,1688.com
@@ -975,6 +975,7 @@ DOMAIN-SUFFIX,qqwewew.com
 DOMAIN-SUFFIX,quark.cn
 DOMAIN-SUFFIX,qutao.com
 DOMAIN-SUFFIX,qutianshanav.com
+DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,qwqfzl.com
 DOMAIN-SUFFIX,rdcnzz.com
 DOMAIN-SUFFIX,rergdfh.com
