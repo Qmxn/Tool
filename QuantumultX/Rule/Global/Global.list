@@ -1,5 +1,5 @@
 # 规则名称: Global.list
-# 规则统计: 32435
+# 规则统计: 32437
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -3884,7 +3884,6 @@ HOST-SUFFIX,binance.co,Global
 HOST-SUFFIX,binance.info,Global
 HOST-SUFFIX,binance.me,Global
 HOST-SUFFIX,binance.net,Global
-HOST-SUFFIX,binance.org,Global
 HOST-SUFFIX,binance.vision,Global
 HOST-SUFFIX,binanceapi.com,Global
 HOST-SUFFIX,binancecnt.com,Global
@@ -12013,7 +12012,6 @@ HOST-SUFFIX,infowars.com,Global
 HOST-SUFFIX,infowarsmedia.com,Global
 HOST-SUFFIX,infrapedia.com,Global
 HOST-SUFFIX,infraworks.com,Global
-HOST-SUFFIX,infura.io,Global
 HOST-SUFFIX,ingads.com,Global
 HOST-SUFFIX,ingka.com,Global
 HOST-SUFFIX,ingka.dev,Global
@@ -25974,6 +25972,7 @@ HOST-SUFFIX,bild.de,Global
 HOST-SUFFIX,biliworld.com,Global
 HOST-SUFFIX,billypan.com,Global
 HOST-SUFFIX,binance.com,Global
+HOST-SUFFIX,binance.org,Global
 HOST-SUFFIX,binance.us,Global
 HOST-SUFFIX,binancezh.cc,Global
 HOST-SUFFIX,bing.com,Global
@@ -28458,6 +28457,7 @@ HOST-SUFFIX,indsr.org.tw,Global
 HOST-SUFFIX,inf.news,Global
 HOST-SUFFIX,info-graf.fr,Global
 HOST-SUFFIX,informer.com,Global
+HOST-SUFFIX,infura.io,Global
 HOST-SUFFIX,ingress.com,Global
 HOST-SUFFIX,inherit.live,Global
 HOST-SUFFIX,initiativesforchina.org,Global
@@ -28975,6 +28975,7 @@ HOST-SUFFIX,lsmwebcast.com,Global
 HOST-SUFFIX,lsxszzg.com,Global
 HOST-SUFFIX,ltn.com.tw,Global
 HOST-SUFFIX,luckydesigner.space,Global
+HOST-SUFFIX,luckymobile.ca,Global
 HOST-SUFFIX,ludepress.com,Global
 HOST-SUFFIX,luke54.com,Global
 HOST-SUFFIX,luke54.org,Global
@@ -29126,6 +29127,7 @@ HOST-SUFFIX,meta.com,Global
 HOST-SUFFIX,metacafe.com,Global
 HOST-SUFFIX,metacubex.one,Global
 HOST-SUFFIX,metafilter.com,Global
+HOST-SUFFIX,metamask.io,Global
 HOST-SUFFIX,metart.com,Global
 HOST-SUFFIX,metarthunter.com,Global
 HOST-SUFFIX,meteorshowersonline.com,Global

@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6485
+# 规则统计: 6489
 
 payload:
   - 'api.waqi.info'
@@ -627,6 +627,7 @@ payload:
   - '+.biliworld.com'
   - '+.billypan.com'
   - '+.binance.com'
+  - '+.binance.org'
   - '+.binance.us'
   - '+.binancezh.cc'
   - '+.bing.com'
@@ -2765,6 +2766,7 @@ payload:
   - '+.inf.news'
   - '+.info-graf.fr'
   - '+.informer.com'
+  - '+.infura.io'
   - '+.ingress.com'
   - '+.inherit.live'
   - '+.initiativesforchina.org'
@@ -3281,6 +3283,7 @@ payload:
   - '+.lsxszzg.com'
   - '+.ltn.com.tw'
   - '+.luckydesigner.space'
+  - '+.luckymobile.ca'
   - '+.ludepress.com'
   - '+.luke54.com'
   - '+.luke54.org'
@@ -3434,6 +3437,7 @@ payload:
   - '+.metacafe.com'
   - '+.metacubex.one'
   - '+.metafilter.com'
+  - '+.metamask.io'
   - '+.metart.com'
   - '+.metarthunter.com'
   - '+.meteorshowersonline.com'

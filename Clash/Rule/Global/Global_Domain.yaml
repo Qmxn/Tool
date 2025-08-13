@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 31678
+# 规则统计: 31680
 
 payload:
   - '1password.drift.click'
@@ -3391,7 +3391,6 @@ payload:
   - '+.binance.info'
   - '+.binance.me'
   - '+.binance.net'
-  - '+.binance.org'
   - '+.binance.vision'
   - '+.binanceapi.com'
   - '+.binancecnt.com'
@@ -11848,7 +11847,6 @@ payload:
   - '+.infowarsmedia.com'
   - '+.infrapedia.com'
   - '+.infraworks.com'
-  - '+.infura.io'
   - '+.ingads.com'
   - '+.ingka.com'
   - '+.ingka.dev'
@@ -25874,6 +25872,7 @@ payload:
   - '+.biliworld.com'
   - '+.billypan.com'
   - '+.binance.com'
+  - '+.binance.org'
   - '+.binance.us'
   - '+.binancezh.cc'
   - '+.bing.com'
@@ -27987,6 +27986,7 @@ payload:
   - '+.inf.news'
   - '+.info-graf.fr'
   - '+.informer.com'
+  - '+.infura.io'
   - '+.ingress.com'
   - '+.inherit.live'
   - '+.initiativesforchina.org'
@@ -28500,6 +28500,7 @@ payload:
   - '+.lsxszzg.com'
   - '+.ltn.com.tw'
   - '+.luckydesigner.space'
+  - '+.luckymobile.ca'
   - '+.ludepress.com'
   - '+.luke54.com'
   - '+.luke54.org'
@@ -28651,6 +28652,7 @@ payload:
   - '+.metacafe.com'
   - '+.metacubex.one'
   - '+.metafilter.com'
+  - '+.metamask.io'
   - '+.metart.com'
   - '+.metarthunter.com'
   - '+.meteorshowersonline.com'

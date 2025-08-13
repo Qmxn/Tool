@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32389
+# 规则统计: 32391
 no_resolve: true
 domain_set:
 - 1password.drift.click
@@ -3886,7 +3886,6 @@ domain_suffix_set:
 - binance.info
 - binance.me
 - binance.net
-- binance.org
 - binance.vision
 - binanceapi.com
 - binancecnt.com
@@ -12015,7 +12014,6 @@ domain_suffix_set:
 - infowarsmedia.com
 - infrapedia.com
 - infraworks.com
-- infura.io
 - ingads.com
 - ingka.com
 - ingka.dev
@@ -25976,6 +25974,7 @@ domain_suffix_set:
 - biliworld.com
 - billypan.com
 - binance.com
+- binance.org
 - binance.us
 - binancezh.cc
 - bing.com
@@ -28460,6 +28459,7 @@ domain_suffix_set:
 - inf.news
 - info-graf.fr
 - informer.com
+- infura.io
 - ingress.com
 - inherit.live
 - initiativesforchina.org
@@ -28977,6 +28977,7 @@ domain_suffix_set:
 - lsxszzg.com
 - ltn.com.tw
 - luckydesigner.space
+- luckymobile.ca
 - ludepress.com
 - luke54.com
 - luke54.org
@@ -29128,6 +29129,7 @@ domain_suffix_set:
 - metacafe.com
 - metacubex.one
 - metafilter.com
+- metamask.io
 - metart.com
 - metarthunter.com
 - meteorshowersonline.com

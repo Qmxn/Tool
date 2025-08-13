@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7094
+# 规则统计: 7098
 no_resolve: true
 domain_set:
 - api.msn.com
@@ -653,6 +653,7 @@ domain_suffix_set:
 - biliworld.com
 - billypan.com
 - binance.com
+- binance.org
 - binance.us
 - binancezh.cc
 - bing.com
@@ -3163,6 +3164,7 @@ domain_suffix_set:
 - inf.news
 - info-graf.fr
 - informer.com
+- infura.io
 - ingress.com
 - inherit.live
 - initiativesforchina.org
@@ -3684,6 +3686,7 @@ domain_suffix_set:
 - lsxszzg.com
 - ltn.com.tw
 - luckydesigner.space
+- luckymobile.ca
 - ludepress.com
 - luke54.com
 - luke54.org
@@ -3837,6 +3840,7 @@ domain_suffix_set:
 - metacafe.com
 - metacubex.one
 - metafilter.com
+- metamask.io
 - metart.com
 - metarthunter.com
 - meteorshowersonline.com

@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 31677
+# 规则统计: 31679
 
 1password.drift.click
 adobeereg.com
@@ -3390,7 +3390,6 @@ login.microsoftonline.com
 .binance.info
 .binance.me
 .binance.net
-.binance.org
 .binance.vision
 .binanceapi.com
 .binancecnt.com
@@ -11847,7 +11846,6 @@ login.microsoftonline.com
 .infowarsmedia.com
 .infrapedia.com
 .infraworks.com
-.infura.io
 .ingads.com
 .ingka.com
 .ingka.dev
@@ -25873,6 +25871,7 @@ login.microsoftonline.com
 .biliworld.com
 .billypan.com
 .binance.com
+.binance.org
 .binance.us
 .binancezh.cc
 .bing.com
@@ -27986,6 +27985,7 @@ login.microsoftonline.com
 .inf.news
 .info-graf.fr
 .informer.com
+.infura.io
 .ingress.com
 .inherit.live
 .initiativesforchina.org
@@ -28499,6 +28499,7 @@ login.microsoftonline.com
 .lsxszzg.com
 .ltn.com.tw
 .luckydesigner.space
+.luckymobile.ca
 .ludepress.com
 .luke54.com
 .luke54.org
@@ -28650,6 +28651,7 @@ login.microsoftonline.com
 .metacafe.com
 .metacubex.one
 .metafilter.com
+.metamask.io
 .metart.com
 .metarthunter.com
 .meteorshowersonline.com
