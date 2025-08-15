@@ -1,5 +1,5 @@
 # 规则名称: Proxy.list
-# 规则统计: 7106
+# 规则统计: 7109
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -621,6 +621,7 @@ HOST-SUFFIX,bestvpnusa.com,Proxy
 HOST-SUFFIX,bet365.com,Proxy
 HOST-SUFFIX,betaclouds.net,Proxy
 HOST-SUFFIX,betfair.com,Proxy
+HOST-SUFFIX,betterhash.net,Proxy
 HOST-SUFFIX,betternet.co,Proxy
 HOST-SUFFIX,bettervpn.com,Proxy
 HOST-SUFFIX,bettween.com,Proxy
@@ -2817,6 +2818,7 @@ HOST-SUFFIX,here.com,Proxy
 HOST-SUFFIX,heritage.org,Proxy
 HOST-SUFFIX,heroku.com,Proxy
 HOST-SUFFIX,herokuapp.com,Proxy
+HOST-SUFFIX,herominers.com,Proxy
 HOST-SUFFIX,heungkongdiscuss.com,Proxy
 HOST-SUFFIX,hexieshe.com,Proxy
 HOST-SUFFIX,hexieshe.xyz,Proxy
@@ -3255,6 +3257,7 @@ HOST-SUFFIX,itaboo.info,Proxy
 HOST-SUFFIX,itaiwan.gov.tw,Proxy
 HOST-SUFFIX,italiatibet.org,Proxy
 HOST-SUFFIX,itasoftware.com,Proxy
+HOST-SUFFIX,itch.io,Proxy
 HOST-SUFFIX,itemdb.com,Proxy
 HOST-SUFFIX,itemfix.com,Proxy
 HOST-SUFFIX,itgonglun.com,Proxy

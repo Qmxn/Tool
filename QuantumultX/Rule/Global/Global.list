@@ -1,5 +1,5 @@
 # 规则名称: Global.list
-# 规则统计: 32437
+# 规则统计: 32439
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -12546,7 +12546,6 @@ HOST-SUFFIX,itaeromanga.com,Global
 HOST-SUFFIX,italiabeatsbydrdre.com,Global
 HOST-SUFFIX,itcanwait.com,Global
 HOST-SUFFIX,itcfonts.com,Global
-HOST-SUFFIX,itch.io,Global
 HOST-SUFFIX,itch.zone,Global
 HOST-SUFFIX,itchen.ac.uk,Global
 HOST-SUFFIX,iteach.ac.uk,Global
@@ -25942,6 +25941,7 @@ HOST-SUFFIX,bestvpnusa.com,Global
 HOST-SUFFIX,bet365.com,Global
 HOST-SUFFIX,betaclouds.net,Global
 HOST-SUFFIX,betfair.com,Global
+HOST-SUFFIX,betterhash.net,Global
 HOST-SUFFIX,betternet.co,Global
 HOST-SUFFIX,bettervpn.com,Global
 HOST-SUFFIX,bettween.com,Global
@@ -28113,6 +28113,7 @@ HOST-SUFFIX,here.com,Global
 HOST-SUFFIX,heritage.org,Global
 HOST-SUFFIX,heroku.com,Global
 HOST-SUFFIX,herokuapp.com,Global
+HOST-SUFFIX,herominers.com,Global
 HOST-SUFFIX,heungkongdiscuss.com,Global
 HOST-SUFFIX,hexieshe.com,Global
 HOST-SUFFIX,hexieshe.xyz,Global
@@ -28548,6 +28549,7 @@ HOST-SUFFIX,itaboo.info,Global
 HOST-SUFFIX,itaiwan.gov.tw,Global
 HOST-SUFFIX,italiatibet.org,Global
 HOST-SUFFIX,itasoftware.com,Global
+HOST-SUFFIX,itch.io,Global
 HOST-SUFFIX,itemdb.com,Global
 HOST-SUFFIX,itemfix.com,Global
 HOST-SUFFIX,itgonglun.com,Global

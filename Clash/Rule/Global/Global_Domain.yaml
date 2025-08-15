@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 31680
+# 规则统计: 31682
 
 payload:
   - '1password.drift.click'
@@ -12382,7 +12382,6 @@ payload:
   - '+.italiabeatsbydrdre.com'
   - '+.itcanwait.com'
   - '+.itcfonts.com'
-  - '+.itch.io'
   - '+.itch.zone'
   - '+.itchen.ac.uk'
   - '+.iteach.ac.uk'
@@ -25842,6 +25841,7 @@ payload:
   - '+.bet365.com'
   - '+.betaclouds.net'
   - '+.betfair.com'
+  - '+.betterhash.net'
   - '+.betternet.co'
   - '+.bettervpn.com'
   - '+.bettween.com'
@@ -27645,6 +27645,7 @@ payload:
   - '+.heritage.org'
   - '+.heroku.com'
   - '+.herokuapp.com'
+  - '+.herominers.com'
   - '+.heungkongdiscuss.com'
   - '+.hexieshe.com'
   - '+.hexieshe.xyz'
@@ -28076,6 +28077,7 @@ payload:
   - '+.itaiwan.gov.tw'
   - '+.italiatibet.org'
   - '+.itasoftware.com'
+  - '+.itch.io'
   - '+.itemdb.com'
   - '+.itemfix.com'
   - '+.itgonglun.com'

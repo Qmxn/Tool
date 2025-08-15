@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical
-# 规则统计: 6612
+# 规则统计: 6615
 
 payload:
   - DOMAIN,api.waqi.info
@@ -597,6 +597,7 @@ payload:
   - DOMAIN-SUFFIX,bet365.com
   - DOMAIN-SUFFIX,betaclouds.net
   - DOMAIN-SUFFIX,betfair.com
+  - DOMAIN-SUFFIX,betterhash.net
   - DOMAIN-SUFFIX,betternet.co
   - DOMAIN-SUFFIX,bettervpn.com
   - DOMAIN-SUFFIX,bettween.com
@@ -2424,6 +2425,7 @@ payload:
   - DOMAIN-SUFFIX,heritage.org
   - DOMAIN-SUFFIX,heroku.com
   - DOMAIN-SUFFIX,herokuapp.com
+  - DOMAIN-SUFFIX,herominers.com
   - DOMAIN-SUFFIX,heungkongdiscuss.com
   - DOMAIN-SUFFIX,hexieshe.com
   - DOMAIN-SUFFIX,hexieshe.xyz
@@ -2858,6 +2860,7 @@ payload:
   - DOMAIN-SUFFIX,itaiwan.gov.tw
   - DOMAIN-SUFFIX,italiatibet.org
   - DOMAIN-SUFFIX,itasoftware.com
+  - DOMAIN-SUFFIX,itch.io
   - DOMAIN-SUFFIX,itemdb.com
   - DOMAIN-SUFFIX,itemfix.com
   - DOMAIN-SUFFIX,itgonglun.com
