@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 31682
+# 规则统计: 31686
 
 payload:
   - '1password.drift.click'
@@ -29301,6 +29301,7 @@ payload:
   - '+.paljorpublications.com'
   - '+.palmislife.com'
   - '+.paltalk.com'
+  - '+.pancakeswap.finance'
   - '+.pandafan.pub'
   - '+.pandapow.co'
   - '+.pandapow.net'
@@ -29376,6 +29377,7 @@ payload:
   - '+.perplexity.ai'
   - '+.persecutionblog.com'
   - '+.persiankitty.com'
+  - '+.pewresearch.org'
   - '+.pfd.org.hk'
   - '+.phapluan.org'
   - '+.phayul.com'
@@ -29519,6 +29521,7 @@ payload:
   - '+.prisoneralert.com'
   - '+.pritunl.com'
   - '+.privacybox.de'
+  - '+.privacyguides.org'
   - '+.private.com'
   - '+.privateinternetaccess.com'
   - '+.privatepaste.com'
@@ -30278,6 +30281,7 @@ payload:
   - '+.suyangg.com'
   - '+.svsfx.com'
   - '+.swagbucks.com'
+  - '+.swapspace.co'
   - '+.swissinfo.ch'
   - '+.swissvpn.net'
   - '+.switch1.jp'

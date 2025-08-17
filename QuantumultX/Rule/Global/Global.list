@@ -1,5 +1,5 @@
 # 规则名称: Global.list
-# 规则统计: 32439
+# 规则统计: 32443
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -29779,6 +29779,7 @@ HOST-SUFFIX,paldengyal.com,Global
 HOST-SUFFIX,paljorpublications.com,Global
 HOST-SUFFIX,palmislife.com,Global
 HOST-SUFFIX,paltalk.com,Global
+HOST-SUFFIX,pancakeswap.finance,Global
 HOST-SUFFIX,pandafan.pub,Global
 HOST-SUFFIX,pandapow.co,Global
 HOST-SUFFIX,pandapow.net,Global
@@ -29856,6 +29857,7 @@ HOST-SUFFIX,periscope.tv,Global
 HOST-SUFFIX,perplexity.ai,Global
 HOST-SUFFIX,persecutionblog.com,Global
 HOST-SUFFIX,persiankitty.com,Global
+HOST-SUFFIX,pewresearch.org,Global
 HOST-SUFFIX,pfd.org.hk,Global
 HOST-SUFFIX,phapluan.org,Global
 HOST-SUFFIX,phayul.com,Global
@@ -30023,6 +30025,7 @@ HOST-SUFFIX,prism-break.org,Global
 HOST-SUFFIX,prisoneralert.com,Global
 HOST-SUFFIX,pritunl.com,Global
 HOST-SUFFIX,privacybox.de,Global
+HOST-SUFFIX,privacyguides.org,Global
 HOST-SUFFIX,private.com,Global
 HOST-SUFFIX,privateinternetaccess.com,Global
 HOST-SUFFIX,privatepaste.com,Global
@@ -30792,6 +30795,7 @@ HOST-SUFFIX,sustainability.google,Global
 HOST-SUFFIX,suyangg.com,Global
 HOST-SUFFIX,svsfx.com,Global
 HOST-SUFFIX,swagbucks.com,Global
+HOST-SUFFIX,swapspace.co,Global
 HOST-SUFFIX,swissinfo.ch,Global
 HOST-SUFFIX,swissvpn.net,Global
 HOST-SUFFIX,switch1.jp,Global

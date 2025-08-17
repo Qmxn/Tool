@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7101
+# 规则统计: 7105
 no_resolve: true
 domain_set:
 - api.msn.com
@@ -4497,6 +4497,7 @@ domain_suffix_set:
 - paljorpublications.com
 - palmislife.com
 - paltalk.com
+- pancakeswap.finance
 - pandafan.pub
 - pandapow.co
 - pandapow.net
@@ -4574,6 +4575,7 @@ domain_suffix_set:
 - perplexity.ai
 - persecutionblog.com
 - persiankitty.com
+- pewresearch.org
 - pfd.org.hk
 - phapluan.org
 - phayul.com
@@ -4741,6 +4743,7 @@ domain_suffix_set:
 - prisoneralert.com
 - pritunl.com
 - privacybox.de
+- privacyguides.org
 - private.com
 - privateinternetaccess.com
 - privatepaste.com
@@ -5515,6 +5518,7 @@ domain_suffix_set:
 - suyangg.com
 - svsfx.com
 - swagbucks.com
+- swapspace.co
 - swissinfo.ch
 - swissvpn.net
 - switch1.jp

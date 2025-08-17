@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32393
+# 规则统计: 32397
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -29779,6 +29779,7 @@ DOMAIN-SUFFIX,paldengyal.com
 DOMAIN-SUFFIX,paljorpublications.com
 DOMAIN-SUFFIX,palmislife.com
 DOMAIN-SUFFIX,paltalk.com
+DOMAIN-SUFFIX,pancakeswap.finance
 DOMAIN-SUFFIX,pandafan.pub
 DOMAIN-SUFFIX,pandapow.co
 DOMAIN-SUFFIX,pandapow.net
@@ -29856,6 +29857,7 @@ DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,persecutionblog.com
 DOMAIN-SUFFIX,persiankitty.com
+DOMAIN-SUFFIX,pewresearch.org
 DOMAIN-SUFFIX,pfd.org.hk
 DOMAIN-SUFFIX,phapluan.org
 DOMAIN-SUFFIX,phayul.com
@@ -30023,6 +30025,7 @@ DOMAIN-SUFFIX,prism-break.org
 DOMAIN-SUFFIX,prisoneralert.com
 DOMAIN-SUFFIX,pritunl.com
 DOMAIN-SUFFIX,privacybox.de
+DOMAIN-SUFFIX,privacyguides.org
 DOMAIN-SUFFIX,private.com
 DOMAIN-SUFFIX,privateinternetaccess.com
 DOMAIN-SUFFIX,privatepaste.com
@@ -30792,6 +30795,7 @@ DOMAIN-SUFFIX,sustainability.google
 DOMAIN-SUFFIX,suyangg.com
 DOMAIN-SUFFIX,svsfx.com
 DOMAIN-SUFFIX,swagbucks.com
+DOMAIN-SUFFIX,swapspace.co
 DOMAIN-SUFFIX,swissinfo.ch
 DOMAIN-SUFFIX,swissvpn.net
 DOMAIN-SUFFIX,switch1.jp

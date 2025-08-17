@@ -1,5 +1,5 @@
 # 规则名称: Proxy.list
-# 规则统计: 7109
+# 规则统计: 7113
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -4495,6 +4495,7 @@ HOST-SUFFIX,paldengyal.com,Proxy
 HOST-SUFFIX,paljorpublications.com,Proxy
 HOST-SUFFIX,palmislife.com,Proxy
 HOST-SUFFIX,paltalk.com,Proxy
+HOST-SUFFIX,pancakeswap.finance,Proxy
 HOST-SUFFIX,pandafan.pub,Proxy
 HOST-SUFFIX,pandapow.co,Proxy
 HOST-SUFFIX,pandapow.net,Proxy
@@ -4572,6 +4573,7 @@ HOST-SUFFIX,periscope.tv,Proxy
 HOST-SUFFIX,perplexity.ai,Proxy
 HOST-SUFFIX,persecutionblog.com,Proxy
 HOST-SUFFIX,persiankitty.com,Proxy
+HOST-SUFFIX,pewresearch.org,Proxy
 HOST-SUFFIX,pfd.org.hk,Proxy
 HOST-SUFFIX,phapluan.org,Proxy
 HOST-SUFFIX,phayul.com,Proxy
@@ -4739,6 +4741,7 @@ HOST-SUFFIX,prism-break.org,Proxy
 HOST-SUFFIX,prisoneralert.com,Proxy
 HOST-SUFFIX,pritunl.com,Proxy
 HOST-SUFFIX,privacybox.de,Proxy
+HOST-SUFFIX,privacyguides.org,Proxy
 HOST-SUFFIX,private.com,Proxy
 HOST-SUFFIX,privateinternetaccess.com,Proxy
 HOST-SUFFIX,privatepaste.com,Proxy
@@ -5513,6 +5516,7 @@ HOST-SUFFIX,sustainability.google,Proxy
 HOST-SUFFIX,suyangg.com,Proxy
 HOST-SUFFIX,svsfx.com,Proxy
 HOST-SUFFIX,swagbucks.com,Proxy
+HOST-SUFFIX,swapspace.co,Proxy
 HOST-SUFFIX,swissinfo.ch,Proxy
 HOST-SUFFIX,swissvpn.net,Proxy
 HOST-SUFFIX,switch1.jp,Proxy

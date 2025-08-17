@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPs
-# 规则统计: 30151
+# 规则统计: 30150
 
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -9225,8 +9225,7 @@ IP-CIDR,154.8.48.0/20,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.89.49.0/24,no-resolve
 IP-CIDR,154.89.50.0/23,no-resolve
-IP-CIDR,154.89.52.0/24,no-resolve
-IP-CIDR,154.89.54.0/23,no-resolve
+IP-CIDR,154.89.52.0/22,no-resolve
 IP-CIDR,154.89.56.0/21,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,155.126.176.0/23,no-resolve
