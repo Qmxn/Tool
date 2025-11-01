@@ -1,0 +1,9 @@
+#!name=爱奇艺体育
+#!desc=过滤爱奇艺体育广告
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/show\.ssports\.com\/s\?brand data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% json.ssports.com, show.ssports.com

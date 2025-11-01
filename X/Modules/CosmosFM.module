@@ -1,0 +1,12 @@
+#!name=小宇宙
+#!desc=过滤小宇宙广告
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api\.xiaoyuzhoufm\.com\/v\d\/ai data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api\.xiaoyuzhoufm\.com\/v\d\/search\/get data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api\.xiaoyuzhoufm\.com\/v1\/category\/list-daily data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% api.xiaoyuzhoufm.com

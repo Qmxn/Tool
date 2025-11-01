@@ -1,0 +1,11 @@
+#!name=一甜相机去广告
+#!desc=移除开屏广告、悬浮广告及图片选择器横幅广告。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Rewrite]
+^https:\/\/(m2u-api\.getkwai|api-m2u\.kuaishou)\.com\/api-server\/api\/v1\/ad\/ reject-dict
+^https:\/\/(m2u-api\.getkwai|api-m2u\.kuaishou)\.com\/api-server\/api\/v1\/system\/configs\? response-body-json-del data.shouldUseLMAdFirst data.incentiveCfgList
+^https:\/\/(m2u-api\.getkwai|api-m2u\.kuaishou)\.com\/api-server\/api\/v4\/op\/actPositions\? reject-dict
+
+[MitM]
+hostname=m2u-api.getkwai.com, api-m2u.kuaishou.com

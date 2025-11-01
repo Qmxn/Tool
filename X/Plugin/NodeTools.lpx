@@ -1,0 +1,9 @@
+#!name = 节点检测工具 𝕂
+#!desc = 节点网速测试、节点解锁状况、节点风险查询、节点入口落地查询
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Script]
+generic script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/NodeTools/NodeSpeedtest.js, timeout = 10, tag = 节点网速测试 𝕂, img-url = speedometer.system
+generic script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/NodeTools/NodeUnlockDetection.js, timeout = 20, tag = 节点解锁查询 𝕂, img-url = play.circle.system
+generic script-path = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Script/NodeTools/NodeLocation.js, timeout = 10, tag = 节点风险查询 𝕂, img-url = asterisk.circle
+generic script-path = https://raw.githubusercontent.com/Keywos/rule/master/script/netisp/js/loon.js, tag = 入口落地查询 𝕂, img-url = network

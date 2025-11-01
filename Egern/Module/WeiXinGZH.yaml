@@ -1,0 +1,14 @@
+name: 微信公众号去广告
+description: 过滤微信公众号广告
+rules:
+- domain_suffix:
+    match: wxs.qq.com
+    policy: REJECT
+map_locals:
+- match: ^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\?
+  status_code: 200
+  body: '{}'
+mitm:
+  hostnames:
+    includes:
+    - mp.weixin.qq.com

@@ -1,0 +1,10 @@
+#!name = GitHub
+#!desc = 设置Accept-Language避免429错误
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/.*\.githubusercontent\.com\/ header-replace Accept-Language en-us
+^https:\/\/github\.com\/ header-replace Accept-Language en-us
+
+[MitM]
+hostname = github.com, *.githubusercontent.com

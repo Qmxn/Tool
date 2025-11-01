@@ -1,0 +1,15 @@
+#!name=Jump去广告
+#!desc=移除Jump开屏广告
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,zlsdk.1rtb.net,REJECT
+DOMAIN,jp.ad.gameley.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+DOMAIN,s3plus.meituan.net,REJECT
+DOMAIN,images.pinduoduo.com,REJECT
+DOMAIN,qh-material.taobao.com,REJECT
+DOMAIN-SUFFIX,admobile.top,REJECT
+
+[MITM]
+hostname = %APPEND% switch.jumpvg.com

@@ -1,0 +1,10 @@
+#!name=腾讯文档
+#!desc=过滤腾讯文档广告
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/tianshu\.qq\.com\/open\/ts_access\/GetAds\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/h5\.qzone\.qq\.com\/p\/adboss\/api\/json\/ts_access\/GetAds$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% tianshu.qq.com, h5.qzone.qq.com

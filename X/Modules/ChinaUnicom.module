@@ -1,0 +1,9 @@
+#!name=中国联通
+#!desc=过滤中国联通广告
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,m1.ad.10010.com,REJECT
+
+[MITM]
+hostname = %APPEND% m.client.10010.com

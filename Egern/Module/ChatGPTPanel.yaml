@@ -1,0 +1,11 @@
+name: ChatGPT查询
+description: Chatgpt可用区域检测随可用性更换ICON
+scriptings:
+- generic:
+    name: CFGPT
+    script_url: https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_2_nowarp.js
+    arguments:
+      _compat.$argument: icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#336FA9&iconerr-color=#D65C51
+    timeout: 6
+panels:
+- name: CFGPT

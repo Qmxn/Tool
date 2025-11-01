@@ -1,0 +1,10 @@
+#!name = 腾讯文档
+#!desc = 过滤腾讯文档广告
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/tianshu\.qq\.com\/open\/ts_access\/GetAds\? reject-dict
+^https:\/\/h5\.qzone\.qq\.com\/p\/adboss\/api\/json\/ts_access\/GetAds$ reject-dict
+
+[MitM]
+hostname = tianshu.qq.com, h5.qzone.qq.com

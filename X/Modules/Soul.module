@@ -1,0 +1,67 @@
+#!name=Soul
+#!desc=Soul全面净化
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,soulapp.cn,DIRECT
+IP-CIDR,8.210.3.170/32,DIRECT,no-resolve
+IP-CIDR,47.75.72.47/32,DIRECT,no-resolve
+DOMAIN,ad-h5-cdn.soulapp.cn,REJECT
+DOMAIN,ad-h5-station-cdn.soulapp.cn,REJECT
+DOMAIN,ad-r.soulapp.cn,REJECT
+DOMAIN,soul-ad.soulapp.cn,REJECT
+IP-CIDR,47.56.131.76/32,REJECT,no-resolve
+IP-CIDR,47.97.215.55/32,REJECT,no-resolve
+IP-CIDR,47.99.42.29/32,REJECT,no-resolve
+IP-CIDR,47.110.187.87/32,REJECT,no-resolve
+IP-CIDR,47.243.147.125/32,REJECT,no-resolve
+IP-CIDR,120.27.235.201/32,REJECT,no-resolve
+IP-CIDR,121.196.197.147/32,REJECT,no-resolve
+
+[URL Rewrite]
+^https:\/\/api-chat\.soulapp\.cn\/chat\/entrance\/first - reject
+^https:\/\/api-chat\.soulapp\.cn\/addressBook\/showBubblingEnter - reject
+^https:\/\/api-user\.soulapp\.cn\/user\/matchRelation\/getChatCard - reject
+^https:\/\/api-chat\.soulapp\.cn\/chat\/interact\/getEmojiList - reject
+^https:\/\/increase-openapi\.soulapp\.cn\/increase\/fission\/getHomePageRedIcon - reject
+^https:\/\/api-chat\.soulapp\.cn\/similar\/post\/intersect\/trigger - reject
+^https:\/\/api-chat\.soulapp\.cn\/chat\/guide\/defaultWord - reject
+^https:\/\/api-chat\.soulapp\.cn\/chat\/emoji\/recommend - reject
+^https:\/\/api-a\.soulapp\.cn\/shara\/app\/url - reject
+^https:\/\/api-chat\.soulapp\.cn\/chat\/quick\/menu - reject
+
+[Map Local]
+^https:\/\/ssp\.soulapp\.cn\/api\/q data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/47\.110\.187\.87\/winterfell\/(?:v2\/)?getIpByDomain data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api-account\.soulapp\.cn\/teenager\/config data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api-a\.soulapp\.cn\/official\/scene\/module data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/data-collector\.soulapp\.cn\/api\/data\/report\/v2 data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api-chat\.soulapp\.cn\/chat\/session\/quickButtonCheck data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/chat-live\.soulapp\.cn\/live\/config\/rec-feedback data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/post\.soulapp\.cn\/post\/relationUser\/chatRooms data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/increase-openapi\.soulapp\.cn\/increase\/dusting\/getAddressBookDustings data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/chat-live\.soulapp\.cn\/live\/queryRelevantList data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api-user\.soulapp\.cn\/user\/desc\/getUserPersonalDesc data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[Script]
+
+[Soul]派对猜你喜欢 = type=http-response, pattern=^https:\/\/chat-live\.soulapp\.cn\/square\/relation\/guideUserList, script-path=https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body=true
+
+[Soul]去除私聊限制 = type=http-response, pattern=^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo, script-path=https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body=true
+
+[Soul]星球页面按钮 = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/v6\/planet\/config, script-path=https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body=true, argument="[{{{soulMatch}}}, {{{voiceMatch}}}, {{{partyMatch}}}, {{{masked}}}, {{{maskedMatch}}}, {{{planet}}}]"
+
+[Soul]派对列表中间横幅官方广告 = type=http-response, pattern=^https:\/\/chat-live\.soulapp\.cn\/chatroom\/chatClassifyRoomList, script-path=https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body=true
+
+[Soul]个人主页数量提示 = type=http-response, pattern=^https:\/\/api-user\.soulapp\.cn\/user\/homepage\/metrics, script-path=https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body=true
+
+[Soul]个人主页tab = type=http-response, pattern=^https:\/\/post\.soulapp\.cn\/homepage\/tabs\/v2, script-path=https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body=true
+
+[Soul]派对频道列表 = type=http-response, pattern=^https:\/\/chat-live\.soulapp\.cn\/chatroom\/getRoomTagInfo, script-path=https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body=true, argument="[{{{hot}}},{{{all}}},{{{emotion}}},{{{personal}}},{{{play}}},{{{interest}}},{{{argue}}},{{{story}}},{{{chat}}},{{{heart}}}]"
+
+[Soul]私聊阅后即焚 = type=http-response, pattern=^https:\/\/api-chat\.soulapp\.cn\/snapchat\/url, script-path=https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body=true
+
+[MITM]
+hostname = %APPEND% ssp.soulapp.cn, increase-openapi.soulapp.cn, data-collector.soulapp.cn, post.soulapp.cn, api-account.soulapp.cn, api-a.soulapp.cn, gateway-mobile-gray.soulapp.cn, api-user.soulapp.cn, chat-live.soulapp.cn, api-chat.soulapp.cn, 47.110.187.87

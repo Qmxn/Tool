@@ -1,0 +1,10 @@
+#!name=Dlabel云标签去广告
+#!desc=移除开屏广告及首页横幅。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/dlabel\.ctaiot\.com\/api\/spreadstart\/list\.json\? reject-dict
+^https:\/\/dlabel\.ctaiot\.com\/api\/spread\/journey\/select\.json\? reject-dict
+
+[MitM]
+hostname=dlabel.ctaiot.com

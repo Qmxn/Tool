@@ -1,0 +1,80 @@
+#!name = Soul
+#!desc = Soul全面净化
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Argument]
+planetPage = switch, true, false, tag = 过滤[星球]页面, desc = true: 开启; false: 关闭;
+soulMatch = switch, true, false, tag = 显示[灵魂匹配], desc = true: 开启; false: 关闭;
+voiceMatch = switch, true, false, tag = 显示[语音匹配], desc = true: 开启; false: 关闭;
+partyMatch = switch, true, false, tag = 显示[群聊派对], desc = true: 开启; false: 关闭;
+masked = switch, true, false, tag = 显示[蒙面酒馆], desc = true: 开启; false: 关闭;
+maskedMatch = switch, true, false, tag = 显示[蒙面匹配], desc = true: 开启; false: 关闭;
+planet = switch, true, false, tag = 显示[星球实验室/兴趣群组], desc = true: 开启; false: 关闭;
+hot = switch, true, false, tag = 显示[派对分类：今日Hot], desc = true: 开启; false: 关闭;
+all = switch, true, false, tag = 显示[派对分类：全部派对], desc = true: 开启; false: 关闭;
+emotion = switch, true, false, tag = 显示[派对分类：情感树洞], desc = true: 开启; false: 关闭;
+personal = switch, true, false, tag = 显示[派对分类：个人成长], desc = true: 开启; false: 关闭;
+play = switch, true, false, tag = 显示[派对分类：玩法专区], desc = true: 开启; false: 关闭;
+interest = switch, true, false, tag = 显示[派对分类：兴趣交流], desc = true: 开启; false: 关闭;
+argue = switch, true, false, tag = 显示[派对分类：趣味讨论], desc = true: 开启; false: 关闭;
+story = switch, true, false, tag = 显示[派对分类：情感故事], desc = true: 开启; false: 关闭;
+chat = switch, true, false, tag = 显示[派对分类：闲聊唠嗑], desc = true: 开启; false: 关闭;
+heart = switch, true, false, tag = 显示[派对分类：心动速配], desc = true: 开启; false: 关闭;
+picRead = switch, true, false, tag = 阅后即焚, desc = true: 开启; false: 关闭;
+chatPri = switch, true, false, tag = 私聊免礼, desc = true: 开启; false: 关闭;
+guess = switch, true, false, tag = 派对猜你喜欢, desc = true: 开启; false: 关闭;
+vist = switch, true, false, tag = 主页访问数量提示, desc = true: 开启; false: 关闭;
+
+[Rule]
+DOMAIN-SUFFIX, soulapp.cn, DIRECT
+IP-CIDR, 8.210.3.170/32, DIRECT, no-resolve
+IP-CIDR, 47.75.72.47/32, DIRECT, no-resolve
+DOMAIN, ad-h5-cdn.soulapp.cn, REJECT
+DOMAIN, ad-h5-station-cdn.soulapp.cn, REJECT
+DOMAIN, ad-r.soulapp.cn, REJECT
+DOMAIN, soul-ad.soulapp.cn, REJECT
+IP-CIDR, 47.56.131.76/32, REJECT, no-resolve
+IP-CIDR, 47.97.215.55/32, REJECT, no-resolve
+IP-CIDR, 47.99.42.29/32, REJECT, no-resolve
+IP-CIDR, 47.110.187.87/32, REJECT, no-resolve
+IP-CIDR, 47.243.147.125/32, REJECT, no-resolve
+IP-CIDR, 120.27.235.201/32, REJECT, no-resolve
+IP-CIDR, 121.196.197.147/32, REJECT, no-resolve
+
+[Rewrite]
+^https:\/\/ssp\.soulapp\.cn\/api\/q reject-dict
+^https:\/\/47\.110\.187\.87\/winterfell\/(?:v2\/)?getIpByDomain reject-dict
+^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card reject-dict
+^https:\/\/api-account\.soulapp\.cn\/teenager\/config reject-dict
+^https:\/\/api-a\.soulapp\.cn\/official\/scene\/module reject-dict
+^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content reject-dict
+^https:\/\/data-collector\.soulapp\.cn\/api\/data\/report\/v2 reject-dict
+^https:\/\/api-chat\.soulapp\.cn\/chat\/entrance\/first reject
+^https:\/\/api-chat\.soulapp\.cn\/addressBook\/showBubblingEnter reject
+^https:\/\/api-user\.soulapp\.cn\/user\/matchRelation\/getChatCard reject
+^https:\/\/api-chat\.soulapp\.cn\/chat\/interact\/getEmojiList reject
+^https:\/\/increase-openapi\.soulapp\.cn\/increase\/fission\/getHomePageRedIcon reject
+^https:\/\/api-chat\.soulapp\.cn\/similar\/post\/intersect\/trigger reject
+^https:\/\/api-chat\.soulapp\.cn\/chat\/guide\/defaultWord reject
+^https:\/\/api-chat\.soulapp\.cn\/chat\/emoji\/recommend reject
+^https:\/\/api-a\.soulapp\.cn\/shara\/app\/url reject
+^https:\/\/api-chat\.soulapp\.cn\/chat\/quick\/menu reject
+^https:\/\/api-chat\.soulapp\.cn\/chat\/session\/quickButtonCheck reject-dict
+^https:\/\/chat-live\.soulapp\.cn\/live\/config\/rec-feedback reject-dict
+^https:\/\/post\.soulapp\.cn\/post\/relationUser\/chatRooms reject-dict
+^https:\/\/increase-openapi\.soulapp\.cn\/increase\/dusting\/getAddressBookDustings reject-dict
+^https:\/\/chat-live\.soulapp\.cn\/live\/queryRelevantList reject-dict
+^https:\/\/api-user\.soulapp\.cn\/user\/desc\/getUserPersonalDesc reject-dict
+
+[Script]
+http-response ^https:\/\/chat-live\.soulapp\.cn\/square\/relation\/guideUserList script-path = https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body = true, tag = [Soul]派对猜你喜欢, enable={guess}
+http-response ^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo script-path = https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body = true, tag = [Soul]去除私聊限制, enable={chatPri}
+http-response ^https:\/\/api-user\.soulapp\.cn\/v6\/planet\/config script-path = https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body = true, tag = [Soul]星球页面按钮, enable={planetPage}, argument=[{soulMatch}, {voiceMatch}, {partyMatch}, {masked}, {maskedMatch}, {planet}]
+http-response ^https:\/\/chat-live\.soulapp\.cn\/chatroom\/chatClassifyRoomList script-path = https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body = true, tag = [Soul]派对列表中间横幅官方广告
+http-response ^https:\/\/api-user\.soulapp\.cn\/user\/homepage\/metrics script-path = https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body = true, tag = [Soul]个人主页数量提示, enable={vist}
+http-response ^https:\/\/post\.soulapp\.cn\/homepage\/tabs\/v2 script-path = https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body = true, tag = [Soul]个人主页tab
+http-response ^https:\/\/chat-live\.soulapp\.cn\/chatroom\/getRoomTagInfo script-path = https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body = true, tag = [Soul]派对频道列表, argument=[{hot},{all},{emotion},{personal},{play},{interest},{argue},{story},{chat},{heart}]
+http-response ^https:\/\/api-chat\.soulapp\.cn\/snapchat\/url script-path = https://klraw.pages.dev/kelv1n1n/script/main/js/soul.js?token=209863, requires-body = true, tag = [Soul]私聊阅后即焚, enable={picRead}
+
+[MitM]
+hostname = ssp.soulapp.cn, increase-openapi.soulapp.cn, data-collector.soulapp.cn, post.soulapp.cn, api-account.soulapp.cn, api-a.soulapp.cn, gateway-mobile-gray.soulapp.cn, api-user.soulapp.cn, chat-live.soulapp.cn, api-chat.soulapp.cn, 47.110.187.87

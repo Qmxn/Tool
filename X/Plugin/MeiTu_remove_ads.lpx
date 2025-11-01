@@ -1,0 +1,12 @@
+#!name=美图秀秀去广告
+#!desc=移除开屏广告、横幅推广，精简我的页面。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN, adui.tg.meitu.com, REJECT
+
+[Rewrite]
+^https:\/\/api\.posters\.meitu\.com\/common\/init\.json response-body-json-del data.vip
+
+[MitM]
+hostname=api.posters.meitu.com

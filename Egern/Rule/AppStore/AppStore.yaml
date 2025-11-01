@@ -1,0 +1,6 @@
+# 规则名称: AppStore
+# 规则统计: 3
+
+domain_set:
+- apps.apple.com
+- itunes.apple.com

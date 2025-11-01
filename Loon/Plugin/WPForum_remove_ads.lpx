@@ -1,0 +1,10 @@
+#!name=威锋去广告
+#!desc=移除开屏广告、信息流广告、文末广告、首页轮播图推广。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/yesList\? reject-dict
+^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/slideshow\? response-body-json-jq '.data |= map(select(.protocolId == 1))'
+
+[MitM]
+hostname=api.wfdata.club

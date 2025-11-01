@@ -1,0 +1,9 @@
+#!name=Sora下载去水印
+#!desc=Sora下载去水印
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Script]
+SoraRemoveWatermark = type=http-request, pattern=^https?:\/\/videos\.openai\.com\/vg-assets\/assets.*mp4, script-path=https://gist.githubusercontent.com/ddgksf2013/71fca841d34a7b440408276d03da3261/raw/SoraRemoveWatermark.js, timeout=60
+
+[MITM]
+hostname = %APPEND% videos.openai.com

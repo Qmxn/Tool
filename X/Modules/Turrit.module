@@ -1,0 +1,9 @@
+#!name=Turrit
+#!desc=Telegram外部链接跳转至Turrit
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+(https:\/\/)?t\.me\/(.+) turrit://resolve?domain=$2 302
+
+[MITM]
+hostname = %APPEND% t.me

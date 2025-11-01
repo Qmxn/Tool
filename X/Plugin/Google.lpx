@@ -1,0 +1,11 @@
+#!name = Google
+#!desc = 将Google搜索重定向至.com域名，如遇频繁跳转请禁用本插件。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Rewrite]
+^https?:\/\/(www.)?(g|google)\.cn 307 https://www.google.com
+^https?:\/\/(ditu|maps).google\.cn 307 https://maps.google.com
+^https?:\/\/translate\.google\.cn 307 https://translate.google.com
+
+[MitM]
+hostname = *.google.cn, *.g.cn

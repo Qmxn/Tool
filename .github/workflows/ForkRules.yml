@@ -1,0 +1,250 @@
+name: Fork Rules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 20 * * *"
+
+jobs:
+  ForkRules:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+
+    steps:
+    - name: Checkout target repository
+      uses: actions/checkout@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Clone and Prepare Rules
+      run: |
+        # 克隆上游规则仓库到 tmpfile 目录
+        git clone https://github.com/blackmatrix7/ios_rule_script.git tmpfile
+        
+        # 定义目录映射关系
+        declare -A rules=(
+          ["Clash/Rule"]="Clash"
+          ["Egern/Rule"]="QuantumultX"
+          ["Loon/Rule"]="QuantumultX"
+          ["QuantumultX/Rule"]="QuantumultX"
+          ["Shadowrocket/Rule"]="QuantumultX"
+          ["Stash/Rule"]="Clash"
+          ["X/Rule"]="QuantumultX"
+        )
+        
+        # 根据映射关系拷贝文件
+        for dir in "${!rules[@]}"; do
+          mkdir -p "$dir"
+          if [ -d "tmpfile/rule/${rules[$dir]}" ]; then
+            rsync -a "tmpfile/rule/${rules[$dir]}/" "$dir/"
+          fi
+        done
+        
+        # 清理临时目录
+        rm -rf tmpfile
+
+    - name: Process All Rules
+      run: |
+        set -e # 如果任何命令失败，则立即退出
+        
+        # --- Shell Helper Functions ---
+
+        # 函数：为文件添加标准头部（规则名称和统计）
+        add_header() {
+          local file="$1"
+          local ext="${file##*.}"
+          local name
+          name=$(basename "$file" ".$ext")
+          local count
+          count=$(wc -l < "$file")
+          # 使用 sed 一次性在文件开头插入头部信息
+          sed -i "1i# 规则名称: $name\n# 规则统计: $count\n" "$file"
+        }
+
+        # 函数：标准化 QuantumultX 类型的规则
+        normalize_qxtype_rules() {
+          sed -i \
+            -e 's/, /,/g' -e 's/;/# /g' \
+            -e 's/host,/HOST,/g' -e 's/host-/HOST-/g' \
+            -e 's/-suffix/-SUFFIX/g' -e 's/-keyword/-KEYWORD/g' \
+            -e 's/ip-cidr/IP-CIDR/g' -e 's/geoip/GEOIP/g' \
+            -e 's/HOST,/DOMAIN,/g' -e 's/HOST-/DOMAIN-/g' \
+            -e 's/IP6-CIDR,/IP-CIDR6,/g' \
+            -e 's/,extended-matching$//g' \
+            -e 's/,\(REJECT\|DIRECT\|reject\|direct\)$//g' \
+            -e '/\(USER-AGENT\|OR\|AND\|NOT\),/ s/^/#/' \
+            -e 's| \{1,\}//.*$||' \
+            -e 's/,\*/,.*/g' \
+            "$1"
+        }
+
+        # --- Egern Processing ---
+        echo "Processing Egern rules..."
+        cd Egern/Rule || exit 1
+        find . -type f -name '*.list' -print0 | while IFS= read -r -d $'\0' file; do
+          new_name="${file%.list}.yaml"
+          mv "$file" "$new_name"
+          normalize_qxtype_rules "$new_name"
+          # 转换为 Egern 格式
+          awk -F, '
+            /^DOMAIN,/          {domain_set = domain_set "\n- " $2}
+            /^DOMAIN-SUFFIX,/   {domain_suffix_set = domain_suffix_set "\n- " $2}
+            /^DOMAIN-KEYWORD,/  {domain_keyword_set = domain_keyword_set "\n- " $2}
+            /^DOMAIN-WILDCARD,/ {domain_regex_set = domain_regex_set "\n- " $2}
+            /^IP-CIDR,/         {ip_cidr_set = ip_cidr_set "\n- " $2}
+            /^IP-CIDR6,/        {ip_cidr6_set = ip_cidr6_set "\n- " $2}
+            /^IP-ASN,/          {asn_set = asn_set "\n- '\''" $2 "'\''"}
+            /^URL-REGEX,/       {url_regex_set = url_regex_set "\n- '\''" $2 "'\''"}
+            END {
+              if (length(domain_set) > 0) print "domain_set:" domain_set
+              if (length(domain_suffix_set) > 0) print "domain_suffix_set:" domain_suffix_set
+              if (length(domain_keyword_set) > 0) print "domain_keyword_set:" domain_keyword_set
+              if (length(domain_regex_set) > 0) print "domain_regex_set:" domain_regex_set
+              if (length(ip_cidr_set) > 0) print "ip_cidr_set:" ip_cidr_set
+              if (length(ip_cidr6_set) > 0) print "ip_cidr6_set:" ip_cidr6_set
+              if (length(asn_set) > 0) print "asn_set:" asn_set
+              if (length(url_regex_set) > 0) print "url_regex_set:" url_regex_set
+            }' "$new_name" > tmpfile && mv tmpfile "$new_name"
+          # 添加 no_resolve 和头部
+          if grep -qE "(^asn_set:|^ip_cidr_set:|^ip_cidr6_set:)" "$new_name"; then
+            sed -i '1i no_resolve: true' "$new_name"
+          fi
+          add_header "$new_name"
+        done
+        cd ../..
+
+        # --- Loon Processing ---
+        echo "Processing Loon rules..."
+        cd Loon/Rule || exit 1
+        find . -type f -name '*.list' -print0 | while IFS= read -r -d $'\0' file; do
+          new_name="${file%.list}.lsr"
+          mv "$file" "$new_name"
+          normalize_qxtype_rules "$new_name"
+          sed -i -e '/^\s*[#;]/d' -e '/^$/d' "$new_name"
+          awk -F',' 'BEGIN{OFS=","} NF>=3 {$3=""; $0=$0} {gsub(/,,+/, ","); sub(/,$/, ""); print}' "$new_name" > tmpfile && mv tmpfile "$new_name"
+          awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$new_name" > tmpfile && mv tmpfile "$new_name"
+          add_header "$new_name"
+        done
+        cd ../..
+
+        # --- QuantumultX Processing ---
+        echo "Processing QuantumultX rules..."
+        cd QuantumultX/Rule || exit 1
+        find . -type f -name '*.list' -print0 | while IFS= read -r -d $'\0' file; do
+          sed -i '/^\s*$/d;/^#/d' "$file"
+          add_header "$file"
+        done
+        cd ../..
+
+        # --- Shadowrocket & X Processing (Identical Logic) ---
+        for tool in Shadowrocket X; do
+          echo "Processing $tool rules..."
+          if [ ! -d "$tool/Rule" ]; then continue; fi
+          cd "$tool/Rule" || exit 1
+          find . -type f -name '*.list' -print0 | while IFS= read -r -d $'\0' file; do
+            normalize_qxtype_rules "$file"
+            sed -i -e '/^\s*[#;]/d' -e '/^$/d' "$file"
+            awk -F',' 'BEGIN{OFS=","} NF>=3 {$3=""; $0=$0} {gsub(/,,+/, ","); sub(/,$/, ""); print}' "$file" > tmpfile && mv tmpfile "$file"
+            awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile && mv tmpfile "$file"
+            add_header "$file"
+          done
+          cd ../..
+        done
+
+        # --- Clash & Stash Processing (Identical Logic) ---
+        for tool in Clash Stash; do
+          echo "Processing $tool rules..."
+          if [ ! -d "$tool/Rule" ]; then continue; fi
+          cd "$tool/Rule" || exit 1
+          find . -type f \( -name '*.list' -o -name '*.yaml' -o -name '*.txt' \) -print0 | while IFS= read -r -d $'\0' file; do
+            sed -i '/^\s*$/d;/^#/d' "$file"
+            add_header "$file"
+          done
+          cd ../..
+        done
+        
+    - name: Update README Files
+      run: |
+        set -e
+        # 统一仓库路径 - 请根据您的实际仓库修改
+        REPO_OWNER="Qmxn" # REPO_OWNER="填写用户名"，根据您的实际情况
+        
+        process_common_readme() {
+          local tool="$1" extension="$2" support_ua="$3"
+          echo "Updating README for $tool"
+          if [ -d "$tool/Rule" ]; then
+            find "$tool/Rule" -name "README.md" -type f -exec sed -i \
+              -e '/\*\*MASTER分支 CDN (每日更新)\*\*/d' \
+              -e '/\*\*MASTER分支 GHProxy (每日更新)\*\*/d' \
+              -e '/（不定时更新）/d' -e '/RELEASE分支/d' \
+              -e '/blackmatrix7\/ios_rule_script\/release\/rule\//d' \
+              -e '/https:\/\/cdn.jsdelivr.net/d' -e '/https:\/\/ghproxy.com/d' \
+              -e 's|MASTER分支|分支|g' \
+              -e "s|## QuantumultX|## $tool|g" \
+              -e "s|blackmatrix7/ios_rule_script/master/rule/QuantumultX|$REPO_OWNER/Tool/X/$tool/Rule|g" \
+              -e "s|github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX|github.com/$REPO_OWNER/Tool/tree/X/$tool/Rule|g" \
+              -e 's|HOST|DOMAIN|g' -e 's|IP6-CIDR|IP-CIDR6|g' \
+              -e "s|USER-AGENT|USER-AGENT($support_ua)|g" \
+              -e 's|TOTAL|TOTAL(仅供参考)|g' \
+              -e "s|QuantumultX定制化规则|${tool}定制化规则|g" \
+              -e "s|\.list|.$extension|g" \
+              {} +
+          else
+            echo "Warning: Directory $tool/Rule not found"
+          fi
+        }
+        
+        process_simple_readme() {
+          local tool="$1"
+          echo "Updating README for $tool"
+          if [ -d "$tool/Rule" ]; then
+            find "$tool/Rule" -name "README.md" -type f -exec sed -i \
+              -e '/\*\*MASTER分支 CDN (每日更新)\*\*/d' \
+              -e '/\*\*MASTER分支 GHProxy (每日更新)\*\*/d' \
+              -e '/（不定时更新）/d' -e '/RELEASE分支/d' \
+              -e '/blackmatrix7\/ios_rule_script\/release\/rule\/Clash/d' \
+              -e '/https:\/\/cdn.jsdelivr.net/d' -e '/https:\/\/ghproxy.com/d' \
+              -e 's|MASTER分支|分支|g' \
+              -e "s|## Clash|## $tool|g" \
+              -e "s|blackmatrix7/ios_rule_script/master/rule/Clash|$REPO_OWNER/Tool/X/$tool/Rule|g" \
+              -e "s|github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash|github.com/$REPO_OWNER/Tool/tree/X/$tool/Rule|g" \
+              -e "s|USER-AGENT|USER-AGENT(${tool}支持)|g" \
+              -e 's|TOTAL|TOTAL(仅供参考)|g' \
+              -e "s|Clash定制化规则|${tool}定制化规则|g" \
+              {} +
+          else
+            echo "Warning: Directory $tool/Rule not found"
+          fi
+        }
+        
+        # 处理各个工具的 README
+        process_common_readme "Egern" "yaml" "Egern不支持"
+        process_common_readme "Loon" "lsr" "Loon支持"
+        process_common_readme "QuantumultX" "list" "QuantumultX支持"
+        process_common_readme "Shadowrocket" "list" "Shadowrocket支持"
+        process_common_readme "X" "list" "X支持"
+        
+        process_simple_readme "Clash"
+        process_simple_readme "Stash"
+
+    - name: Commit and Push Changes
+      run: |
+        set -e
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Auto Update rules: $(date +'%Y-%m-%d %H:%M:%S')"
+          git pull --rebase origin X
+          git push origin X
+          echo "Changes committed and pushed successfully."
+        else
+          echo "No changes to commit."
+        fi
+
+    - name: Cleanup Workflow Runs
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

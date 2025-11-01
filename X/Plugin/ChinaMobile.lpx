@@ -1,0 +1,28 @@
+#!name = 中国移动
+#!desc = 1.过滤中国移动广告，不对内部活动进行相关广告去除；2.查询套餐内通话、套餐使用情况（默认关闭）。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Argument]
+enable_capture = switch, false, true, tag = 获取参数, desc = 是否开启获取参数重写
+enable_cron = switch, false, true, tag = 定时查询, desc = 是否开启定时查询套餐使用情况
+cron-10086 = input, "0 9 * * *", tag = 执行时间, desc = 填写正确的Cron表达式
+phonenumber = input, "", tag = 手机号码, desc = 填写参数对应的手机号码
+bark_key = input, "", tag = Bark推送Key, desc = 优先级高于代理通知，填写后将只使用Bark推送
+service = switch, false, true, tag = Scriptable服务模式, desc = 是否开启Scriptable服务模式，不用组件者请无视
+silent = switch, false, true, tag = 静默模式, desc = 是否开启静默模式，静默模式下不发送系统通知
+debug = switch, false, true, tag = 调试模式, desc = 是否开启调试模式，调试模式下日志会增多
+
+[Rewrite]
+^https?:\/\/(client\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit|emotionMarket) reject-200
+
+[Script]
+http-request ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/[LD]N\/uam(?:onekey|randcode)login\/autoLogin script-path = https://github.com/ChinaTelecomOperators/ChinaMobile/releases/latest/download/10086.js, requires-body = true, tag = [中国移动]获取参数, enable={enable_capture}
+cron {cron-10086} script-path = https://github.com/ChinaTelecomOperators/ChinaMobile/releases/latest/download/10086.js, tag = [中国移动]余量查询, timeout = 60, argument=[{phonenumber},{bark_key},{debug},{silent},{service}], enable={enable_cron}
+http-request ^https?:\/\/api\.example\.com\/10086\/query script-path = https://github.com/ChinaTelecomOperators/ChinaMobile/releases/latest/download/10086.js, requires-body = true, timeout = 60, tag = [中国移动]查询接口, enable={enable_cron}
+http-response ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit$ script-path = https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/ChinaMobile/NoAds.js, requires-body = true, tag = [中国移动]启动页
+http-response ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/newTopPullSecond\/getNewTopPullList script-path = https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/ChinaMobile/NoAds.js, requires-body = true, tag = [中国移动]首页-下拉
+http-response ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/emotionMarket\/getEmotionMarketNew script-path = https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/ChinaMobile/NoAds.js, requires-body = true, tag = [中国移动]首页-悬浮广告
+http-response ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/friendShake\/getShakeList script-path = https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/ChinaMobile/NoAds.js, requires-body = true, tag = [中国移动]我的-弹窗
+
+[MitM]
+hostname = client.app.coc.10086.cn, api.example.com

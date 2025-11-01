@@ -1,0 +1,22 @@
+#!name = 百度网盘
+#!desc = 过滤百度网盘广告，解锁部分SVIP功能。
+#!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/XD.png
+
+[Rewrite]
+^https?:\/\/pan\.baidu\.com\/(?:act\/|aipic\/|aisearch\/|api\/getsyscfg\?) reject-dict
+^https:\/\/pan\.baidu\.com\/api\/getconfig reject-dict
+^https:\/\/pan\.baidu\.com\/api\/getsyscfg reject-dict
+^https:\/\/pan\.baidu\.com\/api\/taskscore\/tasklist reject-dict
+^https:\/\/pan\.baidu\.com\/act\/api\/activityentry reject-dict
+^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user\?method=gamecenter reject-dict
+^https:\/\/pan\.baidu\.com\/act\/v2\/welfare\/list reject-dict
+^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adv reject-dict
+
+[Script]
+http-response ^https?:\/\/pan\.baidu\.com\/(youai\/(user\/.+\/getminfo|membership\/.+\/adswitch)|(rest\/.+\/membership\/user|act\/.+\/(bchannel|welfare)\/list|api\/usercfg)) script-path = https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdcloud.js, requires-body = true, tag = [百度网盘]会员权益@chxm1023
+http-response ^https?:\/\/pan\.baidu\.com\.+(rest\/.+\/membership\/user|api\/user\/getinfo|act\/v2\/welfare\/list|api\/taskscore\/tasklist)\? script-path = https://raw.githubusercontent.com/WeiGiegie/666/main/panda.js, requires-body = true, tag = [百度网盘]会员权益@WeiGiegie
+http-request ^https:\/\/pan\.baidu\.com\/api\/streaming\?app_id=\d+&type=M3U8_HQ_1080 script-path = https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js, tag = [百度网盘]视频倍速@ddgksf2013
+http-response ^https:\/\/pan\.baidu\.com\/rest\/.*\/membership\/user script-path = https://gist.githubusercontent.com/ddgksf2013/f43026707830c7818ee3ba624e383c8d/raw/baiduCloud.adblock.js, requires-body = true, tag = [百度网盘]视频倍速@ddgksf2013
+
+[Mitm]
+hostname = pan.baidu.com, afd.baidu.com

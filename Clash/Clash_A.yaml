@@ -1,0 +1,320 @@
+rule-providers:
+  规则修正:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/Direct/Direct_No_Resolve.yaml
+    path: ./ruleset/Direct_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  广告拦截:
+    url: https://github.com/Qmxn/Tool/raw/X/AdRule/Clash/AdBlock.yaml
+    path: ./ruleset/AdBlock.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
+  电报消息:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/Telegram/Telegram_No_Resolve.yaml
+    path: ./ruleset/Telegram_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  谷歌服务:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/Google/Google_No_Resolve.yaml
+    path: ./ruleset/Google_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  国际媒体:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/GlobalMedia/GlobalMedia_Classical_No_Resolve.yaml
+    path: ./ruleset/GlobalMedia_Classical_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  国际服务:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/Proxy/Proxy_Classical_No_Resolve.yaml
+    path: ./ruleset/Proxy_Classical_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  微软服务:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/Microsoft/Microsoft_No_Resolve.yaml
+    path: ./ruleset/Microsoft_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  bing:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/Bing/Bing_No_Resolve.yaml
+    path: ./ruleset/Bing_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  copilot:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/Copilot/Copilot_No_Resolve.yaml
+    path: ./ruleset/copilot_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  claude:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/Claude/Claude_No_Resolve.yaml
+    path: ./ruleset/claude_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  bard:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/BardAI/BardAI_No_Resolve.yaml
+    path: ./ruleset/bard_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  Gemin:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/Gemini/Gemini_No_Resolve.yaml
+    path: ./ruleset/Gemini_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+  openai:
+    url: https://raw.githubusercontent.com/Qmxn/Tool/X/Clash/Rule/OpenAI/OpenAI_No_Resolve.yaml
+    path: ./ruleset/openai_No_Resolve.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
+
+proxy-groups:
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Static.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    name: 自行选择
+    type: select
+    proxies:
+      - 香港手动
+      - 香港自动
+      - 台湾手动
+      - 台湾自动
+      - 狮城手动
+      - 狮城自动 
+      - 日本手动
+      - 日本自动
+      - 美国手动
+      - 美国自动
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Urltest.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    name: 自动选择
+    type: url-test
+    interval: 300
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Microsoft.png
+    name: 微软服务
+    type: select
+    proxies:
+      - DIRECT
+      - 香港手动
+      - 香港自动
+      - 台湾手动
+      - 台湾自动
+      - 狮城手动
+      - 狮城自动 
+      - 日本手动
+      - 日本自动
+      - 美国手动
+      - 美国自动
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Chatgpt.png
+    name: 智能应答
+    type: select
+    proxies:
+      - 台湾手动
+      - 台湾自动
+      - 狮城手动
+      - 狮城自动 
+      - 日本手动
+      - 日本自动
+      - 美国手动
+      - 美国自动
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Telegram.png
+    name: 电报消息
+    type: select
+    proxies:
+      - 香港手动
+      - 香港自动
+      - 台湾手动
+      - 台湾自动
+      - 狮城手动
+      - 狮城自动 
+      - 日本手动
+      - 日本自动
+      - 美国手动
+      - 美国自动
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Google.png
+    name: 谷歌服务
+    type: select
+    proxies:
+      - 香港手动
+      - 香港自动
+      - 台湾手动
+      - 台湾自动
+      - 狮城手动
+      - 狮城自动 
+      - 日本手动
+      - 日本自动
+      - 美国手动
+      - 美国自动
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Streaming.png
+    name: 国际媒体
+    type: select
+    proxies:
+      - 香港手动
+      - 香港自动
+      - 台湾手动
+      - 台湾自动
+      - 狮城手动
+      - 狮城自动 
+      - 日本手动
+      - 日本自动
+      - 美国手动
+      - 美国自动
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Enet.png
+    name: 国际服务
+    type: select
+    proxies:
+      - 香港手动
+      - 香港自动
+      - 台湾手动
+      - 台湾自动
+      - 狮城手动
+      - 狮城自动 
+      - 日本手动
+      - 日本自动
+      - 美国手动
+      - 美国自动
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Final.png
+    name: 兜底服务
+    type: select
+    proxies:
+      - 自动选择
+      - 香港手动
+      - 香港自动
+      - 台湾手动
+      - 台湾自动
+      - 狮城手动
+      - 狮城自动 
+      - 日本手动
+      - 日本自动
+      - 美国手动
+      - 美国自动
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/HK.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇭🇰|香港|(\b(HK|Hong)\b)
+    name: 香港手动 
+    type: select
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/TW.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)
+    name: 台湾手动
+    type: select
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/SG.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)
+    name: 狮城手动 
+    type: select
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/JP.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)
+    name: 日本手动 
+    type: select
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/US.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)
+    name: 美国手动 
+    type: select
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/HK.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇭🇰|香港|(\b(HK|Hong)\b)
+    name: 香港自动
+    type: url-test
+    interval: 300
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/TW.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)
+    name: 台湾自动
+    type: url-test
+    interval: 300
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/SG.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)
+    name: 狮城自动
+    type: url-test
+    interval: 300
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/JP.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)
+    name: 日本自动 
+    type: url-test
+    interval: 300
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/US.png
+    include-all: true
+    exclude-filter: (?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置
+    filter: (?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)
+    name: 美国自动
+    type: url-test
+    interval: 300
+  - icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/color/Mihomo.png
+    include-all: true
+    name: GLOBAL
+    type: select
+    proxies:
+      - 自行选择
+      - 自动选择
+      - 微软服务
+      - 智能应答
+      - 电报消息
+      - 谷歌服务
+      - 国际媒体
+      - 国际服务
+      - 兜底服务
+      - 香港手动
+      - 香港自动
+      - 台湾手动
+      - 台湾自动
+      - 狮城手动
+      - 狮城自动 
+      - 日本手动
+      - 日本自动
+      - 美国手动
+      - 美国自动
+
+rules:
+  - "RULE-SET,规则修正,DIRECT"
+  - "RULE-SET,广告拦截,REJECT"
+  - "RULE-SET,微软服务,微软服务"
+  - "RULE-SET,国际媒体,国际媒体"
+  - "RULE-SET,国际服务,国际服务"
+  - "RULE-SET,bing,智能应答"
+  - "RULE-SET,copilot,智能应答"
+  - "RULE-SET,bard,智能应答"
+  - "RULE-SET,Gemin,智能应答"
+  - "RULE-SET,openai,智能应答"
+  - "RULE-SET,claude,智能应答"
+  - "RULE-SET,电报消息,电报消息"
+  - "RULE-SET,谷歌服务,谷歌服务"
+  - "GEOIP,CN,DIRECT"
+  - "MATCH,兜底服务"
