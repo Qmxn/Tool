@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Domain
-# 规则统计: 116548
+# 规则统计: 116549
 
 payload:
   - 'analytics.strava.com'
@@ -113745,6 +113745,7 @@ payload:
   - '+.zhuanhuanqi.com'
   - '+.zhuanhuanqi.net'
   - '+.zhuaniao.com'
+  - '+.zhuaninc.com'
   - '+.zhuankeapp.com'
   - '+.zhuankebang.com'
   - '+.zhuankezu.com'

@@ -1,5 +1,5 @@
 # 规则名称: Global_Classical_No_Resolve
-# 规则统计: 32247
+# 规则统计: 32248
 
 payload:
   - DOMAIN,1password.drift.click
@@ -6951,6 +6951,7 @@ payload:
   - DOMAIN-SUFFIX,dlfacebook.com
   - DOMAIN-SUFFIX,dlhe.ac.uk
   - DOMAIN-SUFFIX,dlib.eastview.com
+  - DOMAIN-SUFFIX,dln1.ncdn.ec
   - DOMAIN-SUFFIX,dls.ac.uk
   - DOMAIN-SUFFIX,dlsite.com.tw
   - DOMAIN-SUFFIX,dlsitenews.com

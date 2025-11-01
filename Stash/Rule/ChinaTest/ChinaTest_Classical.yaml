@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Classical
-# 规则统计: 116572
+# 规则统计: 116573
 
 payload:
   - DOMAIN,analytics.strava.com
@@ -113745,6 +113745,7 @@ payload:
   - DOMAIN-SUFFIX,zhuanhuanqi.com
   - DOMAIN-SUFFIX,zhuanhuanqi.net
   - DOMAIN-SUFFIX,zhuaniao.com
+  - DOMAIN-SUFFIX,zhuaninc.com
   - DOMAIN-SUFFIX,zhuankeapp.com
   - DOMAIN-SUFFIX,zhuankebang.com
   - DOMAIN-SUFFIX,zhuankezu.com

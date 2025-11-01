@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest
-# 规则统计: 116579
+# 规则统计: 116580
 
 no_resolve: true
 domain_set:
@@ -113747,6 +113747,7 @@ domain_suffix_set:
 - zhuanhuanqi.com
 - zhuanhuanqi.net
 - zhuaniao.com
+- zhuaninc.com
 - zhuankeapp.com
 - zhuankebang.com
 - zhuankezu.com

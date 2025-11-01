@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32819
+# 规则统计: 32820
 
 no_resolve: true
 domain_set:
@@ -7388,6 +7388,7 @@ domain_suffix_set:
 - dlfacebook.com
 - dlhe.ac.uk
 - dlib.eastview.com
+- dln1.ncdn.ec
 - dls.ac.uk
 - dlsite.com.tw
 - dlsitenews.com
