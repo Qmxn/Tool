@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7147
+# 规则统计: 7148
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -5683,6 +5683,7 @@ HOST-SUFFIX,telegramdownload.com,Proxy
 HOST-SUFFIX,telegraph.co.uk,Proxy
 HOST-SUFFIX,telesco.pe,Proxy
 HOST-SUFFIX,tellme.pw,Proxy
+HOST-SUFFIX,temu.com,Proxy
 HOST-SUFFIX,tenacy.com,Proxy
 HOST-SUFFIX,tenor.com,Proxy
 HOST-SUFFIX,tensorflow.org,Proxy

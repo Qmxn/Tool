@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest
-# 规则统计: 116573
+# 规则统计: 116572
 
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
@@ -54298,7 +54298,6 @@ DOMAIN-SUFFIX,imlianai.com
 DOMAIN-SUFFIX,imliuyi.com
 DOMAIN-SUFFIX,imlizhi.com
 DOMAIN-SUFFIX,immeee.com
-DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,immfast.com
 DOMAIN-SUFFIX,immi520.com
 DOMAIN-SUFFIX,immiexpo.com

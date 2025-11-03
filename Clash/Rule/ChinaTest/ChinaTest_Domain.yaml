@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Domain
-# 规则统计: 116549
+# 规则统计: 116548
 
 payload:
   - 'analytics.strava.com'
@@ -54299,7 +54299,6 @@ payload:
   - '+.imliuyi.com'
   - '+.imlizhi.com'
   - '+.immeee.com'
-  - '+.immersivetranslate.com'
   - '+.immfast.com'
   - '+.immi520.com'
   - '+.immiexpo.com'

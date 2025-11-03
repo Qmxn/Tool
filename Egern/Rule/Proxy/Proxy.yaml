@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7145
+# 规则统计: 7146
 
 no_resolve: true
 domain_set:
@@ -5686,6 +5686,7 @@ domain_suffix_set:
 - telegraph.co.uk
 - telesco.pe
 - tellme.pw
+- temu.com
 - tenacy.com
 - tenor.com
 - tensorflow.org

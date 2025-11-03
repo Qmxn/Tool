@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32814
+# 规则统计: 32816
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -12218,6 +12218,7 @@ DOMAIN-SUFFIX,imgurinc.com
 DOMAIN-SUFFIX,imhentai.xxx
 DOMAIN-SUFFIX,imilfs.com
 DOMAIN-SUFFIX,imlab.ac.uk
+DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,immidio.com
 DOMAIN-SUFFIX,immxd.com
 DOMAIN-SUFFIX,imod.com
@@ -31343,6 +31344,7 @@ DOMAIN-SUFFIX,telegramdownload.com
 DOMAIN-SUFFIX,telegraph.co.uk
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tellme.pw
+DOMAIN-SUFFIX,temu.com
 DOMAIN-SUFFIX,tenacy.com
 DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,tensorflow.org

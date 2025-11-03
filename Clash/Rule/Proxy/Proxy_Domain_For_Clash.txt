@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain_For_Clash
-# 规则统计: 6529
+# 规则统计: 6530
 
 api.waqi.info
 aqi.aqicn.org
@@ -5236,6 +5236,7 @@ voice.telephony.goog
 +.telegraph.co.uk
 +.telesco.pe
 +.tellme.pw
++.temu.com
 +.tenacy.com
 +.tenor.com
 +.tensorflow.org

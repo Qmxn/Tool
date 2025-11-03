@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical_No_Resolve
-# 规则统计: 6653
+# 规则统计: 6654
 
 payload:
   - DOMAIN,api.waqi.info
@@ -5237,6 +5237,7 @@ payload:
   - DOMAIN-SUFFIX,telegraph.co.uk
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,tellme.pw
+  - DOMAIN-SUFFIX,temu.com
   - DOMAIN-SUFFIX,tenacy.com
   - DOMAIN-SUFFIX,tenor.com
   - DOMAIN-SUFFIX,tensorflow.org

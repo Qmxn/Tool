@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6530
+# 规则统计: 6531
 
 payload:
   - 'api.waqi.info'
@@ -5237,6 +5237,7 @@ payload:
   - '+.telegraph.co.uk'
   - '+.telesco.pe'
   - '+.tellme.pw'
+  - '+.temu.com'
   - '+.tenacy.com'
   - '+.tenor.com'
   - '+.tensorflow.org'

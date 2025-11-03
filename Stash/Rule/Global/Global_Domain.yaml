@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 32095
+# 规则统计: 32097
 
 payload:
   - '1password.drift.click'
@@ -12045,6 +12045,7 @@ payload:
   - '+.imhentai.xxx'
   - '+.imilfs.com'
   - '+.imlab.ac.uk'
+  - '+.immersivetranslate.com'
   - '+.immidio.com'
   - '+.immxd.com'
   - '+.imod.com'
@@ -30815,6 +30816,7 @@ payload:
   - '+.telegraph.co.uk'
   - '+.telesco.pe'
   - '+.tellme.pw'
+  - '+.temu.com'
   - '+.tenacy.com'
   - '+.tenor.com'
   - '+.tensorflow.org'

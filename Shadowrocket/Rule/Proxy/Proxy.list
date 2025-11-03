@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7139
+# 规则统计: 7140
 
 DOMAIN,api.msn.com
 DOMAIN,api.waqi.info
@@ -5683,6 +5683,7 @@ DOMAIN-SUFFIX,telegramdownload.com
 DOMAIN-SUFFIX,telegraph.co.uk
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tellme.pw
+DOMAIN-SUFFIX,temu.com
 DOMAIN-SUFFIX,tenacy.com
 DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,tensorflow.org
