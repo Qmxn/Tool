@@ -1,5 +1,5 @@
 # 规则名称: PrivateTracker
-# 规则统计: 294
+# 规则统计: 299
 
 HOST,0123456789nonexistent.com,PrivateTracker
 HOST,0d.kebhana.mx,PrivateTracker
@@ -31,19 +31,21 @@ HOST,evan.im,PrivateTracker
 HOST,exodus.desync.com,PrivateTracker
 HOST,explodie.org,PrivateTracker
 HOST,extracker.dahrkael.net,PrivateTracker
-HOST,hificode.in,PrivateTracker
 HOST,home.yxgz.club,PrivateTracker
 HOST,ipv4.rer.lol,PrivateTracker
 HOST,ipv4announce.sktorrent.eu,PrivateTracker
 HOST,ipv6.rer.lol,PrivateTracker
 HOST,lucke.fenesisu.moe,PrivateTracker
 HOST,martin-gebhardt.eu,PrivateTracker
+HOST,ns-1.x-fins.com,PrivateTracker
+HOST,ns3109441.mypdns.org,PrivateTracker
 HOST,nyaa.tracker.wf,PrivateTracker
 HOST,open-tracker.demonoid.ch,PrivateTracker
 HOST,open.acgtracker.com,PrivateTracker
 HOST,open.demonii.com,PrivateTracker
 HOST,open.demonoid.ch,PrivateTracker
 HOST,open.dstud.io,PrivateTracker
+HOST,open.free-tracker.ga,PrivateTracker
 HOST,open.stealth.si,PrivateTracker
 HOST,open.trackerlist.xyz,PrivateTracker
 HOST,opentor.org,PrivateTracker
@@ -71,13 +73,15 @@ HOST,torrent.hificode.in,PrivateTracker
 HOST,torrent.tracker.durukanbal.com,PrivateTracker
 HOST,torrentclub.online,PrivateTracker
 HOST,torrentsmd.com,PrivateTracker
+HOST,tr-rh-zhuqiy.dgj055.icu,PrivateTracker
+HOST,tr-zhuqiy-1.dgj055.icu,PrivateTracker
+HOST,tr-zhuqiy-2.dgj055.icu,PrivateTracker
 HOST,tr.abiir.top,PrivateTracker
 HOST,tr.abir.ga,PrivateTracker
 HOST,tr.highstar.shop,PrivateTracker
+HOST,tr.kxmp.cf,PrivateTracker
 HOST,tr.nyacat.pw,PrivateTracker
-HOST,tr3.ysagin.top,PrivateTracker
 HOST,tr4ck3r.duckdns.org,PrivateTracker
-HOST,tracker-de-2.cutie.dating,PrivateTracker
 HOST,tracker-udp.gbitt.info,PrivateTracker
 HOST,tracker.1h.is,PrivateTracker
 HOST,tracker.23794.top,PrivateTracker
@@ -106,11 +110,12 @@ HOST,tracker.foreverpirates.co,PrivateTracker
 HOST,tracker.gcrenwp.top,PrivateTracker
 HOST,tracker.ghostchu-services.top,PrivateTracker
 HOST,tracker.gmi.gd,PrivateTracker
-HOST,tracker.guguan.dpdns.org,PrivateTracker
 HOST,tracker.hifimarket.in,PrivateTracker
 HOST,tracker.hifitechindia.com,PrivateTracker
+HOST,tracker.home.kmzs123.cn,PrivateTracker
 HOST,tracker.iperson.xyz,PrivateTracker
 HOST,tracker.ipv6tracker.org,PrivateTracker
+HOST,tracker.ipv6tracker.ru,PrivateTracker
 HOST,tracker.kmzs123.cn,PrivateTracker
 HOST,tracker.kuroy.me,PrivateTracker
 HOST,tracker.leechshield.link,PrivateTracker
@@ -118,9 +123,9 @@ HOST,tracker.lintk.me,PrivateTracker
 HOST,tracker.moeblog.cn,PrivateTracker
 HOST,tracker.moxing.party,PrivateTracker
 HOST,tracker.mywaifu.best,PrivateTracker
+HOST,tracker.ololosh.space,PrivateTracker
 HOST,tracker.opentrackr.org,PrivateTracker
 HOST,tracker.openwebtorrent.com,PrivateTracker
-HOST,tracker.pcfreetime.com,PrivateTracker
 HOST,tracker.playground.ru,PrivateTracker
 HOST,tracker.plx.im,PrivateTracker
 HOST,tracker.pmman.tech,PrivateTracker
