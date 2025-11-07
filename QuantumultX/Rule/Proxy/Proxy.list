@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7148
+# 规则统计: 7149
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -2018,6 +2018,7 @@ HOST-SUFFIX,flagsonline.it,Proxy
 HOST-SUFFIX,flecheinthepeche.fr,Proxy
 HOST-SUFFIX,fleshbot.com,Proxy
 HOST-SUFFIX,fleursdeslettres.com,Proxy
+HOST-SUFFIX,flexclip.com,Proxy
 HOST-SUFFIX,flexibits.com,Proxy
 HOST-SUFFIX,flexpool.io,Proxy
 HOST-SUFFIX,flgg.us,Proxy

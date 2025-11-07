@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain_For_Clash
-# 规则统计: 6530
+# 规则统计: 6531
 
 api.waqi.info
 aqi.aqicn.org
@@ -1895,6 +1895,7 @@ voice.telephony.goog
 +.flecheinthepeche.fr
 +.fleshbot.com
 +.fleursdeslettres.com
++.flexclip.com
 +.flexibits.com
 +.flexpool.io
 +.flgg.us

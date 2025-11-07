@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical
-# 规则统计: 6654
+# 规则统计: 6655
 
 payload:
   - DOMAIN,api.waqi.info
@@ -1896,6 +1896,7 @@ payload:
   - DOMAIN-SUFFIX,flecheinthepeche.fr
   - DOMAIN-SUFFIX,fleshbot.com
   - DOMAIN-SUFFIX,fleursdeslettres.com
+  - DOMAIN-SUFFIX,flexclip.com
   - DOMAIN-SUFFIX,flexibits.com
   - DOMAIN-SUFFIX,flexpool.io
   - DOMAIN-SUFFIX,flgg.us
