@@ -2,9 +2,6 @@
 #!desc=移除开屏广告、商品信息流广告、关注推荐、搜索栏填充词、首页签到入口及悬浮广告，精简我的页面。
 #!icon=https://github.com/Qmxn/Box/raw/X/icon/icon/loonLite.png
 
-[Rule]
-AND, ((URL-REGEX, "^http:\/\/.+\/amdc\/mobileDispatch"), (USER-AGENT, "%E9%97%B2%E9%B1%BC*")), REJECT
-
 [Rewrite]
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash\.ads\/ reject-dict
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/ response-body-json-jq '.data.homeTopList |= map(select(.sectionType == "kingkongDo")) | .data.sections |= map(select(.data.clickParam.args.cardType as $ct | $ct != "homeMultiBanner" and $ct != "mamaAD")) | .data.sections |= map(select((.template.name|type=="string")and(.template.name=="idlefish_home_new_commodity_card"or(.template.name|contains("fish_home_tags_item_card")))))'
