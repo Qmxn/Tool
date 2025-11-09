@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6532
+# 规则统计: 6533
 
 payload:
   - 'api.waqi.info'
@@ -2747,6 +2747,7 @@ payload:
   - '+.imageflea.com'
   - '+.imageglass.org'
   - '+.images-gaytube.com'
+  - '+.images.prismic.io'
   - '+.imageshack.us'
   - '+.imagevenue.com'
   - '+.imagezilla.net'

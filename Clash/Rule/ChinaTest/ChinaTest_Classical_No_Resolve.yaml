@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Classical_No_Resolve
-# 规则统计: 116572
+# 规则统计: 116570
 
 payload:
   - DOMAIN,analytics.strava.com
@@ -54468,7 +54468,6 @@ payload:
   - DOMAIN-SUFFIX,infertilitybridge.com
   - DOMAIN-SUFFIX,infimotion.com
   - DOMAIN-SUFFIX,infineon-autoeco.com
-  - DOMAIN-SUFFIX,infineon.com
   - DOMAIN-SUFFIX,infini-ai.com
   - DOMAIN-SUFFIX,infinisign.com
   - DOMAIN-SUFFIX,infinitescript.com
@@ -92685,7 +92684,6 @@ payload:
   - DOMAIN-SUFFIX,thzu.cc
   - DOMAIN-SUFFIX,ti-node.com
   - DOMAIN-SUFFIX,ti-solar.com
-  - DOMAIN-SUFFIX,ti.com
   - DOMAIN-SUFFIX,ti0s.com
   - DOMAIN-SUFFIX,ti4la.icu
   - DOMAIN-SUFFIX,tiamaes.com

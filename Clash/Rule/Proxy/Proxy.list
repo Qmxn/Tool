@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 6654
+# 规则统计: 6655
 
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
@@ -2746,6 +2746,7 @@ DOMAIN-SUFFIX,imagefap.com
 DOMAIN-SUFFIX,imageflea.com
 DOMAIN-SUFFIX,imageglass.org
 DOMAIN-SUFFIX,images-gaytube.com
+DOMAIN-SUFFIX,images.prismic.io
 DOMAIN-SUFFIX,imageshack.us
 DOMAIN-SUFFIX,imagevenue.com
 DOMAIN-SUFFIX,imagezilla.net

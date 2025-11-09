@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32834
+# 规则统计: 32835
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -28838,6 +28838,7 @@ DOMAIN-SUFFIX,imagefap.com
 DOMAIN-SUFFIX,imageflea.com
 DOMAIN-SUFFIX,imageglass.org
 DOMAIN-SUFFIX,images-gaytube.com
+DOMAIN-SUFFIX,images.prismic.io
 DOMAIN-SUFFIX,imageshack.us
 DOMAIN-SUFFIX,imagevenue.com
 DOMAIN-SUFFIX,imagezilla.net

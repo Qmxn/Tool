@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest
-# 规则统计: 116603
+# 规则统计: 116601
 
 HOST,analytics.strava.com,ChinaTest
 HOST,blzddist1-a.akamaihd.net,ChinaTest
@@ -54467,7 +54467,6 @@ HOST-SUFFIX,inferoey.com,ChinaTest
 HOST-SUFFIX,infertilitybridge.com,ChinaTest
 HOST-SUFFIX,infimotion.com,ChinaTest
 HOST-SUFFIX,infineon-autoeco.com,ChinaTest
-HOST-SUFFIX,infineon.com,ChinaTest
 HOST-SUFFIX,infini-ai.com,ChinaTest
 HOST-SUFFIX,infinisign.com,ChinaTest
 HOST-SUFFIX,infinitescript.com,ChinaTest
@@ -92684,7 +92683,6 @@ HOST-SUFFIX,thztv.net,ChinaTest
 HOST-SUFFIX,thzu.cc,ChinaTest
 HOST-SUFFIX,ti-node.com,ChinaTest
 HOST-SUFFIX,ti-solar.com,ChinaTest
-HOST-SUFFIX,ti.com,ChinaTest
 HOST-SUFFIX,ti0s.com,ChinaTest
 HOST-SUFFIX,ti4la.icu,ChinaTest
 HOST-SUFFIX,tiamaes.com,ChinaTest

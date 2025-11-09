@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32880
+# 规则统计: 32881
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -28838,6 +28838,7 @@ HOST-SUFFIX,imagefap.com,Global
 HOST-SUFFIX,imageflea.com,Global
 HOST-SUFFIX,imageglass.org,Global
 HOST-SUFFIX,images-gaytube.com,Global
+HOST-SUFFIX,images.prismic.io,Global
 HOST-SUFFIX,imageshack.us,Global
 HOST-SUFFIX,imagevenue.com,Global
 HOST-SUFFIX,imagezilla.net,Global

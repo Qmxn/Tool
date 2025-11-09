@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7149
+# 规则统计: 7150
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -3143,6 +3143,7 @@ HOST-SUFFIX,imagefap.com,Proxy
 HOST-SUFFIX,imageflea.com,Proxy
 HOST-SUFFIX,imageglass.org,Proxy
 HOST-SUFFIX,images-gaytube.com,Proxy
+HOST-SUFFIX,images.prismic.io,Proxy
 HOST-SUFFIX,imageshack.us,Proxy
 HOST-SUFFIX,imagevenue.com,Proxy
 HOST-SUFFIX,imagezilla.net,Proxy

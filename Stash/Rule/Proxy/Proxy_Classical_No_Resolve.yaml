@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical_No_Resolve
-# 规则统计: 6655
+# 规则统计: 6656
 
 payload:
   - DOMAIN,api.waqi.info
@@ -2747,6 +2747,7 @@ payload:
   - DOMAIN-SUFFIX,imageflea.com
   - DOMAIN-SUFFIX,imageglass.org
   - DOMAIN-SUFFIX,images-gaytube.com
+  - DOMAIN-SUFFIX,images.prismic.io
   - DOMAIN-SUFFIX,imageshack.us
   - DOMAIN-SUFFIX,imagevenue.com
   - DOMAIN-SUFFIX,imagezilla.net

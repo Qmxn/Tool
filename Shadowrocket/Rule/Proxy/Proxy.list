@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7141
+# 规则统计: 7142
 
 DOMAIN,api.msn.com
 DOMAIN,api.waqi.info
@@ -3143,6 +3143,7 @@ DOMAIN-SUFFIX,imagefap.com
 DOMAIN-SUFFIX,imageflea.com
 DOMAIN-SUFFIX,imageglass.org
 DOMAIN-SUFFIX,images-gaytube.com
+DOMAIN-SUFFIX,images.prismic.io
 DOMAIN-SUFFIX,imageshack.us
 DOMAIN-SUFFIX,imagevenue.com
 DOMAIN-SUFFIX,imagezilla.net

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32840
+# 规则统计: 32841
 
 no_resolve: true
 domain_set:
@@ -28841,6 +28841,7 @@ domain_suffix_set:
 - imageflea.com
 - imageglass.org
 - images-gaytube.com
+- images.prismic.io
 - imageshack.us
 - imagevenue.com
 - imagezilla.net

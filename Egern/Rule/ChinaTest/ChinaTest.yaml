@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest
-# 规则统计: 116579
+# 规则统计: 116577
 
 no_resolve: true
 domain_set:
@@ -54470,7 +54470,6 @@ domain_suffix_set:
 - infertilitybridge.com
 - infimotion.com
 - infineon-autoeco.com
-- infineon.com
 - infini-ai.com
 - infinisign.com
 - infinitescript.com
@@ -92687,7 +92686,6 @@ domain_suffix_set:
 - thzu.cc
 - ti-node.com
 - ti-solar.com
-- ti.com
 - ti0s.com
 - ti4la.icu
 - tiamaes.com
