@@ -1,5 +1,5 @@
 # 规则名称: China
-# 规则统计: 3736
+# 规则统计: 3735
 
 no_resolve: true
 domain_set:
@@ -2490,7 +2490,6 @@ domain_suffix_set:
 - onlinedown.net
 - onlinesjtu.com
 - onlylady.com
-- ooklaserver.net
 - opdown.com
 - open.cd
 - openapp.run

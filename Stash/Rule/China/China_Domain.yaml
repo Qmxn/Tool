@@ -1,5 +1,5 @@
 # 规则名称: China_Domain
-# 规则统计: 3699
+# 规则统计: 3698
 
 payload:
   - 'analytics.strava.com'
@@ -2488,7 +2488,6 @@ payload:
   - '+.onlinedown.net'
   - '+.onlinesjtu.com'
   - '+.onlylady.com'
-  - '+.ooklaserver.net'
   - '+.opdown.com'
   - '+.open.cd'
   - '+.openapp.run'

@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Classical_No_Resolve
-# 规则统计: 116570
+# 规则统计: 116569
 
 payload:
   - DOMAIN,analytics.strava.com
@@ -2553,7 +2553,6 @@ payload:
   - DOMAIN-SUFFIX,onlinedown.net
   - DOMAIN-SUFFIX,onlinesjtu.com
   - DOMAIN-SUFFIX,onlylady.com
-  - DOMAIN-SUFFIX,ooklaserver.net
   - DOMAIN-SUFFIX,opdown.com
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,openapp.run

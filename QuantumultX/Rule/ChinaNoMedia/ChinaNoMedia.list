@@ -1,5 +1,5 @@
 # 规则名称: ChinaNoMedia
-# 规则统计: 3663
+# 规则统计: 3662
 
 HOST,analytics.strava.com,ChinaNoMedia
 HOST,blzddist1-a.akamaihd.net,ChinaNoMedia
@@ -2424,7 +2424,6 @@ HOST-SUFFIX,oneyac.com,ChinaNoMedia
 HOST-SUFFIX,onlinedown.net,ChinaNoMedia
 HOST-SUFFIX,onlinesjtu.com,ChinaNoMedia
 HOST-SUFFIX,onlylady.com,ChinaNoMedia
-HOST-SUFFIX,ooklaserver.net,ChinaNoMedia
 HOST-SUFFIX,opdown.com,ChinaNoMedia
 HOST-SUFFIX,open.cd,ChinaNoMedia
 HOST-SUFFIX,openapp.run,ChinaNoMedia

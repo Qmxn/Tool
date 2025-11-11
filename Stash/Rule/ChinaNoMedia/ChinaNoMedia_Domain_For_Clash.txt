@@ -1,5 +1,5 @@
 # 规则名称: ChinaNoMedia_Domain_For_Clash
-# 规则统计: 3607
+# 规则统计: 3606
 
 analytics.strava.com
 blzddist1-a.akamaihd.net
@@ -2424,7 +2424,6 @@ www.yxssp.com
 +.onlinedown.net
 +.onlinesjtu.com
 +.onlylady.com
-+.ooklaserver.net
 +.opdown.com
 +.open.cd
 +.openapp.run

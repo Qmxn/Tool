@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 32116
+# 规则统计: 32118
 
 payload:
   - '1password.drift.click'
@@ -5684,6 +5684,8 @@ payload:
   - '+.coem.ac.uk'
   - '+.cof.ac.uk'
   - '+.cogc.ac.uk'
+  - '+.cohere.ai'
+  - '+.cohere.com'
   - '+.coinalyze.net'
   - '+.coincarp.com'
   - '+.coincheck.com'

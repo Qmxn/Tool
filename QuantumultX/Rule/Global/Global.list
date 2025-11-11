@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32881
+# 规则统计: 32883
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -6120,6 +6120,8 @@ HOST-SUFFIX,coedcherry.com,Global
 HOST-SUFFIX,coem.ac.uk,Global
 HOST-SUFFIX,cof.ac.uk,Global
 HOST-SUFFIX,cogc.ac.uk,Global
+HOST-SUFFIX,cohere.ai,Global
+HOST-SUFFIX,cohere.com,Global
 HOST-SUFFIX,coinalyze.net,Global
 HOST-SUFFIX,coincarp.com,Global
 HOST-SUFFIX,coincheck.com,Global

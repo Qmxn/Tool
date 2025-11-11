@@ -1,5 +1,5 @@
 # 规则名称: ChinaNoMedia_Domain
-# 规则统计: 3608
+# 规则统计: 3607
 
 payload:
   - 'analytics.strava.com'
@@ -2425,7 +2425,6 @@ payload:
   - '+.onlinedown.net'
   - '+.onlinesjtu.com'
   - '+.onlylady.com'
-  - '+.ooklaserver.net'
   - '+.opdown.com'
   - '+.open.cd'
   - '+.openapp.run'

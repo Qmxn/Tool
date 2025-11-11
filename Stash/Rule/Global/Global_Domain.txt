@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 32115
+# 规则统计: 32117
 
 1password.drift.click
 adobeereg.com
@@ -5683,6 +5683,8 @@ login.microsoftonline.com
 .coem.ac.uk
 .cof.ac.uk
 .cogc.ac.uk
+.cohere.ai
+.cohere.com
 .coinalyze.net
 .coincarp.com
 .coincheck.com

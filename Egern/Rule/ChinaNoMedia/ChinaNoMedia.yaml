@@ -1,5 +1,5 @@
 # 规则名称: ChinaNoMedia
-# 规则统计: 3639
+# 规则统计: 3638
 
 no_resolve: true
 domain_set:
@@ -2427,7 +2427,6 @@ domain_suffix_set:
 - onlinedown.net
 - onlinesjtu.com
 - onlylady.com
-- ooklaserver.net
 - opdown.com
 - open.cd
 - openapp.run

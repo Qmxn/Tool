@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32841
+# 规则统计: 32843
 
 no_resolve: true
 domain_set:
@@ -6123,6 +6123,8 @@ domain_suffix_set:
 - coem.ac.uk
 - cof.ac.uk
 - cogc.ac.uk
+- cohere.ai
+- cohere.com
 - coinalyze.net
 - coincarp.com
 - coincheck.com
