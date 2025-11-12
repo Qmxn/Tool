@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,msmp.abchina.com.cn,REJECT
 [URL Rewrite]
 ^https?:\/\/.*zhijianmedia\.cn\/streamAd\/ad\/getAd\?position=HomepageNewsPosition - reject
 ^https?:\/\/.*ziben\.com\/api\/.*\/adverts - reject
+^https?:\/\/m\.mynj\.cn:\d+\/znmh_FEP\/loadpic\.jsp.*ad_pic.*open - reject
 
 [Map Local]
 ^https?:\/\/2025.11.10/c400/v2.0.624 data-type=text data=" " status-code=200
@@ -342,7 +343,6 @@ DOMAIN-SUFFIX,msmp.abchina.com.cn,REJECT
 ^https?:\/\/t\.wind\.com\.cn\/smartad\/ad data-type=text data=" " status-code=200
 ^https?:\/\/180\.96\.8\.44\/smartad\/ad data-type=text data=" " status-code=200
 ^https?:\/\/125\.215\.147\.40\/smartad\/ad data-type=text data=" " status-code=200
-^https?:\/\/m\.mynj\.cn:\d+\/znmh_FEP\/loadpic\.jsp.*ad_pic.*open data-type=tiny-gif status-code=200
 ^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash data-type=text data=" " status-code=200
 ^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd data-type=text data=" " status-code=200
 ^https?:\/\/api.psy-1.com\/cosleep\/startup data-type=text data=" " status-code=200

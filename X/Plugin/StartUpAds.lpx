@@ -356,7 +356,7 @@ DOMAIN-SUFFIX, msmp.abchina.com.cn, REJECT
 ^https?:\/\/t\.wind\.com\.cn\/smartad\/ad reject-200
 ^https?:\/\/180\.96\.8\.44\/smartad\/ad reject-200
 ^https?:\/\/125\.215\.147\.40\/smartad\/ad reject-200
-^https?:\/\/m\.mynj\.cn:\d+\/znmh_FEP\/loadpic\.jsp.*ad_pic.*open reject-img
+^https?:\/\/m\.mynj\.cn:\d+\/znmh_FEP\/loadpic\.jsp.*ad_pic.*open reject
 ^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash reject-200
 ^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd reject-200
 ^https?:\/\/api.psy-1.com\/cosleep\/startup reject-200
