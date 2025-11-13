@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6533
+# 规则统计: 6534
 
 payload:
   - 'api.waqi.info'
@@ -2319,6 +2319,7 @@ payload:
   - '+.great-firewall.com'
   - '+.great-roc.org'
   - '+.greatfire.org'
+  - '+.greatfirevpn.com'
   - '+.greatfirewall.biz'
   - '+.greatfirewallofchina.net'
   - '+.greatfirewallofchina.org'

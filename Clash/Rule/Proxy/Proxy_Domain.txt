@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6532
+# 规则统计: 6533
 
 api.waqi.info
 aqi.aqicn.org
@@ -2318,6 +2318,7 @@ voice.telephony.goog
 .great-firewall.com
 .great-roc.org
 .greatfire.org
+.greatfirevpn.com
 .greatfirewall.biz
 .greatfirewallofchina.net
 .greatfirewallofchina.org

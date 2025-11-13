@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPsTest_No_IPv6
-# 规则统计: 18344
+# 规则统计: 18342
 
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -7141,7 +7141,6 @@ IP-CIDR,150.242.0.0/22,no-resolve
 IP-CIDR,150.242.112.0/21,no-resolve
 IP-CIDR,150.242.112.0/22,no-resolve
 IP-CIDR,150.242.116.0/22,no-resolve
-IP-CIDR,150.242.120.0/22,no-resolve
 IP-CIDR,150.242.152.0/21,no-resolve
 IP-CIDR,150.242.152.0/22,no-resolve
 IP-CIDR,150.242.156.0/22,no-resolve
@@ -15484,7 +15483,6 @@ IP-CIDR,124.224.0.0/12,no-resolve
 IP-CIDR,124.240.0.0/17,no-resolve
 IP-CIDR,124.240.128.0/18,no-resolve
 IP-CIDR,124.243.192.0/18,no-resolve
-IP-CIDR,124.248.0.0/22,no-resolve
 IP-CIDR,124.248.64.0/18,no-resolve
 IP-CIDR,124.250.0.0/15,no-resolve
 IP-CIDR,124.254.0.0/18,no-resolve
@@ -15656,8 +15654,7 @@ IP-CIDR,150.129.252.0/22,no-resolve
 IP-CIDR,150.138.0.0/15,no-resolve
 IP-CIDR,150.158.0.0/16,no-resolve
 IP-CIDR,150.223.0.0/16,no-resolve
-IP-CIDR,150.242.120.0/24,no-resolve
-IP-CIDR,150.242.122.0/23,no-resolve
+IP-CIDR,150.242.120.0/22,no-resolve
 IP-CIDR,150.242.156.0/23,no-resolve
 IP-CIDR,150.242.168.0/22,no-resolve
 IP-CIDR,150.242.184.0/22,no-resolve
@@ -17977,6 +17974,7 @@ IP-CIDR,124.202.128.0/19,no-resolve
 IP-CIDR,124.202.160.0/19,no-resolve
 IP-CIDR,124.202.192.0/18,no-resolve
 IP-CIDR,124.206.0.0/16,no-resolve
+IP-CIDR,124.248.0.0/22,no-resolve
 IP-CIDR,124.250.120.0/23,no-resolve
 IP-CIDR,124.250.128.0/17,no-resolve
 IP-CIDR,124.250.16.0/20,no-resolve

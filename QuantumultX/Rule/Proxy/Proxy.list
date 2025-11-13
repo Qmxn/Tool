@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7150
+# 规则统计: 7152
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -2658,6 +2658,7 @@ HOST-SUFFIX,googlearth.com,Proxy
 HOST-SUFFIX,googleartproject.com,Proxy
 HOST-SUFFIX,googleblog.com,Proxy
 HOST-SUFFIX,googlebot.com,Proxy
+HOST-SUFFIX,googlecensorship.org,Proxy
 HOST-SUFFIX,googlechinawebmaster.com,Proxy
 HOST-SUFFIX,googlecode.com,Proxy
 HOST-SUFFIX,googledomains.com,Proxy
@@ -2711,6 +2712,7 @@ HOST-SUFFIX,greasyfork.org,Proxy
 HOST-SUFFIX,great-firewall.com,Proxy
 HOST-SUFFIX,great-roc.org,Proxy
 HOST-SUFFIX,greatfire.org,Proxy
+HOST-SUFFIX,greatfirevpn.com,Proxy
 HOST-SUFFIX,greatfirewall.biz,Proxy
 HOST-SUFFIX,greatfirewallofchina.net,Proxy
 HOST-SUFFIX,greatfirewallofchina.org,Proxy

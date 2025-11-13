@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7142
+# 规则统计: 7144
 
 DOMAIN,api.msn.com
 DOMAIN,api.waqi.info
@@ -2658,6 +2658,7 @@ DOMAIN-SUFFIX,googlearth.com
 DOMAIN-SUFFIX,googleartproject.com
 DOMAIN-SUFFIX,googleblog.com
 DOMAIN-SUFFIX,googlebot.com
+DOMAIN-SUFFIX,googlecensorship.org
 DOMAIN-SUFFIX,googlechinawebmaster.com
 DOMAIN-SUFFIX,googlecode.com
 DOMAIN-SUFFIX,googledomains.com
@@ -2711,6 +2712,7 @@ DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,great-firewall.com
 DOMAIN-SUFFIX,great-roc.org
 DOMAIN-SUFFIX,greatfire.org
+DOMAIN-SUFFIX,greatfirevpn.com
 DOMAIN-SUFFIX,greatfirewall.biz
 DOMAIN-SUFFIX,greatfirewallofchina.net
 DOMAIN-SUFFIX,greatfirewallofchina.org

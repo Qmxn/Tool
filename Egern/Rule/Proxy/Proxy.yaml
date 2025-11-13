@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7148
+# 规则统计: 7150
 
 no_resolve: true
 domain_set:
@@ -2661,6 +2661,7 @@ domain_suffix_set:
 - googleartproject.com
 - googleblog.com
 - googlebot.com
+- googlecensorship.org
 - googlechinawebmaster.com
 - googlecode.com
 - googledomains.com
@@ -2714,6 +2715,7 @@ domain_suffix_set:
 - great-firewall.com
 - great-roc.org
 - greatfire.org
+- greatfirevpn.com
 - greatfirewall.biz
 - greatfirewallofchina.net
 - greatfirewallofchina.org
