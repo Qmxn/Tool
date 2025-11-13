@@ -22,7 +22,6 @@ DOMAIN, th-a.pinduoduo.com, REJECT
 DOMAIN, ta-a.pinduoduo.com, REJECT
 DOMAIN, meta.pinduoduo.com, REJECT
 DOMAIN, apm-a.pinduoduo.com, REJECT
-DOMAIN, m.pinduoduo.net, REJECT
 IP-CIDR, 114.110.98.3/32, REJECT
 IP-CIDR, 114.110.98.2/32, REJECT
 IP-CIDR, 36.152.46.3/32, REJECT
