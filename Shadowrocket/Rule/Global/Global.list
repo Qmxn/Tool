@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32878
+# 规则统计: 32911
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -113,9 +113,13 @@ DOMAIN,d1k2us671qcoau.cloudfront.net
 DOMAIN,d1m7jfoe9zdc1j.cloudfront.net
 DOMAIN,d1mhjrowxxagfy.cloudfront.net
 DOMAIN,d1oca24q5dwo6d.cloudfront.net
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d1w2poirtb3as9.cloudfront.net
 DOMAIN,d1xhnb4ptk05mw.cloudfront.net
 DOMAIN,d1ymi26ma8va5x.cloudfront.net
+DOMAIN,d22qjgkvxw22r6.cloudfront.net
+DOMAIN,d25xi40x97liuc.cloudfront.net
+DOMAIN,d27xxe7juh1us6.cloudfront.net
 DOMAIN,d29vzk4ow07wi7.cloudfront.net
 DOMAIN,d2aba1wr3818hz.cloudfront.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
@@ -151,6 +155,7 @@ DOMAIN,disk.yandex.com
 DOMAIN,dl.begellhouse.com
 DOMAIN,dlgarenanow-a.akamaihd.net
 DOMAIN,dlmobilegarena-a.akamaihd.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
 DOMAIN,docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
 DOMAIN,docker-pinata-support.s3.amazonaws.com
 DOMAIN,download.visualstudio.microsoft.com
@@ -221,6 +226,9 @@ DOMAIN,hpstore.corpmerchandise.com
 DOMAIN,hub.slarker.me
 DOMAIN,hulu.playback.edge.bamgrid.com
 DOMAIN,i.jeded.com
+DOMAIN,images-eu.ssl-images-amazon.com
+DOMAIN,images-fe.ssl-images-amazon.com
+DOMAIN,images-na.ssl-images-amazon.com
 DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
 DOMAIN,img-s-msn-com.akamaized.net
 DOMAIN,impala-media-production.s3.amazonaws.com
@@ -245,6 +253,7 @@ DOMAIN,medone-education.thieme.com
 DOMAIN,misa-prod.s3.ap-northeast-1.amazonaws.com
 DOMAIN,mobilelive-hamivideo.cdn.hinet.net
 DOMAIN,mscrl.microsoft.com
+DOMAIN,msh.amazon.co.uk
 DOMAIN,mtalk-dev.google.com
 DOMAIN,mtalk-staging.google.com
 DOMAIN,mtalk.google.com
@@ -421,6 +430,7 @@ DOMAIN,spotify.map.fastly.net
 DOMAIN,spotify.map.fastlylb.net
 DOMAIN,ssl-lvlt.cdn.ea.com
 DOMAIN,static-hamivideo.cdn.hinet.net
+DOMAIN,static.siege-amazon.com
 DOMAIN,statics-marketingsites-eas-ms-com.akamaized.net
 DOMAIN,statics-marketingsites-eus-ms-com.akamaized.net
 DOMAIN,statics-marketingsites-wcus-ms-com.akamaized.net
@@ -3121,6 +3131,7 @@ DOMAIN-SUFFIX,awstrack.me
 DOMAIN-SUFFIX,awstrust.com
 DOMAIN-SUFFIX,awwcn.buzz
 DOMAIN-SUFFIX,awwcn.xyz
+DOMAIN-SUFFIX,awxcdn.com
 DOMAIN-SUFFIX,axbdoll.com.tw
 DOMAIN-SUFFIX,ayabank.com
 DOMAIN-SUFFIX,aylesbury.ac.uk
@@ -5326,7 +5337,6 @@ DOMAIN-SUFFIX,cantab.ac.uk
 DOMAIN-SUFFIX,canterbury.ac.uk
 DOMAIN-SUFFIX,canterburycollege.ac.uk
 DOMAIN-SUFFIX,canterburytrust.ac.uk
-DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,cape.ac.uk
 DOMAIN-SUFFIX,capel.ac.uk
 DOMAIN-SUFFIX,capitalccg.ac.uk
@@ -5660,7 +5670,6 @@ DOMAIN-SUFFIX,charteredcollegeofteaching.ac.uk
 DOMAIN-SUFFIX,charticulator.com
 DOMAIN-SUFFIX,chase.ac.uk
 DOMAIN-SUFFIX,chasestudy.ac.uk
-DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatango.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
@@ -8402,6 +8411,7 @@ DOMAIN-SUFFIX,enjoyfuck.com
 DOMAIN-SUFFIX,enmat.ac.uk
 DOMAIN-SUFFIX,enorf.ac.uk
 DOMAIN-SUFFIX,enos.ac.uk
+DOMAIN-SUFFIX,enpass.io
 DOMAIN-SUFFIX,enpirion.com
 DOMAIN-SUFFIX,ensa.ac.uk
 DOMAIN-SUFFIX,ensemble.ac.uk
@@ -13461,6 +13471,9 @@ DOMAIN-SUFFIX,kecnuneaton.ac.uk
 DOMAIN-SUFFIX,kedst.ac.uk
 DOMAIN-SUFFIX,keele.ac.uk
 DOMAIN-SUFFIX,keemail.me
+DOMAIN-SUFFIX,keepass.info
+DOMAIN-SUFFIX,keeper.io
+DOMAIN-SUFFIX,keepersecurity.com
 DOMAIN-SUFFIX,keepmovingwithmovefree.com
 DOMAIN-SUFFIX,keepyourcad.com
 DOMAIN-SUFFIX,keiba.net
@@ -13749,6 +13762,8 @@ DOMAIN-SUFFIX,largecamtube.com
 DOMAIN-SUFFIX,largeporntube.com
 DOMAIN-SUFFIX,lasersawapp.com
 DOMAIN-SUFFIX,last.fm
+DOMAIN-SUFFIX,lastpass.com
+DOMAIN-SUFFIX,lastpass.eu
 DOMAIN-SUFFIX,lasvegasbmw.com
 DOMAIN-SUFFIX,latampartneruniversity.com
 DOMAIN-SUFFIX,latamvmwareforum.com
@@ -14050,7 +14065,6 @@ DOMAIN-SUFFIX,linksintolanguages.ac.uk
 DOMAIN-SUFFIX,linotype.com
 DOMAIN-SUFFIX,linseysworld.com
 DOMAIN-SUFFIX,linst.ac.uk
-DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,linux.org
 DOMAIN-SUFFIX,linuxfoundation.org
 DOMAIN-SUFFIX,linuxfromscratch.org
@@ -14291,6 +14305,7 @@ DOMAIN-SUFFIX,lowiro.com
 DOMAIN-SUFFIX,lp99.pw
 DOMAIN-SUFFIX,lpc.ac.uk
 DOMAIN-SUFFIX,lpmde.ac.uk
+DOMAIN-SUFFIX,lputil.com
 DOMAIN-SUFFIX,lqh0bon3.xyz
 DOMAIN-SUFFIX,lqpjw.cyou
 DOMAIN-SUFFIX,lrfdsoftware.com
@@ -19621,6 +19636,7 @@ DOMAIN-SUFFIX,ro89.com
 DOMAIN-SUFFIX,road-crew.com
 DOMAIN-SUFFIX,roblox.qq.com
 DOMAIN-SUFFIX,robobat.com
+DOMAIN-SUFFIX,roboform.com
 DOMAIN-SUFFIX,roborecall.com
 DOMAIN-SUFFIX,robotoffice.com
 DOMAIN-SUFFIX,rochdalesfc.ac.uk
@@ -21575,6 +21591,7 @@ DOMAIN-SUFFIX,strode-coll.ac.uk
 DOMAIN-SUFFIX,strode-college.ac.uk
 DOMAIN-SUFFIX,strodes.ac.uk
 DOMAIN-SUFFIX,strodeslanguages.ac.uk
+DOMAIN-SUFFIX,strongboxsafe.com
 DOMAIN-SUFFIX,stroud.ac.uk
 DOMAIN-SUFFIX,stroudcol.ac.uk
 DOMAIN-SUFFIX,stroudcollege.ac.uk
@@ -26154,6 +26171,7 @@ DOMAIN-SUFFIX,aolcdn.com
 DOMAIN-SUFFIX,aolnews.com
 DOMAIN-SUFFIX,aomedia.org
 DOMAIN-SUFFIX,aomiwang.com
+DOMAIN-SUFFIX,aoxvpn.com
 DOMAIN-SUFFIX,ap.org
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,apartmentratings.com
@@ -26387,6 +26405,7 @@ DOMAIN-SUFFIX,bestvpnusa.com
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,betaclouds.net
 DOMAIN-SUFFIX,betfair.com
+DOMAIN-SUFFIX,bettergpt.chat
 DOMAIN-SUFFIX,betterhash.net
 DOMAIN-SUFFIX,betternet.co
 DOMAIN-SUFFIX,bettervpn.com
@@ -26709,6 +26728,7 @@ DOMAIN-SUFFIX,cams.org.sg
 DOMAIN-SUFFIX,canadameet.com
 DOMAIN-SUFFIX,canalporno.com
 DOMAIN-SUFFIX,cantonese.asia
+DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,canyu.org
 DOMAIN-SUFFIX,cao.im
 DOMAIN-SUFFIX,caobian.info
@@ -26752,6 +26772,7 @@ DOMAIN-SUFFIX,cccat.io
 DOMAIN-SUFFIX,ccdtr.org
 DOMAIN-SUFFIX,ccfd.org.tw
 DOMAIN-SUFFIX,cchere.com
+DOMAIN-SUFFIX,cchostvps.xyz
 DOMAIN-SUFFIX,ccim.org
 DOMAIN-SUFFIX,cclife.ca
 DOMAIN-SUFFIX,cclife.org
@@ -26816,7 +26837,9 @@ DOMAIN-SUFFIX,chaoex.com
 DOMAIN-SUFFIX,chaos.social
 DOMAIN-SUFFIX,chapm25.com
 DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatnook.com
+DOMAIN-SUFFIX,chatpdf.com
 DOMAIN-SUFFIX,chaturbate.com
 DOMAIN-SUFFIX,checkgfw.com
 DOMAIN-SUFFIX,chengmingmag.com
@@ -27175,6 +27198,7 @@ DOMAIN-SUFFIX,daolan.net
 DOMAIN-SUFFIX,daozhongxing.org
 DOMAIN-SUFFIX,darktech.org
 DOMAIN-SUFFIX,darktoy.net
+DOMAIN-SUFFIX,darmau.co
 DOMAIN-SUFFIX,darpa.mil
 DOMAIN-SUFFIX,darrenliuwei.com
 DOMAIN-SUFFIX,dartlang.org
@@ -27774,6 +27798,7 @@ DOMAIN-SUFFIX,flipkart.com
 DOMAIN-SUFFIX,flitto.com
 DOMAIN-SUFFIX,flnet.org
 DOMAIN-SUFFIX,flog.tw
+DOMAIN-SUFFIX,flowgpt.com
 DOMAIN-SUFFIX,flowhongkong.net
 DOMAIN-SUFFIX,flypool.org
 DOMAIN-SUFFIX,flyvpn.com
@@ -27793,6 +27818,7 @@ DOMAIN-SUFFIX,foolsmountain.com
 DOMAIN-SUFFIX,fooooo.com
 DOMAIN-SUFFIX,footwiball.com
 DOMAIN-SUFFIX,forbes.com
+DOMAIN-SUFFIX,forefront.ai
 DOMAIN-SUFFIX,foreignaffairs.com
 DOMAIN-SUFFIX,foreignpolicy.com
 DOMAIN-SUFFIX,form.new
@@ -28799,6 +28825,7 @@ DOMAIN-SUFFIX,hwinfo.com
 DOMAIN-SUFFIX,hxwk.org
 DOMAIN-SUFFIX,hxwq.org
 DOMAIN-SUFFIX,hybrid-analysis.com
+DOMAIN-SUFFIX,hyperbeam.com
 DOMAIN-SUFFIX,hyperrate.com
 DOMAIN-SUFFIX,hypothes.is
 DOMAIN-SUFFIX,hyread.com.tw
@@ -29323,6 +29350,7 @@ DOMAIN-SUFFIX,lester850.info
 DOMAIN-SUFFIX,letou.com
 DOMAIN-SUFFIX,letscorp.net
 DOMAIN-SUFFIX,level-plus.net
+DOMAIN-SUFFIX,lexica.art
 DOMAIN-SUFFIX,lflink.com
 DOMAIN-SUFFIX,lflinkup.com
 DOMAIN-SUFFIX,lflinkup.net
@@ -29368,6 +29396,7 @@ DOMAIN-SUFFIX,linktr.ee
 DOMAIN-SUFFIX,linkuswell.com
 DOMAIN-SUFFIX,linode.com
 DOMAIN-SUFFIX,linpie.com
+DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,linux.org.hk
 DOMAIN-SUFFIX,linuxtoy.org
 DOMAIN-SUFFIX,lionsroar.com
@@ -29405,6 +29434,7 @@ DOMAIN-SUFFIX,lizhizhuangbi.com
 DOMAIN-SUFFIX,lkcn.net
 DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,llss.me
+DOMAIN-SUFFIX,lmarena.ai
 DOMAIN-SUFFIX,lmsys.org
 DOMAIN-SUFFIX,load.to
 DOMAIN-SUFFIX,lobsangwangyal.com
@@ -29440,6 +29470,7 @@ DOMAIN-SUFFIX,lsmkorean.org
 DOMAIN-SUFFIX,lsmradio.com
 DOMAIN-SUFFIX,lsmwebcast.com
 DOMAIN-SUFFIX,lsxszzg.com
+DOMAIN-SUFFIX,lt.sntp.uk
 DOMAIN-SUFFIX,ltn.com.tw
 DOMAIN-SUFFIX,luckydesigner.space
 DOMAIN-SUFFIX,luckymobile.ca
@@ -30698,6 +30729,7 @@ DOMAIN-SUFFIX,relay.com.tw
 DOMAIN-SUFFIX,releaseinternational.org
 DOMAIN-SUFFIX,religionnews.com
 DOMAIN-SUFFIX,religioustolerance.org
+DOMAIN-SUFFIX,rentry.co
 DOMAIN-SUFFIX,renyurenquan.org
 DOMAIN-SUFFIX,research.google
 DOMAIN-SUFFIX,resilio.com
@@ -31413,6 +31445,7 @@ DOMAIN-SUFFIX,tensorflow.org
 DOMAIN-SUFFIX,tenzinpalmo.com
 DOMAIN-SUFFIX,terabox.com
 DOMAIN-SUFFIX,teraboxcdn.com
+DOMAIN-SUFFIX,terobox.com
 DOMAIN-SUFFIX,tew.org
 DOMAIN-SUFFIX,textnow.com
 DOMAIN-SUFFIX,textnow.me
