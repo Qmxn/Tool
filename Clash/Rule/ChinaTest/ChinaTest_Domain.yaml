@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Domain
-# 规则统计: 116560
+# 规则统计: 116561
 
 payload:
   - 'analytics.strava.com'
@@ -15343,6 +15343,7 @@ payload:
   - '+.anyview.net'
   - '+.anyway.fm'
   - '+.anyway.red'
+  - '+.anywlan.com'
   - '+.anywood.com'
   - '+.anyxz.com'
   - '+.anzerclub.com'

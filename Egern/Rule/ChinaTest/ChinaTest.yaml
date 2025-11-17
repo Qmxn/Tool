@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest
-# 规则统计: 116591
+# 规则统计: 116592
 
 no_resolve: true
 domain_set:
@@ -15345,6 +15345,7 @@ domain_suffix_set:
 - anyview.net
 - anyway.fm
 - anyway.red
+- anywlan.com
 - anywood.com
 - anyxz.com
 - anzerclub.com

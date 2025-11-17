@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Classical
-# 规则统计: 116584
+# 规则统计: 116585
 
 payload:
   - DOMAIN,analytics.strava.com
@@ -15343,6 +15343,7 @@ payload:
   - DOMAIN-SUFFIX,anyview.net
   - DOMAIN-SUFFIX,anyway.fm
   - DOMAIN-SUFFIX,anyway.red
+  - DOMAIN-SUFFIX,anywlan.com
   - DOMAIN-SUFFIX,anywood.com
   - DOMAIN-SUFFIX,anyxz.com
   - DOMAIN-SUFFIX,anzerclub.com

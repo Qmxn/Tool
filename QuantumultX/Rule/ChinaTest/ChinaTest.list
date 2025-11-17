@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest
-# 规则统计: 116615
+# 规则统计: 116616
 
 HOST,analytics.strava.com,ChinaTest
 HOST,blzddist1-a.akamaihd.net,ChinaTest
@@ -15342,6 +15342,7 @@ HOST-SUFFIX,anyv.net,ChinaTest
 HOST-SUFFIX,anyview.net,ChinaTest
 HOST-SUFFIX,anyway.fm,ChinaTest
 HOST-SUFFIX,anyway.red,ChinaTest
+HOST-SUFFIX,anywlan.com,ChinaTest
 HOST-SUFFIX,anywood.com,ChinaTest
 HOST-SUFFIX,anyxz.com,ChinaTest
 HOST-SUFFIX,anzerclub.com,ChinaTest
