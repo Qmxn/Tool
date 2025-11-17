@@ -69,7 +69,7 @@ DOMAIN-SUFFIX,mnaspm.com,REJECT
 
 [WebPage]天空影视 = type=http-response, pattern=^https?:\/\/.*tkznp.*com\/($|[0-9a-zA-Z=_/-]+\.html$), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/tkys.js, requires-body=true
 
-[WebPage]真不卡 = type=http-response, pattern=^https?:\/\/.*ikandy.*fun\/($|(vod|top).*$), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/zhenbuka.js, requires-body=true
+[WebPage]真���卡 = type=http-response, pattern=^https?:\/\/.*ikandy.*fun\/($|(vod|top).*$), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/zhenbuka.js, requires-body=true
 
 [WebPage]Libvio = type=http-response, pattern=^https?:\/\/.*libvio.*me\/($|[0-9a-zA-Z=_/-]+\.html$), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/libvio.js, requires-body=true
 
