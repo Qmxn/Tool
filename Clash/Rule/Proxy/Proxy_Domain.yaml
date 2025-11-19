@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6551
+# 规则统计: 6556
 
 payload:
   - 'api.waqi.info'
@@ -197,6 +197,7 @@ payload:
   - '+.adcex.com'
   - '+.addictedtocoffee.de'
   - '+.adelaidebbs.com'
+  - '+.adguard-vpn.com'
   - '+.adguard.org'
   - '+.admob.com'
   - '+.adobe.com'
@@ -225,6 +226,7 @@ payload:
   - '+.ahcdn.com'
   - '+.ai-kan.net'
   - '+.ai-wen.net'
+  - '+.ai.dev'
   - '+.aiosearch.com'
   - '+.aiph.net'
   - '+.airasia.com'
@@ -2418,6 +2420,7 @@ payload:
   - '+.have8.com'
   - '+.hbg.com'
   - '+.hbo.com'
+  - '+.hbomax.com'
   - '+.hcaptcha.com'
   - '+.hclips.com'
   - '+.hdlt.me'
@@ -3558,6 +3561,7 @@ payload:
   - '+.mixx.com'
   - '+.mizzmona.com'
   - '+.mjib.gov.tw'
+  - '+.mjj.rip'
   - '+.mk5000.com'
   - '+.mlc.ai'
   - '+.mlcool.com'
@@ -4628,6 +4632,7 @@ payload:
   - '+.rumble.com'
   - '+.runbtx.com'
   - '+.rushbee.com'
+  - '+.rustdesk.com'
   - '+.rusvpn.com'
   - '+.ruten.com.tw'
   - '+.rutracker.net'

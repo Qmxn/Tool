@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 32237
+# 规则统计: 32239
 
 payload:
   - '1password.drift.click'
@@ -818,7 +818,6 @@ payload:
   - '+.adguard-dns.com'
   - '+.adguard-dns.io'
   - '+.adguard-mail.com'
-  - '+.adguard-vpn.com'
   - '+.adguard-vpn.online'
   - '+.adguard.app'
   - '+.adguard.com'
@@ -10686,7 +10685,6 @@ payload:
   - '+.hbogoasia.sg'
   - '+.hbogoasia.tw'
   - '+.hbomax-images.warnermediacdn.com'
-  - '+.hbomax.com'
   - '+.hbomaxcdn.com'
   - '+.hbonow.com'
   - '+.hbox.jp'
@@ -19689,7 +19687,6 @@ payload:
   - '+.russellgroup.ac.uk'
   - '+.russianrape.org'
   - '+.rust-lang.org'
-  - '+.rustdesk.com'
   - '+.rustup.rs'
   - '+.rutc.ac.uk'
   - '+.rutherford.ac.uk'
@@ -25949,6 +25946,7 @@ payload:
   - '+.adcex.com'
   - '+.addictedtocoffee.de'
   - '+.adelaidebbs.com'
+  - '+.adguard-vpn.com'
   - '+.adguard.org'
   - '+.adobe.com'
   - '+.adobedtm.com'
@@ -25975,6 +25973,7 @@ payload:
   - '+.ahcdn.com'
   - '+.ai-kan.net'
   - '+.ai-wen.net'
+  - '+.ai.dev'
   - '+.aiosearch.com'
   - '+.aiph.net'
   - '+.airasia.com'
@@ -28135,6 +28134,7 @@ payload:
   - '+.have8.com'
   - '+.hbg.com'
   - '+.hbo.com'
+  - '+.hbomax.com'
   - '+.hcaptcha.com'
   - '+.hclips.com'
   - '+.hdlt.me'
@@ -29268,6 +29268,7 @@ payload:
   - '+.mixx.com'
   - '+.mizzmona.com'
   - '+.mjib.gov.tw'
+  - '+.mjj.rip'
   - '+.mk5000.com'
   - '+.mlc.ai'
   - '+.mlcool.com'
@@ -30334,6 +30335,7 @@ payload:
   - '+.rumble.com'
   - '+.runbtx.com'
   - '+.rushbee.com'
+  - '+.rustdesk.com'
   - '+.rusvpn.com'
   - '+.ruten.com.tw'
   - '+.rutracker.net'
