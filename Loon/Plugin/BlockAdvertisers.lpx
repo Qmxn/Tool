@@ -115,7 +115,24 @@ DOMAIN-SUFFIX, l.qq.com, REJECT
 DOMAIN-SUFFIX, imtmp.net, REJECT
 DOMAIN-SUFFIX, ugdtimg.com, REJECT
 IP-CIDR, 47.110.187.87/32, REJECT, no-resolve
-DOMAIN-SUFFIX, openinstall.io, REJECT
+DOMAIN-SUFFIX, opadlink.com
+DOMAIN-SUFFIX, staevent.work
+DOMAIN-SUFFIX, openinstall.online
+DOMAIN-SUFFIX, statchannel.store
+DOMAIN-SUFFIX, oplinking.com
+DOMAIN-SUFFIX, deepinstall.com
+DOMAIN-SUFFIX, openinstall.com
+DOMAIN-SUFFIX, installtongji.top
+DOMAIN-SUFFIX, openlink.cc
+DOMAIN-SUFFIX, opstatistics.com
+DOMAIN-SUFFIX, installtongji.online
+DOMAIN-SUFFIX, statschannel.xyz
+DOMAIN-SUFFIX, staevent.xyz
+DOMAIN-SUFFIX, opstatistics.cn
+DOMAIN-SUFFIX, openinstall.top
+DOMAIN-SUFFIX, openinstall.io
+DOMAIN-SUFFIX, statsinstall.xyz
+DOMAIN-SUFFIX, statchannel.top
 DOMAIN-SUFFIX, getui.com, REJECT
 DOMAIN-SUFFIX, getui.net, REJECT
 DOMAIN-SUFFIX, igexin.com, REJECT
