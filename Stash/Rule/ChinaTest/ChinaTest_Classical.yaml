@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Classical
-# 规则统计: 116585
+# 规则统计: 116590
 
 payload:
   - DOMAIN,analytics.strava.com
@@ -10134,6 +10134,7 @@ payload:
   - DOMAIN-SUFFIX,5zls.com
   - DOMAIN-SUFFIX,5zw.com
   - DOMAIN-SUFFIX,6-china.com
+  - DOMAIN-SUFFIX,6-u.com
   - DOMAIN-SUFFIX,600064.com
   - DOMAIN-SUFFIX,600083.com
   - DOMAIN-SUFFIX,600086.com
@@ -54376,6 +54377,7 @@ payload:
   - DOMAIN-SUFFIX,imsinoexpo.com
   - DOMAIN-SUFFIX,imsle.com
   - DOMAIN-SUFFIX,imsun.net
+  - DOMAIN-SUFFIX,imsyy.com
   - DOMAIN-SUFFIX,imtaweb.net
   - DOMAIN-SUFFIX,imtics.com
   - DOMAIN-SUFFIX,imtmp.net
@@ -61254,6 +61256,7 @@ payload:
   - DOMAIN-SUFFIX,kekedj.com
   - DOMAIN-SUFFIX,kekegold.com
   - DOMAIN-SUFFIX,kekenet.com
+  - DOMAIN-SUFFIX,kekeniu.com
   - DOMAIN-SUFFIX,kekeshici.com
   - DOMAIN-SUFFIX,kekexueba.com
   - DOMAIN-SUFFIX,kekeyuyin.com
@@ -80482,6 +80485,7 @@ payload:
   - DOMAIN-SUFFIX,qzhrkj.com
   - DOMAIN-SUFFIX,qzhsjc.com
   - DOMAIN-SUFFIX,qzhslw.com
+  - DOMAIN-SUFFIX,qzhuye.com
   - DOMAIN-SUFFIX,qzhxshipping.com
   - DOMAIN-SUFFIX,qzimg.com
   - DOMAIN-SUFFIX,qzj2.com
@@ -96718,6 +96722,7 @@ payload:
   - DOMAIN-SUFFIX,viaeda.com
   - DOMAIN-SUFFIX,vial.cc
   - DOMAIN-SUFFIX,viarmour.com
+  - DOMAIN-SUFFIX,viayoo.com
   - DOMAIN-SUFFIX,viberom.com
   - DOMAIN-SUFFIX,vibit.cc
   - DOMAIN-SUFFIX,vibrou.com

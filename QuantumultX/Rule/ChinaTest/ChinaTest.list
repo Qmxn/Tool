@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest
-# 规则统计: 116616
+# 规则统计: 116621
 
 HOST,analytics.strava.com,ChinaTest
 HOST,blzddist1-a.akamaihd.net,ChinaTest
@@ -10133,6 +10133,7 @@ HOST-SUFFIX,5zhr.com,ChinaTest
 HOST-SUFFIX,5zls.com,ChinaTest
 HOST-SUFFIX,5zw.com,ChinaTest
 HOST-SUFFIX,6-china.com,ChinaTest
+HOST-SUFFIX,6-u.com,ChinaTest
 HOST-SUFFIX,600064.com,ChinaTest
 HOST-SUFFIX,600083.com,ChinaTest
 HOST-SUFFIX,600086.com,ChinaTest
@@ -54375,6 +54376,7 @@ HOST-SUFFIX,imsilkroad.com,ChinaTest
 HOST-SUFFIX,imsinoexpo.com,ChinaTest
 HOST-SUFFIX,imsle.com,ChinaTest
 HOST-SUFFIX,imsun.net,ChinaTest
+HOST-SUFFIX,imsyy.com,ChinaTest
 HOST-SUFFIX,imtaweb.net,ChinaTest
 HOST-SUFFIX,imtics.com,ChinaTest
 HOST-SUFFIX,imtmp.net,ChinaTest
@@ -61253,6 +61255,7 @@ HOST-SUFFIX,kekebaby.com,ChinaTest
 HOST-SUFFIX,kekedj.com,ChinaTest
 HOST-SUFFIX,kekegold.com,ChinaTest
 HOST-SUFFIX,kekenet.com,ChinaTest
+HOST-SUFFIX,kekeniu.com,ChinaTest
 HOST-SUFFIX,kekeshici.com,ChinaTest
 HOST-SUFFIX,kekexueba.com,ChinaTest
 HOST-SUFFIX,kekeyuyin.com,ChinaTest
@@ -80481,6 +80484,7 @@ HOST-SUFFIX,qzhospital.com,ChinaTest
 HOST-SUFFIX,qzhrkj.com,ChinaTest
 HOST-SUFFIX,qzhsjc.com,ChinaTest
 HOST-SUFFIX,qzhslw.com,ChinaTest
+HOST-SUFFIX,qzhuye.com,ChinaTest
 HOST-SUFFIX,qzhxshipping.com,ChinaTest
 HOST-SUFFIX,qzimg.com,ChinaTest
 HOST-SUFFIX,qzj2.com,ChinaTest
@@ -96717,6 +96721,7 @@ HOST-SUFFIX,viablife.com,ChinaTest
 HOST-SUFFIX,viaeda.com,ChinaTest
 HOST-SUFFIX,vial.cc,ChinaTest
 HOST-SUFFIX,viarmour.com,ChinaTest
+HOST-SUFFIX,viayoo.com,ChinaTest
 HOST-SUFFIX,viberom.com,ChinaTest
 HOST-SUFFIX,vibit.cc,ChinaTest
 HOST-SUFFIX,vibrou.com,ChinaTest

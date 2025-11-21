@@ -1,5 +1,5 @@
 # 规则名称: ProxyLite
-# 规则统计: 981
+# 规则统计: 982
 
 no_resolve: true
 domain_set:
@@ -449,6 +449,7 @@ domain_suffix_set:
 - nianticlabs.com
 - nicovideo.jp
 - nih.gov
+- nikke-kr.com
 - nimg.jp
 - nintendo.com
 - nintendo.net

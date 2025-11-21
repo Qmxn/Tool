@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7174
+# 规则统计: 7179
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -1227,6 +1227,7 @@ HOST-SUFFIX,cloudcone.com,Proxy
 HOST-SUFFIX,cloudflare-dns.com,Proxy
 HOST-SUFFIX,cloudflare-ipfs.com,Proxy
 HOST-SUFFIX,cloudflare.com,Proxy
+HOST-SUFFIX,cloudflarestatus.com,Proxy
 HOST-SUFFIX,cloudfront.net,Proxy
 HOST-SUFFIX,cloudfunctions.net,Proxy
 HOST-SUFFIX,cloudgarage.jp,Proxy
@@ -3620,6 +3621,7 @@ HOST-SUFFIX,liaowangxizang.net,Proxy
 HOST-SUFFIX,liberal.org.hk,Proxy
 HOST-SUFFIX,libertysculpturepark.com,Proxy
 HOST-SUFFIX,libertytimes.com.tw,Proxy
+HOST-SUFFIX,library-access.sk,Proxy
 HOST-SUFFIX,libraryinformationtechnology.com,Proxy
 HOST-SUFFIX,libredd.it,Proxy
 HOST-SUFFIX,libsyn.com,Proxy
@@ -3908,6 +3910,7 @@ HOST-SUFFIX,middle-way.net,Proxy
 HOST-SUFFIX,mihk.hk,Proxy
 HOST-SUFFIX,mihr.com,Proxy
 HOST-SUFFIX,mihua.org,Proxy
+HOST-SUFFIX,mij.rip,Proxy
 HOST-SUFFIX,mikanani.me,Proxy
 HOST-SUFFIX,mikesoltys.com,Proxy
 HOST-SUFFIX,mikocon.com,Proxy
@@ -3962,6 +3965,7 @@ HOST-SUFFIX,mixin.one,Proxy
 HOST-SUFFIX,mixpod.com,Proxy
 HOST-SUFFIX,mixx.com,Proxy
 HOST-SUFFIX,mizzmona.com,Proxy
+HOST-SUFFIX,mji.rip,Proxy
 HOST-SUFFIX,mjib.gov.tw,Proxy
 HOST-SUFFIX,mjj.rip,Proxy
 HOST-SUFFIX,mk5000.com,Proxy
@@ -6801,6 +6805,7 @@ HOST-SUFFIX,xmovies.com,Proxy
 HOST-SUFFIX,xn--11xs86f.icu,Proxy
 HOST-SUFFIX,xn--4gq171p.com,Proxy
 HOST-SUFFIX,xn--90wwvt03e.com,Proxy
+HOST-SUFFIX,xn--9iqy04a7fi01l.com,Proxy
 HOST-SUFFIX,xn--9pr62r24a.com,Proxy
 HOST-SUFFIX,xn--czq75pvv1aj5c.org,Proxy
 HOST-SUFFIX,xn--i2ru8q2qg.com,Proxy

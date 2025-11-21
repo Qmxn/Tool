@@ -1,5 +1,5 @@
 # 规则名称: ProxyLite
-# 规则统计: 976
+# 规则统计: 977
 
 payload:
   - DOMAIN,addons.mozilla.org
@@ -447,6 +447,7 @@ payload:
   - DOMAIN-SUFFIX,nianticlabs.com
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,nih.gov
+  - DOMAIN-SUFFIX,nikke-kr.com
   - DOMAIN-SUFFIX,nimg.jp
   - DOMAIN-SUFFIX,nintendo.com
   - DOMAIN-SUFFIX,nintendo.net

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32974
+# 规则统计: 32981
 
 no_resolve: true
 domain_set:
@@ -833,6 +833,7 @@ domain_suffix_set:
 - 21hub.com
 - 21naturals.com
 - 21vv.cc
+- 22112211.xyz
 - 2371tom.com
 - 24hjav.com
 - 24porn.com
@@ -6061,7 +6062,6 @@ domain_suffix_set:
 - cloudflareregistrar.com
 - cloudflareresolve.com
 - cloudflaressl.com
-- cloudflarestatus.com
 - cloudflarestorage.com
 - cloudflarestream.com
 - cloudflaretest.com
@@ -16968,7 +16968,9 @@ domain_suffix_set:
 - nochubank.or.jp
 - nocn.ac.uk
 - nocs.ac.uk
+- nodeimage.com
 - nodejs.org
+- nodequality.com
 - nodes.ac.uk
 - nodesnoop.com
 - nodesource.com
@@ -27049,6 +27051,7 @@ domain_suffix_set:
 - cloudflare-dns.com
 - cloudflare-ipfs.com
 - cloudflare.com
+- cloudflarestatus.com
 - cloudfront.net
 - cloudfunctions.net
 - cloudgarage.jp
@@ -29424,6 +29427,7 @@ domain_suffix_set:
 - liberal.org.hk
 - libertysculpturepark.com
 - libertytimes.com.tw
+- library-access.sk
 - libraryinformationtechnology.com
 - libredd.it
 - libsyn.com
@@ -29709,6 +29713,7 @@ domain_suffix_set:
 - mihk.hk
 - mihr.com
 - mihua.org
+- mij.rip
 - mikanani.me
 - mikesoltys.com
 - mikocon.com
@@ -29763,6 +29768,7 @@ domain_suffix_set:
 - mixpod.com
 - mixx.com
 - mizzmona.com
+- mji.rip
 - mjib.gov.tw
 - mjj.rip
 - mk5000.com
@@ -32578,6 +32584,7 @@ domain_suffix_set:
 - xn--11xs86f.icu
 - xn--4gq171p.com
 - xn--90wwvt03e.com
+- xn--9iqy04a7fi01l.com
 - xn--9pr62r24a.com
 - xn--czq75pvv1aj5c.org
 - xn--i2ru8q2qg.com

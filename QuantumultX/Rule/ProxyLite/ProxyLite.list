@@ -1,5 +1,5 @@
 # 规则名称: ProxyLite
-# 规则统计: 981
+# 规则统计: 982
 
 HOST,addons.mozilla.org,ProxyLite
 HOST,amp-api.podcasts.apple.com,ProxyLite
@@ -446,6 +446,7 @@ HOST-SUFFIX,nhncorp.jp,ProxyLite
 HOST-SUFFIX,nianticlabs.com,ProxyLite
 HOST-SUFFIX,nicovideo.jp,ProxyLite
 HOST-SUFFIX,nih.gov,ProxyLite
+HOST-SUFFIX,nikke-kr.com,ProxyLite
 HOST-SUFFIX,nimg.jp,ProxyLite
 HOST-SUFFIX,nintendo.com,ProxyLite
 HOST-SUFFIX,nintendo.net,ProxyLite
