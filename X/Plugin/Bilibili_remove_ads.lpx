@@ -9,6 +9,7 @@ airborne=switch, false, true, tag=空降助手, desc=用于跳过视频中的广
 logLevel=select, "off", "error", "warn", "info", "debug", tag=日志等级, desc=脚本的日志输出等级
 
 [Rule]
+DOMAIN, bsbsb.top, PROXY
 DOMAIN, api.biliapi.com, REJECT
 DOMAIN, app.biliapi.com, REJECT
 DOMAIN, api.biliapi.net, REJECT
