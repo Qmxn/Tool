@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 33021
+# 规则统计: 33033
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -1334,6 +1334,7 @@ HOST-SUFFIX,addthiscdn.com,Global
 HOST-SUFFIX,addtoany.com,Global
 HOST-SUFFIX,adelaidenow.com.au,Global
 HOST-SUFFIX,adeptt.ac.uk,Global
+HOST-SUFFIX,adfox.ru,Global
 HOST-SUFFIX,adgoogle.net,Global
 HOST-SUFFIX,adguard-dns.com,Global
 HOST-SUFFIX,adguard-dns.io,Global
@@ -1368,6 +1369,7 @@ HOST-SUFFIX,adinst.com,Global
 HOST-SUFFIX,adlib.ac.uk,Global
 HOST-SUFFIX,adls.ac.uk,Global
 HOST-SUFFIX,admeld.com,Global
+HOST-SUFFIX,admetrica.ru,Global
 HOST-SUFFIX,admob-cn.com,Global
 HOST-SUFFIX,adobe-aemassets-value.com,Global
 HOST-SUFFIX,adobe-audience-finder.com,Global
@@ -11231,6 +11233,7 @@ HOST-SUFFIX,heythropcollege.ac.uk,Global
 HOST-SUFFIX,heywire.com,Global
 HOST-SUFFIX,hf-iphone.com,Global
 HOST-SUFFIX,hf.co,Global
+HOST-SUFFIX,hf.space,Global
 HOST-SUFFIX,hfaes.ac.uk,Global
 HOST-SUFFIX,hfals.ac.uk,Global
 HOST-SUFFIX,hfma.ac.uk,Global
@@ -13620,6 +13623,7 @@ HOST-SUFFIX,kinklive.com,Global
 HOST-SUFFIX,kinkoid.com,Global
 HOST-SUFFIX,kinkyfamily.com,Global
 HOST-SUFFIX,kinkypeepz.com,Global
+HOST-SUFFIX,kinopoisk-ru.clstorage.net,Global
 HOST-SUFFIX,kinopoisk.ru,Global
 HOST-SUFFIX,kir2kos.net,Global
 HOST-SUFFIX,kirbysepicyarn.com,Global
@@ -24263,6 +24267,8 @@ HOST-SUFFIX,webpa.ac.uk,Global
 HOST-SUFFIX,webster.ac.uk,Global
 HOST-SUFFIX,webtoons.com,Global
 HOST-SUFFIX,webtoonscorp.com,Global
+HOST-SUFFIX,webvisor.com,Global
+HOST-SUFFIX,webvisor.org,Global
 HOST-SUFFIX,weekly-economist.com,Global
 HOST-SUFFIX,weeklytimesnow.com.au,Global
 HOST-SUFFIX,weimi180.com,Global
@@ -25148,6 +25154,7 @@ HOST-SUFFIX,yabang.org,Global
 HOST-SUFFIX,yaburi.men,Global
 HOST-SUFFIX,yaddal.tv,Global
 HOST-SUFFIX,yadori.club,Global
+HOST-SUFFIX,yads.tech,Global
 HOST-SUFFIX,yaeby.info,Global
 HOST-SUFFIX,yaeby.pro,Global
 HOST-SUFFIX,yahoo-news.com.hk,Global
@@ -25309,6 +25316,7 @@ HOST-SUFFIX,yammer.com,Global
 HOST-SUFFIX,yamoon.club,Global
 HOST-SUFFIX,yandex-bank.net,Global
 HOST-SUFFIX,yandex-images.clstorage.net,Global
+HOST-SUFFIX,yandex-team.ru,Global
 HOST-SUFFIX,yandex.aero,Global
 HOST-SUFFIX,yandex.az,Global
 HOST-SUFFIX,yandex.by,Global
@@ -25340,6 +25348,7 @@ HOST-SUFFIX,yandex.uz,Global
 HOST-SUFFIX,yandexadexchange.net,Global
 HOST-SUFFIX,yandexcloud.net,Global
 HOST-SUFFIX,yandexcom.net,Global
+HOST-SUFFIX,yandexmetrica.com,Global
 HOST-SUFFIX,yandexwebcache.org,Global
 HOST-SUFFIX,yaohubaba.com,Global
 HOST-SUFFIX,yaoimangaonline.com,Global
@@ -25351,6 +25360,7 @@ HOST-SUFFIX,yaptube.com,Global
 HOST-SUFFIX,yarininsuyu.com,Global
 HOST-SUFFIX,yarnpkg.com,Global
 HOST-SUFFIX,yasarang.net,Global
+HOST-SUFFIX,yastat.net,Global
 HOST-SUFFIX,yatong.info,Global
 HOST-SUFFIX,yavtube.com,Global
 HOST-SUFFIX,yaya.cyou,Global
@@ -29947,6 +29957,7 @@ HOST-SUFFIX,nalandawest.org,Global
 HOST-SUFFIX,name.com,Global
 HOST-SUFFIX,namgyal.org,Global
 HOST-SUFFIX,namgyalmonastery.org,Global
+HOST-SUFFIX,namu.wiki,Global
 HOST-SUFFIX,nanopool.org,Global
 HOST-SUFFIX,nanyang.com,Global
 HOST-SUFFIX,nanyangpost.com,Global
@@ -30443,6 +30454,7 @@ HOST-SUFFIX,picasaweb.com,Global
 HOST-SUFFIX,picgo.net,Global
 HOST-SUFFIX,picidae.net,Global
 HOST-SUFFIX,picjs.xyz,Global
+HOST-SUFFIX,picsart.com,Global
 HOST-SUFFIX,picturedip.com,Global
 HOST-SUFFIX,picturesocial.com,Global
 HOST-SUFFIX,picuki.com,Global

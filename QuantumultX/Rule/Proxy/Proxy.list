@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7179
+# 规则统计: 7181
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -4148,6 +4148,7 @@ HOST-SUFFIX,nalandawest.org,Proxy
 HOST-SUFFIX,name.com,Proxy
 HOST-SUFFIX,namgyal.org,Proxy
 HOST-SUFFIX,namgyalmonastery.org,Proxy
+HOST-SUFFIX,namu.wiki,Proxy
 HOST-SUFFIX,nanopool.org,Proxy
 HOST-SUFFIX,nanyang.com,Proxy
 HOST-SUFFIX,nanyangpost.com,Proxy
@@ -4647,6 +4648,7 @@ HOST-SUFFIX,picasaweb.com,Proxy
 HOST-SUFFIX,picgo.net,Proxy
 HOST-SUFFIX,picidae.net,Proxy
 HOST-SUFFIX,picjs.xyz,Proxy
+HOST-SUFFIX,picsart.com,Proxy
 HOST-SUFFIX,picturedip.com,Proxy
 HOST-SUFFIX,picturesocial.com,Proxy
 HOST-SUFFIX,picuki.com,Proxy

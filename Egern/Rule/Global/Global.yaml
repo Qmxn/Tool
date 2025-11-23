@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 32981
+# 规则统计: 32993
 
 no_resolve: true
 domain_set:
@@ -1337,6 +1337,7 @@ domain_suffix_set:
 - addtoany.com
 - adelaidenow.com.au
 - adeptt.ac.uk
+- adfox.ru
 - adgoogle.net
 - adguard-dns.com
 - adguard-dns.io
@@ -1371,6 +1372,7 @@ domain_suffix_set:
 - adlib.ac.uk
 - adls.ac.uk
 - admeld.com
+- admetrica.ru
 - admob-cn.com
 - adobe-aemassets-value.com
 - adobe-audience-finder.com
@@ -11234,6 +11236,7 @@ domain_suffix_set:
 - heywire.com
 - hf-iphone.com
 - hf.co
+- hf.space
 - hfaes.ac.uk
 - hfals.ac.uk
 - hfma.ac.uk
@@ -13623,6 +13626,7 @@ domain_suffix_set:
 - kinkoid.com
 - kinkyfamily.com
 - kinkypeepz.com
+- kinopoisk-ru.clstorage.net
 - kinopoisk.ru
 - kir2kos.net
 - kirbysepicyarn.com
@@ -24266,6 +24270,8 @@ domain_suffix_set:
 - webster.ac.uk
 - webtoons.com
 - webtoonscorp.com
+- webvisor.com
+- webvisor.org
 - weekly-economist.com
 - weeklytimesnow.com.au
 - weimi180.com
@@ -25151,6 +25157,7 @@ domain_suffix_set:
 - yaburi.men
 - yaddal.tv
 - yadori.club
+- yads.tech
 - yaeby.info
 - yaeby.pro
 - yahoo-news.com.hk
@@ -25312,6 +25319,7 @@ domain_suffix_set:
 - yamoon.club
 - yandex-bank.net
 - yandex-images.clstorage.net
+- yandex-team.ru
 - yandex.aero
 - yandex.az
 - yandex.by
@@ -25343,6 +25351,7 @@ domain_suffix_set:
 - yandexadexchange.net
 - yandexcloud.net
 - yandexcom.net
+- yandexmetrica.com
 - yandexwebcache.org
 - yaohubaba.com
 - yaoimangaonline.com
@@ -25354,6 +25363,7 @@ domain_suffix_set:
 - yarininsuyu.com
 - yarnpkg.com
 - yasarang.net
+- yastat.net
 - yatong.info
 - yavtube.com
 - yaya.cyou
@@ -29950,6 +29960,7 @@ domain_suffix_set:
 - name.com
 - namgyal.org
 - namgyalmonastery.org
+- namu.wiki
 - nanopool.org
 - nanyang.com
 - nanyangpost.com
@@ -30446,6 +30457,7 @@ domain_suffix_set:
 - picgo.net
 - picidae.net
 - picjs.xyz
+- picsart.com
 - picturedip.com
 - picturesocial.com
 - picuki.com

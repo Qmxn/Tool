@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6560
+# 规则统计: 6562
 
 api.waqi.info
 aqi.aqicn.org
@@ -3745,6 +3745,7 @@ voice.telephony.goog
 .name.com
 .namgyal.org
 .namgyalmonastery.org
+.namu.wiki
 .nanopool.org
 .nanyang.com
 .nanyangpost.com
@@ -4239,6 +4240,7 @@ voice.telephony.goog
 .picgo.net
 .picidae.net
 .picjs.xyz
+.picsart.com
 .picturedip.com
 .picturesocial.com
 .picuki.com

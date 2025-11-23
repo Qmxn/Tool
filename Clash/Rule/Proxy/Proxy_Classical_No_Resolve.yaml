@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical_No_Resolve
-# 规则统计: 6684
+# 规则统计: 6686
 
 payload:
   - DOMAIN,api.waqi.info
@@ -3746,6 +3746,7 @@ payload:
   - DOMAIN-SUFFIX,name.com
   - DOMAIN-SUFFIX,namgyal.org
   - DOMAIN-SUFFIX,namgyalmonastery.org
+  - DOMAIN-SUFFIX,namu.wiki
   - DOMAIN-SUFFIX,nanopool.org
   - DOMAIN-SUFFIX,nanyang.com
   - DOMAIN-SUFFIX,nanyangpost.com
@@ -4240,6 +4241,7 @@ payload:
   - DOMAIN-SUFFIX,picgo.net
   - DOMAIN-SUFFIX,picidae.net
   - DOMAIN-SUFFIX,picjs.xyz
+  - DOMAIN-SUFFIX,picsart.com
   - DOMAIN-SUFFIX,picturedip.com
   - DOMAIN-SUFFIX,picturesocial.com
   - DOMAIN-SUFFIX,picuki.com

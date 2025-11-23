@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6561
+# 规则统计: 6563
 
 payload:
   - 'api.waqi.info'
@@ -3746,6 +3746,7 @@ payload:
   - '+.name.com'
   - '+.namgyal.org'
   - '+.namgyalmonastery.org'
+  - '+.namu.wiki'
   - '+.nanopool.org'
   - '+.nanyang.com'
   - '+.nanyangpost.com'
@@ -4240,6 +4241,7 @@ payload:
   - '+.picgo.net'
   - '+.picidae.net'
   - '+.picjs.xyz'
+  - '+.picsart.com'
   - '+.picturedip.com'
   - '+.picturesocial.com'
   - '+.picuki.com'

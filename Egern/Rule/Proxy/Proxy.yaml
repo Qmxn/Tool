@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7177
+# 规则统计: 7179
 
 no_resolve: true
 domain_set:
@@ -4151,6 +4151,7 @@ domain_suffix_set:
 - name.com
 - namgyal.org
 - namgyalmonastery.org
+- namu.wiki
 - nanopool.org
 - nanyang.com
 - nanyangpost.com
@@ -4650,6 +4651,7 @@ domain_suffix_set:
 - picgo.net
 - picidae.net
 - picjs.xyz
+- picsart.com
 - picturedip.com
 - picturesocial.com
 - picuki.com
