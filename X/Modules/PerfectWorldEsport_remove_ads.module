@@ -1,0 +1,12 @@
+#!name=完美世界电竞去广告
+#!desc=移除开屏广告，精简搜索页。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/appactivity\.wmpvp\.com\/hotsearch\/all\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[Script]
+body_rewrite_13 = type=http-response, pattern=^https:\/\/api\.wmpvp\.com\/api\/v1\/config\/promote$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=[["json-del",["data.ad"]]]
+
+[MITM]
+hostname = %APPEND% api.wmpvp.com, appactivity.wmpvp.com

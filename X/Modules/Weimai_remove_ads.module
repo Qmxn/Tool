@@ -1,0 +1,9 @@
+#!name=微脉圈去广告
+#!desc=移除开屏广告、聊天页横幅提示及发现页面的横幅广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Script]
+body_rewrite_13 = type=http-response, pattern=^https:\/\/confssl\d?\.iweimai\.cn\/wm_ios_update\.json\?, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=[["json-replace",[["isShowCJAd",0]]],["json-del",["launchAd","adBanners","ad"]]]
+
+[MITM]
+hostname = %APPEND% confssl*.iweimai.cn

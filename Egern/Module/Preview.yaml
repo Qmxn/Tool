@@ -1,0 +1,25 @@
+name: 资源预览
+description: 预览资源
+icon: https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+dns: {}
+header_rewrites:
+- replace:
+    match: ^https?:\/\/(.*\.)?kelee\.one\/
+    name: User-Agent
+    value: Surge iOS/9515
+    type: request
+- replace:
+    match: ^https?:\/\/(.*\.)?kelee\.one\/
+    name: Content-Disposition
+    value: inline
+    type: response
+- replace:
+    match: ^https?:\/\/(.*\.)?kelee\.one\/
+    name: Content-Type
+    value: text/plain; charset=utf-8
+    type: response
+mitm:
+  hostnames:
+    includes:
+    - '*.kelee.one'
+    - kelee.one
