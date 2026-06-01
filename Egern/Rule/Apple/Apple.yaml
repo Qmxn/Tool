@@ -235,6 +235,7 @@ domain_set:
 - audio.itunes.apple.com
 - mvod.itunes.apple.com
 - streamingaudio.itunes.apple.com
+- gspe1-ssl.ls.apple.com
 - news-client-search.apple.com
 - api-glb-sea.smoot.apple.com
 - apple.comscoreresearch.com
@@ -245,7 +246,6 @@ domain_set:
 - devimages-cdn.apple.com
 - devstreaming-cdn.apple.com
 - docs-assets.developer.apple.com
-- gspe1-ssl.ls.apple.com
 - hls-svod.itunes.apple.com
 - hls.itunes.apple.com
 - itunes.apple.com
@@ -1460,6 +1460,7 @@ domain_suffix_set:
 - applepaysupplies.tv
 - applewallet.com
 - applewallet.tv
+- appsto.re
 - appstore.co.id
 - appstore.com
 - appstore.hk
@@ -1820,7 +1821,6 @@ domain_suffix_set:
 - wwwapplemusic.com
 - apple-dns.net
 - apple.news
-- appsto.re
 - cdn-apple.com
 - digicert.com
 - apple-cloudkit.com

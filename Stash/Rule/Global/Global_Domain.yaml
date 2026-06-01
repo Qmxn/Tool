@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 34197
+# 规则统计: 34199
 
 payload:
   - '1password.drift.click'
@@ -16241,7 +16241,6 @@ payload:
   - '+.minim.ac.uk'
   - '+.minimarkham.ca'
   - '+.minimarkham.com'
-  - '+.minimax.io'
   - '+.minimoncton.ca'
   - '+.minimoncton.com'
   - '+.minimontrealcentre.ca'
@@ -26413,8 +26412,11 @@ payload:
   - '+.xhamster2.com'
   - '+.xhamster3.com'
   - '+.xhamsterlive.com'
+  - '+.xhnews.live'
   - '+.xhot.pro'
+  - '+.xhpingcdn.com'
   - '+.xhpjc6-cdn-settings.appsflyersdk.com'
+  - '+.xhreal5.com'
   - '+.xhub.tv'
   - '+.xiangrikui-app.com'
   - '+.xianir.xyz'

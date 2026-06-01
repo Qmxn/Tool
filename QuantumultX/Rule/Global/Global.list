@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35052
+# 规则统计: 35055
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -271,6 +271,7 @@ HOST,media-rockstargames-com.akamaized.net,Global
 HOST,medone-education.thieme.com,Global
 HOST,misa-prod.s3.ap-northeast-1.amazonaws.com,Global
 HOST,mobilelive-hamivideo.cdn.hinet.net,Global
+HOST,mozilla-ohttp.fastly-edge.com,Global
 HOST,mscrl.microsoft.com,Global
 HOST,msh.amazon.co.uk,Global
 HOST,mtalk-dev.google.com,Global
@@ -16500,7 +16501,6 @@ HOST-SUFFIX,minilondon.co,Global
 HOST-SUFFIX,minim.ac.uk,Global
 HOST-SUFFIX,minimarkham.ca,Global
 HOST-SUFFIX,minimarkham.com,Global
-HOST-SUFFIX,minimax.io,Global
 HOST-SUFFIX,minimoncton.ca,Global
 HOST-SUFFIX,minimoncton.com,Global
 HOST-SUFFIX,minimontrealcentre.ca,Global
@@ -26607,8 +26607,11 @@ HOST-SUFFIX,xhamster19.com,Global
 HOST-SUFFIX,xhamster2.com,Global
 HOST-SUFFIX,xhamster3.com,Global
 HOST-SUFFIX,xhamsterlive.com,Global
+HOST-SUFFIX,xhnews.live,Global
 HOST-SUFFIX,xhot.pro,Global
+HOST-SUFFIX,xhpingcdn.com,Global
 HOST-SUFFIX,xhpjc6-cdn-settings.appsflyersdk.com,Global
+HOST-SUFFIX,xhreal5.com,Global
 HOST-SUFFIX,xhub.tv,Global
 HOST-SUFFIX,xiangrikui-app.com,Global
 HOST-SUFFIX,xianir.xyz,Global

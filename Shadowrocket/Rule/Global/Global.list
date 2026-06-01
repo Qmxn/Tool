@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35006
+# 规则统计: 35009
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -271,6 +271,7 @@ DOMAIN,media-rockstargames-com.akamaized.net
 DOMAIN,medone-education.thieme.com
 DOMAIN,misa-prod.s3.ap-northeast-1.amazonaws.com
 DOMAIN,mobilelive-hamivideo.cdn.hinet.net
+DOMAIN,mozilla-ohttp.fastly-edge.com
 DOMAIN,mscrl.microsoft.com
 DOMAIN,msh.amazon.co.uk
 DOMAIN,mtalk-dev.google.com
@@ -16500,7 +16501,6 @@ DOMAIN-SUFFIX,minilondon.co
 DOMAIN-SUFFIX,minim.ac.uk
 DOMAIN-SUFFIX,minimarkham.ca
 DOMAIN-SUFFIX,minimarkham.com
-DOMAIN-SUFFIX,minimax.io
 DOMAIN-SUFFIX,minimoncton.ca
 DOMAIN-SUFFIX,minimoncton.com
 DOMAIN-SUFFIX,minimontrealcentre.ca
@@ -26607,8 +26607,11 @@ DOMAIN-SUFFIX,xhamster19.com
 DOMAIN-SUFFIX,xhamster2.com
 DOMAIN-SUFFIX,xhamster3.com
 DOMAIN-SUFFIX,xhamsterlive.com
+DOMAIN-SUFFIX,xhnews.live
 DOMAIN-SUFFIX,xhot.pro
+DOMAIN-SUFFIX,xhpingcdn.com
 DOMAIN-SUFFIX,xhpjc6-cdn-settings.appsflyersdk.com
+DOMAIN-SUFFIX,xhreal5.com
 DOMAIN-SUFFIX,xhub.tv
 DOMAIN-SUFFIX,xiangrikui-app.com
 DOMAIN-SUFFIX,xianir.xyz
