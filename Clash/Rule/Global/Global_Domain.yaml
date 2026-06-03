@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 34199
+# 规则统计: 34202
 
 payload:
   - '1password.drift.click'
@@ -10354,6 +10354,7 @@ payload:
   - '+.getfoxyoutside.org'
   - '+.getiton.com'
   - '+.getnews.jp'
+  - '+.getpaint.net'
   - '+.getpocket.com'
   - '+.getporn.tv'
   - '+.getprintersupports.com'
@@ -18739,6 +18740,7 @@ payload:
   - '+.paily.org'
   - '+.painfulpussytortures.com'
   - '+.painnovel.com'
+  - '+.paint.net'
   - '+.paipal.com'
   - '+.paipancon.com'
   - '+.paisapay.cc'
@@ -23841,6 +23843,7 @@ payload:
   - '+.tomovie.net'
   - '+.tomsguide.com'
   - '+.ton.org'
+  - '+.toncenter.com'
   - '+.tonec.com'
   - '+.tonicmovies.com'
   - '+.toolforge.org'
