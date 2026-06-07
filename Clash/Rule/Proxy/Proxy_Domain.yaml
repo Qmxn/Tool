@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6664
+# 规则统计: 6666
 
 payload:
   - 'api.waqi.info'
@@ -5210,6 +5210,7 @@ payload:
   - '+.suroot.com'
   - '+.surrenderat20.net'
   - '+.suyangg.com'
+  - '+.suyingtv.com'
   - '+.svsfx.com'
   - '+.swagbucks.com'
   - '+.swapspace.co'
@@ -6328,6 +6329,7 @@ payload:
   - '+.woyaolian.org'
   - '+.wozy.in'
   - '+.wp.com'
+  - '+.wplace.live'
   - '+.wpoforum.com'
   - '+.wqyd.org'
   - '+.wr.pvp.net'

@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7284
+# 规则统计: 7286
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -5653,6 +5653,7 @@ HOST-SUFFIX,suroot.com,Proxy
 HOST-SUFFIX,surrenderat20.net,Proxy
 HOST-SUFFIX,sustainability.google,Proxy
 HOST-SUFFIX,suyangg.com,Proxy
+HOST-SUFFIX,suyingtv.com,Proxy
 HOST-SUFFIX,svsfx.com,Proxy
 HOST-SUFFIX,swagbucks.com,Proxy
 HOST-SUFFIX,swapspace.co,Proxy
@@ -6806,6 +6807,7 @@ HOST-SUFFIX,woxinghuiguo.com,Proxy
 HOST-SUFFIX,woyaolian.org,Proxy
 HOST-SUFFIX,wozy.in,Proxy
 HOST-SUFFIX,wp.com,Proxy
+HOST-SUFFIX,wplace.live,Proxy
 HOST-SUFFIX,wpoforum.com,Proxy
 HOST-SUFFIX,wqyd.org,Proxy
 HOST-SUFFIX,wr.pvp.net,Proxy

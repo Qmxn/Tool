@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical
-# 规则统计: 6787
+# 规则统计: 6789
 
 payload:
   - DOMAIN,api.waqi.info
@@ -5210,6 +5210,7 @@ payload:
   - DOMAIN-SUFFIX,suroot.com
   - DOMAIN-SUFFIX,surrenderat20.net
   - DOMAIN-SUFFIX,suyangg.com
+  - DOMAIN-SUFFIX,suyingtv.com
   - DOMAIN-SUFFIX,svsfx.com
   - DOMAIN-SUFFIX,swagbucks.com
   - DOMAIN-SUFFIX,swapspace.co
@@ -6328,6 +6329,7 @@ payload:
   - DOMAIN-SUFFIX,woyaolian.org
   - DOMAIN-SUFFIX,wozy.in
   - DOMAIN-SUFFIX,wp.com
+  - DOMAIN-SUFFIX,wplace.live
   - DOMAIN-SUFFIX,wpoforum.com
   - DOMAIN-SUFFIX,wqyd.org
   - DOMAIN-SUFFIX,wr.pvp.net
