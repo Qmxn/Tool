@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35232
+# 规则统计: 35233
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -18251,6 +18251,7 @@ DOMAIN-SUFFIX,norwichresearchpark.ac.uk
 DOMAIN-SUFFIX,noticias-rt.com
 DOMAIN-SUFFIX,notimundo.press
 DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notion-status.com
 DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site

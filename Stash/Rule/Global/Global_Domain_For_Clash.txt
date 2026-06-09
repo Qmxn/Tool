@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain_For_Clash
-# 规则统计: 34419
+# 规则统计: 34420
 
 1password.drift.click
 adobeereg.com
@@ -17988,6 +17988,7 @@ login.microsoftonline.com
 +.noticias-rt.com
 +.notimundo.press
 +.notion-static.com
++.notion-status.com
 +.notion.com
 +.notion.new
 +.notion.site

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35238
+# 规则统计: 35239
 
 no_resolve: true
 domain_set:
@@ -18254,6 +18254,7 @@ domain_suffix_set:
 - noticias-rt.com
 - notimundo.press
 - notion-static.com
+- notion-status.com
 - notion.com
 - notion.new
 - notion.site

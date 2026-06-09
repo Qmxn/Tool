@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 34420
+# 规则统计: 34421
 
 payload:
   - '1password.drift.click'
@@ -17989,6 +17989,7 @@ payload:
   - '+.noticias-rt.com'
   - '+.notimundo.press'
   - '+.notion-static.com'
+  - '+.notion-status.com'
   - '+.notion.com'
   - '+.notion.new'
   - '+.notion.site'
