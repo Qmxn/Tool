@@ -1,8 +1,7 @@
 # 规则名称: WeiZhiYunDong
-# 规则统计: 6
+# 规则统计: 5
 
 payload:
-  - DOMAIN,weizhiyundong.list
   - DOMAIN-SUFFIX,dicom365.com
   - DOMAIN-SUFFIX,dycom365.com
   - DOMAIN-SUFFIX,wedcm.com
