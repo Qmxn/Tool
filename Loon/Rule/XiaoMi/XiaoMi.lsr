@@ -1,5 +1,5 @@
 # 规则名称: XiaoMi
-# 规则统计: 153
+# 规则统计: 157
 
 DOMAIN-SUFFIX,408399.com
 DOMAIN-SUFFIX,408399.net
@@ -150,6 +150,10 @@ DOMAIN-SUFFIX,youpin.cn
 DOMAIN-SUFFIX,youpin.com.cn
 DOMAIN-SUFFIX,zhutidasai.com
 IP-CIDR,110.43.63.242/32,no-resolve
+IP-CIDR,111.205.195.120/30,no-resolve
+IP-CIDR,111.205.195.124/31,no-resolve
+IP-CIDR,114.247.175.210/31,no-resolve
+IP-CIDR,114.247.175.212/32,no-resolve
 IP-CIDR,120.133.33.222/32,no-resolve
 IP-CIDR,47.241.176.221/32,no-resolve
 IP-CIDR,58.220.58.152/31,no-resolve
