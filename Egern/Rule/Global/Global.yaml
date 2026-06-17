@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35338
+# 规则统计: 35353
 
 no_resolve: true
 domain_set:
@@ -97,6 +97,7 @@ domain_set:
 - cdn-spotify-experiments.conductrics.com
 - cdn.js7k.com
 - cdngarenanow-a.akamaihd.net
+- chatscc-hamivideo2.cdn.hinet.net
 - chinapower.csis.org
 - cisco.evergage.com
 - ciscolivehls-i.akamaihd.net
@@ -184,6 +185,7 @@ domain_set:
 - ecapi-pchome.cdn.hinet.net
 - edu.tinkoff.ru
 - education.tbank.ru
+- efe8f8a4-abd5-44c9-bf5c-cd217442c52f.t.ssp.hinet.net
 - elib.maruzen.co.jp
 - epc-de-agent-proxy.germanywestcentral.cloudapp.azure.com
 - ereg.adobe.com
@@ -240,6 +242,7 @@ domain_set:
 - himalaya-exchange.zendesk.com
 - hl2rcv.adobe.com
 - hlrcv.stage.adobe.com
+- hls-hamivideo.cdn.hinet.net
 - holoxx.f5.si
 - homebrew.bintray.com
 - hpefonts.s3.amazonaws.com
@@ -415,6 +418,7 @@ domain_set:
 - s3-ap-southeast-2.amazonaws.com
 - sa78gs.wpc.edgecastcdn.net
 - sberpro.vedomosti.ru
+- scc-hamivideo.cdn.hinet.net
 - scc.ott.hinet.net
 - scholar.google.ae
 - scholar.google.at
@@ -510,6 +514,7 @@ domain_set:
 - statics-marketingsites-eus-ms-com.akamaized.net
 - statics-marketingsites-wcus-ms-com.akamaized.net
 - straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
+- t.ssp.hinet.net
 - t21.nikkei.co.jp
 - t21ipau.nikkei.co.jp
 - teamviewer.com.cdn.cloudflare.net
@@ -612,6 +617,7 @@ domain_set:
 - wb-agora-hydra-file-storage-k1.s3.amazonaws.com
 - webchannel-alkalimakersuite-pa.clients6.google.com
 - weblive-hamivideo.cdn.hinet.net
+- weblivea-hamivideo.cdn.hinet.net
 - webvodad-hamivideo.cdn.hinet.net
 - wego.here.com
 - wetv.qq.com
@@ -6058,6 +6064,7 @@ domain_suffix_set:
 - celebgramme.com
 - celebmasta.live
 - celebritygay.com
+- celebritymoviearchive.com
 - celebritynakeds.com
 - celebrityslips.com
 - celebritystorysite.com
@@ -10434,6 +10441,7 @@ domain_suffix_set:
 - foxweatherwatch.com
 - fpacebook.com
 - fpm.ac.uk
+- fpo.xxx
 - fptolia.com
 - fqcebook.com
 - fr-beatsbydrestore.com
@@ -10526,6 +10534,8 @@ domain_suffix_set:
 - freessl.com
 - freeuseporn.com
 - freeviewplus.net.au
+- freexh.blog
+- freexh.live
 - freexvideos.org
 - freexxx.best
 - freexxx.win
@@ -19639,6 +19649,7 @@ domain_suffix_set:
 - pilgrimageandcathedrals.ac.uk
 - pilgrimagestudies.ac.uk
 - pillbeatsblackfridaysale.com
+- pimpbunny.com
 - pin.it
 - pinduck.com
 - pinflix.com
@@ -20258,6 +20269,7 @@ domain_suffix_set:
 - powershellgallery.com
 - powersrv.de
 - powersunitedvr.com
+- powfans.com
 - powia.ac.uk
 - pp-soc.com
 - pp.ru
@@ -21978,6 +21990,7 @@ domain_suffix_set:
 - sequence.com
 - ser7.cc
 - sera.ac.uk
+- serakon.com
 - serbiporno.net
 - serc.ac.uk
 - serena.ac.uk
@@ -26078,6 +26091,7 @@ domain_suffix_set:
 - vscode-unpkg.net
 - vscode.dev
 - vsemrabota.ru
+- vsex.in
 - vsezoo.com
 - vsphere.com
 - vsphere.net
@@ -26894,6 +26908,7 @@ domain_suffix_set:
 - xhamster2.com
 - xhamster3.com
 - xhamsterlive.com
+- xhapp.live
 - xhnews.live
 - xhot.pro
 - xhpingcdn.com

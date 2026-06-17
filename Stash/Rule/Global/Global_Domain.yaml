@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 34525
+# 规则统计: 34534
 
 payload:
   - '1password.drift.click'
@@ -5516,6 +5516,7 @@ payload:
   - '+.celebgramme.com'
   - '+.celebmasta.live'
   - '+.celebritygay.com'
+  - '+.celebritymoviearchive.com'
   - '+.celebritynakeds.com'
   - '+.celebrityslips.com'
   - '+.celebritystorysite.com'
@@ -9917,6 +9918,7 @@ payload:
   - '+.foxweatherwatch.com'
   - '+.fpacebook.com'
   - '+.fpm.ac.uk'
+  - '+.fpo.xxx'
   - '+.fptolia.com'
   - '+.fqcebook.com'
   - '+.fr-beatsbydrestore.com'
@@ -10009,6 +10011,8 @@ payload:
   - '+.freessl.com'
   - '+.freeuseporn.com'
   - '+.freeviewplus.net.au'
+  - '+.freexh.blog'
+  - '+.freexh.live'
   - '+.freexvideos.org'
   - '+.freexxx.best'
   - '+.freexxx.win'
@@ -19380,6 +19384,7 @@ payload:
   - '+.pilgrimageandcathedrals.ac.uk'
   - '+.pilgrimagestudies.ac.uk'
   - '+.pillbeatsblackfridaysale.com'
+  - '+.pimpbunny.com'
   - '+.pin.it'
   - '+.pinduck.com'
   - '+.pinflix.com'
@@ -20022,6 +20027,7 @@ payload:
   - '+.powershellgallery.com'
   - '+.powersrv.de'
   - '+.powersunitedvr.com'
+  - '+.powfans.com'
   - '+.powia.ac.uk'
   - '+.pp-soc.com'
   - '+.pp.ru'
@@ -21743,6 +21749,7 @@ payload:
   - '+.sequence.com'
   - '+.ser7.cc'
   - '+.sera.ac.uk'
+  - '+.serakon.com'
   - '+.serbiporno.net'
   - '+.serc.ac.uk'
   - '+.serena.ac.uk'
@@ -25878,6 +25885,7 @@ payload:
   - '+.vscode-unpkg.net'
   - '+.vscode.dev'
   - '+.vsemrabota.ru'
+  - '+.vsex.in'
   - '+.vsezoo.com'
   - '+.vsphere.com'
   - '+.vsphere.net'
@@ -26699,6 +26707,7 @@ payload:
   - '+.xhamster2.com'
   - '+.xhamster3.com'
   - '+.xhamsterlive.com'
+  - '+.xhapp.live'
   - '+.xhnews.live'
   - '+.xhot.pro'
   - '+.xhpingcdn.com'
