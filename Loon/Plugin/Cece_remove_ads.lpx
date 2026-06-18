@@ -17,7 +17,7 @@
 ^https:\/\/api\.cece\.com\/ask\/ask\/alert_minus\? reject-dict
 ^https:\/\/api\.cece\.com\/msgAsk\/question\/new_coupon_status\? reject-dict
 ^https:\/\/api\.cece\.com\/user\/user\/myPageBanner\? reject-dict
-^https:\/\/api\.cece\.com\/live\/user\/coupon_tab\? mock-response-body-replace data-type=json data="{"code":0,"msg":""}" status-code=200
+^https:\/\/api\.cece\.com\/live\/user\/coupon_tab\? mock-response-body data-type=json data="{"code":0,"msg":""}" status-code=200
 ^https:\/\/api\.cece\.com\/live\/recommend\/new_user\? reject-dict
 ^https:\/\/api\.cece\.com\/chart\/tools\/get_search_recommend\? reject-dict
 ^https:\/\/api\.cece\.com\/user\/rank\/list\? reject-dict
