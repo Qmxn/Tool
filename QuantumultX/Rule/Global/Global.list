@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35393
+# 规则统计: 35412
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -512,6 +512,8 @@ HOST,statics-marketingsites-eas-ms-com.akamaized.net,Global
 HOST,statics-marketingsites-eus-ms-com.akamaized.net,Global
 HOST,statics-marketingsites-wcus-ms-com.akamaized.net,Global
 HOST,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com,Global
+HOST,supercell.helpshift.com,Global
+HOST,supercell.zendesk.com,Global
 HOST,t.ssp.hinet.net,Global
 HOST,t21.nikkei.co.jp,Global
 HOST,t21ipau.nikkei.co.jp,Global
@@ -2590,6 +2592,7 @@ HOST-SUFFIX,appbridge.io,Global
 HOST-SUFFIX,appbridge.it,Global
 HOST-SUFFIX,appcenter.ms,Global
 HOST-SUFFIX,appcloud.com,Global
+HOST-SUFFIX,appconsent.io,Global
 HOST-SUFFIX,appdomain.cloud,Global
 HOST-SUFFIX,appdynamics.co.uk,Global
 HOST-SUFFIX,appdynamics.com,Global
@@ -3508,6 +3511,7 @@ HOST-SUFFIX,awwcn.buzz,Global
 HOST-SUFFIX,awwcn.xyz,Global
 HOST-SUFFIX,awxcdn.com,Global
 HOST-SUFFIX,axbdoll.com.tw,Global
+HOST-SUFFIX,axept.io,Global
 HOST-SUFFIX,ayabank.com,Global
 HOST-SUFFIX,aylesbury.ac.uk,Global
 HOST-SUFFIX,ayrcoll.ac.uk,Global
@@ -6016,6 +6020,7 @@ HOST-SUFFIX,ccwp.ac.uk,Global
 HOST-SUFFIX,cdd.ac.uk,Global
 HOST-SUFFIX,cdkworkshop.com,Global
 HOST-SUFFIX,cdmatech.com,Global
+HOST-SUFFIX,cdn-cookieyes.com,Global
 HOST-SUFFIX,cdn-terapeak.com,Global
 HOST-SUFFIX,cdn-tinkoff.ru,Global
 HOST-SUFFIX,cdn-vk.net,Global
@@ -6800,6 +6805,7 @@ HOST-SUFFIX,connell.ac.uk,Global
 HOST-SUFFIX,conquerwithcharacter.com,Global
 HOST-SUFFIX,conscrypt.com,Global
 HOST-SUFFIX,conscrypt.org,Global
+HOST-SUFFIX,consentmanager.net,Global
 HOST-SUFFIX,consentpro.com,Global
 HOST-SUFFIX,conservatoiresuk.ac.uk,Global
 HOST-SUFFIX,consilience.ac.uk,Global
@@ -6814,9 +6820,11 @@ HOST-SUFFIX,contentful.com,Global
 HOST-SUFFIX,contest.com,Global
 HOST-SUFFIX,convrgencegame.com,Global
 HOST-SUFFIX,cooer.su,Global
+HOST-SUFFIX,cookiebot.com,Global
 HOST-SUFFIX,cookiechoices.org,Global
 HOST-SUFFIX,cookielaw.org,Global
 HOST-SUFFIX,cookiepro.com,Global
+HOST-SUFFIX,cookieyes.com,Global
 HOST-SUFFIX,cool-comics.com,Global
 HOST-SUFFIX,cool3c.com,Global
 HOST-SUFFIX,coolinet.net,Global
@@ -7704,6 +7712,7 @@ HOST-SUFFIX,dewsbury.ac.uk,Global
 HOST-SUFFIX,dexterhorn.com,Global
 HOST-SUFFIX,dezyred.com,Global
 HOST-SUFFIX,df-bet.com,Global
+HOST-SUFFIX,dfvpn.com,Global
 HOST-SUFFIX,dgaqp.com,Global
 HOST-SUFFIX,dgg.gg,Global
 HOST-SUFFIX,dghe.ac.uk,Global
@@ -10753,6 +10762,7 @@ HOST-SUFFIX,gamesplanet.com,Global
 HOST-SUFFIX,gamesstack.com,Global
 HOST-SUFFIX,gametap.com,Global
 HOST-SUFFIX,gameuxmasterguide.com,Global
+HOST-SUFFIX,gamewtb.com,Global
 HOST-SUFFIX,gaming-notebooks.com,Global
 HOST-SUFFIX,gandhara.ru,Global
 HOST-SUFFIX,ganjing.world,Global
@@ -11244,6 +11254,7 @@ HOST-SUFFIX,goblox.com,Global
 HOST-SUFFIX,gobuildx.net,Global
 HOST-SUFFIX,gobuyonlinestore.net,Global
 HOST-SUFFIX,gockhuatviet.com,Global
+HOST-SUFFIX,godaddy.net,Global
 HOST-SUFFIX,godalming.ac.uk,Global
 HOST-SUFFIX,godbolt.org,Global
 HOST-SUFFIX,goduckgo.com,Global
@@ -22490,7 +22501,6 @@ HOST-SUFFIX,singtaoopo.com,Global
 HOST-SUFFIX,sinica.ac.uk,Global
 HOST-SUFFIX,sino-cs.ac.uk,Global
 HOST-SUFFIX,sinto.ac.uk,Global
-HOST-SUFFIX,sinyalee.com,Global
 HOST-SUFFIX,sip.ac.uk,Global
 HOST-SUFFIX,sipher.ac.uk,Global
 HOST-SUFFIX,siport.com,Global
@@ -23806,6 +23816,7 @@ HOST-SUFFIX,tay.ac.uk,Global
 HOST-SUFFIX,taylorandfrancis.com,Global
 HOST-SUFFIX,taylorfrancis.com,Global
 HOST-SUFFIX,tb-esim.ru,Global
+HOST-SUFFIX,tb.pro,Global
 HOST-SUFFIX,tbank-online.com,Global
 HOST-SUFFIX,tbank.ru,Global
 HOST-SUFFIX,tbib.org,Global
@@ -23936,6 +23947,7 @@ HOST-SUFFIX,teraperk.com,Global
 HOST-SUFFIX,terc.ac.uk,Global
 HOST-SUFFIX,terk.nl,Global
 HOST-SUFFIX,termius.com,Global
+HOST-SUFFIX,termly.io,Global
 HOST-SUFFIX,termux.com,Global
 HOST-SUFFIX,termux.dev,Global
 HOST-SUFFIX,termux.org,Global
@@ -24221,6 +24233,7 @@ HOST-SUFFIX,thtmod1.com,Global
 HOST-SUFFIX,thumbnailseries.com,Global
 HOST-SUFFIX,thunderbird.net,Global
 HOST-SUFFIX,thunderbolttechnology.net,Global
+HOST-SUFFIX,thundermail.com,Global
 HOST-SUFFIX,thurrock.ac.uk,Global
 HOST-SUFFIX,thurrockcampus.ac.uk,Global
 HOST-SUFFIX,thz7.net,Global
@@ -24538,6 +24551,7 @@ HOST-SUFFIX,truro.ac.uk,Global
 HOST-SUFFIX,trurocollege.ac.uk,Global
 HOST-SUFFIX,truropenwith.ac.uk,Global
 HOST-SUFFIX,trust-provider.com,Global
+HOST-SUFFIX,trustarc.com,Global
 HOST-SUFFIX,trustcor.ca,Global
 HOST-SUFFIX,trustcor.com,Global
 HOST-SUFFIX,trustdoc.ch,Global
@@ -26736,6 +26750,7 @@ HOST-SUFFIX,ws-tcg.com,Global
 HOST-SUFFIX,wsc.ac.uk,Global
 HOST-SUFFIX,wscinternational.ac.uk,Global
 HOST-SUFFIX,wsfc.ac.uk,Global
+HOST-SUFFIX,wsimg.com,Global
 HOST-SUFFIX,wsj.jobs,Global
 HOST-SUFFIX,wsjbarrons.com,Global
 HOST-SUFFIX,wsjmediakit.com,Global
@@ -28307,6 +28322,7 @@ HOST-SUFFIX,abplive.com,Global
 HOST-SUFFIX,abs.edu,Global
 HOST-SUFFIX,acast.com,Global
 HOST-SUFFIX,accim.org,Global
+HOST-SUFFIX,accountboy.com,Global
 HOST-SUFFIX,accountkit.com,Global
 HOST-SUFFIX,aceros-de-hispania.com,Global
 HOST-SUFFIX,acevpn.com,Global
@@ -32123,6 +32139,7 @@ HOST-SUFFIX,monlamit.org,Global
 HOST-SUFFIX,monocloud.me,Global
 HOST-SUFFIX,monster.com,Global
 HOST-SUFFIX,moodyz.com,Global
+HOST-SUFFIX,moomoo.com,Global
 HOST-SUFFIX,moon.fm,Global
 HOST-SUFFIX,moonbbs.com,Global
 HOST-SUFFIX,moonbbs.info,Global
@@ -33432,6 +33449,7 @@ HOST-SUFFIX,sinomontreal.ca,Global
 HOST-SUFFIX,sinonet.ca,Global
 HOST-SUFFIX,sinopitt.info,Global
 HOST-SUFFIX,sinoquebec.com,Global
+HOST-SUFFIX,sinyalee.com,Global
 HOST-SUFFIX,sipml5.org,Global
 HOST-SUFFIX,sis.xxx,Global
 HOST-SUFFIX,sis001.com,Global
@@ -34958,6 +34976,7 @@ HOST-SUFFIX,xn--noss43i.com,Global
 HOST-SUFFIX,xn--oiq.cc,Global
 HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Global
 HOST-SUFFIX,xn--u2u927b.com,Global
+HOST-SUFFIX,xn--vuqv2cf7wzyig79c.com,Global
 HOST-SUFFIX,xnpool.com,Global
 HOST-SUFFIX,xnxx-cdn.com,Global
 HOST-SUFFIX,xnxx.com,Global
