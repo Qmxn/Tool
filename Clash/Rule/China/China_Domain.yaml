@@ -1,5 +1,5 @@
 # 规则名称: China_Domain
-# 规则统计: 3694
+# 规则统计: 3692
 
 payload:
   - 'analytics.strava.com'
@@ -1371,8 +1371,6 @@ payload:
   - '+.funnycore.com'
   - '+.funshion.com'
   - '+.funshion.net'
-  - '+.futu5.com'
-  - '+.futunn.com'
   - '+.fuwai.com'
   - '+.fuwj.com'
   - '+.fxxz.com'

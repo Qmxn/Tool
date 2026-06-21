@@ -1,5 +1,5 @@
 # 规则名称: ChinaNoMedia_Classical
-# 规则统计: 3627
+# 规则统计: 3625
 
 payload:
   - DOMAIN,analytics.strava.com
@@ -1333,8 +1333,6 @@ payload:
   - DOMAIN-SUFFIX,funnycore.com
   - DOMAIN-SUFFIX,funshion.com
   - DOMAIN-SUFFIX,funshion.net
-  - DOMAIN-SUFFIX,futu5.com
-  - DOMAIN-SUFFIX,futunn.com
   - DOMAIN-SUFFIX,fuwai.com
   - DOMAIN-SUFFIX,fuwj.com
   - DOMAIN-SUFFIX,fxxz.com

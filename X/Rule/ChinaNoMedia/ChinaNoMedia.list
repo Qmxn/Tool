@@ -1,5 +1,5 @@
 # 规则名称: ChinaNoMedia
-# 规则统计: 3627
+# 规则统计: 3625
 
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
@@ -1332,8 +1332,6 @@ DOMAIN-SUFFIX,funcdn.com
 DOMAIN-SUFFIX,funnycore.com
 DOMAIN-SUFFIX,funshion.com
 DOMAIN-SUFFIX,funshion.net
-DOMAIN-SUFFIX,futu5.com
-DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,fuwai.com
 DOMAIN-SUFFIX,fuwj.com
 DOMAIN-SUFFIX,fxxz.com

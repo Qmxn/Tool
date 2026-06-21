@@ -1,5 +1,5 @@
 # 规则名称: China
-# 规则统计: 3755
+# 规则统计: 3753
 
 HOST,analytics.strava.com,China
 HOST,blzddist1-a.akamaihd.net,China
@@ -1370,8 +1370,6 @@ HOST-SUFFIX,funcdn.com,China
 HOST-SUFFIX,funnycore.com,China
 HOST-SUFFIX,funshion.com,China
 HOST-SUFFIX,funshion.net,China
-HOST-SUFFIX,futu5.com,China
-HOST-SUFFIX,futunn.com,China
 HOST-SUFFIX,fuwai.com,China
 HOST-SUFFIX,fuwj.com,China
 HOST-SUFFIX,fxxz.com,China

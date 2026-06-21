@@ -1,5 +1,5 @@
 # 规则名称: ChinaNoMedia_Domain_For_Clash
-# 规则统计: 3602
+# 规则统计: 3600
 
 analytics.strava.com
 blzddist1-a.akamaihd.net
@@ -1332,8 +1332,6 @@ www.yxssp.com
 +.funnycore.com
 +.funshion.com
 +.funshion.net
-+.futu5.com
-+.futunn.com
 +.fuwai.com
 +.fuwj.com
 +.fxxz.com

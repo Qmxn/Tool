@@ -12,19 +12,19 @@ China规则由《RULE GENERATOR 规则生成器》自动生成。
 
 ## 规则统计
 
-最后更新时间：2026-05-10 02:21:40
+最后更新时间：2026-06-22 02:36:19
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 17  | 
 | DOMAIN-KEYWORD | 9  | 
-| DOMAIN-SUFFIX | 3676  | 
+| DOMAIN-SUFFIX | 3674  | 
 | DOMAIN-WILDCARD | 1  | 
 | IP-CIDR | 17  | 
 | IP-CIDR6 | 4  | 
 | USER-AGENT(X支持) | 31  | 
-| TOTAL(仅供参考) | 3755  | 
+| TOTAL(仅供参考) | 3753  | 
 
 
 ## X 

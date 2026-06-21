@@ -1,5 +1,5 @@
 # 规则名称: ChinaNoMedia
-# 规则统计: 3658
+# 规则统计: 3656
 
 HOST,analytics.strava.com,ChinaNoMedia
 HOST,blzddist1-a.akamaihd.net,ChinaNoMedia
@@ -1332,8 +1332,6 @@ HOST-SUFFIX,funcdn.com,ChinaNoMedia
 HOST-SUFFIX,funnycore.com,ChinaNoMedia
 HOST-SUFFIX,funshion.com,ChinaNoMedia
 HOST-SUFFIX,funshion.net,ChinaNoMedia
-HOST-SUFFIX,futu5.com,ChinaNoMedia
-HOST-SUFFIX,futunn.com,ChinaNoMedia
 HOST-SUFFIX,fuwai.com,ChinaNoMedia
 HOST-SUFFIX,fuwj.com,ChinaNoMedia
 HOST-SUFFIX,fxxz.com,ChinaNoMedia

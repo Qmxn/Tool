@@ -1,5 +1,5 @@
 # 规则名称: China_Classical_No_Resolve
-# 规则统计: 3724
+# 规则统计: 3722
 
 payload:
   - DOMAIN,analytics.strava.com
@@ -1371,8 +1371,6 @@ payload:
   - DOMAIN-SUFFIX,funnycore.com
   - DOMAIN-SUFFIX,funshion.com
   - DOMAIN-SUFFIX,funshion.net
-  - DOMAIN-SUFFIX,futu5.com
-  - DOMAIN-SUFFIX,futunn.com
   - DOMAIN-SUFFIX,fuwai.com
   - DOMAIN-SUFFIX,fuwj.com
   - DOMAIN-SUFFIX,fxxz.com
