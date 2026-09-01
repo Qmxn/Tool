@@ -1,0 +1,9 @@
+#!name=星火英语
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/api\d\.sparke\.cn\/admodel\/list\?adspace=spgg&flag=\d$ - reject
+
+[MITM]
+hostname = %APPEND% api*.sparke.cn

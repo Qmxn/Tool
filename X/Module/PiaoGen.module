@@ -1,0 +1,9 @@
+#!name=票根
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen/ data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% pss.txffp.com

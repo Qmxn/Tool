@@ -1,0 +1,9 @@
+#!name=e充电
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn\/63c4e3b558bb610008969f89 data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% cdn-evone-ceph.echargenet.com

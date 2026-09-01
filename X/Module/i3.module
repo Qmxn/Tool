@@ -1,0 +1,9 @@
+#!name=i3
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Body Rewrite]
+http-response ^https?:\/\/www\.i3zh\.com cm-pop-up-banners fmz200
+
+[MITM]
+hostname = %APPEND% www.i3zh.com

@@ -1,0 +1,9 @@
+#!name=推栏去广告
+#!desc=过滤推栏广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Script]
+body_rewrite_13 = type=http-response, pattern=^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=[["json-del",["data.splashConf","data.splashConfNew"]]]
+
+[MITM]
+hostname = %APPEND% m.pvp.xoyo.com

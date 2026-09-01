@@ -1,0 +1,13 @@
+#!name=天气通去广告
+#!desc=移除开屏广告、横幅广告、弹窗广告，精简底栏及我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/forecast\.sina\.cn\/app\/overall\/switch\.php\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/tqt\.weibo\.cn\/business\/advert\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/tqt\.weibo\.cn\/user\/device\/ad_multi_star\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/tqt\.weibo\.cn\/operation\/activity\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/tqt\.weibo\.cn\/api\/user\/user\/\d\.\d\/\?method=personal_center$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% forecast.sina.cn, tqt.weibo.cn

@@ -1,0 +1,54 @@
+name: Fork iGeoIP
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 19 * * *"
+
+jobs:
+  ForkiGeoIP:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+
+    steps:
+    - name: Checkout target repository
+      uses: actions/checkout@v7
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }} 
+
+    - name: Clone GeoCN
+      run: |
+        mkdir -p iGeoIP/GeoCN
+        curl -L -o iGeoIP/GeoCN/GeoCN.mmdb https://github.com/Masaiki/GeoIP2-CN/raw/release/Country.mmdb
+        curl -L -o iGeoIP/GeoCN/GeoCN.txt https://github.com/Masaiki/GeoIP2-CN/raw/release/CN-ip-cidr.txt
+      env:
+        TZ: Asia/Shanghai
+
+    - name: Clone Global
+      run: |
+        mkdir -p iGeoIP/Global
+        curl -L -o iGeoIP/Global/GeoLite2-ASN.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb
+        curl -L -o iGeoIP/Global/GeoLite2-City.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-City.mmdb
+        curl -L -o iGeoIP/Global/GeoLite2-Country.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb
+      env:
+        TZ: Asia/Shanghai
+
+    - name: Add and Commit
+      run: |
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin X
+          git push origin X  
+        else
+          echo "No changes to commit."
+        fi
+        
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

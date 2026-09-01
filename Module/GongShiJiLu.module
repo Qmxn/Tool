@@ -1,0 +1,13 @@
+#!name=工时记录
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
+^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ - reject
+
+[Map Local]
+^https?:\/\/yun\.tuitiger\.com\/mami-media data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% yun.tuitiger.com, mi.gdt.qq.com, open.e.kuaishou.com

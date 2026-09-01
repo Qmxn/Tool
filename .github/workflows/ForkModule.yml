@@ -1,0 +1,127 @@
+name: Fork Module
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 20 * * *"
+
+jobs:
+  ForkModule:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+
+    steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 统一处理插件和模块
+      - name: Process Plugins and Module
+        run: |
+          set -e
+
+          # ---------- 定义 awk 处理函数 ----------
+          apply_awk_filter() {
+            local file="$1"
+            local icon="$2"
+            awk -v icon="$icon" '
+              /^\#!name\s*=\s*|^\#!desc\s*=\s*/ { print }
+              FNR == 3 { print "#!icon=" icon }
+              /^[[]/ { print ""; print; next }
+              /^[^#]/ { if(NF) print }
+            ' "$file" > "$file.tmp"
+            mv "$file.tmp" "$file"
+          }
+
+          # ---------- 处理插件（.lpx） ----------
+          process_plugins() {
+            local repo_dir="$1"      # 克隆后的仓库根目录
+            local target_dir="$2"    # 目标目录"Loon/Plugin"
+            local icon_url="$3"
+
+            mkdir -p "$target_dir"
+            find "$repo_dir/Plugin" -type f -name "*.lpx" -exec cp {} "$target_dir/" \;
+
+            (cd "$target_dir" && find . -name "*.lpx" | while read -r file; do
+              apply_awk_filter "$file" "$icon_url"
+            done)
+          }
+
+          # ---------- 处理模块（.sgmodule → .module） ----------
+          process_modules() {
+            local src_dir="$1"       # 源目录
+            local target_base="$2"   # 基础目标目录
+            local icon_url="$3"
+            local subdir="${4:-}"    # 可选子目录
+
+            [ ! -d "$src_dir" ] && return 0
+
+            local dest_dir="$target_base${subdir:+/$subdir}"
+            mkdir -p "$dest_dir"
+
+            # 复制并重命名 .sgmodule → .module
+            find "$src_dir" -type f -name "*.sgmodule" | while read -r file; do
+              base_name=$(basename "$file" .sgmodule)
+              new_name="${base_name}.module"
+              cp "$file" "$dest_dir/$new_name"
+            done
+
+            # 对目标目录下的所有 .module 文件执行 awk 处理
+            (cd "$dest_dir" && find . -name "*.module" | while read -r file; do
+              apply_awk_filter "$file" "$icon_url"
+            done)
+          }
+
+          # ---------- 主流程 ----------
+          # 1. 克隆主仓库，供插件和模块使用
+          git clone --depth=1 --branch X https://github.com/Qmxn/Tools.git tmp_Qmxn
+
+          # 处理 Loon 插件
+          process_plugins "tmp_Qmxn" "Loon/Plugin" "https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png"
+
+          # 处理 X 插件
+          process_plugins "tmp_Qmxn" "X/Plugin" "https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png"
+
+          # 处理 Module 模块
+          process_modules "tmp_Qmxn/Modules" "X/Module" "https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png"
+
+          rm -rf tmp_Qmxn
+
+          # 2. 处理 LoonKissSurge 中的 Official 模块
+          git clone --depth=1 https://github.com/QingRex/LoonKissSurge.git tmp_surge
+          process_modules "tmp_surge/Surge/Official" "X/Module" "https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png" "Official"
+          rm -rf tmp_surge
+
+          # 3. 处理 wool_scripts 稀疏检出的模块
+          mkdir -p temp_upstream && cd temp_upstream
+          git init
+          git remote add origin https://github.com/fmz200/wool_scripts.git
+          git config core.sparseCheckout true
+          echo "Surge/module/split" >> .git/info/sparse-checkout
+          git pull origin main --depth=1
+          cd ..
+
+          # 处理 Module 模块
+          process_modules "temp_upstream/Surge/module/split" "Module" "https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png"
+          rm -rf temp_upstream
+
+      - name: Add and Commit
+        run: |
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add -A
+            git commit -m "Auto Update $(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+            git pull --rebase origin X
+            git push origin X
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Cleanup Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 2

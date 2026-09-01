@@ -1,0 +1,9 @@
+#!name=众邦银行
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/direct\.z-bank\.com\/portal\/AdvertImageDownLoad4Mobile\.do data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% direct.z-bank.com

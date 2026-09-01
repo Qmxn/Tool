@@ -1,0 +1,13 @@
+#!name=挂号网（微医）
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/app\.wy\.guahao\.com\/json\/white\/dayquestion\/getpopad - reject
+
+[Map Local]
+^https?:\/\/kano\.guahao\.cn\/[a-zA-Z0-9]{12} data-type=text data=" " status-code=200
+^https?:\/\/kano\.guahao\.cn\/.+?\?resize=\d{3}-\d{4} data-type=tiny-gif status-code=200
+
+[MITM]
+hostname = %APPEND% kano.guahao.cn, app.wy.guahao.com

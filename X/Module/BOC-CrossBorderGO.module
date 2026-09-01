@@ -1,0 +1,9 @@
+#!name=中银跨境GO
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/openapi\.boc\.cn\/unlogin\/app\/cbsp\/query_ad_list data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% openapi.boc.cn

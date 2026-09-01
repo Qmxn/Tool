@@ -1,0 +1,14 @@
+#!name=慧生活798去广告
+#!desc=移除开屏广告、横幅广告，精简底栏。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/i\.ilife798\.com\/api\/v\d\/acc\/score\/mission-lst$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/i\.ilife798\.com\/api\/v\d\/ep\/lst-simple\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/i\.ilife798\.com\/api\/v\d\/ui\/app\/master$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[Script]
+body_rewrite_13 = type=http-response, pattern=^https:\/\/i\.ilife798\.com\/api\/v\d\/acc\/login$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=[["json-del",["data.ar","data.showAd"]]]
+
+[MITM]
+hostname = %APPEND% i.ilife798.com

@@ -1,0 +1,10 @@
+#!name=WakeUp课程表去广告
+#!desc=移除横幅广告、弹窗广告，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rewrite]
+^https:\/\/api\.wakeup\.fun\/wakeup\/app\/bannerconf$ reject-dict
+^https:\/\/api\.wakeup\.fun\/wakeup\/user\/mine$ response-body-json-del data.bannerItems
+
+[MitM]
+hostname=api.wakeup.fun

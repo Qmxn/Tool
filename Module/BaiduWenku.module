@@ -1,0 +1,9 @@
+#!name=百度文库
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% appwk.baidu.com

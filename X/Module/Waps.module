@@ -1,0 +1,14 @@
+#!name=Waps（无线广告交易中心）
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,waps.cn,REJECT
+DOMAIN-SUFFIX,app.waps.cn,REJECT
+DOMAIN-SUFFIX,wapx.cn,REJECT
+DOMAIN-SUFFIX,app.wapx.cn,REJECT
+DOMAIN-SUFFIX,appcdn.wapx.cn,REJECT
+DOMAIN-SUFFIX,imgcdn.wapx.cn,REJECT
+DOMAIN-SUFFIX,push.wapx.cn,REJECT
+DOMAIN-SUFFIX,wapscdn.wapx.cn,REJECT
+DOMAIN-SUFFIX,wapx.com,REJECT

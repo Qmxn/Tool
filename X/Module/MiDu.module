@@ -1,0 +1,11 @@
+#!name=米读
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/apiwz\.midukanshu\.com\/advert\/getPopup$ - reject
+^https?:\/\/apiwz\.midukanshu\.com\/advert\/treasureInfo$ - reject
+^https?:\/\/apiwz\.midukanshu\.com\/config\/getAds$ - reject
+
+[MITM]
+hostname = %APPEND% apiwz.midukanshu.com

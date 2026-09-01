@@ -1,0 +1,11 @@
+#!name=沃尔玛去广告
+#!desc=移除操作引导、商品详情页用户调研、搜索填充词和搜索发现，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/api-hyper\.walmartmobile\.cn\/search\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api-hyper\.walmartmobile\.cn\/cms-web\/frontapi\/shadedWords\/list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/api-hyper\.walmartmobile\.cn\/search\/frontapi\/discovery-words\/list$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% api-hyper.walmartmobile.cn

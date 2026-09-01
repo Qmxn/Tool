@@ -1,0 +1,13 @@
+#!name=农业银行
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(ed64|74b5) - reject
+
+[Map Local]
+^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/(?!7dc2|fe96|cea3|06a8|1b11|d57b|6918|61db|2d58|aa23|) data-type=text data=" " status-code=200
+^https?:\/\/firefly\.abchina\.com\.cn\/firefly-collection\/Collect data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% midc.cdn-static.abchina.com.cn, enjoy.cdn-static.abchina.com

@@ -1,0 +1,13 @@
+#!name=资源预览
+#!name=资源预览
+#!desc=预览资源
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
+#!desc=预览资源
+
+[Rewrite]
+^https?:\/\/(.*\.)?kelee\.one\/ header-replace User-Agent "Surge iOS/9515"
+^https?:\/\/(.*\.)?kelee\.one\/ response-header-replace Content-Disposition "inline"
+^https?:\/\/(.*\.)?kelee\.one\/ response-header-replace Content-Type "text/plain; charset=utf-8"
+
+[MITM]
+hostname = *.kelee.one, kelee.one

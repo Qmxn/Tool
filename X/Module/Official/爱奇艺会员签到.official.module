@@ -1,0 +1,10 @@
+#!name=🐻 爱奇艺 [会员签到]
+#!desc=每日定时签到，模块参数可调整签到时间。\n登陆爱奇艺网页版 https://m.ctrip.com/ 使用密码登录可获取签到Cookie.
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Script]
+爱奇艺[会员签到] = type=cron,cronexp="{{{定时签到}}}",wake-system=1,script-update-interval=0,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+{{{禁用脚本}}} = type=http-request,pattern=^https:\/\/passport\.iqiyi\.com\/apis\/user\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+
+[MITM]
+{{{禁用MITM}}} = %APPEND% passport.iqiyi.com

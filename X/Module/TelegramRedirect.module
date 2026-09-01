@@ -1,0 +1,6 @@
+#!name=Telegram重定向
+#!desc=适用于安装了多个不同Telegram客户端的用户，用于在指定客户端中打开公开或私有群组及频道的Telegram短链。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% t.me

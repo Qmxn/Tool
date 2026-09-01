@@ -1,0 +1,9 @@
+#!name=冠寓
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start - reject
+
+[MITM]
+hostname = %APPEND% guanyu.longfor.com

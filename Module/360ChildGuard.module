@@ -1,0 +1,9 @@
+#!name=360儿童卫士
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/ad\.life\.360\.cn\/v2\/app\/advertisement\/config\?sdk_ver= data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% ad.life.360.cn

@@ -1,0 +1,10 @@
+#!name=横店电影小程序
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/1 https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/hengdian.json 302
+
+[Map Local]
+^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/2\?cid= data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/4\?cid= data-type=text data="{}" status-code=200 header="Content-Type:application/json"

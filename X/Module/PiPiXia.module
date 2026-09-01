@@ -1,0 +1,8 @@
+#!name=皮皮虾
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao-b.com,REJECT
+DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao.com,REJECT
+DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao.com,REJECT

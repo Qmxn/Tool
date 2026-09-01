@@ -1,0 +1,10 @@
+#!name=ECOVACS HOME去广告
+#!desc=移除横幅推广，精简底栏。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/api-app\.dc-cn\.cn\.ecouser\.net\/api\/ecms\/app\/ad\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/gl-cn-api\.ecovacs\.cn\/v1\/private\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% gl-cn-api.ecovacs.cn, api-app.dc-cn.cn.ecouser.net

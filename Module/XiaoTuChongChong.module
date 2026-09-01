@@ -1,0 +1,12 @@
+#!name=小兔充充
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/ad\.xiaotucc\.com\/advert - reject
+
+[Script]
+小兔充充 = type=http-response, pattern=^https?:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity), script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaotucc.js, requires-body=true, timeout=60
+
+[MITM]
+hostname = %APPEND% ad.xiaotucc.com, mapi.xiaotucc.com

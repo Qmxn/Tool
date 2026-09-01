@@ -1,0 +1,12 @@
+#!name=马克水印相机去广告
+#!desc=移除开屏广告，拍摄首页悬浮挂件，侧边栏横幅广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rewrite]
+^https:\/\/marki\.markiapp\.com\/mkg\/MomStats\/getFlowWindowList$ reject-dict
+^https?:\/\/marki\.markiapp\.com\/mkg\/Advertising\/ reject-dict
+^https:\/\/marki\.markiapp\.com\/mkg\/MomStats\/getIntegralAdv$ reject-dict
+^https:\/\/market-callback\.markiapp\.com\/adcenter\/ reject-dict
+
+[MitM]
+hostname=marki.markiapp.com, market-callback.markiapp.com

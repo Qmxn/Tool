@@ -1,0 +1,311 @@
+ipv6: true
+allow_external_connections: false
+vif_only: false
+hijack_dns:
+- '*:53'
+geoip_db_url: https://github.com/Qmxn/Tool/raw/X/iGeoIP/GeoCN/GeoCN.mmdb
+proxy_latency_test_url: http://www.gstatic.com/generate_204
+direct_latency_test_url: http://g.alicdn.com
+dns:
+  bootstrap:
+    - system
+  upstreams:
+    ChinaDNS:
+    - https://223.5.5.5
+    - https://223.6.6.6
+    GlobalDNS:
+    - https://1.1.1.1
+    - https://8.8.8.8
+    - https://101.101.101.101
+  forward:
+  - proxy_rule_set:
+      match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/ChinaMaxNoIP/ChinaMaxNoIP.list
+      value: ChinaDNS
+  - wildcard:
+      match: '*apple*'
+      value: ChinaDNS
+  - wildcard:
+      match: '*'
+      value: GlobalDNS
+  proxy_nameservers:
+  - https://dns.alidns.com/dns-query
+  public_ip_lookup_url: https://ifconfig.me/ip
+policy_groups:
+- select:
+    name: 国内分流
+    policies:
+    - DIRECT
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/China_Map.png
+    hidden: true
+- select:
+    name: 拒绝应答
+    policies:
+    - REJECT
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Reject.png
+    hidden: true
+- external:
+    name: 节点选择
+    type: select
+    urls:
+    - 此处填写订阅地址
+    filter: ^(?!.*(?i:购买|套餐|邀请|返利|优惠|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|群|贩卖|通知|倒卖|防止|国内|\b(?:USE|USED|TOTAL|EXPIRE|EMAIL|Panel)\d{0,2}\b|\d{4}[-/]\d{2}[-/]\d{2}|\dG)).*$
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Egern.png
+    hidden: false
+- select:
+    name: 国际服务
+    policies:
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Global.png
+- select:
+    name: 国际媒体
+    policies:
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/ForeignMedia.png
+- select:
+    name: 谷歌服务
+    policies:
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Google.png
+- select:
+    name: 电报消息
+    policies:
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Telegram.png
+- select:
+    name: 推特消息
+    policies:
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/X.png
+- select:
+    name: 国际抖音
+    policies:
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/TikTok.png
+- select:
+    name: 智能应答
+    policies:
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Chatgpt.png
+- select:
+    name: 微软服务
+    policies:
+    - 国内分流
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Microsoft.png
+- select:
+    name: 苹果服务
+    policies:
+    - 国内分流
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Apple.png
+- select:
+    name: 兜底分流
+    policies:
+    - 香港节点
+    - 美国节点
+    - 狮城节点
+    - 日本节点
+    - 台湾节点
+    - 节点选择
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Final.png
+- auto_test:
+    name: 香港节点
+    policies:
+    - 节点选择
+    flatten: true
+    filter: (?i)🇭🇰|香港|(\b(HK|Hong)\b)
+    tolerance: 50
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Hong_Kong.png
+    hidden: true
+- auto_test:
+    name: 美国节点
+    policies:
+    - 节点选择
+    flatten: true
+    filter: (?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)
+    tolerance: 50
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/United_States.png
+    hidden: true
+- auto_test:
+    name: 狮城节点
+    policies:
+    - 节点选择
+    flatten: true
+    filter: (?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)
+    tolerance: 50
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Singapore.png
+    hidden: true
+- auto_test:
+    name: 日本节点
+    policies:
+    - 节点选择
+    flatten: true
+    filter: (?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)
+    tolerance: 50
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Japan.png
+    hidden: true
+- auto_test:
+    name: 台湾节点
+    policies:
+    - 节点选择
+    flatten: true
+    filter: (?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)
+    tolerance: 50
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/China.png
+    hidden: true
+- auto_test:
+    name: 其他节点
+    policies:
+    - 节点选择
+    flatten: true
+    filter: ^((?!🇭🇰|港|HK|Hong|🇹🇼|台|TW|Tai|🇯🇵|日|JP|Japan|🇸🇬|坡|狮城|SG|Singapore|🇺🇸|美|US|States|American).)*$
+    icon: https://raw.githubusercontent.com/Qmxn/Tool/X/icon/icon/Rainbow.png
+    hidden: true
+rules:
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Direct/Direct.list
+    policy: 国内分流
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/AdRule/AdBlock.list
+    policy: 拒绝应答
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/BlockHttpDNS/BlockHttpDNS.list
+    policy: 拒绝应答
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Hijacking/Hijacking.list
+    policy: 拒绝应答
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Privacy/Privacy.list
+    policy: 拒绝应答
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/OpenAI/OpenAI.list
+    policy: 智能应答
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Copilot/Copilot.list
+    policy: 智能应答
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Gemini/Gemini.list
+    policy: 智能应答
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Microsoft/Microsoft.list
+    policy: 微软服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/GitHub/GitHub.list
+    policy: 国际服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/GitLab/GitLab.list
+    policy: 国际服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Telegram/Telegram.list
+    policy: 电报消息
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Twitter/Twitter.list
+    policy: 推特消息
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Spotify/Spotify.list
+    policy: 国际服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/TikTok/TikTok.list
+    policy: 国际抖音
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Bing/Bing.list
+    policy: 国际服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/YouTube/YouTube.list
+    policy: 谷歌服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Google/Google.list
+    policy: 谷歌服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Speedtest/Speedtest.list
+    policy: 节点选择
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Proxy/Proxy.list
+    policy: 国际服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/AppleProxy/AppleProxy.list
+    policy: 国际服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Apple/Apple.list
+    policy: 苹果服务
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/China/China.list
+    policy: 国内分流
+- rule_set:
+    match: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Rule/Lan/Lan.list
+    policy: 国内分流
+- geoip:
+    match: CN
+    policy: 国内分流
+- default:
+    policy: 兜底分流
+url_rewrites:
+- match: ^https?://(www.)?g.cn
+  location: https://www.google.com
+  status_code: 302
+- match: ^https?://(www.)?google.cn
+  location: https://www.google.com
+  status_code: 302
+mitm:
+  enabled: true
+modules:
+- name: 攔截HTTPDNS服務器
+  url: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Modules/Block_HTTPDNS.module
+  enabled: true
+- name: 廣告平台攔截器
+  url: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Modules/BlockAdvertisers.module
+  enabled: true
+- name: YouTube廣告攔截
+  url: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Modules/YouTubeAD.module
+  enabled: true
+- name: 重冩規則集轉換
+  url: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Modules/Script-Hub.module
+  enabled: true
+- name: 訂閱管理工具
+  url: https://raw.githubusercontent.com/Qmxn/Tool/X/X/Modules/Sub-Store.module
+  enabled: true

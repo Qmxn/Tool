@@ -1,0 +1,12 @@
+#!name=天府市民云
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Body Rewrite]
+http-response ^https?:\/\/tft-app\.cdtft\.cn\/gateway-customer\/tftapp\/tft-ams\/api\/appAd officialAdvertResultVo fmz200
+
+[Map Local]
+^https?:\/\/tfsmy\.chengdu\.gov\.cn\/api\/v5\/core\/version data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% tfsmy.chengdu.gov.cn, tft-app.cdtft.cn

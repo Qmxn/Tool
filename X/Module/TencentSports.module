@@ -1,0 +1,10 @@
+#!name=腾讯体育
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/news\.ssp\.qq\.com\/app - reject
+^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png - reject
+
+[MITM]
+hostname = %APPEND% news.ssp.qq.com, sports3.gtimg.com

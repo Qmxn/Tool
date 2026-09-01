@@ -1,0 +1,10 @@
+#!name=中油好客e站小程序
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/minipro\.95504\.net\/app\/json\/ad\/getPopAdData data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/minipro\.95504\.net\/app\/json\/ad\/getIndexAdData data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% minipro.95504.net
