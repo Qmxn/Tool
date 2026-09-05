@@ -1,0 +1,9 @@
+#!name=DJ多多去广告
+#!desc=移除开屏广告及歌单广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
+
+[Script]
+http-response ^https:\/\/api\.dianyinduoduo\.com\/v4\/config\.php\? script-path=https://kelee.one/Resource/JavaScript/DjDuoDuo/DjDuoDuo_remove_ads.js, requires-body=true, tag=去广告
+
+[MitM]
+hostname=api.dianyinduoduo.com

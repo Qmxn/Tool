@@ -1,0 +1,9 @@
+#!name=哈罗去广告
+#!desc=移除开屏广告及歌单广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Script]
+去广告 = type=http-response, pattern=^https:\/\/mobileconfig-gateway\.hellobike\.com\/api$, script-path=https://kelee.one/Resource/JavaScript/EasyBike/mobileconfig-gateway.js, requires-body=true
+
+[MITM]
+hostname = %APPEND% mobileconfig-gateway.hellobike.com
