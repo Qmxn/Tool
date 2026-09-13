@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 34892
+# 规则统计: 34893
 
 payload:
   - '1password.drift.click'
@@ -32733,6 +32733,7 @@ payload:
   - '+.qstatus.com'
   - '+.qtrac.eu'
   - '+.qtweeter.com'
+  - '+.quakemachinex.com'
   - '+.quannengshen.org'
   - '+.quantumbooter.net'
   - '+.quay.io'

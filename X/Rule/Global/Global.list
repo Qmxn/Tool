@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35735
+# 规则统计: 35736
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -33372,6 +33372,7 @@ DOMAIN-SUFFIX,qq.co.za
 DOMAIN-SUFFIX,qstatus.com
 DOMAIN-SUFFIX,qtrac.eu
 DOMAIN-SUFFIX,qtweeter.com
+DOMAIN-SUFFIX,quakemachinex.com
 DOMAIN-SUFFIX,quannengshen.org
 DOMAIN-SUFFIX,quantumbooter.net
 DOMAIN-SUFFIX,quay.io

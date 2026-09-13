@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7404
+# 规则统计: 7405
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -5040,6 +5040,7 @@ HOST-SUFFIX,qq.co.za,Proxy
 HOST-SUFFIX,qstatus.com,Proxy
 HOST-SUFFIX,qtrac.eu,Proxy
 HOST-SUFFIX,qtweeter.com,Proxy
+HOST-SUFFIX,quakemachinex.com,Proxy
 HOST-SUFFIX,quannengshen.org,Proxy
 HOST-SUFFIX,quantumbooter.net,Proxy
 HOST-SUFFIX,quay.io,Proxy

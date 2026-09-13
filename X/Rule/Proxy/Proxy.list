@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7396
+# 规则统计: 7397
 
 DOMAIN,api.msn.com
 DOMAIN,api.waqi.info
@@ -5040,6 +5040,7 @@ DOMAIN-SUFFIX,qq.co.za
 DOMAIN-SUFFIX,qstatus.com
 DOMAIN-SUFFIX,qtrac.eu
 DOMAIN-SUFFIX,qtweeter.com
+DOMAIN-SUFFIX,quakemachinex.com
 DOMAIN-SUFFIX,quannengshen.org
 DOMAIN-SUFFIX,quantumbooter.net
 DOMAIN-SUFFIX,quay.io
