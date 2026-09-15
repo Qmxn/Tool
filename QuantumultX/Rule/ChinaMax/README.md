@@ -21,7 +21,7 @@
 
 ## 规则统计
 
-最后更新时间：2026-09-14 04:10:07
+最后更新时间：2026-09-16 04:48:23
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
@@ -31,10 +31,10 @@
 | DOMAIN-SUFFIX | 111051  | 
 | DOMAIN-WILDCARD | 1  | 
 | IP-ASN | 1  | 
-| IP-CIDR | 8247  | 
-| IP-CIDR6 | 4222  | 
+| IP-CIDR | 8250  | 
+| IP-CIDR6 | 4223  | 
 | USER-AGENT(QuantumultX支持) | 65  | 
-| TOTAL(仅供参考) | 123868  | 
+| TOTAL(仅供参考) | 123872  | 
 
 
 ## QuantumultX 
