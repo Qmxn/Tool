@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 34892
+# 规则统计: 34895
 
 1password.drift.click
 adobeereg.com
@@ -23358,6 +23358,9 @@ login.microsoftonline.com
 .stripe-terminal-local-reader.net
 .stripe.ac.uk
 .stripe.com
+.stripe.dev
+.stripe.events
+.stripe.global
 .stripe.network
 .stripecdn.com
 .stripparadise.com

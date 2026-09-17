@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35742
+# 规则统计: 35746
 
 no_resolve: true
 domain_set:
@@ -372,6 +372,7 @@ domain_set:
 - opgg-static.akamaized.net
 - osu.ppy.sh
 - p-events-delivery.akamaized.net
+- p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
 - p16-tiktokcdn-com.akamaized.net
 - packages.microsoft.com
 - paper-attachments.s3.amazonaws.com
@@ -23631,6 +23632,9 @@ domain_suffix_set:
 - stripe-terminal-local-reader.net
 - stripe.ac.uk
 - stripe.com
+- stripe.dev
+- stripe.events
+- stripe.global
 - stripe.network
 - stripecdn.com
 - stripparadise.com
