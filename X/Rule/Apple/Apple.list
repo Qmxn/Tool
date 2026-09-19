@@ -2,7 +2,6 @@
 # 规则统计: 1858
 
 DOMAIN,apps.apple.com
-DOMAIN,itunes.apple.com
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com
 DOMAIN,a3.mzstatic.com
@@ -245,6 +244,8 @@ DOMAIN,devimages-cdn.apple.com
 DOMAIN,devstreaming-cdn.apple.com
 DOMAIN,docs-assets.developer.apple.com
 DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,hls-svod.itunes.apple.com
+DOMAIN,itunes.apple.com
 DOMAIN,js-cdn.music.apple.com
 DOMAIN,lookup-api.apple.com
 DOMAIN,mask-api.fe.apple-dns.net
@@ -268,7 +269,6 @@ DOMAIN,fmfmobile.icloud.com
 DOMAIN,fmipmobile.icloud.com
 DOMAIN,statici.icloud.com
 DOMAIN,amp-api.fitness.apple.com
-DOMAIN,hls-svod.itunes.apple.com
 DOMAIN,guzzoni.apple.com
 DOMAIN,beta.apple.com
 DOMAIN,testflight.apple.com
@@ -1453,6 +1453,7 @@ DOMAIN-SUFFIX,applepaysupplies.net
 DOMAIN-SUFFIX,applepaysupplies.tv
 DOMAIN-SUFFIX,applewallet.com
 DOMAIN-SUFFIX,applewallet.tv
+DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,appstore.co.id
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,appstore.hk
@@ -1766,7 +1767,6 @@ DOMAIN-SUFFIX,wwwapplemusic.com
 DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-icloud.cn
