@@ -15,17 +15,17 @@ ChinaMax排除相关IP规则版本
 
 ## 规则统计
 
-最后更新时间：2026-09-14 04:10:41
+最后更新时间：2026-09-22 05:34:56
 
 各类型规则统计：
 | 类型 | 数量(条)  | 
 | ---- | ----  |
 | DOMAIN | 267  | 
 | DOMAIN-KEYWORD | 13  | 
-| DOMAIN-SUFFIX | 110725  | 
+| DOMAIN-SUFFIX | 110734  | 
 | DOMAIN-WILDCARD | 1  | 
 | USER-AGENT(QuantumultX支持) | 65  | 
-| TOTAL(仅供参考) | 111071  | 
+| TOTAL(仅供参考) | 111080  | 
 
 
 ## QuantumultX 

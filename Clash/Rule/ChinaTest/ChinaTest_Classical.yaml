@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Classical
-# 规则统计: 110966
+# 规则统计: 110975
 
 payload:
   - DOMAIN,analytics.strava.com
@@ -37323,6 +37323,7 @@ payload:
   - DOMAIN-SUFFIX,fnos.net
   - DOMAIN-SUFFIX,fnrcw.com
   - DOMAIN-SUFFIX,fnrczp.com
+  - DOMAIN-SUFFIX,fnrrc.com
   - DOMAIN-SUFFIX,fnsbqvz.com
   - DOMAIN-SUFFIX,fnscore.com
   - DOMAIN-SUFFIX,fnwlzz.com
@@ -40761,6 +40762,7 @@ payload:
   - DOMAIN-SUFFIX,gongkongsaas.com
   - DOMAIN-SUFFIX,gonglf.com
   - DOMAIN-SUFFIX,gonglve.net
+  - DOMAIN-SUFFIX,gongniukaiguan.net
   - DOMAIN-SUFFIX,gongnou.com
   - DOMAIN-SUFFIX,gongpin.net
   - DOMAIN-SUFFIX,gongpingjia.com
@@ -65508,6 +65510,7 @@ payload:
   - DOMAIN-SUFFIX,mdbchina.com
   - DOMAIN-SUFFIX,mdbimg.com
   - DOMAIN-SUFFIX,mdclub.org
+  - DOMAIN-SUFFIX,mddclass.com
   - DOMAIN-SUFFIX,mdddg.com
   - DOMAIN-SUFFIX,mddj.com
   - DOMAIN-SUFFIX,mddlsa.com
@@ -76210,6 +76213,7 @@ payload:
   - DOMAIN-SUFFIX,qudao168.com
   - DOMAIN-SUFFIX,qudaowuyou.com
   - DOMAIN-SUFFIX,qudayun.com
+  - DOMAIN-SUFFIX,qudian.com
   - DOMAIN-SUFFIX,qudingshui.com
   - DOMAIN-SUFFIX,qudong51.net
   - DOMAIN-SUFFIX,qudong9.com
@@ -91273,6 +91277,7 @@ payload:
   - DOMAIN-SUFFIX,uboat100.com
   - DOMAIN-SUFFIX,uborn.net
   - DOMAIN-SUFFIX,uboxol.com
+  - DOMAIN-SUFFIX,uboxs.com
   - DOMAIN-SUFFIX,ubs001.com
   - DOMAIN-SUFFIX,ubtrobot.com
   - DOMAIN-SUFFIX,ubuant.com
@@ -93271,6 +93276,7 @@ payload:
   - DOMAIN-SUFFIX,vx.com
   - DOMAIN-SUFFIX,vx56.com
   - DOMAIN-SUFFIX,vxe.com
+  - DOMAIN-SUFFIX,vxhcm.com
   - DOMAIN-SUFFIX,vxia.net
   - DOMAIN-SUFFIX,vxiaocheng.com
   - DOMAIN-SUFFIX,vxinyou.com
@@ -104141,6 +104147,7 @@ payload:
   - DOMAIN-SUFFIX,youbangyun.com
   - DOMAIN-SUFFIX,youbbs.org
   - DOMAIN-SUFFIX,youbian.com
+  - DOMAIN-SUFFIX,youbianku.com
   - DOMAIN-SUFFIX,youbibi.com
   - DOMAIN-SUFFIX,youbike.me
   - DOMAIN-SUFFIX,youbikecn.com
@@ -108129,6 +108136,7 @@ payload:
   - DOMAIN-SUFFIX,zhonglianhuashu.com
   - DOMAIN-SUFFIX,zhonglianhuaxin.com
   - DOMAIN-SUFFIX,zhonglianyx.com
+  - DOMAIN-SUFFIX,zhongliujie.com
   - DOMAIN-SUFFIX,zhongliusp.com
   - DOMAIN-SUFFIX,zhongliuyiyuan.com
   - DOMAIN-SUFFIX,zhonglue-consulting.com
@@ -110303,6 +110311,7 @@ payload:
   - DOMAIN-SUFFIX,zuixu.com
   - DOMAIN-SUFFIX,zuiyanke.com
   - DOMAIN-SUFFIX,zuiyou.com
+  - DOMAIN-SUFFIX,zuiyou.tv
   - DOMAIN-SUFFIX,zuiyouxi.com
   - DOMAIN-SUFFIX,zuizhifu.com
   - DOMAIN-SUFFIX,zuji360.com
