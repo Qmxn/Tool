@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Domain
-# 规则统计: 110951
+# 规则统计: 110952
 
 payload:
   - 'analytics.strava.com'
@@ -83241,6 +83241,7 @@ payload:
   - '+.sjf029.com'
   - '+.sjfcdn.com'
   - '+.sjfh168.com'
+  - '+.sjfls6.com'
   - '+.sjfpro.com'
   - '+.sjfzxm.com'
   - '+.sjg8.com'

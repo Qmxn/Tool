@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7405
+# 规则统计: 7407
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -1188,6 +1188,7 @@ HOST-SUFFIX,chinesegay.org,Proxy
 HOST-SUFFIX,chinesen.de,Proxy
 HOST-SUFFIX,chinesenews.net.au,Proxy
 HOST-SUFFIX,chinesepen.org,Proxy
+HOST-SUFFIX,chineseposters.net,Proxy
 HOST-SUFFIX,chineseradioseattle.com,Proxy
 HOST-SUFFIX,chinesetalks.net,Proxy
 HOST-SUFFIX,chineseupress.com,Proxy
@@ -4441,6 +4442,7 @@ HOST-SUFFIX,nordstrommedia.com,Proxy
 HOST-SUFFIX,nordstromrack.com,Proxy
 HOST-SUFFIX,nordvpn.com,Proxy
 HOST-SUFFIX,nos.nl,Proxy
+HOST-SUFFIX,note.com,Proxy
 HOST-SUFFIX,notepad-plus-plus.org,Proxy
 HOST-SUFFIX,notion.so,Proxy
 HOST-SUFFIX,nottinghampost.com,Proxy
