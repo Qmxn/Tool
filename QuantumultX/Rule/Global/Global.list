@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35794
+# 规则统计: 35793
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -15313,7 +15313,6 @@ HOST-SUFFIX,like-video.com,Global
 HOST-SUFFIX,likee.com,Global
 HOST-SUFFIX,likeeapp.ru,Global
 HOST-SUFFIX,likeevideo.com,Global
-HOST-SUFFIX,likeevideo.ru,Global
 HOST-SUFFIX,likeseiyu.com,Global
 HOST-SUFFIX,liketruyen.net,Global
 HOST-SUFFIX,liketwice.com,Global

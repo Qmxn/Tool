@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 34903
+# 规则统计: 34902
 
 payload:
   - '1password.drift.click'
@@ -15008,7 +15008,6 @@ payload:
   - '+.likee.com'
   - '+.likeeapp.ru'
   - '+.likeevideo.com'
-  - '+.likeevideo.ru'
   - '+.likeseiyu.com'
   - '+.liketruyen.net'
   - '+.liketwice.com'
