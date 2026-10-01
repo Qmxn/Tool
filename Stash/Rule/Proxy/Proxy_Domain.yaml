@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain
-# 规则统计: 6799
+# 规则统计: 6801
 
 payload:
   - 'api.waqi.info'
@@ -2170,6 +2170,7 @@ payload:
   - '+.fututrustee.com'
   - '+.fux.com'
   - '+.fuyin.net'
+  - '+.fuyin116.com'
   - '+.fuyindiantai.org'
   - '+.fuyu.org.tw'
   - '+.fw.cm'
@@ -3787,6 +3788,7 @@ payload:
   - '+.mummysgold.com'
   - '+.murmur.tw'
   - '+.muscdn.com'
+  - '+.muse.ai'
   - '+.musicade.net'
   - '+.musical.ly'
   - '+.musixmatch.com'

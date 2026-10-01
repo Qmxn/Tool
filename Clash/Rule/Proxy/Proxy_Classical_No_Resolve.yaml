@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Classical_No_Resolve
-# 规则统计: 6925
+# 规则统计: 6927
 
 payload:
   - DOMAIN,api.waqi.info
@@ -2170,6 +2170,7 @@ payload:
   - DOMAIN-SUFFIX,fututrustee.com
   - DOMAIN-SUFFIX,fux.com
   - DOMAIN-SUFFIX,fuyin.net
+  - DOMAIN-SUFFIX,fuyin116.com
   - DOMAIN-SUFFIX,fuyindiantai.org
   - DOMAIN-SUFFIX,fuyu.org.tw
   - DOMAIN-SUFFIX,fw.cm
@@ -3787,6 +3788,7 @@ payload:
   - DOMAIN-SUFFIX,mummysgold.com
   - DOMAIN-SUFFIX,murmur.tw
   - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,muse.ai
   - DOMAIN-SUFFIX,musicade.net
   - DOMAIN-SUFFIX,musical.ly
   - DOMAIN-SUFFIX,musixmatch.com
