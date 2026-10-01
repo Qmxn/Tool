@@ -1,0 +1,13 @@
+#!name=作业帮
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,bu01.zybang.com,REJECT
+DOMAIN-SUFFIX,bu02.zybang.com,REJECT
+
+[Map Local]
+^https?:\/\/(syh|www)\.zybang\.com\/adx\/ data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% syh.zybang.com, www.zybang.com

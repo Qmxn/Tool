@@ -1,0 +1,8 @@
+#!name=爱拍
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,apas.aipai.com,REJECT
+DOMAIN-SUFFIX,atiws.aipai.com,REJECT
+DOMAIN-SUFFIX,mlog.aipai.com,REJECT

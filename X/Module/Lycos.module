@@ -1,0 +1,15 @@
+#!name=Lycos
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,adbuyer3.lycos.com,REJECT
+DOMAIN-SUFFIX,cm8.lycos.com,REJECT
+DOMAIN-SUFFIX,oascentral.lycos.com,REJECT
+DOMAIN-SUFFIX,ratings.lycos.com,REJECT
+DOMAIN-SUFFIX,client.sidesearch.lycos.com,REJECT
+DOMAIN-SUFFIX,install.sidesearch.lycos.com,REJECT
+DOMAIN-SUFFIX,guestworld.tripod.lycos.com,REJECT
+DOMAIN-SUFFIX,titan.guestworld.tripod.lycos.com,REJECT
+DOMAIN-SUFFIX,fe.lea.lycos.co.uk,REJECT
+DOMAIN-SUFFIX,hit.webcentre.lycos.co.uk,REJECT

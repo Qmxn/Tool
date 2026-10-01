@@ -1,0 +1,6 @@
+# 规则名称: Contentful
+# 规则统计: 3
+
+domain_suffix_set:
+- contentful.com
+- ctfassets.net

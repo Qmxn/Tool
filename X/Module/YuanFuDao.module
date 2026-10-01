@@ -1,0 +1,9 @@
+#!name=猿辅导
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% xyst.yuanfudao.com

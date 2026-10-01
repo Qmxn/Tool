@@ -1,0 +1,7 @@
+#!name=超级课程表去广告
+#!desc=移除开屏广告、首页头图、悬浮挂件。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
+
+[Rule]
+DOMAIN, ad.myfriday.cn, REJECT
+IP-CIDR, 182.92.244.70/32, REJECT, no-resolve

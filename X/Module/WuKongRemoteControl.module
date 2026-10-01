@@ -1,0 +1,9 @@
+#!name=悟空遥控器
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/img\.wukongtv\.com\/wkremote\/AD\/iOS\/.*.(jpg|png|jpeg) data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% img.wukongtv.com

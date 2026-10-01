@@ -1,0 +1,13 @@
+#!name=华数TV
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,acsystem.wasu.cn,REJECT
+DOMAIN-SUFFIX,afp.wasu.cn,REJECT
+DOMAIN-SUFFIX,afpcreative.wasu.cn,REJECT
+DOMAIN-SUFFIX,collector.wasu.cn,REJECT
+DOMAIN-SUFFIX,delivery.wasu.cn,REJECT
+DOMAIN-SUFFIX,delivery-pc.wasu.cn,REJECT
+DOMAIN-SUFFIX,adsystem.wasu.tv,REJECT
+DOMAIN-SUFFIX,adwasu.tv,REJECT

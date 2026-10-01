@@ -1,0 +1,10 @@
+#!name=云宝宝大数据
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/nnapp\.cloudbae\.cn:\d+\/mc\/api\/advert/ - reject
+^https?:\/\/nnapp\.cloudbae\.cn\/mc\/api\/advert/ - reject
+
+[MITM]
+hostname = %APPEND% nnapp.cloudbae.cn

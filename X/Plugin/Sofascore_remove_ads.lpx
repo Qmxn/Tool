@@ -1,0 +1,10 @@
+#!name=Sofascore去广告
+#!desc=移除横幅及信息流广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rewrite]
+^https:\/\/api\.sofascore\.com\/api\/v\d\/dsp\/country\/[A-Z]{2}$ reject-dict
+^https:\/\/api\.sofascore\.com\/api\/v\d\/trending\/grid\/tiles\/[A-Z]{2}$ mock-response-body data-type=json data="{"tiles":[]}" status-code=200
+
+[MitM]
+hostname=api.sofascore.com

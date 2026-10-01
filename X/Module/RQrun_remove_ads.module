@@ -1,0 +1,9 @@
+#!name=RQrun去广告
+#!desc=移除开屏广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/api\.rq\.run\/Api\/Spreadimg\/spreadimg_type_list$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% api.rq.run

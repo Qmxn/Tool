@@ -1,0 +1,9 @@
+#!name=RQrun去广告
+#!desc=移除开屏广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rewrite]
+^https:\/\/api\.rq\.run\/Api\/Spreadimg\/spreadimg_type_list$ reject-dict
+
+[MitM]
+hostname=api.rq.run

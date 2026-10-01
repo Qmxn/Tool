@@ -1,0 +1,10 @@
+#!name=医考帮去广告
+#!desc=移除横幅推广、弹窗、首页悬浮挂件。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rewrite]
+^https:\/\/api\.yikaobang\.com\.cn\/index\.php\/client\/main\/ads\? reject-dict
+^https:\/\/api\.yikaobang\.com\.cn\/index\.php\/client\/Main\/startPage\? reject-dict
+
+[MitM]
+hostname=api.yikaobang.com.cn

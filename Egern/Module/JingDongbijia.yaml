@@ -1,0 +1,29 @@
+name: 京东比价
+description: 首次使用需安装慢慢买应用，之后点击进入[我的]页面以捕获Cookie，捕获成功后方可在商品详情页面查看比价内容。
+icon: https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+dns: {}
+scriptings:
+- http_request:
+    name: 捕获令牌
+    match: ^https?:\/\/apapia-sqk-weblogic\.manmanbuy\.com\/baoliao\/center\/menu$
+    script_url: https://kelee.one/Resource/JavaScript/JD/JD_Price.js
+    timeout: 10
+    body_required: true
+- http_response:
+    name: 京东比价
+    match: ^https?:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html
+    script_url: https://kelee.one/Resource/JavaScript/JD/JD_Price.js
+    timeout: 10
+    body_required: true
+mitm:
+  hostnames:
+    includes:
+    - in.m.jd.com
+    - apapia-sqk-weblogic.manmanbuy.com
+
+
+
+
+ 
+   
+

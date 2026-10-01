@@ -1,0 +1,7 @@
+#!name=快懂百科
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,ehd.baike.com,REJECT
+DOMAIN-SUFFIX,hdad.baike.com,REJECT

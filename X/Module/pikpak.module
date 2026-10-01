@@ -1,0 +1,9 @@
+#!name=pikpak
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+https://access.mypikpak.com/access_controller/v1/area_accessible - reject
+
+[MITM]
+hostname = %APPEND% access.mypikpak.com

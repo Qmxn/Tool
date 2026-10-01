@@ -1,0 +1,9 @@
+#!name=迅雷去广告
+#!desc=移除开屏广告、首页横幅广告、左上角广告入口，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Script]
+body_rewrite_13 = type=http-response, pattern=^https:\/\/conf-m-ssl\.xunlei\.com\/external\/, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=[["json-del",["values.me_config.entrance_list_vertical_enable","values.me_config.common_service_list","values.me_config.banner_service_list"]]]
+
+[MITM]
+hostname = %APPEND% conf-m-ssl.xunlei.com, api-shoulei-ssl.xunlei.com

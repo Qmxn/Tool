@@ -1,0 +1,11 @@
+#!name=东方网
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,afpimages.eastday.com,REJECT
+DOMAIN-SUFFIX,jiaoben.eastday.com,REJECT
+DOMAIN-SUFFIX,mini.eastday.com,REJECT
+DOMAIN-SUFFIX,tt123.eastday.com,REJECT
+DOMAIN-SUFFIX,tt321.eastday.com,REJECT
+DOMAIN-SUFFIX,afpimages.eastday,REJECT

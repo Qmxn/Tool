@@ -1,0 +1,9 @@
+#!name=少数派
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+https://ios.sspai.com/api/v3/recommend/page/get\?ad.*ios_home_modal - reject
+
+[MITM]
+hostname = %APPEND% ios.sspai.com

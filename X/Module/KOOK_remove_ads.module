@@ -1,0 +1,13 @@
+#!name=KOOK去广告
+#!desc=移除开屏广告、房间横幅推广、促销活动、精简发现页面频道及我的页面，移除底栏商城入口。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https:\/\/www\.kookapp\.cn\/api\/v3\/ad\/config$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https:\/\/www\.kookapp\.cn\/api\/v3\/promotion\/ongoing$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[Script]
+body_rewrite_14 = type=http-response, pattern=^https:\/\/(m|www)\.kookapp\.cn\/api\/v\d\/user\/settings$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=[["json-del",["ad_banner","advertise_on_off"]],["json-replace",[["ios_mall_switch",false]]]]
+
+[MITM]
+hostname = %APPEND% m.kookapp.cn, www.kookapp.cn

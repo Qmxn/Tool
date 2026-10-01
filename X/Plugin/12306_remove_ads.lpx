@@ -1,0 +1,15 @@
+#!name=12306去广告
+#!desc=过滤12306应用内广告及开屏广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN, ad.12306.cn, DIRECT
+
+[Rewrite]
+^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$ response-body-json-del materialsList advertParam
+
+[Script]
+http-request ^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ script-path=https://kelee.one/Resource/JavaScript/12306/12306_remove_ads.js, tag=移除12306应用内广告
+
+[MitM]
+hostname=ad.12306.cn, mobile.12306.cn

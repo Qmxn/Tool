@@ -1,0 +1,16 @@
+#!name=12123
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,v3.fstats.xyz,REJECT
+DOMAIN-SUFFIX,wss.haoyundmn.com,REJECT
+DOMAIN-SUFFIX,new.xiongzhangad.com,REJECT
+DOMAIN-SUFFIX,alexametrics.com,REJECT
+DOMAIN-KEYWORD,in-page-push,REJECT
+
+[URL Rewrite]
+^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ - reject
+
+[MITM]
+hostname = %APPEND% gab.122.gov.cn
