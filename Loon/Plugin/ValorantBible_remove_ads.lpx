@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/app\.mval\.qq\.com\/go\/recommend\/platflashbox\? reject-dict
-^https:\/\/app\.mval\.qq\.com\/go\/mlol_news\/search\/varcache_hotV\d\? reject-dict
-^https:\/\/app\.mval\.qq\.com\/go\/customize_search\/article_rank_tab\? reject-dict
+request if ${url} ~= /^https:\/\/app\.mval\.qq\.com\/go\/recommend\/platflashbox\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/app\.mval\.qq\.com\/go\/mlol_news\/search\/varcache_hotV\d\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/app\.mval\.qq\.com\/go\/customize_search\/article_rank_tab\?/i then reject_dict(200)
 
 [MitM]
 hostname=app.mval.qq.com

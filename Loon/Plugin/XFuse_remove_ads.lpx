@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/cili\.xfuse\.fun\/s\/ reject
+request if ${url} ~= /^https:\/\/cili\.xfuse\.fun\/s\//i then reject(404)
 
 [MitM]
 hostname=cili.xfuse.fun, i.micecube.com, img.mofyi.com

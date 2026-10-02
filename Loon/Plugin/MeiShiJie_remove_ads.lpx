@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/newapi\.meishi\.cc\/indexnew\/home_feeds response-body-json-jq 'if .data.items then .data.items |= map(select(.type | . != "101" and . != "12")) else . end'
+response if ${url} ~= /^https:\/\/newapi\.meishi\.cc\/indexnew\/home_feeds/i then response.json.jq("if .data.items then .data.items |= map(select(.type | . != \"101\" and . != \"12\")) else . end")
 
 [MitM]
 hostname=newapi.meishi.cc

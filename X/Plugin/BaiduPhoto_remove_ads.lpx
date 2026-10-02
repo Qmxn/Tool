@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/pan\.baidu\.com\/act\/api\/conf\?.*conf_key=youa_core_config_ios reject-dict
-^https:\/\/pan\.baidu\.com\/youai\/material\/v1\/getbynavid\?.*nav_id=1 reject-dict
-^https:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\? response-body-json-del data.service.config.advertisement data.service.config.youa.pm_config_ad 
+request if ${url} ~= /^https:\/\/pan\.baidu\.com\/act\/api\/conf\?.*conf_key=youa_core_config_ios/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/pan\.baidu\.com\/youai\/material\/v1\/getbynavid\?.*nav_id=1/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?/i then response.json.delete(["data.service.config.advertisement", "data.service.config.youa.pm_config_ad"]) 
 
 [MitM]
 hostname=pan.baidu.com, mbd.baidu.com

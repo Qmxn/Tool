@@ -12,8 +12,5 @@ DOMAIN-SUFFIX,appier.net,REJECT
 DOMAIN-SUFFIX,adsmoloco.com,REJECT
 DOMAIN-SUFFIX,adcanvas.com,REJECT
 
-[URL Rewrite]
-^https:\/\/.*\.i18n-pglstatp\.com\/obj\/ad-pattern-sg - reject
-
 [MITM]
 hostname = %APPEND% *.i18n-pglstatp.com

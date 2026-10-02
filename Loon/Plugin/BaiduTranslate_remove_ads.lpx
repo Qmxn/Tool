@@ -3,10 +3,10 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/fanyi-app\.baidu\.com\/transapp\/v2\/api\/launch\/config\? reject-dict
-^https:\/\/fanyi-app\.baidu\.com\/transapp\/comment\/my\? response-body-json-del data.taskBanner data.act
-^https:\/\/fanyi-app\.baidu\.com\/transapp\/recitewd\/myplan\? response-body-json-del data.activityRec data.activityRecList
-^https:\/\/fanyi-app\.baidu\.com\/static\/react-activity\/page\/courseBoutique\.html\? reject
+request if ${url} ~= /^https:\/\/fanyi-app\.baidu\.com\/transapp\/v2\/api\/launch\/config\?/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/fanyi-app\.baidu\.com\/transapp\/comment\/my\?/i then response.json.delete(["data.taskBanner", "data.act"])
+response if ${url} ~= /^https:\/\/fanyi-app\.baidu\.com\/transapp\/recitewd\/myplan\?/i then response.json.delete(["data.activityRec", "data.activityRecList"])
+request if ${url} ~= /^https:\/\/fanyi-app\.baidu\.com\/static\/react-activity\/page\/courseBoutique\.html\?/i then reject(404)
 
 [MitM]
 hostname=fanyi-app.baidu.com

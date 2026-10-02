@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Script]
-http-request ^http:\/\/(aliyun|quark|pikpak)\.example\.com script-path=https://kelee.one/Resource/JavaScript/Fileball/Fileball_mount.js, requires-body=true, tag=三合一网盘挂载
+request if ${url} ~= /^http:\/\/(aliyun|quark|pikpak)\.example\.com/i then script("https://kelee.one/Resource/JavaScript/Fileball/Fileball_mount.js") with tag="三合一网盘挂载", requires_body=true
 
 [MitM]
 hostname=aliyun.example.com, quark.example.com, pikpak.example.com,

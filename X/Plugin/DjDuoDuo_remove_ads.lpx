@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Script]
-http-response ^https:\/\/api\.dianyinduoduo\.com\/v4\/config\.php\? script-path=https://kelee.one/Resource/JavaScript/DjDuoDuo/DjDuoDuo_remove_ads.js, requires-body=true, tag=去广告
+response if ${url} ~= /^https:\/\/api\.dianyinduoduo\.com\/v4\/config\.php\?/i then script("https://kelee.one/Resource/JavaScript/DjDuoDuo/DjDuoDuo_remove_ads.js") with tag="去广告", requires_body=true
 
 [MitM]
 hostname=api.dianyinduoduo.com

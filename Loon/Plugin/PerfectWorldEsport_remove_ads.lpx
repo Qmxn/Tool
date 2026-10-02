@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/api\.wmpvp\.com\/api\/v1\/config\/promote$ response-body-json-del data.ad
-^https:\/\/appactivity\.wmpvp\.com\/hotsearch\/all\? reject-dict
+response if ${url} ~= /^https:\/\/api\.wmpvp\.com\/api\/v1\/config\/promote$/i then response.json.delete("data.ad")
+request if ${url} ~= /^https:\/\/appactivity\.wmpvp\.com\/hotsearch\/all\?/i then reject_dict(200)
 
 [MitM]
 hostname=api.wmpvp.com, appactivity.wmpvp.com

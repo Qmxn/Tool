@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Script]
-http-response ^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent script-path=https://kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js, requires-body=true, tag=移除开屏广告
-http-response ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/ script-path=https://kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js, requires-body=true, tag=移除应用内广告
+response if ${url} ~= /^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent/i then script("https://kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js") with tag="移除开屏广告", requires_body=true
+response if ${url} ~= /^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\//i then script("https://kelee.one/Resource/JavaScript/mobileClouds/mobileClouds_remove_ads.js") with tag="移除应用内广告", requires_body=true
 
 [MitM]
 hostname=jzts.cmpassport.com, ad.mcloud.139.com

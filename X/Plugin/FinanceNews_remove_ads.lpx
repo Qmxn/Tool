@@ -3,17 +3,17 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/advertising\/ reject-dict
-^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/kvconfig\/items\/tabbarconfig1$ response-body-json-jq '.data.items |= [.[] | select(.key == "news" or .key == "live")]'
-^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/kvconfig\/items\/search_keywords_wscnvip$ reject-dict
-^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/search\/hotsearch\? reject-dict
-^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/articles\/hot\? reject-dict
-^https:\/\/wallstreetcn\.com\/app-faas\/coupon\/user\/search\/popup$ reject-dict
-^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/lives\/relateddata\/ reject-dict
-^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/articles\/relateddata\/ reject-dict
-^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/carousel\/information-flow\? reject-dict
-^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/articles\/ response-body-json-del data.recommend_vip_img_uri
-^https:\/\/api-one-wscn\.awtmt\.com\/\/apiv1\/kvconfig\/items\/membersrights$ response-body-json-del data.vip_article
+request if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/advertising\//i then reject_dict(200)
+response if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/kvconfig\/items\/tabbarconfig1$/i then response.json.jq(".data.items |= [.[] | select(.key == \"news\" or .key == \"live\")]")
+request if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/kvconfig\/items\/search_keywords_wscnvip$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/search\/hotsearch\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/articles\/hot\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/wallstreetcn\.com\/app-faas\/coupon\/user\/search\/popup$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/lives\/relateddata\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/articles\/relateddata\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/carousel\/information-flow\?/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/apiv1\/content\/articles\//i then response.json.delete("data.recommend_vip_img_uri")
+response if ${url} ~= /^https:\/\/api-one-wscn\.awtmt\.com\/\/apiv1\/kvconfig\/items\/membersrights$/i then response.json.delete("data.vip_article")
 
 [MitM]
 hostname=api-one-wscn.awtmt.com

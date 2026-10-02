@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/marketing-aibox\.v\.mitvos\.com\/advertise\/ reject-dict
-^https:\/\/marketing-aibox\.v\.mitvos\.com\/payGuide\/halfScreenMulti\/(home|cache)\? reject-dict
-^https:\/\/marketing-aibox\.v\.mitvos\.com\/payGuide\/tabPage\? reject-dict
+request if ${url} ~= /^https:\/\/marketing-aibox\.v\.mitvos\.com\/advertise\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/marketing-aibox\.v\.mitvos\.com\/payGuide\/halfScreenMulti\/(home|cache)\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/marketing-aibox\.v\.mitvos\.com\/payGuide\/tabPage\?/i then reject_dict(200)
 
 [MitM]
 hostname=marketing-aibox.v.mitvos.com

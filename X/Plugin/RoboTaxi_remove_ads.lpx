@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/idgdata\.baidu\.com\/mc\/app\/api\/listterminal\? reject-dict
-^https:\/\/idgdata\.baidu\.com\/operation\/api\/announce\/screen\/image_manage\? reject-dict
-^https:\/\/idgdata\.baidu\.com\/idgactivity\/api\/newuser\/info\? reject-dict
+request if ${url} ~= /^https:\/\/idgdata\.baidu\.com\/mc\/app\/api\/listterminal\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/idgdata\.baidu\.com\/operation\/api\/announce\/screen\/image_manage\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/idgdata\.baidu\.com\/idgactivity\/api\/newuser\/info\?/i then reject_dict(200)
 
 [MitM]
 hostname=idgdata.baidu.com

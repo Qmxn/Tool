@@ -3,10 +3,10 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/helper\.2bulu\.com\/getAppEntranceConfig\? response-body-json-jq '.configData=(.configData|fromjson|del(.adPlatform,.adIntertitialShowType,.adsConfig,.adIntertitialDisplayedLimit,.adSplashShowTypeWhenHotStart,.adIntertitialDayDisplayedMaxCount,.od_adsType,.showMeBaiHeAdView)|tojson)'
-^https:\/\/helper\.2bulu\.com\/search\/searchHotKeyList\? reject-dict
-^https:\/\/helper\.2bulu\.com\/promote\/getAppUserModule\? reject-dict
-^https:\/\/helper\.2bulu\.com\/proSpecial\/allData\? reject-dict
+response if ${url} ~= /^https:\/\/helper\.2bulu\.com\/getAppEntranceConfig\?/i then response.json.jq(".configData=(.configData|fromjson|del(.adPlatform,.adIntertitialShowType,.adsConfig,.adIntertitialDisplayedLimit,.adSplashShowTypeWhenHotStart,.adIntertitialDayDisplayedMaxCount,.od_adsType,.showMeBaiHeAdView)|tojson)")
+request if ${url} ~= /^https:\/\/helper\.2bulu\.com\/search\/searchHotKeyList\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/helper\.2bulu\.com\/promote\/getAppUserModule\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/helper\.2bulu\.com\/proSpecial\/allData\?/i then reject_dict(200)
 
 [MitM]
 hostname=helper.2bulu.com

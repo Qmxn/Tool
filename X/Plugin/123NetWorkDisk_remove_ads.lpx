@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/www\.123pan\.com\/api\/config\/get reject-dict
+request if ${url} ~= /^https:\/\/www\.123pan\.com\/api\/config\/get/i then reject_dict(200)
 
 [MitM]
 hostname=www.123pan.com

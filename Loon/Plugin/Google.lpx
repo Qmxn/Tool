@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https?:\/\/(www.)?(g|google)\.cn 307 https://www.google.com
-^https?:\/\/(ditu|maps).google\.cn 307 https://maps.google.com
+request if ${url} ~= /^https?:\/\/(www.)?(g|google)\.cn/i then redirect(307, "https://www.google.com")
+request if ${url} ~= /^https?:\/\/(ditu|maps).google\.cn/i then redirect(307, "https://maps.google.com")
 
 [MitM]
 hostname=www.google.cn

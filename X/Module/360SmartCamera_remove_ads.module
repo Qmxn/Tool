@@ -6,8 +6,5 @@
 DOMAIN,ad.jia.360.cn,REJECT
 DOMAIN,ad.iot.360.cn,REJECT
 
-[Script]
-body_rewrite_16 = type=http-response, pattern=^https:\/\/jia\.360\.cn\/conf\/v1\.json, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=[["json-del",["tab_conf","ad_conf","activity"]]]
-
 [MITM]
 hostname = %APPEND% jia.360.cn

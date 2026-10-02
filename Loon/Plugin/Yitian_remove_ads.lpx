@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/(m2u-api\.getkwai|api-m2u\.kuaishou)\.com\/api-server\/api\/v1\/ad\/ reject-dict
-^https:\/\/(m2u-api\.getkwai|api-m2u\.kuaishou)\.com\/api-server\/api\/v1\/system\/configs\? response-body-json-del data.shouldUseLMAdFirst data.incentiveCfgList
-^https:\/\/(m2u-api\.getkwai|api-m2u\.kuaishou)\.com\/api-server\/api\/v4\/op\/actPositions\? reject-dict
+request if ${url} ~= /^https:\/\/(m2u-api\.getkwai|api-m2u\.kuaishou)\.com\/api-server\/api\/v1\/ad\//i then reject_dict(200)
+response if ${url} ~= /^https:\/\/(m2u-api\.getkwai|api-m2u\.kuaishou)\.com\/api-server\/api\/v1\/system\/configs\?/i then response.json.delete(["data.shouldUseLMAdFirst", "data.incentiveCfgList"])
+request if ${url} ~= /^https:\/\/(m2u-api\.getkwai|api-m2u\.kuaishou)\.com\/api-server\/api\/v4\/op\/actPositions\?/i then reject_dict(200)
 
 [MitM]
 hostname=m2u-api.getkwai.com, api-m2u.kuaishou.com

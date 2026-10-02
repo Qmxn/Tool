@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/api\.rq\.run\/Api\/Spreadimg\/spreadimg_type_list$ reject-dict
+request if ${url} ~= /^https:\/\/api\.rq\.run\/Api\/Spreadimg\/spreadimg_type_list$/i then reject_dict(200)
 
 [MitM]
 hostname=api.rq.run

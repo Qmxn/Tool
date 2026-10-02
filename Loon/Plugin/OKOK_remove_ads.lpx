@@ -3,10 +3,10 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/api\.chips-cloud\.com\/v\d\/home\/collection\/smartv\d\? reject-dict
-^https:\/\/api\.chips-cloud\.com\/v\d\/communityManage\/list\? reject-dict
-^https:\/\/api\.chips-cloud\.com\/v\d\/good\/list\? reject-dict
-^https:\/\/shop171777386\.m\.youzan\.com\/v2\/showcase\/homepage\? reject
+request if ${url} ~= /^https:\/\/api\.chips-cloud\.com\/v\d\/home\/collection\/smartv\d\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.chips-cloud\.com\/v\d\/communityManage\/list\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.chips-cloud\.com\/v\d\/good\/list\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/shop171777386\.m\.youzan\.com\/v2\/showcase\/homepage\?/i then reject(404)
 
 [MitM]
 hostname=api.chips-cloud.com, shop171777386.m.youzan.com

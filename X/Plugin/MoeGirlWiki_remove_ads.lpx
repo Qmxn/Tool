@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/grpc\.moegirl\.org\.cn\/moegirl\.moepad\.MoepadAppMetaService\/GetAppInitialInfo$ reject
-^https:\/\/grpc\.moegirl\.org\.cn\/moegirl\.moepad\.MoepadService\/GetLaunchAdPage$ reject
-^https:\/\/grpc\.moegirl\.org\.cn\/moegirl\.moepad\.MoepadService\/GetFeedAdProbability$ reject
+request if ${url} ~= /^https:\/\/grpc\.moegirl\.org\.cn\/moegirl\.moepad\.MoepadAppMetaService\/GetAppInitialInfo$/i then reject(404)
+request if ${url} ~= /^https:\/\/grpc\.moegirl\.org\.cn\/moegirl\.moepad\.MoepadService\/GetLaunchAdPage$/i then reject(404)
+request if ${url} ~= /^https:\/\/grpc\.moegirl\.org\.cn\/moegirl\.moepad\.MoepadService\/GetFeedAdProbability$/i then reject(404)
 
 [MitM]
 hostname=grpc.moegirl.org.cn

@@ -3,4 +3,4 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Script]
-generic script-path=https://kelee.one/Resource/JavaScript/NodeLinkCheck/NodeLinkCheck.js, tag=代理链路检测,img-url=link.circle.system
+generic then script("https://kelee.one/Resource/JavaScript/NodeLinkCheck/NodeLinkCheck.js") with tag="代理链路检测", img_url="link.circle.system"

@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/app\.skyworthdigitaliot\.com\/skyworthOperation\/v\d\/appOperation\/allBannerConfig\? reject-dict
+request if ${url} ~= /^https:\/\/app\.skyworthdigitaliot\.com\/skyworthOperation\/v\d\/appOperation\/allBannerConfig\?/i then reject_dict(200)
 
 [MitM]
 hostname=app.skyworthdigitaliot.com

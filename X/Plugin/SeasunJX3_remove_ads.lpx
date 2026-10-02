@@ -6,7 +6,7 @@
 real-ip=*-update.xoyocdn.com, xg-flow.xoyo.com
 
 [Rewrite]
-^https:\/\/jx3comm\.xoyocdn\.com\/jx3gc\/zhcn\/login_ad\/WebCareer\/WebCareerTab\.txt reject
+request if ${url} ~= /^https:\/\/jx3comm\.xoyocdn\.com\/jx3gc\/zhcn\/login_ad\/WebCareer\/WebCareerTab\.txt/i then reject(404)
 
 [MitM]
 hostname=jx3comm.xoyocdn.com

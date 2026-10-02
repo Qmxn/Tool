@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/api\.wakeup\.fun\/wakeup\/app\/bannerconf$ reject-dict
-^https:\/\/api\.wakeup\.fun\/wakeup\/user\/mine$ response-body-json-del data.bannerItems
+request if ${url} ~= /^https:\/\/api\.wakeup\.fun\/wakeup\/app\/bannerconf$/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/api\.wakeup\.fun\/wakeup\/user\/mine$/i then response.json.delete("data.bannerItems")
 
 [MitM]
 hostname=api.wakeup.fun

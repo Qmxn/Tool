@@ -3,10 +3,10 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/marki\.markiapp\.com\/mkg\/MomStats\/getFlowWindowList$ reject-dict
-^https?:\/\/marki\.markiapp\.com\/mkg\/Advertising\/ reject-dict
-^https:\/\/marki\.markiapp\.com\/mkg\/MomStats\/getIntegralAdv$ reject-dict
-^https:\/\/market-callback\.markiapp\.com\/adcenter\/ reject-dict
+request if ${url} ~= /^https:\/\/marki\.markiapp\.com\/mkg\/MomStats\/getFlowWindowList$/i then reject_dict(200)
+request if ${url} ~= /^https?:\/\/marki\.markiapp\.com\/mkg\/Advertising\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/marki\.markiapp\.com\/mkg\/MomStats\/getIntegralAdv$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/market-callback\.markiapp\.com\/adcenter\//i then reject_dict(200)
 
 [MitM]
 hostname=marki.markiapp.com, market-callback.markiapp.com

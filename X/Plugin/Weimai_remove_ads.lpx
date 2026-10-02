@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/confssl\d?\.iweimai\.cn\/wm_ios_update\.json\? response-body-json-replace isShowCJAd 0
-^https:\/\/confssl\d?\.iweimai\.cn\/wm_ios_update\.json\? response-body-json-del launchAd adBanners ad
+response if ${url} ~= /^https:\/\/confssl\d?\.iweimai\.cn\/wm_ios_update\.json\?/i then response.json.replace("isShowCJAd", 0)
+response if ${url} ~= /^https:\/\/confssl\d?\.iweimai\.cn\/wm_ios_update\.json\?/i then response.json.delete(["launchAd", "adBanners", "ad"])
 
 [MitM]
 hostname=confssl*.iweimai.cn

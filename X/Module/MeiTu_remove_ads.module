@@ -5,8 +5,5 @@
 [Rule]
 DOMAIN,adui.tg.meitu.com,REJECT
 
-[Script]
-body_rewrite_15 = type=http-response, pattern=^https:\/\/api\.posters\.meitu\.com\/common\/init\.json, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=[["json-del",["data.vip"]]]
-
 [MITM]
 hostname = %APPEND% api.posters.meitu.com

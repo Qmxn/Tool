@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/tqtdata\.weathercn\.com\/forestbox\/getVideoListApp\? reject-dict
+request if ${url} ~= /^https:\/\/tqtdata\.weathercn\.com\/forestbox\/getVideoListApp\?/i then reject_dict(200)
 
 [MitM]
 hostname=tqtdata.weathercn.com

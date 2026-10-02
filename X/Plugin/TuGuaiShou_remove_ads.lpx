@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/api\.818ps\.com\/v4\/advertisement\/ reject-dict
-^https:\/\/api\.818ps\.com\/v4\/popup\/ reject-dict
-^https:\/\/api\.818ps\.com\/v4\/festival\/newYear\/pop\? reject-dict
+request if ${url} ~= /^https:\/\/api\.818ps\.com\/v4\/advertisement\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.818ps\.com\/v4\/popup\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.818ps\.com\/v4\/festival\/newYear\/pop\?/i then reject_dict(200)
 
 [MitM]
 hostname=api.818ps.com

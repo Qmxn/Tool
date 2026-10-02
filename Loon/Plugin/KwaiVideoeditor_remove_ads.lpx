@@ -3,12 +3,12 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/resource\/get\? reject-dict
-^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/banner\/common\/getBannerByTypeV2\? response-body-json-jq 'del(.list[] | select(.bannerChannelName == "活动"))'
-^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/banner\/common\/getAllBannerPage\? response-body-json-jq 'del(.data[] | select(.bannerChannelName == "活动"))'
-^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/banner\/common\/getBannerByType\? reject-dict
-^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/merchant\/ad\/ reject-dict
-^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/resource\/activity\/pendant\? reject-dict
+request if ${url} ~= /^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/resource\/get\?/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/banner\/common\/getBannerByTypeV2\?/i then response.json.jq("del(.list[] | select(.bannerChannelName == \"活动\"))")
+response if ${url} ~= /^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/banner\/common\/getAllBannerPage\?/i then response.json.jq("del(.data[] | select(.bannerChannelName == \"活动\"))")
+request if ${url} ~= /^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/banner\/common\/getBannerByType\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/merchant\/ad\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.kmovie\.gifshow\.com\/rest\/n\/kmovie\/app\/resource\/activity\/pendant\?/i then reject_dict(200)
 
 [MitM]
 hostname=api.kmovie.gifshow.com

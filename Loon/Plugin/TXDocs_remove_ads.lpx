@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/tianshu\.qq\.com\/open\/ts_access\/GetAds\? reject-dict
-^https:\/\/h5\.qzone\.qq\.com\/p\/adboss\/api\/json\/ts_access\/GetAds$ reject-dict
+request if ${url} ~= /^https:\/\/tianshu\.qq\.com\/open\/ts_access\/GetAds\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/h5\.qzone\.qq\.com\/p\/adboss\/api\/json\/ts_access\/GetAds$/i then reject_dict(200)
 
 [MitM]
 hostname=tianshu.qq.com, h5.qzone.qq.com

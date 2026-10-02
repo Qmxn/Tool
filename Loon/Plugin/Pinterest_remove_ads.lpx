@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/api\.pinterest\.com\/v\d\/feeds\/home\/\? response-body-json-jq '.data |= map(select(.is_promoted == false or .is_promoted == "false"))'
-^https:\/\/api\.pinterest\.com\/v\d\/pins\/\d+\/related\/modules\/\? response-body-json-jq '.data |= map(select(.is_promoted == false or .is_promoted == "false"))'
+response if ${url} ~= /^https:\/\/api\.pinterest\.com\/v\d\/feeds\/home\/\?/i then response.json.jq(".data |= map(select(.is_promoted == false or .is_promoted == \"false\"))")
+response if ${url} ~= /^https:\/\/api\.pinterest\.com\/v\d\/pins\/\d+\/related\/modules\/\?/i then response.json.jq(".data |= map(select(.is_promoted == false or .is_promoted == \"false\"))")
 
 [MitM]
 hostname=api.pinterest.com

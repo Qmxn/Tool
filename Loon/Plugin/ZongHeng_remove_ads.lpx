@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/api1\.zongheng\.com\/iosapi\/system\/startup$ reject
-^https:\/\/api2\.zongheng\.com\/api\/giftBag\/bindingBag$ reject-dict
+request if ${url} ~= /^https:\/\/api1\.zongheng\.com\/iosapi\/system\/startup$/i then reject(404)
+request if ${url} ~= /^https:\/\/api2\.zongheng\.com\/api\/giftBag\/bindingBag$/i then reject_dict(200)
 
 [MitM]
 hostname=api?.zongheng.com

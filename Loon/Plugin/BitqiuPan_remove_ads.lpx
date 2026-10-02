@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/pan-api\.bitqiu\.com\/activity\/getPromoteGuide$ reject-dict
-^http:\/\/pan-api\.bitqiu\.com\/activity\/getUrlList$ reject-dict
-^https:\/\/pan-api\.bitqiu\.com\/activity\/guides$ reject-dict
+request if ${url} ~= /^https:\/\/pan-api\.bitqiu\.com\/activity\/getPromoteGuide$/i then reject_dict(200)
+request if ${url} ~= /^http:\/\/pan-api\.bitqiu\.com\/activity\/getUrlList$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/pan-api\.bitqiu\.com\/activity\/guides$/i then reject_dict(200)
 
 [MitM]
 hostname=pan-api.bitqiu.com

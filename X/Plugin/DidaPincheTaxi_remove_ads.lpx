@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/capis\.didapinche\.com\/adbase\/ reject-dict
+request if ${url} ~= /^https:\/\/capis\.didapinche\.com\/adbase\//i then reject_dict(200)
 
 [MitM]
 hostname=capis.didapinche.com

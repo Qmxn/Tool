@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping$ response-body-json-del data.splashConf data.splashConfNew
+response if ${url} ~= /^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping$/i then response.json.delete(["data.splashConf", "data.splashConfNew"])
 
 [MitM]
 hostname=m.pvp.xoyo.com

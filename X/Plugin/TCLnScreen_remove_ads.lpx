@@ -3,12 +3,12 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/ads\/ reject-dict
-^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/v\d\/selection\/banner$ reject-dict
-^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/v\d\/config\/function\? response-body-json-jq '.data |= map(select(.module == "tools"))'
-^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/v\d\/searchrank$ reject-dict
-^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/v\d\/selection\? reject-dict
-^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/message\/v\d\/activity\? reject-dict
+request if ${url} ~= /^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/ads\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/v\d\/selection\/banner$/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/v\d\/config\/function\?/i then response.json.jq(".data |= map(select(.module == \"tools\"))")
+request if ${url} ~= /^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/v\d\/searchrank$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/v\d\/selection\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/tcast-o\.api\.leiniao\.com\/tcast\/message\/v\d\/activity\?/i then reject_dict(200)
 
 [MitM]
 hostname=tcast-o.api.leiniao.com

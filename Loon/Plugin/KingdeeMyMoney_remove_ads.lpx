@@ -3,12 +3,12 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/tg\.feidee\.com\/online_ad\/api\/search\.do$ reject-dict
-^https:\/\/yunmk\.feidee\.net\/cab-market-ws\/market\/v2\/contents$ reject-dict
-^https:\/\/tg\.feidee\.com\/vis-ad-engine-ws\/api\/v2\/ads\/.+esultNum reject-dict
-^https:\/\/api\.feidee\.net\/v1\/configs\/client\/configs reject
-^https:\/\/tg\.feidee\.com\/vis-ad-engine-ws\/api\/show reject-dict
-^https:\/\/yun\.feidee\.net\/cab-periodic-activity-ws\/terminal\/v1\/members\/status reject-dict
+request if ${url} ~= /^https:\/\/tg\.feidee\.com\/online_ad\/api\/search\.do$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/yunmk\.feidee\.net\/cab-market-ws\/market\/v2\/contents$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/tg\.feidee\.com\/vis-ad-engine-ws\/api\/v2\/ads\/.+esultNum/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.feidee\.net\/v1\/configs\/client\/configs/i then reject(404)
+request if ${url} ~= /^https:\/\/tg\.feidee\.com\/vis-ad-engine-ws\/api\/show/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/yun\.feidee\.net\/cab-periodic-activity-ws\/terminal\/v1\/members\/status/i then reject_dict(200)
 
 [MitM]
 hostname=tg.feidee.com, yunmk.feidee.net, community.feidee.com, api.feidee.net, yun.feidee.net

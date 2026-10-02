@@ -6,10 +6,10 @@
 DOMAIN, ad.12306.cn, DIRECT
 
 [Rewrite]
-^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$ response-body-json-del materialsList advertParam
+response if ${url} ~= /^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$/i then response.json.delete(["materialsList", "advertParam"])
 
 [Script]
-http-request ^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ script-path=https://kelee.one/Resource/JavaScript/12306/12306_remove_ads.js, tag=移除12306应用内广告
+request if ${url} ~= /^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$/i then script("https://kelee.one/Resource/JavaScript/12306/12306_remove_ads.js") with tag="移除12306应用内广告"
 
 [MitM]
 hostname=ad.12306.cn, mobile.12306.cn

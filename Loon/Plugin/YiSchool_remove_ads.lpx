@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/compus\.xiaofubao\.com\/compus\/advertising\/ reject-dict
-^https:\/\/compus\.xiaofubao\.com\/compus\/user\/getUserExt$ response-body-json-del data.adPopSwitch data.adSplashSwitch
-^https:\/\/compus\.xiaofubao\.com\/compus\/application\/getHomeAppList$ response-body-json-jq '.rows|=map(select(.appCode=="kechengbiao_app1" or .appCode=="siliuji" or .appCode=="NEWJIAOFEIDATING"))'
+request if ${url} ~= /^https:\/\/compus\.xiaofubao\.com\/compus\/advertising\//i then reject_dict(200)
+response if ${url} ~= /^https:\/\/compus\.xiaofubao\.com\/compus\/user\/getUserExt$/i then response.json.delete(["data.adPopSwitch", "data.adSplashSwitch"])
+response if ${url} ~= /^https:\/\/compus\.xiaofubao\.com\/compus\/application\/getHomeAppList$/i then response.json.jq(".rows|=map(select(.appCode==\"kechengbiao_app1\" or .appCode==\"siliuji\" or .appCode==\"NEWJIAOFEIDATING\"))")
 
 [MitM]
 hostname=compus.xiaofubao.com

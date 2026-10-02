@@ -3,11 +3,11 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/appapi\.motianlun\.cn\/showapi\/pub\/site\/\d+\/app\/loading\? reject-dict
-^https:\/\/appapi\.motianlun\.cn\/showapi\/pub\/site\/\d+\/banner\/app\? reject-dict
-^https:\/\/appapi\.motianlun\.cn\/userdataapi\/pub\/v\d\/top\/keywords\? reject-dict
-^https:\/\/appapi\.motianlun\.cn\/buyerapi\/buyer\/v\d\/search\/index\? reject-dict
-^https:\/\/appapi\.motianlun\.cn\/showapi\/site\/\d+\/transfer\/recentShows\? reject-dict
+request if ${url} ~= /^https:\/\/appapi\.motianlun\.cn\/showapi\/pub\/site\/\d+\/app\/loading\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/appapi\.motianlun\.cn\/showapi\/pub\/site\/\d+\/banner\/app\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/appapi\.motianlun\.cn\/userdataapi\/pub\/v\d\/top\/keywords\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/appapi\.motianlun\.cn\/buyerapi\/buyer\/v\d\/search\/index\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/appapi\.motianlun\.cn\/showapi\/site\/\d+\/transfer\/recentShows\?/i then reject_dict(200)
 
 [MitM]
 hostname=appapi.motianlun.cn

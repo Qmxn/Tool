@@ -6,12 +6,12 @@
 DOMAIN, adash-evone.echargenet.com, REJECT
 
 [Rewrite]
-^https:\/\/aserver-evone\.echargenet\.com\/orange\/datacenter\/snapshot-meta\? reject-dict
-^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\/ reject-dict
-^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.efriend\.topic\.listrecommenttopic\/ reject-dict
-^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.efriend\.post\.listapppost\/ reject-dict
-^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.merchant\.list\/ reject-dict
-^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.news\.pagelistapp\/ reject-dict 
+request if ${url} ~= /^https:\/\/aserver-evone\.echargenet\.com\/orange\/datacenter\/snapshot-meta\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.efriend\.topic\.listrecommenttopic\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.efriend\.post\.listapppost\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.merchant\.list\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.news\.pagelistapp\//i then reject_dict(200) 
 
 [MitM]
 hostname=aserver-evone.echargenet.com, api-evone.echargenet.com

@@ -3,18 +3,18 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/api\.psy-1\.com\/cosleep\/startup\? reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/ad\/ reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/user\/identity\/ad\? reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/discover\/ad$ reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/home\/activity\? reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/newborn\/ad\/ reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/my\/ad\? reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/search\/config\? reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/newborn\/search\/ranks\? reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/search\/inputs\? reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/newborn\/sleeps\/guides\/banner\? reject-dict
-^https:\/\/api\.psy-1\.com\/cosleep\/newborn\/search\/ranks\/items\? reject-dict
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/startup\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/ad\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/user\/identity\/ad\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/discover\/ad$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/home\/activity\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/newborn\/ad\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/my\/ad\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/search\/config\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/newborn\/search\/ranks\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/search\/inputs\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/newborn\/sleeps\/guides\/banner\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api\.psy-1\.com\/cosleep\/newborn\/search\/ranks\/items\?/i then reject_dict(200)
 
 [MitM]
 hostname=api.psy-1.com

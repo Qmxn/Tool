@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/api\.sofascore\.com\/api\/v\d\/dsp\/country\/[A-Z]{2}$ reject-dict
-^https:\/\/api\.sofascore\.com\/api\/v\d\/trending\/grid\/tiles\/[A-Z]{2}$ mock-response-body data-type=json data="{"tiles":[]}" status-code=200
+request if ${url} ~= /^https:\/\/api\.sofascore\.com\/api\/v\d\/dsp\/country\/[A-Z]{2}$/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/api\.sofascore\.com\/api\/v\d\/trending\/grid\/tiles\/[A-Z]{2}$/i then response.body.mock("json", "{\"tiles\":[]}", 200)
 
 [MitM]
 hostname=api.sofascore.com

@@ -3,9 +3,9 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/jz\.wacaijizhang\.com\/api\/banners\/ribbon\? reject-dict
-^https:\/\/jz\.wacaijizhang\.com\/api\/banners\/list\? reject-dict
-^https:\/\/jz\.wacaijizhang\.com\/api\/resource\/universal\/fetch$ reject-dict
+request if ${url} ~= /^https:\/\/jz\.wacaijizhang\.com\/api\/banners\/ribbon\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/jz\.wacaijizhang\.com\/api\/banners\/list\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/jz\.wacaijizhang\.com\/api\/resource\/universal\/fetch$/i then reject_dict(200)
 
 [MitM]
 hostname=jz.wacaijizhang.com

@@ -3,11 +3,11 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/syt\.leshuazf\.com\/merchant\/merchant\/showOpenScreenAd$ reject-dict
-^https:\/\/m\.fqfin\.cn\/cls\/leshuapay\/preCredit\.json$ reject-dict
-^https:\/\/syt\.leshuazf\.com\/merchant\/messageCenter\/stationLetterList$ reject-dict
-^https:\/\/syt\.leshuazf\.com\/merchant\/merchant\/getBannerConfig$ reject-dict
-^https:\/\/syt\.leshuazf\.com\/merchant\/popup\/getPopupInfo$ reject-dict
+request if ${url} ~= /^https:\/\/syt\.leshuazf\.com\/merchant\/merchant\/showOpenScreenAd$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/m\.fqfin\.cn\/cls\/leshuapay\/preCredit\.json$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/syt\.leshuazf\.com\/merchant\/messageCenter\/stationLetterList$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/syt\.leshuazf\.com\/merchant\/merchant\/getBannerConfig$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/syt\.leshuazf\.com\/merchant\/popup\/getPopupInfo$/i then reject_dict(200)
 
 [MitM]
 hostname=syt.leshuazf.com, m.fqfin.cn

@@ -3,10 +3,10 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/www\.imxingzhe\.com\/api\/v1\/pop\/window\/\? reject-dict
-^https:\/\/www\.imxingzhe\.com\/api\/v4\/account\/get_user_info\? response-body-json-del banner
-^https:\/\/www\.imxingzhe\.com\/api\/v4\/discovery\/ios\/\? response-body-json-del banners ad
-^https:\/\/www\.imxingzhe\.com\/api\/v4\/discovery\/ios\/\? response-body-json-jq '.display_areas |= map(select(.name == "赛事" or .name == "行者帮" or .name == "头条" or .name == "排行榜" or .name == "约伴"))'
+request if ${url} ~= /^https:\/\/www\.imxingzhe\.com\/api\/v1\/pop\/window\/\?/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/www\.imxingzhe\.com\/api\/v4\/account\/get_user_info\?/i then response.json.delete("banner")
+response if ${url} ~= /^https:\/\/www\.imxingzhe\.com\/api\/v4\/discovery\/ios\/\?/i then response.json.delete(["banners", "ad"])
+response if ${url} ~= /^https:\/\/www\.imxingzhe\.com\/api\/v4\/discovery\/ios\/\?/i then response.json.jq(".display_areas |= map(select(.name == \"赛事\" or .name == \"行者帮\" or .name == \"头条\" or .name == \"排行榜\" or .name == \"约伴\"))")
 
 [MitM]
 hostname=www.imxingzhe.com

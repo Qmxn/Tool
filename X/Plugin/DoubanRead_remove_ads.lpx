@@ -3,11 +3,11 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^https:\/\/read\.douban\.com\/api\/v2\/ads\/ reject-dict
-^https:\/\/read\.douban\.com\/api\/v2\/popup$ reject-dict
-^https:\/\/read\.douban\.com\/api\/v2\/search\/hot_words$ reject-dict
-^https:\/\/read\.douban\.com\/api\/v2\/search\/hot_charts$ reject-dict
-^https:\/\/read\.douban\.com\/api\/v2\/search\/rec_urls$ reject-dict
+request if ${url} ~= /^https:\/\/read\.douban\.com\/api\/v2\/ads\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/read\.douban\.com\/api\/v2\/popup$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/read\.douban\.com\/api\/v2\/search\/hot_words$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/read\.douban\.com\/api\/v2\/search\/hot_charts$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/read\.douban\.com\/api\/v2\/search\/rec_urls$/i then reject_dict(200)
 
 [MitM]
 hostname=read.douban.com

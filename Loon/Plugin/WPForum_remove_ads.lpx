@@ -3,8 +3,8 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
 
 [Rewrite]
-^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/yesList\? reject-dict
-^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/slideshow\? response-body-json-jq '.data |= map(select(.protocolId == 1))'
+request if ${url} ~= /^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/yesList\?/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/slideshow\?/i then response.json.jq(".data |= map(select(.protocolId == 1))")
 
 [MitM]
 hostname=api.wfdata.club

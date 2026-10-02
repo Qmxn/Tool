@@ -3,7 +3,7 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rewrite]
-^http:\/\/api\.ring\.kugou\.com\/user\/notice\/recommend$ reject-dict
+request if ${url} ~= /^http:\/\/api\.ring\.kugou\.com\/user\/notice\/recommend$/i then reject_dict(200)
 
 [MitM]
 hostname=api.ring.kugou.com

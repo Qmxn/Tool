@@ -6,12 +6,5 @@
 DOMAIN,ad.lovefree.cc,REJECT
 DOMAIN-SUFFIX,adwanji.com,REJECT
 
-[Map Local]
-^https:\/\/epbox\.gongfudou\.com\/big_data\/v\d\/banners\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-^https:\/\/epbox\.gongfudou\.com\/big_data\/v\d\/canvas\/query_actions\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
-
-[Script]
-body_rewrite_16 = type=http-response, pattern=^https:\/\/epbox\.gongfudou\.com\/graphql$, script-path=https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/scripts/body-rewrite.js, requires-body=true, max-size=-1, timeout=30, argument=[["json-del",["data.mallConsumables","data.currentUser.goodsCoupons"]]]
-
 [MITM]
 hostname = %APPEND% epbox.gongfudou.com
