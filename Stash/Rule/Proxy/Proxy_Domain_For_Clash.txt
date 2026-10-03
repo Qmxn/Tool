@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain_For_Clash
-# 规则统计: 6800
+# 规则统计: 6804
 
 api.waqi.info
 aqi.aqicn.org
@@ -6249,6 +6249,7 @@ voice.telephony.goog
 +.waiwaier.com
 +.walletconnect.com
 +.walletconnect.org
++.wallhaven.cc
 +.wallmama.com
 +.wallornot.org
 +.wallpapercasa.com
@@ -6370,6 +6371,7 @@ voice.telephony.goog
 +.wikia.com
 +.wikibooks.org
 +.wikidata.org
++.wikifunctions.org
 +.wikileaks-forum.com
 +.wikileaks.ch
 +.wikileaks.com
@@ -6382,12 +6384,14 @@ voice.telephony.goog
 +.wikilivres.info
 +.wikimapia.org
 +.wikimedia.org
++.wikimediafoundation.org
 +.wikinews.org
 +.wikipedia.com
 +.wikipedia.org
 +.wikiquote.org
 +.wikis.tw
 +.wikisource.org
++.wikispecies.org
 +.wikiunblocked.org
 +.wikiversity.org
 +.wikivoyage.org

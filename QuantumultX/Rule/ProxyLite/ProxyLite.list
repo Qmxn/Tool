@@ -1,5 +1,5 @@
 # 规则名称: ProxyLite
-# 规则统计: 991
+# 规则统计: 993
 
 HOST,addons.mozilla.org,ProxyLite
 HOST,amp-api.podcasts.apple.com,ProxyLite
@@ -799,6 +799,7 @@ HOST-SUFFIX,westpoint.edu,ProxyLite
 HOST-SUFFIX,whoer.net,ProxyLite
 HOST-SUFFIX,wikibooks.org,ProxyLite
 HOST-SUFFIX,wikidata.org,ProxyLite
+HOST-SUFFIX,wikifunctions.org,ProxyLite
 HOST-SUFFIX,wikileaks-forum.com,ProxyLite
 HOST-SUFFIX,wikileaks.info,ProxyLite
 HOST-SUFFIX,wikileaks.org,ProxyLite
@@ -810,6 +811,7 @@ HOST-SUFFIX,wikipedia.com,ProxyLite
 HOST-SUFFIX,wikipedia.org,ProxyLite
 HOST-SUFFIX,wikiquote.org,ProxyLite
 HOST-SUFFIX,wikisource.org,ProxyLite
+HOST-SUFFIX,wikispecies.org,ProxyLite
 HOST-SUFFIX,wikiversity.org,ProxyLite
 HOST-SUFFIX,wikivoyage.org,ProxyLite
 HOST-SUFFIX,wikiwand.com,ProxyLite

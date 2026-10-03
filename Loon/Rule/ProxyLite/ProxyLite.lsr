@@ -1,5 +1,5 @@
 # 规则名称: ProxyLite
-# 规则统计: 985
+# 规则统计: 987
 
 DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
@@ -799,6 +799,7 @@ DOMAIN-SUFFIX,westpoint.edu
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikifunctions.org
 DOMAIN-SUFFIX,wikileaks-forum.com
 DOMAIN-SUFFIX,wikileaks.info
 DOMAIN-SUFFIX,wikileaks.org
@@ -810,6 +811,7 @@ DOMAIN-SUFFIX,wikipedia.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiquote.org
 DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikispecies.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wikiwand.com
