@@ -1,5 +1,5 @@
 # 规则名称: Global_Classical_No_Resolve
-# 规则统计: 35068
+# 规则统计: 35069
 
 payload:
   - DOMAIN,1password.drift.click
@@ -11154,6 +11154,7 @@ payload:
   - DOMAIN-SUFFIX,googlepagecreator.com
   - DOMAIN-SUFFIX,googlephotos.com
   - DOMAIN-SUFFIX,googleplay.com
+  - DOMAIN-SUFFIX,googleplaycensorship.com
   - DOMAIN-SUFFIX,googleplex.com
   - DOMAIN-SUFFIX,googleplus.com
   - DOMAIN-SUFFIX,googlescholar.com

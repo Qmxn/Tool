@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7444
+# 规则统计: 7445
 
 no_resolve: true
 domain_set:
@@ -2815,6 +2815,7 @@ domain_suffix_set:
 - googlepagecreator.com
 - googlephotos.com
 - googleplay.com
+- googleplaycensorship.com
 - googleplus.com
 - googlescholar.com
 - googlesile.com

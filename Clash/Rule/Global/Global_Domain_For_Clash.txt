@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain_For_Clash
-# 规则统计: 34911
+# 规则统计: 34912
 
 1password.drift.click
 adobeereg.com
@@ -11153,6 +11153,7 @@ login.microsoftonline.com
 +.googlepagecreator.com
 +.googlephotos.com
 +.googleplay.com
++.googleplaycensorship.com
 +.googleplex.com
 +.googleplus.com
 +.googlescholar.com

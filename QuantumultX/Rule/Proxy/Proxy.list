@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7446
+# 规则统计: 7447
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -2812,6 +2812,7 @@ HOST-SUFFIX,googlemashups.com,Proxy
 HOST-SUFFIX,googlepagecreator.com,Proxy
 HOST-SUFFIX,googlephotos.com,Proxy
 HOST-SUFFIX,googleplay.com,Proxy
+HOST-SUFFIX,googleplaycensorship.com,Proxy
 HOST-SUFFIX,googleplus.com,Proxy
 HOST-SUFFIX,googlescholar.com,Proxy
 HOST-SUFFIX,googlesile.com,Proxy

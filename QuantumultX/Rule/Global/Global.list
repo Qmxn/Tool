@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35794
+# 规则统计: 35795
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -31128,6 +31128,7 @@ HOST-SUFFIX,googlemashups.com,Global
 HOST-SUFFIX,googlepagecreator.com,Global
 HOST-SUFFIX,googlephotos.com,Global
 HOST-SUFFIX,googleplay.com,Global
+HOST-SUFFIX,googleplaycensorship.com,Global
 HOST-SUFFIX,googleplus.com,Global
 HOST-SUFFIX,googlescholar.com,Global
 HOST-SUFFIX,googlesile.com,Global

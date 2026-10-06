@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35748
+# 规则统计: 35749
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -31128,6 +31128,7 @@ DOMAIN-SUFFIX,googlemashups.com
 DOMAIN-SUFFIX,googlepagecreator.com
 DOMAIN-SUFFIX,googlephotos.com
 DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googleplaycensorship.com
 DOMAIN-SUFFIX,googleplus.com
 DOMAIN-SUFFIX,googlescholar.com
 DOMAIN-SUFFIX,googlesile.com

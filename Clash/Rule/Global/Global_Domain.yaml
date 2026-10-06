@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 34912
+# 规则统计: 34913
 
 payload:
   - '1password.drift.click'
@@ -11154,6 +11154,7 @@ payload:
   - '+.googlepagecreator.com'
   - '+.googlephotos.com'
   - '+.googleplay.com'
+  - '+.googleplaycensorship.com'
   - '+.googleplex.com'
   - '+.googleplus.com'
   - '+.googlescholar.com'

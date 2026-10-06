@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7438
+# 规则统计: 7439
 
 DOMAIN,api.msn.com
 DOMAIN,api.waqi.info
@@ -2812,6 +2812,7 @@ DOMAIN-SUFFIX,googlemashups.com
 DOMAIN-SUFFIX,googlepagecreator.com
 DOMAIN-SUFFIX,googlephotos.com
 DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,googleplaycensorship.com
 DOMAIN-SUFFIX,googleplus.com
 DOMAIN-SUFFIX,googlescholar.com
 DOMAIN-SUFFIX,googlesile.com
