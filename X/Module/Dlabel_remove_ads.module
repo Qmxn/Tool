@@ -1,3 +1,6 @@
-#!name=https%3A%2F%2Fraw
-#!desc=https%3A%2F%2Fraw
+#!name=Dlabel云标签去广告
+#!desc=移除开屏广告及首页横幅。
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% dlabel.ctaiot.com
