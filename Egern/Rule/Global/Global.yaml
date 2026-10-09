@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35782
+# 规则统计: 35789
 
 no_resolve: true
 domain_set:
@@ -114,6 +114,8 @@ domain_set:
 - community.oneplus.com
 - configuration-lb.ls-apple.com.akadns.net
 - copilot-proxy.githubusercontent.com
+- copilot-telemetry-service.githubusercontent.com
+- copilot-telemetry.githubusercontent.com
 - copilot-workspace.githubnext.com
 - copilotprodattachments.blob.core.windows.net
 - courier-push-apple.com.akadns.net
@@ -283,6 +285,8 @@ domain_set:
 - img-s-msn-com.akamaized.net
 - impala-media-production.s3.amazonaws.com
 - imperial.insendi.com
+- incoming-telemetry.thunderbird.net
+- incoming.telemetry.mozilla.org
 - lab.skk.moe
 - lastfm-img.freetls.fastly.net
 - lastfm.freetls.fastly.net
@@ -16299,6 +16303,7 @@ domain_suffix_set:
 - meetfasttrack.com
 - meetsmartbook.com
 - meetyourdevices.com
+- megaad.nz
 - megacamz.com
 - megaeth.com
 - megafilmporno.com
@@ -16309,10 +16314,12 @@ domain_suffix_set:
 - megamarket.ru
 - megamarket.tech
 - megamon.co.kr
+- megapay.nz
 - megaphone.fm
 - megapornfreehd.com
 - megaporno.com.br
 - megapornpics.com
+- megas4.com
 - megasrv.de
 - megatitsminka.com
 - megogo.net
@@ -20621,7 +20628,6 @@ domain_suffix_set:
 - proxyrarbg.org
 - prpops.com
 - prs-ltsn.ac.uk
-- prts.plus
 - prucomm.ac.uk
 - prvbank.ru
 - ps-exchange.com
@@ -24684,6 +24690,7 @@ domain_suffix_set:
 - transarmuito.com
 - transcamslive.com
 - transcocon.ac.uk
+- transfer.it
 - transferwise.com
 - transforming-musicology.ac.uk
 - transformingmusicology.ac.uk
