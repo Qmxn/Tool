@@ -1,3 +1,6 @@
-#!name=https%3A%2F%2Fraw
-#!desc=https%3A%2F%2Fraw
+#!name=数字心动去广告
+#!desc=移除开屏广告、首页顶部标签、轮播图、悬浮挂件、热门搜索、信息流广告。
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api-changzheng.chinaath.com
