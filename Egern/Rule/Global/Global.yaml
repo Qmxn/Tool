@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35789
+# 规则统计: 35874
 
 no_resolve: true
 domain_set:
@@ -455,7 +455,6 @@ domain_set:
 - s3-ap-northeast-1.amazonaws.com
 - s3-ap-southeast-2.amazonaws.com
 - sa78gs.wpc.edgecastcdn.net
-- sberpro.vedomosti.ru
 - scc-hamivideo.cdn.hinet.net
 - scc.ott.hinet.net
 - scholar.google.ae
@@ -988,7 +987,6 @@ domain_suffix_set:
 - 20thcenturystudios.com.br
 - 20thcenturystudios.jp
 - 20yearsoffea.com
-- 21-school.ru
 - 21centuryaccess.com
 - 21heise360dh.cc
 - 21hub.com
@@ -1452,7 +1450,6 @@ domain_suffix_set:
 - accessfacebookfromschool.com
 - accesshe.ac.uk
 - accessheonline.ac.uk
-- accesspoint.uz
 - accesstohe.ac.uk
 - accesstohighereducation.ac.uk
 - accesstomusic.ac.uk
@@ -1802,7 +1799,6 @@ domain_suffix_set:
 - affinity.studio
 - affirmtrust.com
 - afi.ac.uk
-- afisha.ru
 - afkv28.com
 - aflamporn.com
 - aflamsex.net
@@ -1833,6 +1829,7 @@ domain_suffix_set:
 - agrifor.ac.uk
 - agriforwards-cdt.ac.uk
 - agroforestry.ac.uk
+- agroros.ru
 - ags.ac.uk
 - agu.org
 - agzy1.com
@@ -1862,6 +1859,7 @@ domain_suffix_set:
 - ahua.ac.uk
 - ahvideosexe.com
 - ahxxx.club
+- ai-bank.ru
 - ai-sdk.dev
 - ai3sd.ac.uk
 - ai7995.site
@@ -2094,11 +2092,14 @@ domain_suffix_set:
 - akastream.net
 - akatns.net
 - akbars.ru
+- akcept.ru
 - akiba-souken.com
+- akibank.ru
 - akita-bank.co.jp
 - akstat.io
 - akthelp.com
 - albagals.com
+- albank.ru
 - albastudio.co
 - albeats.com
 - alc.ac.uk
@@ -2625,6 +2626,7 @@ domain_suffix_set:
 - apiok.ru
 - apis.ac.uk
 - apisof.net
+- apkbank.ru
 - apkfind.com
 - apkpures.xyz
 - aple.com
@@ -3037,6 +3039,7 @@ domain_suffix_set:
 - ardenuniversity.ac.uk
 - area120.com
 - area51.to
+- aresbank.ru
 - arewereadyyet.com
 - areyoucreditwise.com
 - argo-bdp.com
@@ -3437,6 +3440,7 @@ domain_suffix_set:
 - autodeskworkshop.net
 - autoesporte.com
 - autoesporte.com.br
+- autofinancebank.ru
 - autokreditbank.ru
 - automaton-media.com
 - automobile.fr
@@ -3724,6 +3728,7 @@ domain_suffix_set:
 - banatfun.com
 - banbury-bicester.ac.uk
 - banbury-college.ac.uk
+- bancaintesa.ru
 - bandag.cc
 - bandag.com
 - bandgirlz.com
@@ -3741,13 +3746,19 @@ domain_suffix_set:
 - bangyourwife.com
 - bank-arzamas.ru
 - bank-credit-suisse-moscow.ru
+- bank-hlynov.ru
 - bank-maskan.ir
 - bank131.com
+- bank131.ru
 - bankermak.ru
 - bankline.ru
 - bankmellat.ir
+- bankofkazan.ru
+- bankperm.ru
 - banksepah.ir
+- bankstavr.ru
 - banksy.tokyo
+- bankvl.ru
 - banned.video
 - bannedbook.net
 - bannedbook.org
@@ -4223,6 +4234,7 @@ domain_suffix_set:
 - berlincompanions.com
 - bern.ac.uk
 - bernards.ac.uk
+- beru.ru
 - besa.ac.uk
 - besc.ac.uk
 - beside.ac.uk
@@ -5012,6 +5024,7 @@ domain_suffix_set:
 - bmwartjourney.com
 - bmwasia.com
 - bmwauslieferungszentrum.com
+- bmwbank.ru
 - bmwbikes.com
 - bmwbkk.de
 - bmwccrc.ca
@@ -5116,6 +5129,7 @@ domain_suffix_set:
 - bobovip.cc
 - bobs-tube.com
 - bobvoyeur.com
+- boc.ru
 - bocici.buzz
 - bodc.ac.uk
 - bodgirls.com
@@ -5167,6 +5181,7 @@ domain_suffix_set:
 - booking.com
 - booklive.jp
 - bookmark.xxx
+- bookmate.ru
 - bookmybridgestonetyre.com
 - bookonsky.net
 - booksc.eu
@@ -5653,6 +5668,7 @@ domain_suffix_set:
 - byjhd.com
 - bymj.io
 - byspotify.com
+- bystrobank.ru
 - bystys.tech
 - bytick.com
 - byzantine-ahrb-centre.ac.uk
@@ -6195,6 +6211,7 @@ domain_suffix_set:
 - centreonconstitutionalchange.ac.uk
 - centrino.com
 - centrino.net
+- centrinvest.ru
 - ceoi.ac.uk
 - ceosummit.ru
 - cepacol.ca
@@ -6339,6 +6356,8 @@ domain_suffix_set:
 - cheggcdn.com
 - cheia.ac.uk
 - cheib.ac.uk
+- chelindbank.ru
+- chelinvest.ru
 - chelmsford-college.ac.uk
 - chelmsford.ac.uk
 - chelt.ac.uk
@@ -6457,11 +6476,13 @@ domain_suffix_set:
 - cias.ac.uk
 - ciattackers.com
 - cib.ac.uk
+- cibank.ru
 - ciciaicdn.com
 - ciciq.net
 - cicl.ac.uk
 - cied.ac.uk
 - ciemap.ac.uk
+- cifra-bank.ru
 - cignet.ac.uk
 - cile.ac.uk
 - cilexlawschool.ac.uk
@@ -6536,7 +6557,6 @@ domain_suffix_set:
 - citycollegepeterborough.ac.uk
 - citycollegeplymouth.ac.uk
 - citycollegesoton.ac.uk
-- citydrive.ru
 - cityheaven.net
 - citylab.com
 - citylit.ac.uk
@@ -6629,7 +6649,6 @@ domain_suffix_set:
 - clojure.org
 - closer.ac.uk
 - cloud.ac.uk
-- cloud.ru
 - cloudapp.net
 - cloudappsecurity.com
 - cloudburstresearch.com
@@ -6709,6 +6728,7 @@ domain_suffix_set:
 - cmmedia.com.tw
 - cmpaas.com
 - cmpcp.ac.uk
+- cmrbank.ru
 - cms-twdigitalassets.com
 - cms.ac.uk
 - cmu.ac.uk
@@ -6718,6 +6738,7 @@ domain_suffix_set:
 - co-operative.ac.uk
 - co-operativeuniversity.ac.uk
 - co.tv
+- coalmetbank.ru
 - coatbridge.ac.uk
 - cobatt.com
 - cobra.ac.uk
@@ -7083,8 +7104,10 @@ domain_suffix_set:
 - crececonebay.com
 - credit-zenit.ru
 - creditcardsbay.com
+- crediteurope.ru
 - creditkarma.com
 - creditlink-east.ac.uk
+- creditural.ru
 - creds.ac.uk
 - cresc.ac.uk
 - crescentlearning.ac.uk
@@ -7418,6 +7441,7 @@ domain_suffix_set:
 - data.com
 - data.flurry.com
 - data.gov.tw
+- databank.ru
 - datacloudmy.com
 - dataframeworks.com
 - datafuturesalphapilot.ac.uk
@@ -7452,6 +7476,7 @@ domain_suffix_set:
 - dbmoscow.ru
 - dbo-dengi.online
 - dca.ac.uk
+- dcapital.ru
 - dcard.cc
 - dcard.io
 - dcard.link
@@ -7535,6 +7560,7 @@ domain_suffix_set:
 - delcamusa.com
 - delets.online
 - delicious.com.au
+- delivery-club.ru
 - dell.ac
 - dell.am
 - dell.at
@@ -7733,6 +7759,7 @@ domain_suffix_set:
 - derwen.ac.uk
 - derwencollege.ac.uk
 - derwentside.ac.uk
+- derzhava.ru
 - desertbmw.com
 - design-ledrev.com
 - design-ledrevolution.com
@@ -8528,6 +8555,7 @@ domain_suffix_set:
 - dutch.ac.uk
 - dutrai.com
 - duyaossr.com
+- dvbank.ru
 - dvdstudiopro.biz
 - dvdstudiopro.com
 - dvdstudiopro.info
@@ -8606,8 +8634,6 @@ domain_suffix_set:
 - eandc-sirgar.ac.uk
 - eanordic.com
 - eaplay.com
-- eaptechka.online
-- eapteka.ru
 - earlham.ac.uk
 - earlhaminstitute.ac.uk
 - earlyenglishlaws.ac.uk
@@ -8900,6 +8926,7 @@ domain_suffix_set:
 - ed-coll.ac.uk
 - ed.ac.uk
 - ed6.ac.uk
+- edadeal.ru
 - edam.ac.uk
 - edbi.ir
 - edc.ac.uk
@@ -8951,6 +8978,7 @@ domain_suffix_set:
 - eevl.ac.uk
 - eevlextra.ac.uk
 - eevlxtra.ac.uk
+- efbank.ru
 - efc.ac.uk
 - efetedc.ac.uk
 - eff.org
@@ -9056,6 +9084,7 @@ domain_suffix_set:
 - emahsn.ac.uk
 - email-bimm.ac.uk
 - emas.ac.uk
+- emb.ru
 - embark-studios.com
 - embark.games
 - embase.com
@@ -9120,6 +9149,8 @@ domain_suffix_set:
 - enemasexfetish.com
 - enemasupplier.com
 - enematube.com
+- energobank.ru
+- energotransbank.com
 - energy2050.ac.uk
 - energybiographies.ac.uk
 - energyforchange.ac.uk
@@ -9494,6 +9525,7 @@ domain_suffix_set:
 - evolver.com
 - evolver3d.com
 - evolverpro.com
+- evrofinance.ru
 - evropaelire.org
 - ewisdom.us.kg
 - ewlc.ac.uk
@@ -9524,6 +9556,7 @@ domain_suffix_set:
 - exeterms.ac.uk
 - exgfvideos.xxx
 - exgirlfriendmarket.com
+- eximbank.ru
 - exiporn.com
 - exoav.com
 - exondomesday.ac.uk
@@ -9540,6 +9573,7 @@ domain_suffix_set:
 - exploitedteensasia.com
 - exploreintel.com
 - explorespanking.com
+- expobank.ru
 - exporntoons.net
 - exposedlatinas.com
 - expresswifi.com
@@ -10208,6 +10242,7 @@ domain_suffix_set:
 - finishkilpailu.fi
 - finishwin.be
 - finlitsummit.org
+- finstarbank.ru
 - fiotolia.com
 - fipc.ac.uk
 - fircroft.ac.uk
@@ -10349,11 +10384,13 @@ domain_suffix_set:
 - fontshop.com
 - fontsinuse.com
 - foodchain.ac.uk
+- foodfox.ru
 - foodsecurity.ac.uk
 - foofle.com
 - footprintdns.com
 - footstockings.com
 - footwear-cadcam.com
+- forabank.ru
 - forbesimg.com
 - forbiddenasian.com
 - forbiddenmomsarchive.com
@@ -10972,6 +11009,7 @@ domain_suffix_set:
 - gazprombank.com
 - gazprombank.investments
 - gazprombank.ru
+- gaztransbank.ru
 - gb.ru
 - gbank.com.mm
 - gbmc.ac.uk
@@ -11011,6 +11049,7 @@ domain_suffix_set:
 - gearspop.com
 - gearstactics.com
 - geasontraining.ac.uk
+- gebank.ru
 - geceguby.ru
 - gecko.ac.uk
 - geek-squad-support.com
@@ -11047,6 +11086,7 @@ domain_suffix_set:
 - gemini.com
 - gen.lib.rus.ec
 - gen2.ac.uk
+- genbank.ru
 - gendai.net
 - generationpup.ac.uk
 - genesis.ac.uk
@@ -11114,7 +11154,6 @@ domain_suffix_set:
 - getscorecash.com
 - getsentry.com
 - getsexgames.com
-- getsynapse.io
 - gettyimages.at
 - gettyimages.be
 - gettyimages.ch
@@ -11172,12 +11211,10 @@ domain_suffix_set:
 - gib.sg
 - gibdev.net
 - gibtds.ru
-- gid.ru
 - giffgaff.com
 - giffgaff.design
 - gifnuki.com
 - gift-surg.ac.uk
-- giga.chat
 - gigabyte.com
 - gigantits.com
 - gigaporn.org
@@ -11225,7 +11262,6 @@ domain_suffix_set:
 - gitstar.net
 - gittigidiyor.net
 - gittigidiyorsikayet.com
-- gitverse.ru
 - givemebuzzsaw.com
 - gizmoxxx.com
 - gla.ac.uk
@@ -11743,6 +11779,7 @@ domain_suffix_set:
 - halfjapan.com
 - halton-acl.ac.uk
 - haltoncollege.ac.uk
+- halvacard.ru
 - hamec.ac.uk
 - hami-mod.buzz
 - hampsteadscience.ac.uk
@@ -12386,6 +12423,7 @@ domain_suffix_set:
 - home-made-videos.com
 - home-sex-tapes.com
 - home-song.com
+- home.bank
 - homealonemilfs.com
 - homebox.com
 - homeboxoffice.com
@@ -13062,7 +13100,6 @@ domain_suffix_set:
 - ictheatre.ac.uk
 - icuminside.com
 - id.hao123.com
-- id.ru
 - idarkdoll.com
 - idcore.ac.uk
 - idea-server.com
@@ -13378,6 +13415,7 @@ domain_suffix_set:
 - imtagram.com
 - imtintl.com
 - imzog.com
+- in-bank.ru
 - inaporn.com
 - inasian.club
 - inbox.ru
@@ -13443,6 +13481,7 @@ domain_suffix_set:
 - ingka.com
 - ingka.dev
 - ingkacentres.com
+- ingobank.ru
 - ingyenszexvideo.top
 - inherd.mom
 - inhumanity.com
@@ -13792,6 +13831,7 @@ domain_suffix_set:
 - inventorseries.com
 - inventorship.com.au
 - investorschronicle.co.uk
+- investpay.ru
 - invity.io
 - inxporn.com
 - ioe.ac.uk
@@ -13988,6 +14028,7 @@ domain_suffix_set:
 - islington-acl.ac.uk
 - ism.ac.uk
 - ismg.ac.uk
+- isnbank.ru
 - isomorphiclabs.com
 - ispan.ac.uk
 - iss138.com
@@ -14007,6 +14048,7 @@ domain_suffix_set:
 - itaeromanga.com
 - itaiwan.gov.tw
 - italiabeatsbydrdre.com
+- itb.ru
 - itcanwait.com
 - itcfonts.com
 - itch.zone
@@ -14385,21 +14427,6 @@ domain_suffix_set:
 - jiuse905.com
 - jiuzhouyihuo.com
 - jivara.global
-- jivo.chat
-- jivo.ru
-- jivochat.co.in
-- jivochat.co.za
-- jivochat.com
-- jivochat.com.br
-- jivochat.com.co
-- jivochat.com.pe
-- jivochat.com.tr
-- jivochat.de
-- jivochat.es
-- jivochat.ng
-- jivochat.ru
-- jivosite.com
-- jivosite.ru
 - jiyou520.com
 - jiyu-kobo.co.jp
 - jizzboom.com
@@ -14584,6 +14611,7 @@ domain_suffix_set:
 - jwpsrv.com
 - jwt.ms
 - jzydh.com
+- k-bnk.ru
 - k8s.io
 - k9vidz.com
 - kaamuu.com
@@ -14621,6 +14649,7 @@ domain_suffix_set:
 - kamababa.com
 - kamisama-day.jp
 - kamisama-maeda-lab.com
+- kamkombank.ru
 - kampalaexclusiveescorts.com
 - kanav.info
 - kangye.org
@@ -14676,6 +14705,7 @@ domain_suffix_set:
 - katestube.com
 - kavkazr.com
 - kaydara.com
+- kbb.ru
 - kbdxlesx.xyz
 - kbplus.ac.uk
 - kbzbank.com
@@ -14901,8 +14931,9 @@ domain_suffix_set:
 - korbit.co.kr
 - koreanpornmovie.com
 - korewaeroi.com
-- korona.com
+- koronapay.com
 - koshelek.app
+- koshelev-bank.ru
 - koskade.com
 - kostenlosepornoclips.com
 - kotl.in
@@ -14919,6 +14950,7 @@ domain_suffix_set:
 - kraftonde.com
 - kraken.onl
 - krakenjs.com
+- kremlinbank.ru
 - krhentai.com
 - kristenbjorn.com
 - krosspictures.com
@@ -14952,9 +14984,9 @@ domain_suffix_set:
 - kumo.com
 - kun66.xyz
 - kundun1069.com
-- kuper.ru
 - kusugurizanmai.com
 - kutjeporno.com
+- kuzbank.ru
 - kwok7.com
 - kynogon.com
 - kyodo-d.info
@@ -15022,6 +15054,7 @@ domain_suffix_set:
 - lanik.us
 - lanmdh.net
 - lanniser-ylo.shop
+- lanta.ru
 - lanternal.com
 - laosijifuli9009.top
 - laowang.vip
@@ -15464,6 +15497,7 @@ domain_suffix_set:
 - localizestatus.com
 - localxlist.org
 - locate.ac.uk
+- lockobank.ru
 - lockssalliance.ac.uk
 - log.rw
 - logi.com
@@ -15970,7 +16004,9 @@ domain_suffix_set:
 - mariokart7.com
 - mariokart8.com
 - mariosupersluggers.com
+- maritimebank.com
 - marjon.ac.uk
+- market.ru
 - marketexecutive.net
 - marketing-cloud.com
 - marketing-nirvana.com
@@ -16199,6 +16235,7 @@ domain_suffix_set:
 - mca.ac.uk
 - mcafee.com
 - mcb.com.mm
+- mcbank.ru
 - mcc.ac.uk
 - mcd-holdings.co.jp
 - mcd.com
@@ -16311,8 +16348,6 @@ domain_suffix_set:
 - megafon.ru
 - megafonpro.ru
 - megahdporno.net
-- megamarket.ru
-- megamarket.tech
 - megamon.co.kr
 - megapay.nz
 - megaphone.fm
@@ -16379,6 +16414,7 @@ domain_suffix_set:
 - metacpan.org
 - metacritic.com
 - metadac.ac.uk
+- metallinvestbank.ru
 - metalpha.finance
 - metamind.io
 - metanoia.ac.uk
@@ -16393,6 +16429,7 @@ domain_suffix_set:
 - methnet.ac.uk
 - methodsnetwork.ac.uk
 - methodsnorthwest.ac.uk
+- metib.ru
 - metro.co.uk
 - metropolitana.tokyo
 - metrotoons.com
@@ -16993,6 +17030,7 @@ domain_suffix_set:
 - modperl.pl
 - modrinth.com
 - modular.im
+- modulbank.ru
 - moeaic.gov.tw
 - moedigi.com
 - moeero-library.com
@@ -17000,6 +17038,7 @@ domain_suffix_set:
 - moeimg.net
 - moemax.net
 - moepedia.net
+- moex.com
 - moez-m.com
 - mof.kemomi.me
 - mofa.gov.tw
@@ -17053,6 +17092,7 @@ domain_suffix_set:
 - monar.ch
 - monash.ac.uk
 - monbeats2013.com
+- moneta.ru
 - moneyswift.online
 - moneywithfacebook.com
 - mongodb.com
@@ -17322,6 +17362,7 @@ domain_suffix_set:
 - msoopent.com
 - msp.ac.uk
 - mspairlift.com
+- mspbank.ru
 - msportknowledge.ac.uk
 - msropendata.com
 - mssn.ac.uk
@@ -17689,6 +17730,7 @@ domain_suffix_set:
 - national-learning-network.ac.uk
 - nationalacademiclibraries.ac.uk
 - nationalandacademiclibraries.ac.uk
+- nationalclearingcentre.ru
 - nationalcollegeforadvancedtransportinfrastructure.ac.uk
 - nationalcollegeforhighspeedrail.ac.uk
 - nationalcollegefornuclear.ac.uk
@@ -18158,6 +18200,7 @@ domain_suffix_set:
 - nicis.ac.uk
 - nickscipio.com
 - nicky.xxx
+- nico-bank.ru
 - nico.ms
 - nicochannel.jp
 - nicodic.jp
@@ -18372,6 +18415,7 @@ domain_suffix_set:
 - nintendowii.com
 - niosii.com
 - niosii.net
+- nipbank.ru
 - niran.ac.uk
 - nishinipponbank.co.jp
 - nismod.ac.uk
@@ -18396,6 +18440,7 @@ domain_suffix_set:
 - njpw.co.jp
 - njpw1972.com
 - nkc.ac.uk
+- nkcbank.ru
 - nke6.com
 - nkw.ac.uk
 - nlc.ac.uk
@@ -18490,6 +18535,7 @@ domain_suffix_set:
 - northumberland.ac.uk
 - northumbria.ac.uk
 - norton.com
+- norvikbank.ru
 - norwichresearchpark.ac.uk
 - notegpt.io
 - noticias-rt.com
@@ -18519,9 +18565,11 @@ domain_suffix_set:
 - novella.ac.uk
 - noveltrove.com
 - novids.com
+- novikom.ru
 - novinhabucetuda.com
 - novinhagostosa10.com
 - novinhasdozapzap.com
+- novobank.ru
 - novojoy.com
 - novostrong.com
 - novus.ac.uk
@@ -18556,6 +18604,7 @@ domain_suffix_set:
 - nrooms-dh.sbs
 - nrp.ac.uk
 - nrs.ac.uk
+- ns-bank.ru
 - nsad.ac.uk
 - nsals.ac.uk
 - nsamr.ac.uk
@@ -18564,6 +18613,7 @@ domain_suffix_set:
 - nsccs.ac.uk
 - nscd.ac.uk
 - nscg.ac.uk
+- nsd.ru
 - nsea.ac.uk
 - nsf.ac.uk
 - nsfnet-relay.ac.uk
@@ -18572,6 +18622,7 @@ domain_suffix_set:
 - nsfwmemes.com
 - nsimg.net
 - nsirc.ac.uk
+- nskbl.ru
 - nsloon.com
 - nso.ac.uk
 - nspcr.ac.uk
@@ -18943,6 +18994,7 @@ domain_suffix_set:
 - ok.me
 - ok.xxx
 - okazudouga.tokyo
+- okbank.ru
 - okcdn.ru
 - okinawabank.co.jp
 - okiwine.jp
@@ -19160,6 +19212,7 @@ domain_suffix_set:
 - oracleimg.com
 - oracleinfinity.io
 - oranum.com
+- orbank.ru
 - orbitalsouthcolleges.ac.uk
 - orbitera.com
 - orchardhill.ac.uk
@@ -19233,7 +19286,6 @@ domain_suffix_set:
 - otaku55.xyz
 - otakuboo.com
 - otbm.com
-- otello.ru
 - otleycollege.ac.uk
 - otleyeaston.ac.uk
 - otleyonline.ac.uk
@@ -19452,7 +19504,6 @@ domain_suffix_set:
 - pawchive.st
 - paxlicense.org
 - paydiant.com
-- payecom.ru
 - payget.pro
 - paygonline.com
 - payhulu.com
@@ -19757,6 +19808,7 @@ domain_suffix_set:
 - personeelsland.com
 - perth.ac.uk
 - perthcoll.ac.uk
+- pervbank.ru
 - pervclips.com
 - perverse.sex
 - perverttube.com
@@ -19832,6 +19884,7 @@ domain_suffix_set:
 - pifpafarabia.com
 - piirus.ac.uk
 - pikabu.monster
+- pikhtabank.ru
 - pikpak.io
 - pilgrimageandcathedrals.ac.uk
 - pilgrimagestudies.ac.uk
@@ -19936,7 +19989,6 @@ domain_suffix_set:
 - plasma-mobile.org
 - plasticlabs.com
 - plastics-cadcam.com
-- platiecom.ru
 - platinumlinks.org
 - platov.co
 - play-bmm.shop
@@ -20018,6 +20070,7 @@ domain_suffix_set:
 - poi.icu
 - poi.moe
 - poi6.net
+- poidem.ru
 - poihub.com
 - point.ac.uk
 - pointblank.ac.uk
@@ -20547,7 +20600,9 @@ domain_suffix_set:
 - printersetupsupport.com
 - printspots.com
 - printspots.net
+- priobye.ru
 - prioned.ac.uk
+- priovtb.com
 - prism.ac.uk
 - prismlauncher.org
 - prismlive.com
@@ -20641,7 +20696,7 @@ domain_suffix_set:
 - psds.ac.uk
 - pse.is
 - psigate.ac.uk
-- pskb.ru
+- pskb.com
 - pssru.ac.uk
 - pstorage.space
 - psyccareers.com
@@ -20914,7 +20969,6 @@ domain_suffix_set:
 - rae.ac.uk
 - raft.ac.uk
 - ragnaporn.com
-- raiffeisen-media.ru
 - raiffeisen.ru
 - rajwaphq.com
 - rakuten-bank.co.jp
@@ -21043,6 +21097,7 @@ domain_suffix_set:
 - rcuk.ac.uk
 - rcukssc.ac.uk
 - rcvs.ac.uk
+- rdb.ru
 - rdf.ac.uk
 - rdg.ac.uk
 - rdi.ac.uk
@@ -21275,12 +21330,12 @@ domain_suffix_set:
 - resilient-decarbonised-energy-cdt.ac.uk
 - resilient-decarbonised-energy-dtc.ac.uk
 - resl.ac.uk
+- resocreditbank.ru
 - resonabank.co.jp
 - resoubanana.buzz
 - resoubang.buzz
 - resourceshare.ac.uk
 - respawnbyrazer.com
-- restnproducts.ru
 - restore.ac.uk
 - restream-media.net
 - restream.ru
@@ -21384,6 +21439,7 @@ domain_suffix_set:
 - rmas.ac.uk
 - rnc.ac.uk
 - rncb.ac.uk
+- rncb.ru
 - rncm.ac.uk
 - rncoluminis.ru
 - rnib-redhill.ac.uk
@@ -21464,6 +21520,7 @@ domain_suffix_set:
 - rosbank-dom.ru
 - rosbank-leasing.ru
 - rosbank.ru
+- rosdorbank.ru
 - rosemarydoll.com
 - rosemount.ac.uk
 - roses.ac.uk
@@ -21520,6 +21577,7 @@ domain_suffix_set:
 - rs2022.com
 - rsa-ls.ac.uk
 - rsamd.ac.uk
+- rsb.ru
 - rsc-cymru.ac.uk
 - rsc-east-midlands.ac.uk
 - rsc-east.ac.uk
@@ -21669,6 +21727,7 @@ domain_suffix_set:
 - rustore.team
 - rustore.tv
 - rustup.rs
+- rutaxi.ru
 - rutc.ac.uk
 - rutherford.ac.uk
 - rutlandcollege.ac.uk
@@ -21772,7 +21831,6 @@ domain_suffix_set:
 - sambaporno.com
 - samc.ac.uk
 - samebags.com
-- samokat.ru
 - sams.ac.uk
 - samsung.com
 - samsungapps.com
@@ -21864,36 +21922,17 @@ domain_suffix_set:
 - sbank.ir
 - sbc.ac.uk
 - sber-bank.by
-- sber.pro
 - sber.ru
-- sberauto.com
-- sberbank-insurance.ru
-- sberbank-tele.com
 - sberbank.com
 - sberbank.ru
-- sberbankaktivno.ru
-- sberbankins.ru
-- sbercloud.ru
-- sbercloud.tech
-- sberdevices.ru
-- sberdisk.ru
-- sberfactoring.ru
-- sberhealth.ru
-- sberindex.ru
-- sberleasing.ru
-- sberlogistics.ru
-- sbermegamarket.ru
-- sbermobile.ru
-- sberpb.ru
 - sberspasibo.ru
-- sbertech.ru
-- sbertroika.ru
 - sbgkstv.shop
 - sbibankllc.ru
 - sbirmc.ac.uk
 - sbishinseibank.co.jp
 - sbitravelcard.com
 - sbnation.com
+- sbpvtb.ru
 - sbrc-nottingham.ac.uk
 - sbrf.ru
 - sbrn.ac.uk
@@ -21943,6 +21982,7 @@ domain_suffix_set:
 - scatsite.com
 - scatvids.club
 - scatville.com
+- scb.ru
 - scc.ac.uk
 - sccb.ac.uk
 - sccc.ac.uk
@@ -22078,6 +22118,7 @@ domain_suffix_set:
 - sdeo.ac.uk
 - sdf.ac.uk
 - sdhi.ac.uk
+- sdm.ru
 - sdn.ac.uk
 - sdnice.one
 - sdnitube.buzz
@@ -22228,6 +22269,7 @@ domain_suffix_set:
 - severeporn.com
 - severreal.org
 - sevgikurtulmaz.com
+- sevnb.ru
 - sex-amateur-clips.com
 - sex-av.com
 - sex-douga.jp
@@ -22475,6 +22517,8 @@ domain_suffix_set:
 - shdd.ink
 - shdf.ac.uk
 - shedevrum.ai
+- shedevrum.com
+- shedevrum.ru
 - sheef.ac.uk
 - shef.ac.uk
 - shefc.ac.uk
@@ -22630,6 +22674,7 @@ domain_suffix_set:
 - shymysex.com
 - shywifeswap.com
 - sibreal.org
+- sibsoc.ru
 - sicsa.ac.uk
 - side.ac.uk
 - sie.ac.uk
@@ -22792,6 +22837,7 @@ domain_suffix_set:
 - slavbank.ru
 - slavicstar.com
 - slayed.com
+- slbank.ru
 - slc.ac.uk
 - slc.tl
 - slcollege.ac.uk
@@ -22850,6 +22896,7 @@ domain_suffix_set:
 - smbc.co.jp
 - smbcr-bank.ru
 - smbctb.co.jp
+- smbfin.ru
 - smbgroup.ac.uk
 - smc.ac.uk
 - smca.ac.uk
@@ -22892,10 +22939,12 @@ domain_suffix_set:
 - snapstore.io
 - snapvolumes.com
 - snapwebcams.com
+- snbank.ru
 - snc.ac.uk
 - sneaker666.com
 - sneakerpage.net
 - sneakerskick.com
+- sngb.ru
 - snjulebu.com
 - snk-corp.co.jp
 - snk-corp.info
@@ -22928,6 +22977,7 @@ domain_suffix_set:
 - societyofjewelleryhistorians.ac.uk
 - societyoflegalscholars.ac.uk
 - sociolotron.com
+- socium-bank.ru
 - socres.ac.uk
 - socsciscotland.ac.uk
 - soficdt.ac.uk
@@ -22964,6 +23014,7 @@ domain_suffix_set:
 - solentmarineacademy.ac.uk
 - solentuniversity.ac.uk
 - solid.ru
+- solidbank.ru
 - solidifi.app
 - solidstate.com
 - solihull.ac.uk
@@ -23177,6 +23228,7 @@ domain_suffix_set:
 - spasibosb.ru
 - spasibosberbank.ru
 - spatialeconomics.ac.uk
+- spbexchange.ru
 - spc.ac.uk
 - spcc-sp.com
 - spcollege.ac.uk
@@ -23255,6 +23307,7 @@ domain_suffix_set:
 - sputnikimages.com
 - sputnikmediabank.com
 - sputniknews.com
+- spvb.ru
 - spyjinx.com
 - spyrothedragon.com
 - sqhwesternconsortium.ac.uk
@@ -23792,6 +23845,7 @@ domain_suffix_set:
 - svipshipin.store
 - svoboda.org
 - svobodnaevropa.bg
+- svoi.ru
 - svp-team.com
 - svpply.com
 - svscomics.asia
@@ -23903,6 +23957,7 @@ domain_suffix_set:
 - synologyupdate.com
 - synsym.ac.uk
 - syntheticbiology.ac.uk
+- syntx.ai
 - sysinternals.com
 - sysmic.ac.uk
 - system76.com
@@ -24234,6 +24289,7 @@ domain_suffix_set:
 - thawte.de
 - thawte.fr
 - thb.gov.tw
+- thbank.ru
 - thdh.cc
 - the-area.com
 - the-british-museum.ac.uk
@@ -24357,6 +24413,7 @@ domain_suffix_set:
 - thepornscat.com
 - theporntoplist.com
 - theporny.com
+- thequestion.ru
 - theroslininstitute.ac.uk
 - thesafeporn.com
 - thesaurus.ac.uk
@@ -24490,6 +24547,7 @@ domain_suffix_set:
 - time.nrc.ca
 - timefxapp.com
 - timelinestoryteller.com
+- timerbank.ru
 - timesmembership.com
 - timestalks.com
 - timeweb.cloud
@@ -24659,6 +24717,7 @@ domain_suffix_set:
 - toy-people.com
 - toycadcam.com
 - toyobank.co.jp
+- toyota-bank.ru
 - tpc.ac.uk
 - tpea.ac.uk
 - tpension.ru
@@ -24704,6 +24763,7 @@ domain_suffix_set:
 - transpharmtech-cdt.ac.uk
 - transpharmtech-dtc.ac.uk
 - transpornsites.com
+- transstroybank.ru
 - travel-tec.ru
 - travelcontroller.com
 - travelex.be
@@ -24812,6 +24872,7 @@ domain_suffix_set:
 - tryst.link
 - ts.la
 - ts.net
+- tsbnk.ru
 - tsd.ac.uk
 - tsdlondon.ac.uk
 - tse.ac.uk
@@ -25017,6 +25078,7 @@ domain_suffix_set:
 - ubn.ac.uk
 - ubncloud.com
 - ubnw.net
+- ubrr.ru
 - ubs.com
 - ubuntu-touch.io
 - ubuntu.com
@@ -25233,6 +25295,7 @@ domain_suffix_set:
 - uma.media
 - umagazine.com.hk
 - umass.edu
+- umbank.ru
 - umbrella.com
 - umds.ac.uk
 - umis.ac.uk
@@ -25257,6 +25320,8 @@ domain_suffix_set:
 - ungrounded.net
 - uni-east.ac.uk
 - unialliance.ac.uk
+- unicredit.ru
+- unicreditbank.ru
 - unidesk.ac.uk
 - unidraw.io
 - unilang.ac.uk
@@ -25267,6 +25332,7 @@ domain_suffix_set:
 - unistats.ac.uk
 - unisurreydirect.ac.uk
 - uniswales.ac.uk
+- united.ru
 - unitedcollegegroup.ac.uk
 - unitedcollegesgroup.ac.uk
 - unity.ac.uk
@@ -25349,6 +25415,8 @@ domain_suffix_set:
 - upmg.ac.uk
 - uporno.xxx
 - ura-akiba.jp
+- uralfd.ru
+- uralprombank.ru
 - uralsib.ru
 - urasma.com
 - urbanairship.com
@@ -25531,6 +25599,7 @@ domain_suffix_set:
 - vbcdn.com
 - vbcdn.net
 - vbejeyv.shop
+- vbrr.ru
 - vcanedge.com
 - vce.com
 - vcloudair.net
@@ -25539,6 +25608,7 @@ domain_suffix_set:
 - vct.news
 - vday.io
 - vdoav.com
+- veb.ru
 - vecchiescopate.casa
 - vector.im
 - veet.at
@@ -25594,6 +25664,7 @@ domain_suffix_set:
 - velocloud.com
 - velostrata.com
 - vendu.com
+- venets-bank.ru
 - venezporn.com
 - venmo-touch.com
 - venmo.com
@@ -25671,7 +25742,9 @@ domain_suffix_set:
 - vetschoolscouncil.ac.uk
 - vetset2go.ac.uk
 - vetvaccnet.ac.uk
+- vezet.ru
 - vfabric.net
+- vfbank.ru
 - vfsco.at
 - vfsco.be
 - vfsco.bg
@@ -26038,6 +26111,7 @@ domain_suffix_set:
 - vkworkspace.kz
 - vl4x.net
 - vlb100.ru
+- vlbb.ru
 - vmailru.net
 - vmglobal.net
 - vmmark.com
@@ -26333,7 +26407,9 @@ domain_suffix_set:
 - vssn.ac.uk
 - vtb-direct.com
 - vtb-grants.fut.ru
+- vtb.com
 - vtb.ru
+- vtbbo.ru
 - vtbglobalperspectives.com
 - vtrahe.page
 - vtri.ac.uk
@@ -27239,6 +27315,7 @@ domain_suffix_set:
 - xn--80asgb.xn--p1ai
 - xn--8uq428d76d.tokyo
 - xn--90ab.com
+- xn--90ab2c.xn--p1ai
 - xn--90absjljw3g.xn--p1ai
 - xn--90aifd0az.shop
 - xn--90aifd0azb.xn--p1acf
@@ -27251,7 +27328,6 @@ domain_suffix_set:
 - xn--colegsirgr-c5a.ac.uk
 - xn--d1abkf4ap.fun
 - xn--d1acpjx3f.xn--p1ai
-- xn--d1aqf.xn--p1ai
 - xn--d4ty0ojsqzfd.com
 - xn--e1adjldbbpv.xn--90ais
 - xn--e1aigb.xn--p1ai
@@ -27755,6 +27831,7 @@ domain_suffix_set:
 - yammer.com
 - yamoon.club
 - yandex-bank.net
+- yandex-team.com
 - yandex-team.ru
 - yandex.aero
 - yandex.asia
@@ -27777,20 +27854,27 @@ domain_suffix_set:
 - yandex.kz
 - yandex.lt
 - yandex.lv
+- yandex.market
 - yandex.md
 - yandex.mobi
+- yandex.net.ru
 - yandex.org
 - yandex.pl
+- yandex.pro
 - yandex.st
 - yandex.sx
+- yandex.taxi
 - yandex.tj
 - yandex.tm
 - yandex.tr
+- yandex.travel
 - yandex.ua
 - yandex.uz
 - yandexadexchange.net
 - yandexcloud.net
 - yandexcom.net
+- yandexdataschool.com
+- yandexdataschool.ru
 - yandexgo.com
 - yandexlyceum.ru
 - yandexwebcache.net
@@ -27831,6 +27915,7 @@ domain_suffix_set:
 - ycoastco.ac.uk
 - ycuc.ac.uk
 - ycw.ac.uk
+- ydb.tech
 - ydds.ac.uk
 - ydn.com.tw
 - ydrindoddewisant.ac.uk
@@ -27887,6 +27972,8 @@ domain_suffix_set:
 - yomiuri-shimbun.pressreader.com
 - yomiuri-systec.co.jp
 - yoobusiness.ru
+- yookassa.ru
+- yoomoney.ru
 - yopornshop.com
 - york-sfc.ac.uk
 - york.ac.uk
@@ -28364,8 +28451,6 @@ domain_suffix_set:
 - zuckerberg.net
 - zukunftswerkstatt.de
 - zunked.com
-- zvuk-b2b.com
-- zvuk.com
 - zweiporn.com
 - zwtvusa.com
 - zynaima.com
