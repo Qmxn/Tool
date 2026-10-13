@@ -11,6 +11,7 @@ request if ${url} ~= /^https:\/\/duckduckgo\.com\/\?q=wk\+([^&]+).+/i as urlMatc
 request if ${url} ~= /^https:\/\/duckduckgo\.com\/\?q=qm\+([^&]+).+/i as urlMatch then redirect(307, "https://www.qimai.cn/search/index/country/cn/search/${urlMatch.1}")
 request if ${url} ~= /^https:\/\/duckduckgo\.com\/\?q=gh\+([^&]+).+/i as urlMatch then redirect(307, "https://github.com/search?q=${urlMatch.1}")
 request if ${url} ~= /^https:\/\/duckduckgo\.com\/\?q=([^&]+).+/i as urlMatch then redirect(307, "https://www.google.com/search?q=${urlMatch.1}")
+request if ${url} ~= /^https:\/\/duckduckgo\.com\/\?q=(?!(?:bd|bdimg|gimg|b|wk|qm|gh)\+)([^&]+).+/i as urlMatch then redirect(307, "https://www.google.com/search?q=${urlMatch.1}")
 
 [MitM]
 hostname=duckduckgo.com
