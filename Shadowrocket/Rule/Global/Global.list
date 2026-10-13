@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35868
+# 规则统计: 35869
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -1297,6 +1297,7 @@ DOMAIN-SUFFIX,91se.fun
 DOMAIN-SUFFIX,91sesex.xyz
 DOMAIN-SUFFIX,91sew.xyz
 DOMAIN-SUFFIX,91sew40.buzz
+DOMAIN-SUFFIX,91short.com
 DOMAIN-SUFFIX,91vhome.com
 DOMAIN-SUFFIX,920share.com
 DOMAIN-SUFFIX,921bb.com

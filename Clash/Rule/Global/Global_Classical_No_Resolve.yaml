@@ -1,5 +1,5 @@
 # 规则名称: Global_Classical_No_Resolve
-# 规则统计: 35184
+# 规则统计: 35185
 
 payload:
   - DOMAIN,1password.drift.click
@@ -636,6 +636,7 @@ payload:
   - DOMAIN-SUFFIX,91sesex.xyz
   - DOMAIN-SUFFIX,91sew.xyz
   - DOMAIN-SUFFIX,91sew40.buzz
+  - DOMAIN-SUFFIX,91short.com
   - DOMAIN-SUFFIX,91vhome.com
   - DOMAIN-SUFFIX,920share.com
   - DOMAIN-SUFFIX,921bb.com
