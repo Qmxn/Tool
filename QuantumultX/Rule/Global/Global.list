@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35915
+# 规则统计: 35921
 
 HOST,1password.drift.click,Global
 HOST,3dns-1.adobe.com,Global
@@ -5467,6 +5467,7 @@ HOST-SUFFIX,bsappapi.cc,Global
 HOST-SUFFIX,bsappapi.com,Global
 HOST-SUFFIX,bsaw.ac.uk,Global
 HOST-SUFFIX,bsbec.ac.uk,Global
+HOST-SUFFIX,bscdnweb.com,Global
 HOST-SUFFIX,bsdc.ac.uk,Global
 HOST-SUFFIX,bsersd.xyz,Global
 HOST-SUFFIX,bsfc.ac.uk,Global
@@ -16403,8 +16404,6 @@ HOST-SUFFIX,messengerdevelopers.com,Global
 HOST-SUFFIX,messybrainz.org,Global
 HOST-SUFFIX,messytube.com,Global
 HOST-SUFFIX,met-nude.com,Global
-HOST-SUFFIX,meta.ai,Global
-HOST-SUFFIX,metaaivm.com,Global
 HOST-SUFFIX,metabolomics.ac.uk,Global
 HOST-SUFFIX,metabora.io,Global
 HOST-SUFFIX,metabrainz.org,Global
@@ -21987,6 +21986,7 @@ HOST-SUFFIX,sccc.ac.uk,Global
 HOST-SUFFIX,sccjr.ac.uk,Global
 HOST-SUFFIX,scct.ac.uk,Global
 HOST-SUFFIX,scde.ac.uk,Global
+HOST-SUFFIX,scea.com,Global
 HOST-SUFFIX,scene7.com,Global
 HOST-SUFFIX,scenesource.me,Global
 HOST-SUFFIX,scentro.ac.uk,Global
@@ -23071,6 +23071,7 @@ HOST-SUFFIX,sony.com.ni,Global
 HOST-SUFFIX,sony.com.pa,Global
 HOST-SUFFIX,sony.com.pe,Global
 HOST-SUFFIX,sony.com.ph,Global
+HOST-SUFFIX,sony.com.py,Global
 HOST-SUFFIX,sony.com.sg,Global
 HOST-SUFFIX,sony.com.sv,Global
 HOST-SUFFIX,sony.com.tr,Global
@@ -23113,8 +23114,10 @@ HOST-SUFFIX,sonyclassics.com,Global
 HOST-SUFFIX,sonydesign.com,Global
 HOST-SUFFIX,sonydna.com,Global
 HOST-SUFFIX,sonyglobalsolutions.jp,Global
+HOST-SUFFIX,sonyinteractive.com,Global
 HOST-SUFFIX,sonykigyo.jp,Global
 HOST-SUFFIX,sonylatvija.com,Global
+HOST-SUFFIX,sonymusic.com.hk,Global
 HOST-SUFFIX,sonynetwork.co.jp,Global
 HOST-SUFFIX,sonypcl.jp,Global
 HOST-SUFFIX,sonypictures.com,Global
@@ -28597,6 +28600,7 @@ HOST-SUFFIX,6parknews.com,Global
 HOST-SUFFIX,7capture.com,Global
 HOST-SUFFIX,7cow.com,Global
 HOST-SUFFIX,7mmtv.tv,Global
+HOST-SUFFIX,7x24hrs.com,Global
 HOST-SUFFIX,8-d.com,Global
 HOST-SUFFIX,85cc.net,Global
 HOST-SUFFIX,85cc.us,Global
@@ -32441,7 +32445,9 @@ HOST-SUFFIX,merlinblog.xyz,Global
 HOST-SUFFIX,meshrep.com,Global
 HOST-SUFFIX,mesotw.com,Global
 HOST-SUFFIX,messenger.com,Global
+HOST-SUFFIX,meta.ai,Global
 HOST-SUFFIX,meta.com,Global
+HOST-SUFFIX,metaaivm.com,Global
 HOST-SUFFIX,metacafe.com,Global
 HOST-SUFFIX,metacubex.one,Global
 HOST-SUFFIX,metafilter.com,Global

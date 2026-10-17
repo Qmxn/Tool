@@ -1,5 +1,5 @@
 # 规则名称: Proxy
-# 规则统计: 7479
+# 规则统计: 7482
 
 HOST,api.msn.com,Proxy
 HOST,api.waqi.info,Proxy
@@ -152,6 +152,7 @@ HOST-SUFFIX,6parknews.com,Proxy
 HOST-SUFFIX,7capture.com,Proxy
 HOST-SUFFIX,7cow.com,Proxy
 HOST-SUFFIX,7mmtv.tv,Proxy
+HOST-SUFFIX,7x24hrs.com,Proxy
 HOST-SUFFIX,8-d.com,Proxy
 HOST-SUFFIX,85cc.net,Proxy
 HOST-SUFFIX,85cc.us,Proxy
@@ -4046,7 +4047,9 @@ HOST-SUFFIX,merlinblog.xyz,Proxy
 HOST-SUFFIX,meshrep.com,Proxy
 HOST-SUFFIX,mesotw.com,Proxy
 HOST-SUFFIX,messenger.com,Proxy
+HOST-SUFFIX,meta.ai,Proxy
 HOST-SUFFIX,meta.com,Proxy
+HOST-SUFFIX,metaaivm.com,Proxy
 HOST-SUFFIX,metacafe.com,Proxy
 HOST-SUFFIX,metacubex.one,Proxy
 HOST-SUFFIX,metafilter.com,Proxy

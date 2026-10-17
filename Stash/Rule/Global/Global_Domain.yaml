@@ -1,5 +1,5 @@
 # 规则名称: Global_Domain
-# 规则统计: 35029
+# 规则统计: 35035
 
 payload:
   - '1password.drift.click'
@@ -4877,6 +4877,7 @@ payload:
   - '+.bsappapi.com'
   - '+.bsaw.ac.uk'
   - '+.bsbec.ac.uk'
+  - '+.bscdnweb.com'
   - '+.bsdc.ac.uk'
   - '+.bsersd.xyz'
   - '+.bsfc.ac.uk'
@@ -16124,8 +16125,6 @@ payload:
   - '+.messybrainz.org'
   - '+.messytube.com'
   - '+.met-nude.com'
-  - '+.meta.ai'
-  - '+.metaaivm.com'
   - '+.metabolomics.ac.uk'
   - '+.metabora.io'
   - '+.metabrainz.org'
@@ -21736,6 +21735,7 @@ payload:
   - '+.sccjr.ac.uk'
   - '+.scct.ac.uk'
   - '+.scde.ac.uk'
+  - '+.scea.com'
   - '+.scene7.com'
   - '+.scenesource.me'
   - '+.scentro.ac.uk'
@@ -22822,6 +22822,7 @@ payload:
   - '+.sony.com.pa'
   - '+.sony.com.pe'
   - '+.sony.com.ph'
+  - '+.sony.com.py'
   - '+.sony.com.sg'
   - '+.sony.com.sv'
   - '+.sony.com.tr'
@@ -22864,8 +22865,10 @@ payload:
   - '+.sonydesign.com'
   - '+.sonydna.com'
   - '+.sonyglobalsolutions.jp'
+  - '+.sonyinteractive.com'
   - '+.sonykigyo.jp'
   - '+.sonylatvija.com'
+  - '+.sonymusic.com.hk'
   - '+.sonynetwork.co.jp'
   - '+.sonypcl.jp'
   - '+.sonypictures.com'
@@ -28405,6 +28408,7 @@ payload:
   - '+.7capture.com'
   - '+.7cow.com'
   - '+.7mmtv.tv'
+  - '+.7x24hrs.com'
   - '+.8-d.com'
   - '+.85cc.net'
   - '+.85cc.us'
@@ -31840,7 +31844,9 @@ payload:
   - '+.meshrep.com'
   - '+.mesotw.com'
   - '+.messenger.com'
+  - '+.meta.ai'
   - '+.meta.com'
+  - '+.metaaivm.com'
   - '+.metacafe.com'
   - '+.metacubex.one'
   - '+.metafilter.com'

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 35875
+# 规则统计: 35881
 
 no_resolve: true
 domain_set:
@@ -5470,6 +5470,7 @@ domain_suffix_set:
 - bsappapi.com
 - bsaw.ac.uk
 - bsbec.ac.uk
+- bscdnweb.com
 - bsdc.ac.uk
 - bsersd.xyz
 - bsfc.ac.uk
@@ -16406,8 +16407,6 @@ domain_suffix_set:
 - messybrainz.org
 - messytube.com
 - met-nude.com
-- meta.ai
-- metaaivm.com
 - metabolomics.ac.uk
 - metabora.io
 - metabrainz.org
@@ -21990,6 +21989,7 @@ domain_suffix_set:
 - sccjr.ac.uk
 - scct.ac.uk
 - scde.ac.uk
+- scea.com
 - scene7.com
 - scenesource.me
 - scentro.ac.uk
@@ -23074,6 +23074,7 @@ domain_suffix_set:
 - sony.com.pa
 - sony.com.pe
 - sony.com.ph
+- sony.com.py
 - sony.com.sg
 - sony.com.sv
 - sony.com.tr
@@ -23116,8 +23117,10 @@ domain_suffix_set:
 - sonydesign.com
 - sonydna.com
 - sonyglobalsolutions.jp
+- sonyinteractive.com
 - sonykigyo.jp
 - sonylatvija.com
+- sonymusic.com.hk
 - sonynetwork.co.jp
 - sonypcl.jp
 - sonypictures.com
@@ -28600,6 +28603,7 @@ domain_suffix_set:
 - 7capture.com
 - 7cow.com
 - 7mmtv.tv
+- 7x24hrs.com
 - 8-d.com
 - 85cc.net
 - 85cc.us
@@ -32444,7 +32448,9 @@ domain_suffix_set:
 - meshrep.com
 - mesotw.com
 - messenger.com
+- meta.ai
 - meta.com
+- metaaivm.com
 - metacafe.com
 - metacubex.one
 - metafilter.com

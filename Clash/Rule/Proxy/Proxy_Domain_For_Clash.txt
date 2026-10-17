@@ -1,5 +1,5 @@
 # 规则名称: Proxy_Domain_For_Clash
-# 规则统计: 6836
+# 规则统计: 6839
 
 api.waqi.info
 aqi.aqicn.org
@@ -140,6 +140,7 @@ voice.telephony.goog
 +.7capture.com
 +.7cow.com
 +.7mmtv.tv
++.7x24hrs.com
 +.8-d.com
 +.85cc.net
 +.85cc.us
@@ -3619,7 +3620,9 @@ voice.telephony.goog
 +.meshrep.com
 +.mesotw.com
 +.messenger.com
++.meta.ai
 +.meta.com
++.metaaivm.com
 +.metacafe.com
 +.metacubex.one
 +.metafilter.com
