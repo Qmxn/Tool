@@ -1,10 +1,12 @@
 # 规则名称: Lan_No_Resolve
-# 规则统计: 141
+# 规则统计: 143
 
 payload:
   - DOMAIN,asusrouter.com
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,local.adguard.org
+  - DOMAIN,localhost.weixin.qq.com
+  - DOMAIN,localhost.work.weixin.qq.com
   - DOMAIN,oasisauth.h3c.com
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
