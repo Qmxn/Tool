@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Domain
-# 规则统计: 110304
+# 规则统计: 110306
 
 payload:
   - 'analytics.strava.com'
@@ -86307,6 +86307,8 @@ payload:
   - '+.szty56.com'
   - '+.sztz.org'
   - '+.sztzzs.com'
+  - '+.szu.app'
+  - '+.szu.moe'
   - '+.szuavia.org'
   - '+.szudad.com'
   - '+.szunionlab.com'
