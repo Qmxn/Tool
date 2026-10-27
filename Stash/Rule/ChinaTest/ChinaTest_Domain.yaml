@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest_Domain
-# 规则统计: 110028
+# 规则统计: 110030
 
 payload:
   - 'analytics.strava.com'
@@ -36285,6 +36285,7 @@ payload:
   - '+.fillersmart.com'
   - '+.fillseo.com'
   - '+.film-yuelongchina.com'
+  - '+.filmorigin.com'
   - '+.fily.fun'
   - '+.fim34s.com'
   - '+.fin-shine.com'
@@ -57847,6 +57848,7 @@ payload:
   - '+.kakappt.com'
   - '+.kakashuzi.net'
   - '+.kakatx.com'
+  - '+.kakaxing.com'
   - '+.kakayuy.net'
   - '+.kaken-china.com'
   - '+.kaku-scdn.com'

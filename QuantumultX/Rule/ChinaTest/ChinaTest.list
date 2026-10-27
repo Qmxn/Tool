@@ -1,5 +1,5 @@
 # 规则名称: ChinaTest
-# 规则统计: 110083
+# 规则统计: 110085
 
 HOST,analytics.strava.com,ChinaTest
 HOST,blzddist1-a.akamaihd.net,ChinaTest
@@ -36284,6 +36284,7 @@ HOST-SUFFIX,filfox.info,ChinaTest
 HOST-SUFFIX,fillersmart.com,ChinaTest
 HOST-SUFFIX,fillseo.com,ChinaTest
 HOST-SUFFIX,film-yuelongchina.com,ChinaTest
+HOST-SUFFIX,filmorigin.com,ChinaTest
 HOST-SUFFIX,fily.fun,ChinaTest
 HOST-SUFFIX,fim34s.com,ChinaTest
 HOST-SUFFIX,fin-shine.com,ChinaTest
@@ -57846,6 +57847,7 @@ HOST-SUFFIX,kakamobi.com,ChinaTest
 HOST-SUFFIX,kakappt.com,ChinaTest
 HOST-SUFFIX,kakashuzi.net,ChinaTest
 HOST-SUFFIX,kakatx.com,ChinaTest
+HOST-SUFFIX,kakaxing.com,ChinaTest
 HOST-SUFFIX,kakayuy.net,ChinaTest
 HOST-SUFFIX,kaken-china.com,ChinaTest
 HOST-SUFFIX,kaku-scdn.com,ChinaTest
