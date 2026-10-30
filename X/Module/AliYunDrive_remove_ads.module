@@ -1,9 +1,3 @@
-#!name=阿里云盘去广告
-#!desc=移除首页广告横幅、弹窗和顶部奖励。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-IP-CIDR,203.107.1.1/24,REJECT,no-resolve
-
-[MITM]
-hostname = %APPEND% api.alipan.com, member.alipan.com, bizapi.alipan.com

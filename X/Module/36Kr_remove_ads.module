@@ -1,10 +1,3 @@
-#!name=36氪去广告
-#!desc=移除开屏广告、首页右上角运营位、信息流广告、文末广告，移除相关文章推荐、大家都在看及皮肤配置，精简搜索页面、我的页面及底栏。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-DOMAIN,adx.36kr.com,REJECT
-DOMAIN,ad.jiemian.com,REJECT
-
-[MITM]
-hostname = %APPEND% gateway.36kr.com, 36kr.com

@@ -1,6 +1,3 @@
-#!name=YouTube双语翻译
-#!desc=字幕增强及双语翻译，支持Youtube Music歌词翻译。此插件需要置于YouTube去广告插件之下，且和YouTube去广告插件的歌词翻译冲突，不支持tvOS设备。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[MITM]
-hostname = %APPEND% www.youtube.com, m.youtube.com, tv.youtube.com, music.youtube.com, youtubei.googleapis.com

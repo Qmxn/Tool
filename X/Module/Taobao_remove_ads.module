@@ -1,14 +1,3 @@
-#!name=淘宝去广告
-#!desc=过滤淘宝开屏广告
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-DOMAIN,adashx.m.taobao.com,REJECT
-DOMAIN,ossgw.alicdn.com,REJECT
-DOMAIN,ems.youku.com,REJECT
-DOMAIN,hudong.alicdn.com,REJECT
-DOMAIN,h-adashx.ut.taobao.com,REJECT
-DOMAIN,ut.taobao.com,REJECT
-
-[MITM]
-hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com

@@ -1,9 +1,3 @@
-#!name=Spotify去广告
-#!desc=移除播放广告，恢复歌手和专辑列表的正常展示。修改插件自定义配置项需要重新登陆方可生效。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-AND,((DOMAIN-SUFFIX,spotify.com),(PROTOCOL,QUIC)),REJECT
-
-[MITM]
-hostname = %APPEND% *-spclient.spotify.com, spclient.wg.spotify.com

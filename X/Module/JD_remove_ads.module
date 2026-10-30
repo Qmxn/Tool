@@ -1,9 +1,3 @@
-#!name=京东去广告
-#!desc=移除京东开屏广告，精简我的页面产品推广。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-URL-REGEX,"^http:\/\/\w{32}\.jddebug\.com\/diagnose\?",REJECT
-
-[MITM]
-hostname = %APPEND% api.m.jd.com

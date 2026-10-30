@@ -1,9 +1,3 @@
-#!name=车来了去广告
-#!desc=清洗配置，移除开屏广告、首页金刚位、文章推荐，精简我的页面。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-DOMAIN,ad.chelaile.net.cn,REJECT
-
-[MITM]
-hostname = %APPEND% api.chelaile.net.cn, web.chelaile.net.cn, cdn.web.chelaile.net.cn, image3.chelaile.net.cn

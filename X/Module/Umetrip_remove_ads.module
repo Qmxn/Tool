@@ -1,9 +1,3 @@
-#!name=航旅纵横去广告
-#!desc=过滤航旅纵横广告
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-URL-REGEX,"^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native",REJECT
-
-[MITM]
-hostname = %APPEND% 114.115.217.129, home.umetrip.com

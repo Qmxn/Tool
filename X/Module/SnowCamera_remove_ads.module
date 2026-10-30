@@ -1,8 +1,3 @@
-#!name=B612咔叽去广告
-#!desc=移除开屏广告、弹窗及拍摄页面底部横幅广告。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-DOMAIN,api-ad.kajicam.com,REJECT
-DOMAIN,zjres-ad.kajicam.com,REJECT
-DOMAIN,popup-api.b612kaji.com,REJECT

@@ -1,6 +1,3 @@
-#!name=猫耳FM去广告
-#!desc=移除开屏广告、青少年模式弹窗、首页顶部入口，替换底栏的直播入口为发现入口。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[MITM]
-hostname = %APPEND% app.missevan.com, data.missevan.com, fm.missevan.com

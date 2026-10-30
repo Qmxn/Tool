@@ -1,6 +1,3 @@
-#!name=纷玩岛去广告
-#!desc=移除开屏广告、弹窗广告、信息横幅推广、票夹页面横幅广告。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[MITM]
-hostname = %APPEND% api.livelab.com.cn

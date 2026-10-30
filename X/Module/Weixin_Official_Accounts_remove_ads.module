@@ -1,9 +1,3 @@
-#!name=微信公众号去广告
-#!desc=过滤微信公众号广告
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-DOMAIN-SUFFIX,wxs.qq.com,REJECT
-
-[MITM]
-hostname = %APPEND% mp.weixin.qq.com

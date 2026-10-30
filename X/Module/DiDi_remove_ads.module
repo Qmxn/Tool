@@ -1,11 +1,3 @@
-#!name=滴滴去广告
-#!desc=移除开屏广告、弹窗广告、横幅推广，精简我的页面。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-DOMAIN,gwp.xiaojukeji.com,REJECT
-DOMAIN,gwpgz.diditaxi.com.cn,REJECT
-DOMAIN,adtrack.xiaojukeji.com,REJECT
-
-[MITM]
-hostname = %APPEND% as.xiaojukeji.com, conf.diditaxi.com.cn, common.diditaxi.com.cn, res.xiaojukeji.com, api.udache.com, daijia.kuaidadi.com, htwkop-st.xiaojukeji.com, htwkop.xiaojukeji.com, freight.xiaojukeji.com, poi.map.xiaojukeji.com

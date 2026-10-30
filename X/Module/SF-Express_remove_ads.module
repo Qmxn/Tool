@@ -1,6 +1,3 @@
-#!name=顺丰速运去广告
-#!desc=移除开屏广告、首页下拉抽屉、首页推广、应用内悬浮窗、横幅广告，移除主题，精简我的页面。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[MITM]
-hostname = %APPEND% ccsp-egmas.sf-express.com, ucmp.sf-express.com, ucmp-static.sf-express.com

@@ -1,14 +1,3 @@
-#!name=爱奇艺去广告
-#!desc=移除开屏广告、焦点图广告、瀑布流广告、搜索页面广告、移除青少年弹窗，精简底栏和我的页面。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-IP-CIDR,103.44.59.54/32,REJECT,no-resolve
-IP-CIDR,111.63.147.158/32,REJECT,no-resolve
-IP-CIDR,116.211.198.237/32,REJECT,no-resolve
-DOMAIN-SUFFIX,cupid.iqiyi.com,DIRECT
-DOMAIN,api.iqiyi.com,REJECT
-DOMAIN,access.if.iqiyi.com,REJECT
-
-[MITM]
-hostname = %APPEND% -i.vip.iqiyi.com, *.iqiyi.com

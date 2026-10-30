@@ -1,9 +1,3 @@
-#!name=Keep去广告
-#!desc=移除开屏广告、搜索推荐和弹窗广告，精简底栏和首页标签。移除关注推荐、文章相关推荐和信息流中的课程推广。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-DOMAIN,kad.gotokeep.com,REJECT
-
-[MITM]
-hostname = %APPEND% api.gotokeep.com

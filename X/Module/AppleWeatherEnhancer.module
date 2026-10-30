@@ -1,12 +1,3 @@
-#!name=Apple天气增强
-#!desc=解锁Apple天气的全部功能、替换空气质量数据源、添加下一小时降水数据、添加天气数据。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[Rule]
-DOMAIN,weather-analytics-events.apple.com,REJECT-DROP
-DOMAIN,tether.edge.apple,REJECT-DROP
-DOMAIN-SUFFIX,tthr.apple.com,REJECT-DROP
-AND,((OR,((IP-ASN,714,no-resolve),(IP-ASN,6185,no-resolve))),(PROTOCOL,QUIC)),REJECT-DROP
-
-[MITM]
-hostname = %APPEND% weatherkit.apple.com

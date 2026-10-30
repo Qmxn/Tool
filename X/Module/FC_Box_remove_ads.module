@@ -1,6 +1,3 @@
-#!name=丰巢去广告
-#!desc=移除弹窗，精简首页和生活服务。此插件需要IPA签名方可使用，App Store用户请勿使用此插件，务必点击下方主页链接查看详细教程。
+#!name=https%3A%2F%2Fraw
+#!desc=https%3A%2F%2Fraw
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
-
-[MITM]
-hostname = %APPEND% consumer.fcbox.com, dsp.fcbox.com
