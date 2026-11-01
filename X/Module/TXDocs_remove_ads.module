@@ -1,0 +1,6 @@
+#!name=腾讯文档去广告
+#!desc=移除开屏广告、首页横幅推广。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% tianshu.qq.com, h5.qzone.qq.com

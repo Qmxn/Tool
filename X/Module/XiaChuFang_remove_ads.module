@@ -1,0 +1,6 @@
+#!name=下厨房去广告
+#!desc=移除开屏广告、页面推广及横幅，精简首页标签。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.xiachufang.com

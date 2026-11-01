@@ -1,0 +1,15 @@
+#!name=配音秀去广告
+#!desc=移除开屏广告、弹窗、横幅、各类关注推荐。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rewrite]
+response if ${url} ~= /^https:\/\/iosapi\.peiyinxiu\.com\/Api\/live\/LiveList/i then response.json.delete("data.banners")
+response if ${url} ~= /^https:\/\/iosapi\.peiyinxiu\.com\/api\/live\/FollowList/i then response.json.delete("obj.data")
+response if ${url} ~= /^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommendUsers/i then response.json.delete("obj.data")
+response if ${url} ~= /^https:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData/i then response.json.delete("obj.data")
+
+[Script]
+response if ${url} ~= /^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue/i then script("https://kelee.one/Resource/JavaScript/DubbingShow/DubbingShow_remove_ads.js") with tag="移除首页底部弹窗", requires_body=true
+
+[MitM]
+hostname=iosapi.peiyinxiu.com

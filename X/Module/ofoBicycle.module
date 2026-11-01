@@ -1,0 +1,12 @@
+#!name=ofo共享单车
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
+^https?:\/\/ma\.ofo\.com\/adImage\/ - reject
+^https?:\/\/ma\.ofo\.com\/ads - reject
+^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads - reject
+
+[MITM]
+hostname = %APPEND% supportda.ofo.com, ma.ofo.com, activity2.api.ofo.com

@@ -1,0 +1,6 @@
+#!name=小宇宙去广告
+#!desc=移除开屏广告、搜索框推荐词和AI总结。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.xiaoyuzhoufm.com

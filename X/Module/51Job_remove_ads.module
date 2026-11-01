@@ -1,0 +1,6 @@
+#!name=前程无忧去广告
+#!desc=移除开屏广告、弹窗、信息流推广、职位页面推广和各类横幅推广。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% appapi.51jobapp.com, cupid.51jobapp.com

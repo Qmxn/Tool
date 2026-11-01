@@ -1,0 +1,6 @@
+#!name=学习通去广告
+#!desc=移除开屏广告、横幅推广，精简校园补给站频道。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% learn.chaoxing.com, home-yd.chaoxing.com, apps.chaoxing.com, groupyd2.chaoxing.com, appswh.chaoxing.com

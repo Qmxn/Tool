@@ -1,0 +1,6 @@
+#!name=ECOVACS HOME去广告
+#!desc=移除横幅推广，精简底栏。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% gl-cn-api.ecovacs.cn, api-app.dc-cn.cn.ecouser.net

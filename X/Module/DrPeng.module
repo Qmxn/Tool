@@ -1,0 +1,6 @@
+#!name=Dr.Peng
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+IP-CIDR,211.161.101.110/32,REJECT,no-resolve

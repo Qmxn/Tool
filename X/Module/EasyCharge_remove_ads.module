@@ -1,0 +1,9 @@
+#!name=e充电去广告
+#!desc=移除开屏广告、活动及发现页面，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,adash-evone.echargenet.com,REJECT
+
+[MITM]
+hostname = %APPEND% aserver-evone.echargenet.com, api-evone.echargenet.com

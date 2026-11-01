@@ -1,0 +1,6 @@
+#!name=美食杰去广告
+#!desc=移除开屏广告和信息流广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% newapi.meishi.cc

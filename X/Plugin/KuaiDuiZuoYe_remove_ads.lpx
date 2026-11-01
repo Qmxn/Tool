@@ -1,0 +1,17 @@
+#!name=快对去广告
+#!desc=移除开屏广告、横幅推广，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN, adx.zuoyebang.com, REJECT
+
+[Rewrite]
+request if ${url} ~= /^https:\/\/www\.kuaiduizuoye\.com\/init\/ad\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/www\.kuaiduizuoye\.com\/activity\/init\/checkappconfig$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/www\.kuaiduizuoye\.com\/kdapi\/conf\/appbannersv3$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/www\.kuaiduizuoye\.com\/kdapi\/conf\/initbanner$/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/www\.kuaiduizuoye\.com\/codesearch\/aid\/home$/i then response.json.delete("data.homeBannerList")
+request if ${url} ~= /^https:\/\/apivip\.kuaiduizuoye\.com\/viponline\/scancode\/mycard$/i then reject_dict(200)
+
+[MitM]
+hostname=www.kuaiduizuoye.com, apivip.kuaiduizuoye.com

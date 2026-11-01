@@ -1,0 +1,6 @@
+#!name=网易大神去广告
+#!desc=移除开屏广告，精简大量冗余的配置文件，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% god.gameyw.netease.com, app-conf.ds.163.com

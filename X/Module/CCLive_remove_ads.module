@@ -1,0 +1,6 @@
+#!name=CC直播去广告
+#!desc=移除信息流推广和横幅，精简顶部标签。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.cc.163.com, cc.163.com, mshare.cc.163.com, appapi.cc.163.com

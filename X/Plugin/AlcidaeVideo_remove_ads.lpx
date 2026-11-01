@@ -1,0 +1,13 @@
+#!name=海雀去广告
+#!desc=移除开屏广告、横幅广告、弹窗广告，拦截商城和资讯页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rewrite]
+request if ${url} ~= /^https:\/\/app-api-32\.ihaique\.net\/api\/app\/v\d\/appad\/cmd\/AppadGetSplashAds\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/app-api-32\.ihaique\.net\/api\/app\/v\d\/appad\/cmd\/AppGetAttentionInfos\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/app-api-32\.ihaique\.net\/api\/app\/v\d\/appad\/cmd\/AppadGetBannerAds\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/g\.ihaique\.net\/alcidae\/info\/index\.html$/i then reject(404)
+request if ${url} ~= /^https:\/\/shop151522958\.youzan\.com\/v\d\/showcase\/homepage\?/i then reject(404)
+
+[MitM]
+hostname=app-api-32.ihaique.net, g.ihaique.net, shop151522958.youzan.com

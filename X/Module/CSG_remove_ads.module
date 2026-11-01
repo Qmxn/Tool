@@ -1,0 +1,6 @@
+#!name=南网在线去广告
+#!desc=移除首页推广，精简搜索页和我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% 95598.csg.cn

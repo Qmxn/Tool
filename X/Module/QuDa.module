@@ -1,0 +1,6 @@
+#!name=去哒
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Script]
+去哒 = type=http-response, pattern=^https?:\/\/iqushangwang\.8quan\.com\/index\.php\/i\/index\/index, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/QuDa.js, requires-body=true, timeout=60

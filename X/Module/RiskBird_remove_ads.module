@@ -1,0 +1,6 @@
+#!name=风鸟去广告
+#!desc=移除首页信息流和轮播图
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% m.riskbird.com

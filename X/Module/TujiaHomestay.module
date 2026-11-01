@@ -1,0 +1,15 @@
+#!name=途家民宿
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/(promotion\/popup\/getpopupups\/bnb|portal\/getStartPictureAdvertising) - reject
+
+[Body Rewrite]
+http-response ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getportalconfig\/bnb\/v2 "banners":\[.+\], "banners":[],
+
+[Map Local]
+^https?:\/\/client\.tujia\.com\/bnbapp-node data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% client.tujia.com

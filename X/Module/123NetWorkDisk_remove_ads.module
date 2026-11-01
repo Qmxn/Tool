@@ -1,0 +1,6 @@
+#!name=123云盘去广告
+#!desc=移除开屏广告、应用内横幅广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% www.123pan.com

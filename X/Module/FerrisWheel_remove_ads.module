@@ -1,0 +1,6 @@
+#!name=摩天轮去广告
+#!desc=移除开屏广告、弹窗，精简底栏。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% appapi.motianlun.cn

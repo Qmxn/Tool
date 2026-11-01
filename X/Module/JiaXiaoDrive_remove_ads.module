@@ -1,0 +1,6 @@
+#!name=驾校一点通去广告
+#!desc=移除开屏广告、各页面广告横幅、弹窗广告，移除社区广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% richmanrules.ksedt.com, gouche.ksedt.com, muses.ksedt.com, op.ksedt.com, api.ksedt.com

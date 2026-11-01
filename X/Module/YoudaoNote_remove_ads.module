@@ -1,0 +1,6 @@
+#!name=有道云笔记去广告
+#!desc=移除开屏广告、弹窗广告及横幅广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% silk.lx.netease.com

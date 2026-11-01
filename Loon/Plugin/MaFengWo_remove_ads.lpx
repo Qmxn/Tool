@@ -1,0 +1,14 @@
+#!name=马蜂窝去广告
+#!desc=移除首页信息流广告、商城横幅推广、我的页面弹窗。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
+
+[Rule]
+DOMAIN, advert.mafengwo.cn, REJECT
+
+[Rewrite]
+response if ${url} ~= /^https:\/\/mapi\.mafengwo\.cn\/discovery\/get_index\/v7\?/i then response.json.jq(".data.list |= map(select(.data.business_type != \"gdcpm\"))")
+response if ${url} ~= /^https:\/\/mapi\.mafengwo\.cn\/sales\/home\/get_header\/v3\?/i then response.json.jq(".data.list[] |= ( .data |= del(.banners) )")
+request if ${url} ~= /^https:\/\/mapi\.mafengwo\.cn\/user\/growth\/get_growth_tip\/v1\?/i then reject_dict(200)
+
+[MitM]
+hostname=mapi.mafengwo.cn

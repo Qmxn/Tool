@@ -1,0 +1,6 @@
+#!name=快影去广告
+#!desc=移除开屏广告、信息流推广、横幅推广，移除悬浮部件。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.kmovie.gifshow.com

@@ -1,0 +1,6 @@
+#!name=无他相机去广告
+#!desc=移除开屏广告、拍摄页面广告、右小角广告，精简底栏。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api-release.wuta-cam.com

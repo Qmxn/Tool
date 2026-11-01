@@ -1,0 +1,18 @@
+#!name=同花顺
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,adm.10jqka.com.cn,REJECT
+DOMAIN,stat.10jqka.com.cn,REJECT
+DOMAIN-SUFFIX,ad.thsi.cn,REJECT
+
+[URL Rewrite]
+^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) - reject
+
+[Map Local]
+^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend data-type=text data=" " status-code=200
+^https?:\/\/stat\.10jqka\.com\.cn\/q\?ld=mobile&id=ad data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% adm.10jqka.com.cn, iphone.ac.qq.com, stat.10jqka.com.cn

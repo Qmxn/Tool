@@ -1,0 +1,6 @@
+#!name=DREAME去广告
+#!desc=移除开屏广告、首页大图推广、横幅推广，精简底栏，阻止桌面图标替换。仅支持2.5.1版。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% cn-mall.dreame.tech, cn-wxmall.dreame.tech, cn.iot.dreame.tech

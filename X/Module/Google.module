@@ -1,0 +1,6 @@
+#!name=Google搜索重定向
+#!desc=将Google搜索重定向至.com域名，如遇频繁跳转请禁用本插件。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% www.google.cn

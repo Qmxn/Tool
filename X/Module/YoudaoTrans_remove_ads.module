@@ -1,0 +1,6 @@
+#!name=有道翻译官去广告
+#!desc=移除开屏广告、横幅推广，精简首页。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% gorgon.youdao.com, fanyiguan-server.youdao.com, api-overmind.youdao.com, dict.youdao.com

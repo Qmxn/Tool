@@ -1,0 +1,11 @@
+#!name=最右去广告
+#!desc=移除开屏广告、信息流广告和广告轮播图。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,adapi.izuiyou.com,REJECT
+URL-REGEX,"^http:\/\/mercury-gateway\.ixiaochuan\.cn\/mercury\/v1\/ad\/",REJECT-TINYGIF
+URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search_home_page_(nv|nv_v2)\/search_home_page_nv",REJECT
+
+[MITM]
+hostname = %APPEND% api.izuiyou.com, zyfile.izuiyou.com

@@ -1,0 +1,9 @@
+#!name=马蜂窝去广告
+#!desc=移除首页信息流广告、商城横幅推广、我的页面弹窗。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,advert.mafengwo.cn,REJECT
+
+[MITM]
+hostname = %APPEND% mapi.mafengwo.cn

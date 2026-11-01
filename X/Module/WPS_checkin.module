@@ -1,0 +1,6 @@
+#!name=WPS每日签到
+#!desc=WPS每日签到并兑换会员，需要进入此插件的主页链接，阅读使用说明操作。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% moapi.wps.cn

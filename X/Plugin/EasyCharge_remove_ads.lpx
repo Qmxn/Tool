@@ -1,0 +1,17 @@
+#!name=e充电去广告
+#!desc=移除开屏广告、活动及发现页面，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN, adash-evone.echargenet.com, REJECT
+
+[Rewrite]
+request if ${url} ~= /^https:\/\/aserver-evone\.echargenet\.com\/orange\/datacenter\/snapshot-meta\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.echargeapi\.open\.ad\.getadmaterials\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.efriend\.topic\.listrecommenttopic\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.efriend\.post\.listapppost\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.merchant\.list\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-evone\.echargenet\.com\/gw\/evone\.appsns\.open\.merchant\.news\.pagelistapp\//i then reject_dict(200) 
+
+[MitM]
+hostname=aserver-evone.echargenet.com, api-evone.echargenet.com

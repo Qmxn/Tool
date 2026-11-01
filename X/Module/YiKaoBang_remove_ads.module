@@ -1,0 +1,6 @@
+#!name=医考帮去广告
+#!desc=移除横幅推广、弹窗、首页悬浮挂件。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.yikaobang.com.cn

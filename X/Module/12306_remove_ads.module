@@ -1,0 +1,9 @@
+#!name=12306去广告
+#!desc=过滤12306应用内广告及开屏广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,ad.12306.cn,DIRECT
+
+[MITM]
+hostname = %APPEND% ad.12306.cn, mobile.12306.cn

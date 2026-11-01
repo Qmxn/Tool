@@ -1,0 +1,6 @@
+#!name=蜗牛睡眠去广告
+#!desc=移除音乐页面横幅、日报告解决方案商品推广，移除我的页面服务推广。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
+
+[Rule]
+DOMAIN, ad.snailsleep.net, REJECT

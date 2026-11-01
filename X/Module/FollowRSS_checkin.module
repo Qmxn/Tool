@@ -1,0 +1,6 @@
+#!name=Follow每日签到
+#!desc=Follow每日签到，需要进入此插件的主页链接，阅读使用说明操作。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.follow.is

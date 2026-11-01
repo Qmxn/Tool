@@ -1,0 +1,6 @@
+#!name=YY语音去广告
+#!desc=移除开屏广告、应用内弹窗、任务推广、频道横幅推广，精简广场顶部标签。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% yuyin-api.baizhanlive.com, web.yy.com

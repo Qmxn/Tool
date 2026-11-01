@@ -1,0 +1,6 @@
+#!name=联掌门户去广告
+#!desc=移除开屏广告、弹窗，移除首页、服务和发现页面无用内容。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% lzmh.lz-qs.com, yuudnn.lz-qs.com

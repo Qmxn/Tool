@@ -1,0 +1,6 @@
+#!name=OKOK去广告
+#!desc=移除开屏广告、横幅广告，精简首页，拦截优惠购页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.chips-cloud.com, shop171777386.m.youzan.com

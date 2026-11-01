@@ -1,0 +1,6 @@
+#!name=大麦去广告
+#!desc=移除开屏广告、轮播图广告和弹窗广告，移除搜索填充词和专属推荐。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% acs.m.taobao.com

@@ -1,0 +1,6 @@
+#!name=慧生活798去广告
+#!desc=移除开屏广告、横幅广告，精简底栏。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% i.ilife798.com

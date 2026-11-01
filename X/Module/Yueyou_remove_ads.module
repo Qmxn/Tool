@@ -1,0 +1,9 @@
+#!name=阅友去广告
+#!desc=移除开屏广告、弹窗广告和阅读页面广告，移除底栏福利按钮。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,ads.reader.yueyouxs.com,REJECT
+
+[MITM]
+hostname = %APPEND% goway.reader.yueyouxs.com

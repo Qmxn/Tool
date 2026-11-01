@@ -1,0 +1,9 @@
+#!name=推栏去广告
+#!desc=过滤推栏广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rewrite]
+response if ${url} ~= /^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping$/i then response.json.delete(["data.splashConf", "data.splashConfNew"])
+
+[MitM]
+hostname=m.pvp.xoyo.com

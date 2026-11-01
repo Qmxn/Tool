@@ -1,0 +1,6 @@
+#!name=酷狗概念版去广告
+#!desc=移除广告服务模块、播放器广告，精简乐库及搜索页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% gateway.kugou.com

@@ -1,0 +1,9 @@
+#!name=亲宝宝去广告
+#!desc=移除开屏广告、弹窗广告、广告下发、用户行为上报，精简搜索页、育儿页和我的页面，拦截商城页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,apimall.qbb6.com,REJECT
+
+[MITM]
+hostname = %APPEND% api.qbb6.com, apicommunity.qbb6.com, apipt.qbb6.com, apiuser.qbb6.com, apimall.qbb6.com

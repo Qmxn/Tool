@@ -1,0 +1,6 @@
+#!name=完美世界电竞去广告
+#!desc=移除开屏广告，精简搜索页。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.wmpvp.com, appactivity.wmpvp.com

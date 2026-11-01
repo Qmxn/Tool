@@ -1,0 +1,12 @@
+#!name=中通快递
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/hdgateway\.zto\.com\/getApolloConfig data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/hdgateway\.zto\.com\/track data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/hdgateway\.zto\.com\/getAdInfo data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/hdgateway\.zto\.com\/listJumperShow data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% hdgateway.zto.com

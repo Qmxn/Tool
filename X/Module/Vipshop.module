@@ -1,0 +1,20 @@
+#!name=唯品会
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-SUFFIX,n-st.vip.com,REJECT
+DOMAIN-SUFFIX,api.union.vip.com,REJECT
+DOMAIN-SUFFIX,ms.vipstatic.com,REJECT
+
+[URL Rewrite]
+^https?:\/\/b\.appsimg\.com\/upload\/momin - reject
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report - reject
+
+[Map Local]
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get data-type=text data=" " status-code=200
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/layout\/productList\/eventData\/v data-type=text data=" " status-code=200
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/coupon\/float_entrance\/get\?api_key data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% b.appsimg.com, mapi.appvipshop.com

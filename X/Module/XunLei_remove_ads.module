@@ -1,0 +1,6 @@
+#!name=迅雷去广告
+#!desc=移除开屏广告、首页横幅广告、左上角广告入口，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% conf-m-ssl.xunlei.com, api-shoulei-ssl.xunlei.com

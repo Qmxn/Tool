@@ -1,0 +1,6 @@
+#!name=华住会去广告
+#!desc=移除弹窗、横幅，精简首页。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% hweb-manager.huazhu.com, hweb-hotel.huazhu.com, res-pub.huazhu.com

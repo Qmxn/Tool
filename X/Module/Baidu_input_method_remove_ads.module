@@ -1,0 +1,6 @@
+#!name=百度输入法去广告
+#!desc=过滤百度输入法广告，替换个人主页随机图。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% imeres.baidu.com, mbd.baidu.com, mime.baidu.com

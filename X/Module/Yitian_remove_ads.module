@@ -1,0 +1,6 @@
+#!name=一甜相机去广告
+#!desc=移除开屏广告、悬浮广告及图片选择器横幅广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% m2u-api.getkwai.com, api-m2u.kuaishou.com

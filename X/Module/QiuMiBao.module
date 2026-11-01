@@ -1,0 +1,10 @@
+#!name=球迷报
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/a\.qiumibao\.com\/activities\/config\.php - reject
+^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code= - reject
+
+[MITM]
+hostname = %APPEND% a.qiumibao.com

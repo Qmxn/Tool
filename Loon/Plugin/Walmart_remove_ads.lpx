@@ -1,0 +1,12 @@
+#!name=沃尔玛去广告
+#!desc=移除操作引导、商品详情页用户调研、搜索填充词和搜索发现，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+request if ${url} ~= /^https:\/\/api-hyper\.walmartmobile\.cn\/search\/ad\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-hyper\.walmartmobile\.cn\/cms-web\/frontapi\/shadedWords\/list\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/api-hyper\.walmartmobile\.cn\/search\/frontapi\/discovery-words\/list$/i then reject_dict(200)
+response if ${url} ~= /^https:\/\/api-hyper\.walmartmobile\.cn\/cms-web\/frontapi\/common\/page\/get\?.*&type=26$/i then response.json.jq(".data |= (.moduleList | map(select(.templateCode == \"nav-bar-title\" or .templateCode == \"member-info\" or .templateCode == \"distribution-center\" or .templateCode == \"wallet\" or .templateCode == \"swiper\" or .templateCode == \"my-order\")))")
+
+[MitM]
+hostname=api-hyper.walmartmobile.cn

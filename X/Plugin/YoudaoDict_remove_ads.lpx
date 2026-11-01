@@ -1,0 +1,16 @@
+#!name=网易有道词典去广告
+#!desc=移除开屏广告、弹窗广告、右上角推广。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+ad-sdk-config.youdao.com
+
+[Rewrite]
+response if ${url} ~= /^https:\/\/dict\.youdao\.com\/homepage\/toolbar\/get\//i then response.json.delete("data.vipTag")
+request if ${url} ~= /^https:\/\/dict\.youdao\.com\/vip\/activity\/startup\//i then reject_dict(200)
+request if ${url} ~= /^https:\/\/dict\.youdao\.com\/vip\/activity\/retention\/configs\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/dict\.youdao\.com\/vip\/activity\/retention\/match\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/dict\.youdao\.com\/vip\/user\/paid\/guide\?/i then reject_dict(200)
+
+[MitM]
+hostname=dict.youdao.com

@@ -1,0 +1,13 @@
+#!name=苏e行
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/ad\.shunchangzhixing\.com\/getAd data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/api\.bwton\.com\/bff\/app\/h5\/v1\/station\/goods data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/api\.bwton\.com\/bas\/ad data-type=text data=" " status-code=200
+^https?:\/\/api\.bwton\.com\/bff\/app\/index\/goods data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/api\.bwton\.com\/bff\/app\/index\/recommend data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% ad.shunchangzhixing.com, api.bwton.com

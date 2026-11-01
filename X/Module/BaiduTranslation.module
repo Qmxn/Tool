@@ -1,0 +1,10 @@
+#!name=百度翻译
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo - reject
+^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
+
+[MITM]
+hostname = %APPEND% mime.baidu.com

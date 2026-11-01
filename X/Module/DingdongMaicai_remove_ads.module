@@ -1,0 +1,11 @@
+#!name=叮咚买菜去广告
+#!desc=移除开屏广告、弹窗推广、搜索推荐、信息流广告、悬浮广告、各页面购物推荐、精简我的页面，移除底栏和各页面AI入口。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,trackercollect.ddxq.mobi,REJECT
+DOMAIN,ddfs-public.ddimg.mobi,REJECT
+DOMAIN,rttrack.ddxq.mobi,REJECT
+
+[MITM]
+hostname = %APPEND% 119.29.29.*, maicai.api.ddxq.mobi, user.api.ddxq.mobi

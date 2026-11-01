@@ -1,0 +1,6 @@
+#!name=小喵看书去广告
+#!desc=移除小喵看书章末广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.miaomiaoyd.com

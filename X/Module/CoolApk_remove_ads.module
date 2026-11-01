@@ -1,0 +1,6 @@
+#!name=酷安去广告
+#!desc=过滤酷安广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.coolapk.com

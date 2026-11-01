@@ -1,0 +1,10 @@
+#!name=星途 starway
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Map Local]
+^https?:\/\/app\.chinahxzq\.com\.cn:9302\/starway-api\/ad data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/app\.chinahxzq\.com\.cn\/starway\/adShow data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% app.chinahxzq.com.cn

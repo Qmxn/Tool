@@ -1,0 +1,17 @@
+#!name=酷狗音乐去广告
+#!desc=移除开屏广告、应用各类弹窗、各类横幅广告、评论区广告和播放器界面广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,ads.service.kugou.com,REJECT
+DOMAIN,adstats.tencentmusic.com,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,adserviceretry.kugou.com,REJECT
+DOMAIN,adserviceretry.kglink.cn,REJECT
+DOMAIN,ad.tencentmusic.com,REJECT
+DOMAIN,adservice.kugou.com,REJECT
+DOMAIN,splashimgretrybssdl.cloud.kugou.com,REJECT
+URL-REGEX,"^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html",REJECT
+
+[MITM]
+hostname = %APPEND% gateway.kugou.com, fx.service.kugou.com, hwstore.kugou.com, ep.kugou.com, gatewayretry.kugou.com, gzacshow.kugou.com, m1fxgroup.kugou.com

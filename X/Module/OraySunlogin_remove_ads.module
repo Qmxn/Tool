@@ -1,0 +1,6 @@
+#!name=向日葵去广告
+#!desc=移除开屏广告、广告横幅。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% client-api-v2.oray.com

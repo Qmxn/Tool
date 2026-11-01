@@ -1,0 +1,8 @@
+#!name=Camera360
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,dispatcher.360in.com,REJECT
+DOMAIN,ad.360in.com,REJECT
+DOMAIN,exp.360in.com,REJECT

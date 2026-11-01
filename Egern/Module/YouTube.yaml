@@ -1,0 +1,41 @@
+name: Youtube (Music) Enhance
+description: 适用于 Youtube & Youtube Music
+icon: https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+dns: {}
+url_rewrites:
+- match: (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+)
+  location: $1$2$3
+  status_code: 302
+map_locals:
+- match: ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad
+  status_code: 200
+  body: ' '
+- match: ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads
+  status_code: 200
+  body: ' '
+- match: ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking)
+  status_code: 200
+  body: ' '
+- match: ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext
+  status_code: 200
+  body: ' '
+scriptings:
+- http_response:
+    name: youtube.response
+    match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch)
+    script_url: https://raw.githubusercontent.com/Aioneas/Surge/main/Script/youtube.response.js
+    env:
+      _compat.$argument: '{"lyricLang":"off","captionLang":"off","blockUpload":true,"blockImmersive":false,"blockShorts":true,"debug":false}'
+    max_size: -1
+    timeout: 60
+    body_required: true
+    binary_body: true
+mitm:
+  hostnames:
+    includes:
+    - '*.googlevideo.com'
+    - www.youtube.com
+    - s.youtube.com
+    - youtubei.googleapis.com
+    excludes:
+    - redirector*.googlevideo.com

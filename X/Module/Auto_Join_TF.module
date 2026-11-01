@@ -1,0 +1,3 @@
+#!name=自动加入TestFlight
+#!desc=自动监控TestFlight名额，一旦有新的名额即刻加入。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png

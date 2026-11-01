@@ -1,0 +1,6 @@
+#!name=起点读书去广告
+#!desc=移除起点读书开屏广告、每日导读、各类弹窗、文末广告、搜索填充词，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% magev6.if.qidian.com, ywab.reader.qq.com

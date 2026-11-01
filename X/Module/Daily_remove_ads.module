@@ -1,0 +1,6 @@
+#!name=推栏去广告
+#!desc=过滤推栏广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% m.pvp.xoyo.com

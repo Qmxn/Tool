@@ -1,0 +1,6 @@
+#!name=云鲸智能去广告
+#!desc=移除开屏广告、横幅推广，禁用商城。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% cn-app.narwaltech.com, store.narwal.com

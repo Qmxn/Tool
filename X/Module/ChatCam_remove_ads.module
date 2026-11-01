@@ -1,0 +1,6 @@
+#!name=看家王去广告
+#!desc=移除开屏广告、横幅广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% fast.jfgou.com, jiafeigou-1251885898.cos.ap-guangzhou.myqcloud.com

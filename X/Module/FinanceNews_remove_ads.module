@@ -1,0 +1,6 @@
+#!name=华尔街见闻去广告
+#!desc=移除开屏广告、文末广告、信息流广告，精简底栏。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api-one-wscn.awtmt.com

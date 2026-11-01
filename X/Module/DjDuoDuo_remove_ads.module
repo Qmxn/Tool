@@ -1,0 +1,6 @@
+#!name=DJ多多去广告
+#!desc=移除开屏广告及歌单广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.dianyinduoduo.com

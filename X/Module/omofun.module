@@ -1,0 +1,9 @@
+#!name=omofun
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/103\.91\.210\.141\:2515\/xgapp\.php\/v2\/top_notice - reject
+
+[MITM]
+hostname = %APPEND% 103.91.210.141

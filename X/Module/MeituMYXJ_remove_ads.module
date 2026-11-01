@@ -1,0 +1,9 @@
+#!name=美颜相机去广告
+#!desc=移除开屏广告、应用内弹窗，精简首页和我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,adui.tg.meitu.com,REJECT
+
+[MITM]
+hostname = %APPEND% api.meiyan.com

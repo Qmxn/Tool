@@ -1,0 +1,6 @@
+#!name=皮皮虾去广告
+#!desc=移除开屏广告、评论区广告、视频流广告，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.pipix.com, api5-lq.pipix.com

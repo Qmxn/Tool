@@ -1,0 +1,16 @@
+#!name=最右去广告
+#!desc=移除开屏广告、信息流广告和广告轮播图。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN, adapi.izuiyou.com, REJECT
+URL-REGEX, "^http:\/\/mercury-gateway\.ixiaochuan\.cn\/mercury\/v1\/ad\/", REJECT-DICT
+URL-REGEX, "^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search_home_page_(nv|nv_v2)\/search_home_page_nv", REJECT
+
+[Rewrite]
+request if ${url} ~= /^https?:\/\/api\.izuiyou\.com\/config\/get_banner/i then reject_dict(200)
+request if ${url} ~= /^https?:\/\/api\.izuiyou\.com\/ad\//i then reject(404)
+request if ${url} ~= /^https:\/\/zyfile\.izuiyou\.com\/zyfile\/c2\/a0\/[a-z0-9-]+\.json/i then reject_dict(200)
+
+[MitM]
+hostname=api.izuiyou.com, zyfile.izuiyou.com

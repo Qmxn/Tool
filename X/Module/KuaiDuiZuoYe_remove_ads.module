@@ -1,0 +1,9 @@
+#!name=快对去广告
+#!desc=移除开屏广告、横幅推广，精简我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN,adx.zuoyebang.com,REJECT
+
+[MITM]
+hostname = %APPEND% www.kuaiduizuoye.com, apivip.kuaiduizuoye.com

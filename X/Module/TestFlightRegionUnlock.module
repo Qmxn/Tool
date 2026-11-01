@@ -1,0 +1,6 @@
+#!name=TestFlight地区解锁
+#!desc=解除TestFlight的区域限制，支持tvOS。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% testflight.apple.com

@@ -1,0 +1,6 @@
+#!name=Sofascore去广告
+#!desc=移除横幅及信息流广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api.sofascore.com

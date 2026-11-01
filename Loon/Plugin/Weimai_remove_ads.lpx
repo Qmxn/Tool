@@ -1,0 +1,10 @@
+#!name=微脉圈去广告
+#!desc=移除开屏广告、聊天页横幅提示及发现页面的横幅广告。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/loonLite.png
+
+[Rewrite]
+response if ${url} ~= /^https:\/\/confssl\d?\.iweimai\.cn\/wm_ios_update\.json\?/i then response.json.replace("isShowCJAd", 0)
+response if ${url} ~= /^https:\/\/confssl\d?\.iweimai\.cn\/wm_ios_update\.json\?/i then response.json.delete(["launchAd", "adBanners", "ad"])
+
+[MitM]
+hostname=confssl*.iweimai.cn

@@ -1,0 +1,12 @@
+#!name=慧生活798去广告
+#!desc=移除开屏广告、横幅广告，精简底栏。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rewrite]
+response if ${url} ~= /^https:\/\/i\.ilife798\.com\/api\/v\d\/acc\/login$/i then response.json.delete(["data.ar", "data.showAd"])
+request if ${url} ~= /^https:\/\/i\.ilife798\.com\/api\/v\d\/acc\/score\/mission-lst$/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/i\.ilife798\.com\/api\/v\d\/ep\/lst-simple\?/i then reject_dict(200)
+request if ${url} ~= /^https:\/\/i\.ilife798\.com\/api\/v\d\/ui\/app\/master$/i then reject_dict(200)
+
+[MitM]
+hostname=i.ilife798.com

@@ -1,0 +1,6 @@
+#!name=Tumblr去广告
+#!desc=移除信息流广告
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% api-http2.tumblr.com

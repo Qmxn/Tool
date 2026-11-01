@@ -1,0 +1,15 @@
+#!name=富途牛牛
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[URL Rewrite]
+^https?:\/\/api\d\.futunn\.com\/ad\/ - reject
+^https?:\/\/api\.futunn\.com\/v\d\/ad\/ - reject
+^https?:\/\/api\.futunn\.com\/treasure-chest\/box-data - reject
+
+[Map Local]
+^https?:\/\/api\.futunn\.com\/v2\/optimus\/my-homepage-config data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+^https?:\/\/api\.futunn\.com\/v2\/config\/promote-config data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% api*.futunn.com

@@ -1,0 +1,12 @@
+#!name=蓝基因
+#!desc=某些APP要清除缓存或者重新安装拦截广告才会生效！
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[Rule]
+DOMAIN-KEYWORD,medicine.lanjiyin.com.cn,REJECT
+
+[URL Rewrite]
+^https?:\/\/tk\.lanjiyin\.com\.cn\/ad\/getAdList - reject
+
+[MITM]
+hostname = %APPEND% tk.lanjiyin.com.cn

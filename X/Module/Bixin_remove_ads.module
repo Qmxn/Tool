@@ -1,0 +1,6 @@
+#!name=比心去广告
+#!desc=移除弹窗广告、悬浮广告、横幅广告、轮播图广告，精简搜索页及我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% web.hibixin.com, api.hibixin.com, gateway.hibixin.com, gateway.xxqapp.cn, api.xxqapp.cn, web-bxyuer.bixin.cn, gateway.bxyuer.com

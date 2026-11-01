@@ -1,0 +1,6 @@
+#!name=网易邮箱大师去广告
+#!desc=移除网易邮箱大师开屏广告、签到任务提醒，精简侧拉抽屉和我的页面。
+#!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
+
+[MITM]
+hostname = %APPEND% appconf.mail.163.com, dashi.163.com
