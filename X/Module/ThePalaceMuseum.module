@@ -4,3 +4,6 @@
 
 [Map Local]
 ^https?:\/\/gugongmini\.dpm\.org\.cn\/gugong_applet\/open-screen data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[MITM]
+hostname = %APPEND% gugongmini.dpm.org.cn

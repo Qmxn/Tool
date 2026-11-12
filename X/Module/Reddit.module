@@ -4,3 +4,6 @@
 
 [Script]
 reddit = type=http-response, pattern=^https?:\/\/gql(-fed)?\.reddit\.com, script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/reddit.js, requires-body=true, timeout=60
+
+[MITM]
+hostname = %APPEND% gql.reddit.com, gql-fed.reddit.com

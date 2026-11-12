@@ -4,3 +4,6 @@
 
 [Map Local]
 ^https?://rs.creditcard.cmbc.com.cn/mmc/img/126f35586ece469aa2daf2e451ba7b4d.jpg data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% rs.creditcard.cmbc.com.cn
