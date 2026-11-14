@@ -2,5 +2,8 @@
 #!desc=过滤应用内推广，阻止NSFW提示。
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
+[Body Rewrite]
+http-response-jq (?i)^https?:\/\/gql(-fed)?\.reddit\.com '[Rewrite] response if ${url} ~= /^https?:\/\/gql(-fed)?\.reddit\.com/i then response.json.jq_file("https://kelee.one/Resource/JQLang/Reddit/Reddit_remove_ads.jq")  [MitM] hostname=gql.reddit.com, gql-fed.reddit.com'
+
 [MITM]
 hostname = %APPEND% gql.reddit.com, gql-fed.reddit.com

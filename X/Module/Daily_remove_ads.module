@@ -2,5 +2,9 @@
 #!desc=过滤推栏广告
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
+[Body Rewrite]
+http-response-jq (?i)^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping$ 'delpaths([["data","splashConf"]])'
+http-response-jq (?i)^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping$ 'delpaths([["data","splashConfNew"]])'
+
 [MITM]
 hostname = %APPEND% m.pvp.xoyo.com

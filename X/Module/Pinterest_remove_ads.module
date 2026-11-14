@@ -2,5 +2,9 @@
 #!desc=移除瀑布流、更多探索内容中的广告
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
+[Body Rewrite]
+http-response-jq (?i)^https:\/\/api\.pinterest\.com\/v\d\/feeds\/home\/\? '.data |= map(select(.is_promoted == false or .is_promoted == "false"))'
+http-response-jq (?i)^https:\/\/api\.pinterest\.com\/v\d\/pins\/\d+\/related\/modules\/\? '.data |= map(select(.is_promoted == false or .is_promoted == "false"))'
+
 [MITM]
 hostname = %APPEND% api.pinterest.com

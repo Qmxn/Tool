@@ -2,5 +2,20 @@
 #!desc=移除开屏广告、弹窗广告、横幅广告、文末广告及相关文章推荐、广告下发，移除我的页面商品推荐，精简搜索页面。
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
+[Body Rewrite]
+http-response-jq (?i)^https:\/\/api\.58moto\.com\/forum\/public\/businessEssayController\.do\?(?:[^#?&]+&)*action=22004 'delpaths([["data","link"]])'
+
+[Map Local]
+(?i)^https:\/\/api\.58moto\.com\/advert\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+(?i)^https:\/\/api\.58moto\.com\/mall\/goods\/self\/list\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+(?i)^https:\/\/api\.58moto\.com\/mall\/goods\/self\/homeList\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+(?i)^https:\/\/api\.58moto\.com\/forum\/public\/businessEssayController\.do$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+(?i)^https:\/\/api\.58moto\.com\/forum\/public\/businessEssayController\.do\?(?:[^#?&]+&)*action=22025 data-type=text data="{\"code\":0,\"msg\":\"success\"}" status-code=200 header="Content-Type:application/json"
+(?i)^https:\/\/api\.58moto\.com\/forum\/public\/businessEssayController\.do\?(?:[^#?&]+&)*action=22038 data-type=text data="{\"code\":0,\"msg\":\"success\"}" status-code=200 header="Content-Type:application/json"
+(?i)^https:\/\/api\.58moto\.com\/forum\/public\/labelController\.do\?(?:[^#?&]+&)*action=20112 data-type=text data="{\"code\":0,\"msg\":\"success\"}" status-code=200 header="Content-Type:application/json"
+
+[Script]
+修改配置 = type=http-response, pattern=(?i)^https:\/\/api\.58moto\.com\/expands\/config\/appWholeConfig\?(?:[^#?&]+&)*key=app_whole_config$, script-path=https://kelee.one/Resource/JavaScript/MotorFans/MotorFans_remove_ads.js, requires-body=true
+
 [MITM]
 hostname = %APPEND% api.58moto.com
