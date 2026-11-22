@@ -3,7 +3,6 @@
 #!icon=https://github.com/Qmxn/Tool/raw/X/icon/icon/XD.png
 
 [Rule]
-DOMAIN,180.76.76.200,REJECT
 IP-CIDR,180.76.76.200/32,REJECT,no-resolve
 
 [Script]
